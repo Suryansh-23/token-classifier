@@ -1,0 +1,55 @@
+<document><no>3.2</no> <no>Functional</no> <no>Requirements</no>
+<no>3.2.1</no> <class>User</class> <class>Accounts</class>
+<no>0140</no> <class>User</class> <class>Account</class> Types <no>and</no> <attribute>Permissions</attribute> <no>The</no> <no>system</no> categorizes <class>users</class> <no>on</no> <no>the</no> <no>basis</no> <no>of</no> <class>roles</class> <no>and</no> <attribute>privileges</attribute>. <no>Within</no> <no>these</no> <class>roles</class>, <no>the</no> <no>system</no> <no>also</no> categorizes <class>users</class> <no>based</no> <no>on</no> <no>the</no> <class>roles</class> <no>that</no> <no>they</no> <no>have</no> <no>within</no> <no>individual</no> <no>products</no>. <no>These</no> <no>are</no> <no>referred</no> <no>to</no> <no>as</no> <class>user</class> <class>account</class> <class>roles</class>.
+<no>Mashbot</no> <no>Campaigns</no> <no>supports</no> <no>the</no> <no>following</no> <class>account</class> <class>roles</class>:
+<no>0150</no> <class>Contributor</class> <no>Priority</no> <no>3</no>
+<no>0160</no> <class>Approver</class> <no>Priority</no> <no>3</no>
+<no>0170</no> <class>Publisher</class> <no>Priority</no> <no>3</no>
+<no>0180</no> <no>A</no> <class>user</class> <no>may</no> <association>possess</association> <no>more</no> <no>than</no> <no>one</no> <class>role</class>. <no>Priority</no> <no>3</no>
+<no>0190</no> <class>Roles</class> <no>reflect</no> <no>actions</no> <no>that</no> <no>can</no> <no>be</no> <association>performed</association> <no>by</no> <no>a</no> <class>user</class>. <no>Priority</no> <no>3</no>
+<no>0200</no> <class>Roles</class> <no>can</no> <no>be</no> <association>assigned</association> <no>to</no> <no>a</no> <class>user</class> <class>account</class> <no>for</no> <no>individual</no> <class>products</class>. <no>Priority</no> <no>3</no>
+<no>0210</no> <class>Contributors</class> <no>may</no> <method>create</method> <no>new</no> <method>content</method>, <method>import</method> <no>existing</no> <method>content</method> <no>into</no> <no>the</no> <no>system</no>, <method>edit</method> <method>content</method>,<no>and</no> <method>delete</method> <no>it</no>. <no>They</no> <no>may</no> <no>also</no> <method>submit</method> <no>these</no> <method>actions</method> <no>for</no> <method>approval</method>. <no>Priority</no> <no>3</no>
+<no>0220</no> <class>Approvers</class> <no>can</no> <method>approve</method> <method>actions</method> <association>performed</association> <no>by</no> <class>contributors</class> <no>Priority</no> <no>3</no>
+<no>0230</no> <class>Publishers</class> <no>may</no> <method>schedule</method> <no>or</no> <no>immediately</no> <method>initiate actions</method> <no>put</no> <no>forth</no> <no>by</no> <class>contributors</class> <no>and</no> <no>those</no> <method>approved</method> <no>by</no> <class>approvers</class>. <no>Priority</no> 4
+<no>0240</no> <class>User</class> <class>Account</class> <method>Creation</method> - <no>New</no> <class>user</class> <class>accounts</class> <no>can</no> <no>be</no> <method>created</method>. <no>Priority</no> <no>1</no>
+<no>0250</no> <no>The</no> <no>system</no> <no>may</no> <no>contain</no> <no>any</no> <no>number</no> <no>of</no> <class>user</class> <class>accounts</class>. <no>Priority</no> <no>1</no>
+<no>0260</no> <no>Certain</no> <no>pieces</no> <no>of</no> <no>information</no> <no>are</no> <no>required</no> <no>to</no> <no>create</no> <no>new</no> <class>accounts</class>. <no>Priority</no> <no>1</no>
+<no>The</no> <no>following</no> <no>information</no> <no>is</no> <no>required</no> <no>for</no> <no>any</no> <no>new</no> <class>user</class> <class>account</class>:
+<no>0270</no> <attribute>Username</attribute> <no>Priority</no> <no>1</no>
+<no>0280</no> <attribute>Password</attribute> <no>Priority</no> <no>1</no>
+<no>0290</no> <attribute>Name</attribute> <no>Priority</no> <no>1</no>
+<no>0300</no> <attribute>Email Address</attribute> <no>Priority</no> <no>1</no>
+<no>0310</no> <no>Group</no> <attribute>Membership</attribute> <no>Priority</no> <no>1</no>
+<no>0320</no> <class>User</class> <class>Account</class> Type <no>Priority</no> <no>1</no>
+<no>0330 </no><class>User</class> <class>Account</class> <method>Modification</method> <no>The</no> <no>system</no> <no>allows</no> <class>users</class> <no>SYST</no> <no>to</no> <method>modify</method> <no>their</no> <class>accounts</class> <no>once</no> <no>created</no>. <no>Priority</no> <no>1</no>
+<no>0340</no> <no>The</no> <no>system</no> <no>requires</no> <no>that</no> <no>a</no> <class>user</class> <no>have</no> <method>logged</method> <no>in</no> <no>before</no> <method>modifications</method> <no>can</no> <no>be</no> <no>made</no>. <no>Priority</no> <no>1</no>
+<no>The</no> <no>following</no> <class>user</class> <no>account</no> <no>information</no> <no>is</no> <no>modifiable</no> <no>by</no> <no>all</no> <no>user</no> types:
+<no>0350</no> <attribute>Password</attribute> <no>Priority</no> <no>1</no>
+<no>0360</no> <attribute>Email Address</attribute> <no>Priority</no> <no>1</no>
+<no>0370</no> <attribute>Name</attribute> <no>Priority</no> <no>1</no>
+<no>0380</no> <class>User</class> <class>Account</class> <method>Deactivation</method> <no>The</no> <no>system</no> <no>allows</no> <class>user</class> <class>accounts</class> <no>to</no> <no>be</no> <method>deactivated</method>. <no>Priority</no> 
+<no>0390</no> <no>The</no> <no>system</no> <no>denies</no> <class>user</class> <no>who</no> <no>have</no> <no>been</no> <method>deactivated</method> <no>from</no> <method>accessing</method> <no>the</no> <no>system</no>. <no>Priority</no> <no>3</no>
+<no>0400</no> <no>If</no> <no>an</no> <class>account</class> <no>has</no> <no>any</no> <attribute>history</attribute> <no>associated</no> <no>with</no> <no>it</no>, <no>it</no> <no>can</no> <no>only</no> <no>be</no> <method>deactivated</method> <no>and</no><method> not deleted</method>.<no>Priority</no> <no>3</no>
+<no>0410</no> <no>If</no> <no>an</no> <class>account</class> <no>has</no> <attribute>no</attribute> <attribute>history</attribute> <no>associated</no> <no>with</no> <no>it</no>, <no>it</no> <no>can</no> <no>be</no> <method>deleted</method> <no>from</no> <no>the</no> <no>system</no>. <no>Priority</no> <no>3</no>
+<no>0420</no> <no>A</no> <attribute>disable</attribute> <class>account</class> <no>can</no> <no>be</no> <method>undisabled</method> <no>Priority</no> <no>3</no>
+<no>0430</no> <no>It</no> <no>is</no> <no>possible</no> <no>to</no> <method>disable</method> <no>all</no> <class>accounts</class> <no>except</no> <no>for</no> <no>the</no> <no>System</no> <class>Administrator account</class>. <no>Priority</no> <no>4</no>
+<no>0440</no> <attribute>Username</attribute> <no>and</no> <attribute>Passwords</attribute>
+<no>0450</no> <no>The</no> <no>system</no> <no>gives</no> <class>users</class> <no>the</no> <no>ability</no> <no>to</no> <method>reset</method> <no>their</no> <attribute>password</attribute>. <no>Priority</no> <no>2</no>
+<no>0460</no> <no>Individual</no> <attribute>passwords</attribute> <no>can</no> <no>be</no> <method>reset</method>. <no>Priority</no> <no>2</no>
+<no>0470</no> <no>The</no> <no>system</no> <no>only</no> <no>allows</no> <class>users</class> <no>to</no> <method>change</method> <no>their</no> <no>own</no> <attribute>passwords</attribute>. <no>Priority</no> <no>2</no>
+<no>3.2.2</no> <class>Marketing</class> <no>Campaigns</no>
+<no>0480</no> <no>A</no> <class>campaign</class> <no>has</no> <no>the</no> <no>following</no> <no>components</no>:
+<no>0490</no> <attribute>Name</attribute> <no>Priority</no> <no>1</no>
+<no>0500 </no><attribute>Pieces of content</attribute> <no>Priority</no> <no>1</no>
+<no>0510</no> <attribute>Schedule</attribute> <no>Priority</no> <no>1</no>
+<no>0520</no> <class>User</class>/<no>Group</no> <attribute>Permissions</attribute> <no>Priority</no> <no>2</no>
+<no>0530</no> <no>A</no> <attribute>schedule</attribute> <no>is</no> <no>a</no> <method>mapping</method> <no>of</no> <method>times</method> <no>to</no> <method>publishing</method> <method>actions</method>. <no>It</no> <no>may</no> <no>contain</no> <no>any</no> <method>actions</method> <no>a</no> <class>publisher</class> <no>can</no> <method>perform</method>, <no>and</no> <no>these</no> <method>actions</method> <no>are</no> <method>performed</method> <no>at</no> <no>the</no> <no>associated</no> <attribute>time</attribute>. <no>Priority</no> <no>1</no>
+<no>0540</no> <no>A</no> <attribute>piece of </attribute><attribute>content</attribute> <no>may</no> <no>take</no> <no>the</no> <no>following</no> <no>forms</no>:
+<no>0550</no> <attribute>Text</attribute> <no>Priority</no> <no>1</no>
+<no>0560</no> <attribute>Image</attribute> <no>Priority</no> <no>1</no>
+<no>0570</no> <attribute>Audio</attribute> <no>Priority</no> <no>3</no>
+<no>0580</no> <attribute>Video</attribute> <no>Priority</no> <no>3</no>
+<no>3.2.3 </no><class>External Service </class><class>Accounts</class>
+<no>0590</no> <no>Mashbot</no> <no>will</no> <no>allow</no> <no>for</no> <no>the</no> <no>association</no> <no>of</no> <no>Mashbot</no> <class>accounts</class> <no>with</no> <class>external</class> <class>service</class> <class>accounts</class>.
+<no>0600</no> <no>Mashbot</no> <no>will</no> <no>provide</no> <no>an</no> <no>interface</no> <no>for</no> <method>authenticating</method> <no>a</no> <class>user</class> <class>account</class> <no>to</no> <no>an</no> <class>external service account</class><no>Priority</no> <no>1</no>
+<no>0610</no> <no>Mashbot</no> <no>will</no> <no>provide</no> <no>a</no> <no>standardized</no> <no>method</no> <no>of</no> <method>interacting</method> <no>with</no> <class>external service </class><class>accounts</class> <no>Priority</no> <no>1</no></document>

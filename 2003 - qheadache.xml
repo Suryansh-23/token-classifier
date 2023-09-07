@@ -1,0 +1,206 @@
+<document><no>3.2.1</no> <no>Actions</no>.
+<no>3.2.1.1</no> <no>Presentation</no> <no>of</no> <no>the</no> <class>board</class>.
+<no>The</no>&#160;<class>board</class>&#160;<no>is</no>&#160;<no>a</no>&#160;<no>rectangular</no>&#160;<no>zone</no>&#160;<no>where</no>&#160;<no>the</no>&#160;<class>user</class>&#160;<no>could</no>&#160;<no>move</no>&#160; <no>some</no>&#160;<class>blocks</class>.&#160;<no>Let</no>&#160;<no>x</no>&#160;<no>be</no> <no>the</no>&#160;<no>mesure</no>&#160;<no>unit</no>.&#160;<no>The</no>&#160;<attribute>height</attribute>&#160;<no>of</no>&#160;<no>the</no>&#160;<class>board</class>&#160; <class>game</class>&#160;<no>is</no>&#160;<no>5x</no>,&#160;<no>its</no>&#160;<attribute>width</attribute>&#160;<no>is</no>&#160;<no>4x</no>&#160;:&#160;<no>x</no>&#160;<no>can&apos;t</no>&#160;<no>be</no> <no>less</no>&#160;<no>than</no>&#160;<no>50</no>&#160;<no>pixels</no>&#160;<no>and</no>&#160;<no>greater</no>&#160;<no>than</no>&#160;<no>100</no>&#160;<no>pixels</no>.&#160;<no>The</no>&#160;<class>blocks</class>&#160;<no>are</no>&#160;<no>separated</no>&#160;<no>by</no>&#160;<no>amarge</no>&#160;<no>of</no>&#160;<no>0.1x</no>.
+<no>There</no>&#160;<no>are</no>&#160;<no>four</no>&#160;<no>square</no>&#160;<class>blocks</class>&#160;<no>with</no>&#160;<no>a</no>&#160;<attribute>side</attribute>&#160;<no>of</no>&#160;<no>x</no>.
+<no>There</no>&#160;<no>are</no>&#160;<no>four</no>&#160;<no>rectangular</no>&#160;<class>blocks</class>&#160;<no>with</no>&#160;<no>the</no>&#160;<no>following</no>&#160;<no>dimensions</no>&#160;:&#160;<no>a</no>&#160;<attribute>height</attribute>&#160;<no>of</no>&#160;<no>2x</no> <no>and</no>&#160;<no>a</no>&#160;<attribute>width</attribute>&#160;<no>of</no>&#160;<no>x</no>.
+<no>There</no>&#160;<no>is</no>&#160;<no>one</no>&#160;<class>block</class>&#160;<no>with</no>&#160;<no>the</no>&#160;<no>following</no>&#160;<no>dimensions</no>&#160;:&#160;<no>a</no>&#160;<attribute>height</attribute>&#160;<no>of</no>&#160;<no>x</no>&#160;<no>and</no>&#160;<no>a</no>&#160;<attribute>width</attribute>&#160;<no>of</no> <no>2x</no>.
+<no>There</no>&#160;<no>is</no>&#160;one&#160;<no>square</no>&#160;<class>block</class>&#160;<no>with</no>&#160;<no>a</no>&#160;<attribute>side</attribute>&#160;<no>of</no>&#160;<no>2x</no>.
+<no>The</no>&#160;<class>board</class>&#160;<no>is</no>&#160;<no>black</no>&#160;<no>and</no>&#160;<no>the</no>&#160;<class>blocks</class>&#160;<no>are</no>&#160;<no>yellow</no>.
+<no>3.2.1.2</no> <class>Block</class> <method>selection</method>
+<no>3.2.1.2.1</no> <no>Description</no>
+<no>See</no>&#160;<no>above</no>&#160;<no>chapter</no>&#160;<no>3.2.1.1</no>.
+<no>3.2.1.2.2</no> <no>Input</no>
+<no>Left­clicked</no>&#160;<no>down</no>&#160;<no>on</no>&#160;<no>a</no>&#160;<class>block</class>.
+<no>3.2.1.2.3</no> <no>Processing</no>
+<no>The</no>&#160;<class>game</class>&#160;<attribute>state</attribute>&#160;<no>becomes</no>&#160;&quot;<class>Block</class>&#160;<method>deplacement</method>&quot;.
+<no>3.2.1.2.4</no> <no>Output</no>
+<no>None</no>.
+<no>3.2.1.3</no> <class>Block</class> <method>deselection</method>
+<no>3.2.1.3.1</no> <no>Description</no>
+<no>See</no>&#160;<no>above</no>&#160;<no>chapter</no>&#160;<no>3.2.1.1</no>.
+<no>3.2.1.3.2</no> <no>Input</no>
+<no>Left­clicked</no>&#160;<no>up</no>&#160;<no>on</no>&#160;<no>a</no>&#160;<method>selected</method>&#160;<class>block</class>.
+<no>3.2.1.3.3</no> <no>Processing</no>
+<no>The</no>&#160;<class>game</class>&#160;<attribute>state</attribute>&#160;<no>becomes</no>&#160;&quot;<class>Block</class>&#160;<method>selection</method>&quot;.
+<no>3.2.1.3.4</no> <no>Output</no>
+<no>None</no>.
+<no>3.2.1.4</no> <class>Block</class> <class>movement</class>
+<no>3.2.1.4.1</no> <no>Description</no>
+<no>See</no>&#160;<no>above</no>&#160;<no>chapter</no>&#160;<no>3.2.1.1</no>.
+<no>3.2.1.4.2</no> <no>Input</no>
+<class>Mouse</class>&#160;<class>movement</class>&#160;<no>during</no>&#160;<no>the</no>&#160;&quot;<class>Block</class>&#160;<class>movement</class>&quot; <no>state</no>.&#160;
+<no>3.2.1.4.3</no> <no>Processing</no>
+<no>The</no>&#160;<attribute>selected</attribute>&#160;<class>block</class>&#160;<association>follows</association>&#160;<no>the</no>&#160;<class>mouse</class>&#160;<class>movement</class>&#160;<no>without</no>&#160; <no>overlapp</no>&#160;<no>the</no>&#160;<no>other</no>  <class>blocks</class>&#160;<no>and</no>&#160;<method>exit</method>&#160;<no>of</no>&#160;<no>the</no>&#160;<class>game</class>&#160;<attribute>zone</attribute>.&#160;<no>The</no>&#160;<attribute>selected</attribute>&#160;<class>block</class>&#160;<no>can&apos;t</no>&#160; <no>move</no>&#160;<no>near</no>&#160;<no>other</no>&#160;<no>blocksat</no>&#160;<no>least</no>&#160;<no>0.05x</no>&#160;<no>from</no>&#160;<no>the</no>&#160; <no>others</no>&#160;<class>blocks</class>.
+<no>3.2.1.4.4</no> <no>Output</no>
+<no>None</no>.
+<no>3.2.1.5</no> <method>Undo</method> <no>Action</no>
+<no>3.2.1.5.1</no> <no>Description</no>
+<no>The</no>&#160;<class>user</class>&#160;<no>can</no>&#160;<association>cancel</association>&#160;<no>a</no>&#160;<class>movement</class>.&#160;
+<no>3.2.1.5.2</no> <no>Input</no>
+<no>Menu</no>&#160;<no>selection</no>.
+<no>3.2.1.5.3</no> <no>Processing</no>
+<no>The</no>&#160;<class>game</class>&#160;<association>displays</association>&#160;<no>the</no>&#160;<class>block</class>&#160;<attribute>positions</attribute>&#160;<no>at</no>&#160;<no>the</no>&#160;<no>places</no>&#160;<no>where</no>&#160;<no>they</no>&#160; <no>were</no>&#160;<no>before</no>&#160;<no>the</no> <attribute>last</attribute>&#160;<class>movement</class>.&#160;<no>This</no>&#160;<no>action</no>&#160;<no>is</no>&#160;<no>consider</no>&#160; <no>like</no>&#160;<no>a</no>&#160;<class>movement</class>.&#160;<no>The</no>&#160;&quot;<method>undo</method>&quot;&#160;<no>action</no>&#160;<no>is</no> <method>unvailable</method>&#160;<no>if</no>&#160;<no>there</no>&#160;<no>was</no>&#160;<no>no</no>&#160;<attribute>previous</attribute>&#160;<class>movement</class>.
+<no>3.2.1.5.4</no> <no>Output</no>
+<no>New</no>&#160;<class>game</class>&#160;<class>board</class>&#160;<method>display</method>.
+<no>3.2.1.6</no> <method>Redo</method> <no>Action</no>
+<no>3.2.1.6.1</no> <no>Description</no>
+<no>The</no>&#160;<class>user</class>&#160;<no>can</no>&#160;<association>redo</association>&#160;<no>a</no>&#160;<class>movement</class>&#160;<no>that</no>&#160;<no>has</no>&#160;<no>been</no>&#160;<no>canceled</no>.
+<no>3.2.1.6.2</no> <no>Input</no>
+<no>Menu</no>&#160;<no>selection</no>.
+<no>3.2.1.6.3</no> <no>Processing</no>
+<no>The</no>&#160;<class>game</class>&#160;<association>displays</association>&#160;<no>the</no>&#160;<class>block</class>&#160;<attribute>positions</attribute>&#160;<no>at</no>&#160;<no>the</no>&#160;<no>places</no>&#160;<no>where</no>&#160;<no>they</no>&#160; <no>were</no>&#160;<no>before</no>&#160;<no>the</no> <no>last</no>&#160;<class>movement</class>&#160;<no>was</no>&#160;<method>canceled</method>.&#160;<no>This</no>&#160;<no>action</no>&#160;<no>is</no>&#160;<no>consider</no>&#160;<no>like</no>&#160;<no>a</no>&#160;<class>movement</class>.&#160;<no>The</no>&#160;<method>redo</method> <no>action</no>&#160;<no>is</no>&#160;<method>unvailable</method>,&#160;<no>if</no>&#160;<no>the</no>&#160;<no>previous</no>&#160;<no>action</no>&#160;<no>wasn&apos;t</no>&#160;<no>an</no>&#160;&quot;<no>undo</no>&quot;&#160;<no>action</no>.
+<no>3.2.1.6.4</no> <no>Output</no>
+<no>New</no>&#160;<class>game</class>&#160;<class>board</class>&#160;<method>display</method>.
+<no>3.2.2</no> <method>End</method> <no>of</no> <no>the</no> <class>game</class> <no>management</no>
+<no>3.2.2.1</no> <method>End</method> <no>of</no> <no>the</no> <class>game</class> 
+<no>3.2.2.1.1</no> <no>Description</no>
+<no>How</no>&#160;<no>the</no>&#160;<class>user</class>&#160;<association>finishes</association>&#160;<no>the</no>&#160;<class>game</class>.
+<no>3.2.2.1.2</no> <no>Input</no>
+<no>The</no>&#160;<no>great</no>&#160;<no>square</no>&#160;<no>is</no>&#160;<no>moved</no>&#160;<no>at</no>&#160;<no>the</no>&#160;<no>bottom</no>&#160;<no>of</no>&#160;<no>the</no>&#160;<class>board</class>.
+<no>3.2.2.1.3</no> <no>Processing</no>
+<no>All</no>&#160;<no>the</no>&#160;<class>player</class>&#160;<class>statistics</class>&#160;<no>are</no>&#160;<association>freezed</association>.
+<no>3.2.2.1.4</no> <no>Outputs</no>
+<no>If</no>&#160;<no>the</no>&#160;<attribute>number</attribute>&#160;<no>of</no>&#160;<class>block</class>&#160;<class>movements</class>&#160;<no>of</no>&#160;<no>the</no>&#160;<no>current</no>&#160;<class>player</class>&#160;<no>is</no>&#160;<no>lower</no>&#160;<no>than</no>&#160;<no>the</no> <no>highest</no> <attribute>number</attribute>&#160;<no>of</no>&#160;<class>block</class>&#160;<class>movement</class>&#160;<method>recorded</method>&#160;<no>in</no>&#160;<no>the</no>&#160;<class>statistic&#160;file</class>,&#160;<no>the</no>&#160;<no>The</no>&#160;<class>&quot;Finish&#160; Window with&#160;Statistcs</class>&quot;&#160;<no>is</no>&#160;<method>displayed</method>,&#160;<no>see</no>&#160;<no>chapter</no>&#160;<no>3.2.2.2</no>.&#160;<no>If</no>&#160;<no>not</no>&#160;<no>the</no>&#160;&quot;<class>Simple&#160;finish&#160; Window</class>&quot; <no>is</no>&#160;<method>displayed</method>,&#160;<no>see</no>&#160;<no>chapter</no>&#160;<no>3.2.2.3</no>.
+<no>3.2.2.2</no> <class>Finish Window with Statistics</class>.
+<no>3.2.2.2.1</no> <no>Description</no>
+<no>The</no>&#160;<class>Finish&#160;Window&#160;with&#160;Statistics</class>&#160;<no>contains</no>&#160;<no>a</no>&#160;<no>the</no>&#160;<no>following</no>&#160;<attribute>text</attribute>&#160;:&#160;&quot;<no>You</no>&#160;<no>win</no>&#160;!&#160; <no>Enter</no> <no>your</no>&#160;<no>name</no>&#160;:&#160;&quot;,&#160;<no>an</no>&#160;<attribute>Edit&#160;Box</attribute>&#160;<no>that</no>&#160;<no>can</no>&#160;<no>contain</no>&#160;<no>20</no>&#160;<no>characters</no>&#160;<no>and</no>&#160;<no>a</no>&#160;<attribute>push button</attribute>&#160;<no>with</no> <no>the</no>&#160;<no>label</no>&#160;&quot;<no>OK</no>&quot;.
+<no>3.2.2.2.2</no> <no>Input</no>
+<no>The</no>&#160;<class>games</class>&#160;<no>is</no>&#160;<method>over</method>,&#160;<no>see</no>&#160;<no>chapter</no>&#160;<no>3.2.2.1</no>.
+<no>3.2.2.2.3</no> <no>Processing</no>
+<no>The</no>&#160;<class>player</class>&#160;<no>clicks</no>&#160;<no>on</no>&#160;<no>the</no>&#160;<no>push</no> <no>button</no>&#160;&quot;<method>OK</method>&quot;.&#160;<no>The</no>&#160;<class>player</class>&#160;<class>statistics</class>&#160;<no>are</no>&#160;<association>recorded</association>&#160;<no>in</no>&#160;<no>the</no> <class>statistic&#160;file</class>&#160;<no>of</no>&#160;<no>the</no>&#160;<no>software</no>,&#160;<no>according</no>&#160;<no>to</no>&#160;<no>the</no>&#160;<no>requirement</no>&#160;<no>of</no>&#160;<no>the</no>&#160;<no>chapter</no>&#160;<no>3.2.3.2</no>.
+<no>3.2.2.2.4</no> <no>Outputs</no>
+<no>The</no>&#160;&quot;<class>finish</class>&quot;&#160;<no>window</no>&#160;<no>is</no>&#160;<method>closed</method>.&#160;<no>The</no>&#160;<method>statistic&#160;window</method>&#160;<no>is</no>&#160;<method>displayed</method>,&#160;<no>see</no>&#160;<no>chapter</no> <no>3.2.3.4</no>.
+<no>3.2.2.3</no> <class>Simple Finish Window</class>
+<no>3.2.2.3.1</no> <no>Description</no>
+<no>The</no>&#160;<class>Simple&#160;Finish&#160;Window</class>&#160;<no>contains</no>&#160;<no>a</no>&#160;<no>the</no>&#160;<no>following</no>&#160;<attribute>text</attribute>&#160;:&#160;&quot;<no>You</no>&#160;<no>win</no>&#160;!&quot;&#160;<no>and</no>&#160;<no>a</no> <attribute>push button</attribute>&#160;<no>with</no>&#160;<no>the</no>&#160;<no>label</no>&#160;&quot;<no>OK</no>&quot;.
+<no>3.2.2.3.2</no> <no>Input</no>
+<no>The</no>&#160;<class>games</class>&#160;<no>is</no>&#160;<method>over</method>,&#160;<no>see</no>&#160;<no>chapter</no>&#160;<no>3.2.2.1</no>.
+<no>3.2.2.3.3</no> <no>Processing</no>
+<no>The</no>&#160;<class>player</class>&#160;<no>clicks</no>&#160;<no>on</no>&#160;<no>the</no>&#160;<no>push</no> <no>button</no>&#160;&quot;<method>OK</method>&quot;.
+<no>3.2.2.3.4</no> <no>Outputs</no>
+<no>The</no>&#160;<class>Simple&#160;Finish&#160;Window</class>&#160;<no>is</no>&#160;<method>closed</method>.&#160;<no>The</no>&#160;<method>statistic&#160;window</method>&#160;<no>is</no>&#160;<method>displayed</method>,&#160;<no>see</no> <no>chapter</no>&#160;<no>3.2.3.4</no>.
+<no>3.2.3</no> <class>Statistics</class> <method>Management</method>.
+<no>3.2.3.1</no> <class>Player</class> <class>Statistics</class> <association>management</association>
+<no>3.2.3.1.1</no> <no>Description</no>
+<no>The</no>&#160;<no>following</no>&#160;<class>statistics</class>&#160;<no>are</no>&#160;<method>recorded</method>&#160;<no>during</no>&#160;<no>the</no>&#160;<class>game</class>&#160;:
+– <attribute>number</attribute>&#160;<no>of</no>&#160;<class>block</class>&#160;<class>movements</class>&#160;<no>since</no>&#160;<no>the</no>&#160;<no>start</no>.
+– <attribute>time</attribute>&#160;<no>since</no>&#160;<no>the</no>&#160;<no>start</no>.
+<no>3.2.3.1.2</no> <no>Input</no>
+<no>A</no>&#160;<class>block</class>&#160;<class>movement</class>.
+<no>3.2.3.1.3</no> <no>Processing</no>
+<no>The</no>&#160;<attribute>number</attribute>&#160;<no>of</no>&#160;<class>block</class>&#160;<class>movement</class>&#160;<no>in</no>&#160;<method>incremented</method>&#160;<no>of</no>&#160;<no>1</no>.&#160;<no>The</no>&#160;<attribute>difference</attribute>&#160;<no>of</no>&#160;<attribute>time</attribute>&#160; <no>of</no>&#160;<no>the</no> <class>block</class>&#160;<class>movement</class>&#160;<no>and</no>&#160;<no>the</no>&#160;<no>previous</no>&#160;<method>recorded</method>&#160;<no>time</no>&#160;<no>is</no>&#160;<no>recorded</no>.
+<no>3.2.3.1.4</no> <no>Output</no>
+<no>None</no>.
+<no>3.2.3.2</no> <class>Game</class> <class>Statistics</class> <method>management</method>
+<no>3.2.3.2.1</no> <no>Description</no>
+<no>The</no>&#160;<class>game</class>&#160;<class>statistics</class>&#160;<no>is</no>&#160;<association>composed</association>&#160;<no>of</no>&#160;<no>10</no>&#160;<class>player</class>&#160;<class>statistics</class>.
+<no>3.2.3.2.2</no> <no>Input</no>
+<no>The</no>&#160;<attribute>Finish&#160;Window&#160;with&#160;Statistics</attribute>&#160;<no>is</no>&#160;<method>completed</method>&#160;<no><no gateId="2898"/>by</no>&#160;<no>the</no>&#160;<class>player</class>,&#160;<no>see</no>&#160;<no>chapter</no>&#160; <no>3.2.2.2</no>.
+<no>3.2.3.2.3</no> <no>Processing</no>
+<no>The</no>&#160;<class>statistics</class>&#160;<no>of</no>&#160;<no>the</no>&#160;<class>player</class>&#160;(<no>its</no>&#160;<attribute>name</attribute>,&#160;<no>the</no>&#160;<class>block</class>&#160;<class>movement</class>&#160; <no>number</no>,&#160;<no>the</no>&#160;<attribute>time</attribute> <attribute>passed</attribute>&#160;<no>to</no>&#160;<no>solve</no>&#160;<no>the</no>&#160;<no>headache</no>)&#160;<no>is</no>&#160;<association>recorded</association>&#160;<no>in</no>&#160;the<class>statistic&#160;file</class>.&#160;<no>If</no>&#160;<no>10</no>&#160;<class>player</class>&#160;<class>statistics</class> <no>are</no>&#160;<no>already</no>&#160;<method>recorded</method>,&#160;<no>the</no>&#160;<class>player</class>&#160;<class>statistics</class>&#160;<no>of</no>&#160;<no>the</no>&#160;<class>file</class>&#160;<no>with</no>&#160;<no>the</no>&#160; <no>greatest</no>&#160;<attribute>number</attribute>&#160;<no>of</no> <class>block</class>&#160;<class>movements</class> <no>is</no>&#160;<method>erased</method>.
+<no>3.2.3.2.4</no> <no>Output</no>
+<no>If</no>&#160;<no>the</no>&#160;<class>file</class>&#160;<no>was</no>&#160;<no>correctly</no>&#160;<method>updated</method>,&#160;<no>there</no>&#160;<no>is</no>&#160;<no>no</no>&#160;<no>ouput</no>.&#160;<no>If</no>&#160;<no>not</no>,&#160;<no>like</no>&#160; <no>wrong</no>&#160;<no>pemissionsor</no>&#160;<no>disk</no>&#160;<no>full</no>,&#160;<no>an</no>&#160;<method>error&#160;message</method>&#160;<no>is</no>&#160;<method>displayed</method>.
+<no>3.2.3.3</no> <class>Statistics</class> <class>erasing</class>
+<no>3.2.3.3.1</no> <no>Description</no>
+<no>The</no>&#160;<class>user</class>&#160;<no>could</no>&#160;<association>erase</association>&#160;<no>all</no>&#160;<no>the</no>&#160;<class>statistics</class>.
+<no>3.2.3.3.2</no> <no>Input</no>
+<no>Menu</no>&#160;<no>selection</no>.
+<no>3.2.3.3.3</no> <no>Processing</no>
+<no>The</no>&#160;<no>data</no>&#160;<no>stored</no>&#160;<no>in</no>&#160;<no>the</no>&#160;<class>statistic&#160;file</class>&#160;<no>are</no>&#160;<method>erased</method>.
+<no>3.2.3.3.4</no> <no>Output</no>
+<no>If</no>&#160;<no>the</no>&#160;<class>file</class>&#160;<no>was</no>&#160;<no>correctly</no>&#160;<method>updated</method>,&#160;<no>there</no>&#160;<no>is</no>&#160;<no>no</no>&#160;<no>ouput</no>.&#160;<no>If</no>&#160;<no>not</no>,&#160;<no>like</no>&#160; <no>wrong</no>&#160;<no>pemissionsor</no>&#160;<no>disk</no>&#160;<no>full</no>,&#160;<no>an</no>&#160;<method>error&#160;message</method>&#160;<no>is</no>&#160;<method>displayed</method>.
+<no>3.2.3.4</no> <class>Statistic</class> <class>Window</class>.
+<no>3.2.3.4.1</no> <no>Description</no>
+<no>The</no>&#160;<class>Player</class>&#160;<class>Statistics&#160;Window</class>&#160;<no>is</no>&#160;<no>composed</no>&#160;<no>of</no>&#160;<no>a</no>&#160;<attribute>listbox</attribute>&#160;<no>of</no>&#160;<no>10</no>&#160;<no>lines</no>. &#160;<no>Each</no>&#160;<no>line</no>&#160;<no>is</no> <no>composed</no>&#160;<no>of</no>&#160;<no>the</no>&#160;<attribute>name</attribute>&#160;<no>of</no>&#160;<no>a</no>&#160;<class>player</class>,&#160;<no>the</no>&#160;<attribute>number</attribute>&#160;<no>of</no>&#160;<class>block</class>&#160;<class>movement</class>,&#160;<no>the</no>&#160;<no>time</no>&#160;<no>used</no> <no>by</no>&#160;<no>the</no>&#160;<class>player</class>&#160;<no>to</no>&#160;<method>solve</method>&#160;<no>the</no>&#160;<method>headache</method>.&#160;
+<no>This</no>&#160;<class>statistcs</class>&#160;<no>are</no>&#160;<association>read</association>&#160;<no>from</no>&#160;<no>the</no>&#160;<class>statistic&#160;file</class>&#160;<no>of</no>&#160;<no>the</no>&#160;<class>game</class>.
+<no>3.2.3.4.2</no> <no>Input</no>
+<method>End</method>&#160;<no>of</no>&#160;<no>the</no>&#160;<class>game</class>&#160;(<no>see</no>&#160;<no>chapter</no>&#160;<no>3.2.2.1</no>)&#160;<no>or</no>&#160;<no>menu</no>&#160;<no>selection</no>.
+<no>3.2.3.4.3</no> <no>Processing</no>
+<method>Window</method>&#160;<method>display</method>.
+<no>3.2.3.4.4</no> <no>Output</no>
+<no>None</no>.
+<no>3.2.4</no> <class>File</class> <method>management</method>
+<no>3.2.4.1</no> <method>Open</method> <class>game</class>
+<no>3.2.4.1.1</no> <no>Description</no>
+<no>Open</no>&#160;<no>a</no>&#160;<no>previous</no>&#160;<method>saved</method>&#160;<class>game</class>.
+<no>3.2.4.1.2</no> <no>Input</no>
+<no>Menu</no>&#160;<no>selection</no>.
+<no>3.2.4.1.3</no> <no>Processing</no>
+<no>A</no>&#160;<no>dialog</no>&#160;<no>box</no>&#160;<no>is</no>&#160;<no>open</no>&#160;:&#160;<no>the</no>&#160;<class>user</class>&#160;<no>could</no>&#160;<association>choose</association>&#160;<no>a</no>&#160;<class>file</class>&#160;<no>that</no>&#160;<no>contains</no>&#160;<no>all</no> <no>the</no>&#160;<no>data</no>&#160;<no>of</no>&#160;<no>the</no> <class>game</class>&#160;<no>previously</no>&#160;<no>saved</no>.
+<no>3.2.4.1.4</no> <no>Ouput</no>
+<no>The</no>&#160;<class>board</class>&#160;<class>game</class>&#160;<no>is</no>&#160;<association>re­draw</association>&#160;<no>according</no>&#160;<no>to</no>&#160;<no>the</no>&#160;<class>file</class>&#160;<attribute>data</attribute>.&#160;<no>The</no>&#160;<class>player</class>&#160; <class>statistics</class>&#160;<no>are</no>&#160;<association>set</association> <no>to</no>&#160;<no>the</no>&#160;<class>player</class>&#160;<class>statistics</class>&#160;<no>of</no>&#160;<no>the</no>&#160;<class>file</class>&#160;<attribute>data</attribute>.
+<no>3.2.4.2</no> <method>Save</method> <class>game</class>
+<no>3.2.4.2.1</no> <no>Description</no>
+<no>Save</no>&#160;<no>the</no>&#160;<no>current</no>&#160;<class>game</class>.
+<no>3.2.4.2.2</no> <no>Input</no>
+<no>Menu</no>&#160;<no>selection</no>.
+<no>3.2.4.2.3</no> <no>Processing</no>
+<no>If</no>&#160;<no>the</no>&#160;<class>game</class>&#160;<no>was</no>&#160;<no>never</no>&#160;<no>saved</no>,&#160;<no>the</no>&#160;<no>processing</no>&#160;<no>is</no>&#160;<no>identical</no>&#160;<no>to</no>&#160;<no>the</no>&#160; <no>action</no>&#160;&quot;<method>Save&#160;as.</method>..&quot;.
+<no>If</no>&#160;<no>not</no>,&#160;<no>the</no>&#160;<no>following</no>&#160;<no>internal</no>&#160;<method>data</method>&#160;<no>are</no>&#160;<method>saved</method>&#160;<no>into</no>&#160;<no>the</no>&#160;<no>previous</no>&#160;<class>file</class>&#160; <no>that</no>&#160;<no>was</no>&#160;<no>used</no>&#160;<no>to</no> <no>save</no>&#160;<no>the</no>&#160;<no>the</no>&#160;<class>game</class>&#160;:&#160;<no>the</no>&#160;<attribute>current</attribute>&#160;<attribute>positions</attribute>&#160;<no>of</no>&#160;<no>the</no>&#160;<class>blocks</class>,&#160;<no>their</no>&#160;<attribute>last</attribute>&#160; <no>10000</no> <no>previous</no>&#160;<attribute>positions</attribute>,&#160;<no>the</no>&#160;<attribute>number</attribute>&#160;<no>of</no>&#160;<no>the</no>&#160;<no>previous</no>&#160;<class>movements</class>&#160;<no>and</no>&#160;<attribute>thetime</attribute>&#160;<attribute>passed</attribute>&#160;<no>by</no> <no>the</no>&#160;<class>user</class>&#160;<no>to</no>&#160;<method>solve</method>&#160;<no>the</no>&#160;<method>headache</method>.
+<no>3.2.4.2.4</no> <no>Ouput</no>
+<no>None</no>.
+<no>3.2.4.3</no> <method>Save</method> <class>game</class> <method>as</method>
+<no>3.2.4.3.1</no> <no>Description</no>
+<method>Save</method>&#160;<no>the</no>&#160;<attribute>current</attribute>&#160;<class>game</class>.
+<no>3.2.4.3.2</no> <no>Input</no>
+<no>Menu</no>&#160;<no>selection</no>.
+<no>3.2.4.3.3</no> <no>Processing</no>
+<no>A</no>&#160;<no>dialog</no>&#160;<no>box</no>&#160;<no>is</no>&#160;<no>open</no>&#160;:&#160;<no>the</no>&#160;<class>user</class>&#160;<no>could</no>&#160;<association>choose</association>&#160;<no>a</no>&#160;<class>file</class>&#160;<no>that</no>&#160;<no>will</no>&#160;<no>contain</no>&#160;<no>all</no>&#160;<no>the</no>&#160;<no>data</no>&#160;<no>of</no> <no>the</no>&#160;<no>current</no>&#160;<class>game</class>.&#160;<no>Next</no>,&#160;<no>the</no>&#160;<no>following</no>&#160;<no>internal</no>&#160;<method>data</method>&#160;<no>are</no>&#160;<method>saved</method>&#160;<no>into</no>&#160; <no>the</no>&#160;<class>file</class>&#160;:&#160;<no>the</no> <attribute>current</attribute>&#160;<attribute>positions</attribute>&#160;<no>of</no>&#160;<no>the</no>&#160;<class>blocks</class>,&#160;<no>their</no>&#160;<attribute>previous</attribute>&#160;<attribute>positions</attribute>,&#160;<no>the</no>&#160; <attribute>number</attribute>&#160;<no>of</no>&#160;<no>the</no> <no>previous</no>&#160;<class>movements</class>&#160;<no>and</no>&#160;<no>the</no>&#160;<attribute>time&#160;passed</attribute>&#160;<no>by</no>&#160;<no>the</no>&#160;<class>user</class>&#160;<no>to</no>&#160;<method>solve</method>&#160;<no>the</no>&#160;<method>headache</method>.
+<no>3.2.4.3.4</no> <no>Output</no>
+<no>None</no>.
+<no>3.2.4.4</no> <method>Exit</method>
+<no>3.2.4.4.1</no> <no>Description</no>
+<method>Stop</method>&#160;<no>the</no>&#160;<class>game</class>
+<no>3.2.4.4.2</no><no> Inpu</no>t
+<no>Menu</no>&#160;<no>selection</no>.
+<no>3.2.4.4.3</no> <no>Processing</no>
+<no>If</no>&#160;<no>the</no>&#160;<class>game</class>&#160;<no>is</no>&#160;<no>not</no>&#160;<no>saved</no>,&#160;<no>a</no>&#160;<no>dialog</no>&#160;<no>box</no>&#160;<no>is</no>&#160;<no>displayed</no>&#160;<no>that</no>&#160;<no>asks</no>&#160;<no>to</no>&#160;<no>the</no>&#160;<class>player</class>&#160;<no>if</no>&#160;<no>he</no> <no>wants</no>&#160;<no>to</no>&#160;<method>save</method>&#160;<no>the</no>&#160;<class>game</class>.&#160;<no>Two</no>&#160;<no>choices</no>&#160;<no>are</no>&#160;<no>possible</no>&#160;:&#160;&quot;<method>Yes</method>&quot;&#160;<no>and</no>&#160;&quot;<method>No</method>&quot;.&#160;<no>If</no>&#160;&#160;&quot;<method>Yes</method>&quot;&#160;<no>is</no> <method>selected</method>,&#160;<no>the</no>&#160;<no>action</no>&#160;&quot;<method>Save</method>&quot;&#160;<no>is</no>&#160;<method>processed</method>&#160;<no>and</no>&#160;<no>the</no>&#160;<no>main</no>&#160;<no>window</no>&#160; <no>disappeared</no>.&#160;<no>If</no>&#160;&quot;<method>No</method>&quot; <no>is</no>&#160;<method>selected</method>,&#160;<no>the</no>&#160;<no>main</no>&#160;<method>window</method>&#160;<method>disappeared</method>.
+<no>3.2.4.4.4</no> <no>Ouput</no>
+<no>None</no>.
+<no>3.2.5</no> <no>Menu</no> <no>bar</no>
+<no>3.2.5.1</no> <class>Game</class> <class>menu</class>
+<no>3.2.5.1.1</no> <no>Description</no>
+<no>Contains</no>&#160;&quot;<association>Open</association>&#160;<class>game</class>&#160;...&quot;,&#160;&quot;<association>Save</association>&#160;<class>Game</class>&#160;...&quot;,&#160;&quot;<association>Save</association>&#160;<class>Game</class>&#160;<association>As</association>...&quot;&#160;<no>and</no>&#160;&quot;<association>Exit</association>&quot;.&#160;<no>In</no>&#160;<no>this</no> <no>order</no><no>.</no>&#160;
+<no>3.2.5.1.2</no><no> Inpu</no>t
+<no>Menu</no>&#160;<no>selection</no>.&#160;
+<no>3.2.5.1.3</no> <no>Processing</no>
+<no>Action</no>&#160;<no>in</no>&#160;<no>question</no>&#160;<no>is</no>&#160;<no>performed</no>&#160;:
+– &quot;<association>Open</association>&#160;<class>game</class>&#160;<no>...</no>&quot;&#160;<no>­&gt;</no>&#160;<no>action</no>&#160;&quot;<no>Open</no>&#160;<class>game</class>&quot;,&#160;<no>see</no>&#160;<no>chapter</no>&#160;<no>3.2.4.1</no>.
+– &quot;<association>Save</association>&#160;<class>Game</class>&#160;<no>...</no>&quot;&#160;<no>­&gt;</no>&#160;<no>action</no>&#160;&quot;<no>Save</no>&#160;<class>Game</class>&quot;,&#160;<no>see</no>&#160;<no>chapter</no>&#160;<no>3.2.4.2</no>.
+– &quot;<association>Save</association>&#160;<class>Game</class>&#160;<association>As</association>&#160;<no>...</no>&quot;<no>&#160;­&gt;</no>&#160;<no>action</no>&#160;&quot;<no>Save</no>&#160;<class>game</class>&#160;<no>as</no>&quot;,&#160;<no>see</no>&#160;<no>chapter</no>&#160;<no>3.2.4.3</no>.
+– &quot;<no>Exit</no>&quot;&#160;<no>­&gt;</no>&#160;<no>action</no>&#160;&quot;<no>Exit</no>&quot;,&#160;<no>see</no>&#160;<no>chapter</no>&#160;<no>3.2.4.4</no>.
+<no>3.2.5.1.4</no> <no>Output</no>
+<no>Menu</no>&#160;<no>disappears</no>.&#160;<no>Requirements</no>&#160;<no>of</no>&#160;<no>the</no>&#160;<no>action</no>&#160;<no>determines</no>&#160;<no>the</no> &#160;<no>continuation</no>.&#160;
+<no>3.2.5.2</no> <no>Action</no> <no>menu</no>
+<no>3.2.5.2.1</no> <no>Description</no>
+<no>Contains</no>&#160;&quot;<method>Undo</method>&quot;&#160;<no>and</no>&#160;&quot;<method>Redo</method>&quot;.&#160;<no>In</no>&#160;<no>this</no>&#160;<no>order</no>.&#160;<no>The</no>&#160;<no>menu</no>&#160;<no>selection</no>&#160;<no>is</no>&#160; <no>unvailable</no>&#160;<no>if</no>&#160;<no>the</no> <no>associated</no>&#160;<no>action</no>&#160;<no>is</no>&#160;<no>unvailable</no>.
+<no>3.2.5.2.2</no> <no>Inputs</no>
+<no>Menu</no>&#160;<no>selection</no>.&#160;
+<no>3.2.5.2.3</no> <no>Processing</no>
+<no>Action</no>&#160;<no>in</no>&#160;<no>question</no>&#160;<no>is</no>&#160;<no>performed</no>&#160;:
+– &quot;<method>Undo</method>&quot;&#160;<no>­&gt;</no>&#160;<no>action</no>&#160;&quot;<no>Undo</no>&quot;,&#160;<no>see</no>&#160;<no>chapter</no>&#160;<no>3.2.1.5</no>.
+– &quot;<method>Redo</method>&quot;<no>&#160;­&gt;</no>&#160;<no>action</no>&#160;&quot;<no>Redo</no>&quot;,&#160;<no>see</no>&#160;<no>chapter</no>&#160;<no>3.2.1.6</no>.
+<no>3.2.5.2.4</no> <no>Outputs</no>
+<no>Menu</no>&#160;<no>disappears</no>.&#160;<no>Requirements</no>&#160;<no>of</no>&#160;<no>the</no>&#160;<no>action</no>&#160;<no>determines</no>&#160;<no>the</no>&#160; <no>continuation</no>.&#160;
+<no>3.2.5.3</no> <class>Statistics menu</class>
+<no>3.2.5.3.1</no> <no>Description</no>
+<no>Contains</no>&#160;&quot;<method>Display</method>&quot;&#160;<no>and</no>&#160;&quot;<method>Erase</method>&quot;.&#160;<no>In</no>&#160;<no>this</no>&#160;<no>order</no>.&#160;
+<no>3.2.5.3.2</no> <no>Inputs</no>
+<no>Menu</no>&#160;<no>selection</no>.&#160;
+<no>3.2.5.3.3</no> <no>Processing</no>
+<no>Action</no>&#160;<no>in</no>&#160;<no>question</no>&#160;<no>is</no>&#160;<no>performed</no>&#160;:
+– &quot;<method>Display</method>&quot;<no>&#160;­&gt;</no>&#160;<method>displays</method>&#160;<no>the</no>&#160;<class>statistic</class>&#160;<no>window</no>,&#160;<no>see</no>&#160;<no>chapter</no>&#160;<no>3.2.3.4</no>.
+– &quot;<method>Erase</method>&quot;&#160;<no>­&gt;</no>&#160;<method>erase</method>&#160;<no>the</no>&#160;<class>statistics</class>,&#160;<no>see</no>&#160;<no>chapter</no>&#160;<no>3.2.3.3</no>.
+<no>3.2.5.3.4</no> <no>Outputs</no>
+<no>Menu</no>&#160;<no>disappears</no>.&#160;<no>Requirements</no>&#160;<no>of</no>&#160;<no>the</no>&#160;<no>action</no>&#160;<no>determines</no>&#160;<no>the</no>&#160; <no>continuation</no>.&#160;
+<no>3.2.5.4</no> <class>Help menu</class>
+<no>3.2.5.4.1</no> <no>Description</no>
+<no>Contains</no>&#160;&quot;<method>About</method>&quot;.&#160;
+<no>3.2.5.4.2</no> <no>Inputs</no>
+<no>Menu</no>&#160;<no>selection</no>.&#160;
+<no>3.2.5.4.3</no> <no>Processing</no>
+&quot;<method>About</method>&#160;<no>Window</no>&quot;&#160;<no>is</no>&#160;<method>displayed</method>.&#160;<no>The</no>&#160;&quot;<method>About</method>&#160;<no>Windows</no>&quot;&#160;<no>is</no>&#160;<no>composed</no>&#160;<no>of</no>&#160;<no>the</no>&#160;<no>following</no> <no>text</no>&#160;&quot;<no>Qheadache</no>&#160;<no>1.0</no>&#160;<no>by</no>&#160;<no>Jean­Philippe</no>&#160;<no>Brossat</no>&#160;<no>jp_brossat</no><no>@</no><no>yahoo.fr</no>&quot;
+<no>3.2.5.4.4</no> <no>Outputs</no>
+<no>Menu</no>&#160;<no>disappears</no>.&#160;<no>Requirements</no>&#160;<no>of</no>&#160;<no>the</no>&#160;<no>action</no>&#160;<no>determines</no>&#160;<no>the</no>&#160; <no>continuation</no>.
+
+</document>

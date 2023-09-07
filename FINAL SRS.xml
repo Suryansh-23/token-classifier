@@ -1,0 +1,354 @@
+<document><no>3.1.1</no> <no>Objective</no> – <no>The</no> <no>purpose</no> <no>of</no> <no>the</no> <no>U1</no> <no>use case</no> <no>is</no> <no>to</no> <no>use</no> <no>the</no> <class>device</class><no>’s</no> <no>optical</no> <no>hardware</no> <no>to</no> <no>produce</no> <no>the</no> <class>image</class> <association>detected</association> <no>by</no> <no>the</no> <class>optical</class> <class>hardware</class>. <no>This</no> <class>image</class> <no>is</no> <method>displayed</method> <no>on</no> <no>the</no>  <class>device</class><no>’s</no> <no>screen</no>. 
+ <no>3.1.2</no> <no>Priority</no> <no>-</no> <no>This</no> <no>requirement</no> <no>is</no> <no>medium</no> <no>priority</no>. 
+ <no>3.1.3</no> <no>Source</no> <no>–</no> <no>The</no> <no>source</no> <no>of</no> <no>this</no> <no>use</no> <no>case</no> <no>is</no><no> </no><no>the</no> <class>customer</class>. 
+ <no>3.1.4</no> <no>Actors</no> <no>–</no> <no>An</no> <no>end</no> <no>user</no> <no>of</no> <no>the</no> <class>device</class> <no>(</no><no>a</no> <class>customer</class><no>)</no> <no>would</no> <no>be</no> <no>the</no> <no>relevant</no> <no>actor</no> <no>for</no>  <no>this</no> <no>use case</no>. 
+ <no>3.1.5</no> <no>Flow of events-</no> 
+<no>3.1.5.1</no> <no>Basic Flow-</no> 
+<no>3.1.5.1.2</no> <class>User</class> <method>enters</method> <method>picture-taking mode</method>. 
+<no>3.1.5.1.3</no> <class>Device</class> <method>displays</method> <no>what</no> <no>it</no> <no>is</no> <no>“</no><no>looking</no> <no>at”</no> <no>on</no> <no>screen</no>. 
+<no>3.1.5.1.4</no> <class>User</class> <method>presses button</method> <no>for</no> <no>taking</no> <no>picture</no>. 
+<no>3.1.5.1.5</no> <class>Picture</class> <no>is</no> <method>stored</method> <no>in</no> <no>temporary</no> <no>memory</no> <no>and</no> <method>displayed</method> <no>on</no> <no>screen</no>. 
+<no>3.1.5.2</no> <no>Alternative</no> <no>Flow</no>- <no>At</no> <no>step</no> <no>3.1.5.1.4</no>, <no>the</no> <class>user</class> <no>decides</no> <no>not</no> <no>to</no> <no>take</no> <no>a</no> <no>picture</no>. 
+<no>3.1.5.2.1</no> <class>User</class> <method>presses cancel</method> <no>button</no>. 
+<no>3.1.5.2.2</no> <class>Device</class> <method>exits</method> <no>picture-taking</no> <no>mode</no>. 
+<no>3.1.5.3</no> <no>Exception</no> <no>Flow</no> – <no>At</no> <no>step</no> <no>3.1.5.1.4</no>, <no>the</no> <class>device</class> <method>encounters</method> <no>a</no> <method>problem</method>. 
+<no>3.1.5.3.1</no> <class>Device</class> <method>provides</method> <method>error message</method> <no>indicating</no> <no>need</no> <no>for</no> <no>repair</no>. 
+<no>3.1.5.3.2</no> <class>Device</class> <method>exits</method> <no>picture-taking</no> <no>mode</no>. 
+<no>3.1.6</no> <no>Includes</no> <no>–</no> <no>None</no>. 
+<no>3.1.7</no> <no>Requirements</no>- 
+<no>3.1.7.1</no> <no>The</no> <no>system</no> <no>shall</no> <no>provide</no> <no>the</no> <no>option</no> <no>to</no> <no>take</no> <no>a picture. </no>
+<no>3.1.7.2</no> <no>The</no> <no>system</no> <no>shall</no> <no>display</no> <no>the</no> <no>currently</no> <no>viewed</no> <no>image</no>. 
+<no>3.1.7.3</no> <no>The</no> <no>system</no> <no>shall</no> <no>store</no> <no>the</no> <no>image</no> <no>in</no> <no>temporary</no> memory. 
+<no>3.1.7.4</no> <no>The</no> <no>system</no> <no>shall</no> <no>indicate</no> <no>a</no> <no>need</no> <no>for</no> <no>repair</no> <no>if</no> <no>broken</no>. 
+ 
+<no>3.1.8</no> <no>Preconditions</no> <no>–</no> <class>User</class> <no>is</no> <method>logged in</method>, <no>optical</no> <no>hardware</no> <no>is</no> <no>operational</no>. 
+<no>3.1.9</no> <no>Post</no> <no>conditions</no> <no>–</no> <no>An</no> <class>image</class> <no>is</no> <no>shown</no> <no>on</no> <no>the</no> <class>device</class><no>’s</no> <no>screen</no>, <no>available</no> <no>for</no> 
+<no>permanent</no> <no>saving</no> <no>or</no> <no>deletion</no>. 
+<no>3.1.10</no> <no>Nonfunctional</no> <no>requirements</no> <no>–</no> 
+<no>3.1.10.1</no> <no>Performance</no> <no>Requirements</no><no>-</no> 
+<no>3.1.10.1.1</no> <no>Maximum</no> <no>allowed</no> <no>execution</no> <no>time</no> <no>for</no> <no>U1</no> <no>use case</no> <no>is</no> <no>3</no> <no>seconds</no>, 
+<no>starting</no> <no>at</no> <no>the</no> <no>time</no> <no>when</no> <no>the</no> <class>user</class> <no>presses</no> <no>the</no> <no>take</no> <no>picture</no> <no>button</no> <no>and</no> 
+<no>ending</no> <no>when</no> <no>the</no> <no>image</no> <no>has</no> <no>been</no> <no>saved</no> <no>and</no> <no>displayed</no>. 
+<no>3.1.10.2</no> <no>Safety</no> <no>Requirements</no>-<no>None</no>. 
+<no>3.1.10.3</no> <no>Security </no><no>Requirements</no>-<no>None</no>. 
+<no>3.1.10.4</no> <no>Software</no> <no>Quality</no> <no>Requirements</no>-<no>None</no>. 
+<no>3.1.11</no> <no>Notes</no>/<no>Issues</no> – <no>U1</no> <no>is</no> <no>often</no> <no>followed</no> <no>by</no> <no>the</no> <no>U2</no> <no>use case</no>. 
+<no>3.1.12</no> <no>Special requirements – </no><no>Always</no> <no>keep</no> <no>enough</no> <no>memory</no> <no>available</no> <no>so</no> <no>that</no> <no>the</no> 
+<no>current</no> <class>picture</class> <no>can</no> <no>be</no> <method>temporarily saved</method>, <no>in</no> <no>case</no> <no>the</no> <class>user</class> <no>decides</no> <no>to</no> <method>permanently save</method> <no>it</no>. 
+ 
+<no>3.2</no> <no>Use case</no> <no>name</no> <no>and</no> <no>identifier</no> <no>–</no> <method>Save</method> <no>a</no> <class>picture</class> (<no>U2</no>) 
+ <no>3.2.1</no> <no>Objective</no> <no>–</no> <no>The</no> <no>purpose</no> <no>of</no> <no>the</no> <no>U2</no> <no>use case</no> <no>is</no> <no>to</no> <no>enable</no> <no>the</no> <class>user</class> <no>to</no> <method>permanently store</method> <class>images</class> <no>captured</no> <no>during</no> <no>the</no> <no>U1</no> <no>use case</no> <no>on</no> <no>the</no> <class>device</class> <no>’s</no> <no>internal</no> <no>memory</no>. 
+ <no>3.2.2</no> <no>Priority</no> <no>–</no> <no>This</no> <no>requirement</no> <no>is</no> <no>low</no> <no>priority</no>. 
+ <no>3.2.3</no> <no>Source</no> <no>–</no> <no>The</no> <no>source</no> <no>of</no> <no>this</no> <no>use case</no> <no>is</no> <no>the</no> <class>customer</class>. 
+ <no>3.2.4</no> <no>Actors</no> <no>–</no> <no>An</no> end <class>user</class> <no>of</no><no> </no><no>the</no> <class>device</class> (<no>a</no> <class>customer</class>) <no>would</no> <no>be</no> <no>the</no> <no>relevant</no> <no>actor</no> <no>for</no> <no>this</no> <no>use case</no>. 
+ <no>3.2.5</no> <no>Flow of events-</no> 
+ 
+<no>3.2.5.1</no> <no>Basic flow-</no> 
+<no>3.2.5.1.1</no> <class>User</class> <no>is</no> <association>queried</association> <no>as</no> <no>to</no> <no>whether</no> <no>to</no> <association>save</association> <no>current</no> <class>picture</class>. 
+<no>3.2.5.1.2</no> <class>User</class> <method>presses</method> <method>“save” button</method> <no>to</no> <no>indicate</no> <no>desire</no> <no>to</no> <no>save</no> <no>picture</no>. 
+   <no>3.2.5.1.3</no> <class>Picture</class> <no>is</no><method> saved</method> <no>to</no> <class>device</class><no>’s</no> <no>internal</no> <no>memory</no>. 
+<no>3.2.5.2</no> <no>Alternative</no> <no>flow</no>- <no>At</no> <no>step</no> <no>3.2.5.1.2</no>, <no>the</no> <class>user</class> <no>decides</no> <no>not</no> <no>to</no> <no>save</no> <no>the</no> 
+<class>picture</class>. 
+<no>3.2.5.2.1</no> <class>User</class> <method>presses</method> <no>the</no> <method>“cancel” button</method> <no>to</no> <no>indicate</no> <no>desire</no> <no>to</no> <no>not</no> <no>save</no> 
+<class>picture</class>. 
+<no>3.2.5.2.2</no> <no>The</no> <no>current</no> <class>picture</class> <no>is</no> <method>not saved</method> <no>to</no> <no>the</no> <class>device</class><no>’s</no> <no>internal</no> <no>memory</no>. 
+<no>3.2.5.2.3</no> <no>The</no> <class>device</class> <no>goes</no> <no>back</no> <no>to</no> <method>picture taking mode</method>. 
+<no>3.2.5.3</no> <no>Exception</no> <no>flow</no><no>-</no> <no>At</no> <no>step</no> <no>3.2.5.1.2</no>, <no>the</no> <class>device</class> <method>encounters problem</method> <no>due</no> 
+<no>to</no> <no>insufficient</no> <no>memory</no>. 
+<no>3.2.5.3.1</no> <class>Device</class> <method>provides</method> <method>error message</method> <no>indicating</no> <no>insufficient</no> <no>memory</no> 
+<no>remaining</no> 
+<no>3.2.5.3.2</no> <class>Device</class> <association>prompts</association> <class>user</class> <no>to</no> <no>go</no> <no>to</no> <association>file management mode</association> <no>to</no> <no>make </no>
+<no>memory available. </no>
+ <no>3.2.6</no> <no>Includes</no> <no>–</no> <no>None</no>. 
+ <no>3.2.7</no> <no>Requirements</no> – 
+<no>3.2.7.1</no> <no>The</no> <no>system</no> <no>shall</no> <no>ask</no> <no>the</no> <class>user</class> <no>whether</no> <no>to</no> <no>save</no> <no>a</no> <class>picture</class>. 
+<no>3.2.7.2</no> <no>The</no> <no>system</no> <no>shall</no> <method>store</method> <no>the</no> <class>picture</class> <no>in</no> <no>internal</no> <no>memory</no>. 
+<no>3.2.7.3</no> <no>The</no> <no>system</no> <no>shall</no> <no>notify</no> <no>the</no> <class>user</class> <no>if</no> <no>insufficient</no> <no>memory</no> <no>to</no> <method>store</method> <no>the</no> <class>picture</class> 
+<no>remains</no>. 
+  
+ 
+ <no>3.2.8</no> <no>Preconditions –</no> <class>User</class> <no>has</no> <no>taken</no> <no>a</no> <class>picture</class> (<no>in</no> <no>U1</no> <no>use case</no>), <no>sufficient</no> <no>memory</no> <no>is</no> <no>available</no> <no>to</no> <method>store</method> <no>a</no> <class>picture</class>. 
+ <no>3.2.9</no> <no>Post</no> <no>conditions</no> <no>–</no> <class>Picture</class> <no>is</no> <method>saved</method> <no>to</no> <class>device</class><no>’s</no> <no>internal memory.</no> 
+ <no>3.2.10</no> <no>Nonfunctional Requirements</no>– 
+<no>3.2.10.1</no> <no>Performance</no> <no>Requirements</no>- 
+<no>3.2.10.1.1</no> <no>Maximum</no> <no>allowed</no> <no>execution</no> <no>time</no> <no>for</no> <no>U2</no> <no>use case</no> <no>is</no> <no>3</no>  <no>seconds</no>, <no>starting</no> <no>when</no> <class>user</class> <no>presses</no> <no>the</no> <no>save</no> <no>button</no> <no>and</no> <no>ending</no> <no>when</no> <no>the</no>  <class>picture</class> <no>has</no> <no>been</no> <method>saved</method> <no>in</no> <no>memory</no> <no>and</no> <no>the</no> <class>user</class> <no>has</no> <no>been</no> <method>notified</method> <no>of</no> <no>this</no> <no>event</no>. 
+<no>3.2.10.2</no> <no>Safety</no> <no>Requirements-None</no>. 
+<no>3.2.10.3</no> <no>Security</no> <no>Requirements-None</no>. 
+      <no>3.2.10.4</no> <no>Software</no> <no>Quality</no> <no>Requirements</no>- <no>None</no>. 
+ <no>3.2.11</no> <no>Notes</no>/<no>Issues</no> <no>–</no> <no>Check</no> <no>on</no> <no>use case</no> <no>identifier</no> <no>for</no> <no>removing</no> <no>pictures</no> <no>from</no> <no>memory</no>.  
+ <no>3.2.12</no> <no>Special Requirements – </no><no>Memory</no> <no>must</no> <no>be</no> <no>available</no> <no>for</no> <class>picture</class> <no>to</no> <no>be</no> <method>saved</method>. 
+ 
+<no>3.3</no> <no>Use case</no> <no>name</no> <no>and</no> <no>identifier</no> <no>-</no> <method>Translate</method> <no>written</no> <class>text</class> <no>(</no><no>U3</no><no>)</no> 
+ <no>3.3.1</no> <no>Objective</no> - <no>The</no> <no>object</no> <no>of</no> <no>the</no> <no>U3</no> <no>use case</no> <no>is</no> <no>to</no> <method>translate</method> <no>any</no> <no>chosen</no> <class>text</class>, <no>in</no> <no>the</no> <class>device</class>, <no>to</no> <no>any</no> <no>desired</no> <no>language</no>. <no>It</no> <no>would</no> <no>help</no> <no>anyone</no> <no>understand</no> <no>the</no> <no>foreign</no> <class>text</class> <no>in</no> <no>his</no> <no>or</no> <no>her</no> <class>device</class>. <no>The</no> <no>foreign</no> <class>text</class> <no>would</no> <no>be</no> <no>typed</no> <no>into</no> <no>the</no> <class>device</class>. 
+ <no>3.3.2</no> <no>Priority</no> <no>–</no> <no>This</no> <no>requirement</no> <no>is</no> <no>high</no> <no>priority</no>. 
+ <no>3.3.3</no> <no>Source</no> <no>–</no> <no>The</no> <no>source</no> <no>of</no> <no>this</no> <no>use case</no> <no>is</no> <no>the</no> <class>customer</class>. 
+ <no>3.3.4</no> <no>Actors</no> <no>-</no> <no>The</no> <no>only</no> <no>actor</no> <no>in</no> <no>this</no> <no>part</no> <no>is</no> <no>the</no> <class>customer</class>. 
+
+ <no>3.3.5</no> <no>Flow of Events-</no> 
+<no>3.3.5.1</no> <no>Basic Flow-</no>  
+<no>3.3.5.1.2</no> <no>The</no> <no>chosen</no><class> text </class><no>is</no> <no>read</no>.  
+<no>3.3.5.1.3</no> <no>The</no> <attribute>language</attribute> <no>is</no> <method>identified</method>. 
+<no>3.3.5.1.4</no> <no>Then</no>, <no>it</no> <no>is</no> <method>compared</method> <no>to</no> <no>the</no> <no>downloaded</no> <no>database</no> <no>in</no> <no>our</no> <class>device</class>. 
+<no>3.3.5.1.5</no> <no>The</no> <class>text</class> <no>is</no> <no>then</no> <method>translated</method> <no>into</no> <no>the</no> <attribute>desired language</attribute>.  
+<no>3.3.5.1.6</no> <no>Final</no> <method>result</method> <no>will</no> <no>be</no> <no>either</no> <method>displayed</method> <no>on</no> <no>the</no> <no>screen</no> <no>or</no> <no>will</no> <no>be</no> <no>output</no> <no>through</no> <no>the</no> <no>speaker</no>, <no>depending</no> <no>on</no> <no>the</no> <class>user</class><no>&apos;s</no> <no>choice</no> <no>of</no> <no>output</no>. 
+<no>3.3.5.2</no> <no>Alternative</no> <no>flow</no>- <no>At</no> <no>step</no> <no>3.3.5.1.2</no>, <no>the</no> <class>device</class> <no>does</no> <class>not recognize</class> <no>the</no> 
+<no>language</no> <no>due</no> <no>to</no> <no>incorrect</no> <no>input</no>. 
+<no>3.3.5.2.1</no> <no>The</no> <class>device</class> <method>beeps</method> <no>and</no> <no>the</no> <no>message</no> <method>&quot;INVALID INPUT&quot;</method> <no>is</no> 
+<no>displayed</no> <no>on</no> <no>the</no> <no>screen</no>. 
+<no>3.3.5.3</no> <no>Exception</no> <no>Flow</no>-<no> </no><no>At step 3.3.5.1.4</no>, <no>the</no> <class>device</class> <method>cannot find translations</method> 
+<no>in</no> <no>the</no> <no>database</no>.   
+<no>3.3.5.3.1</no> <no>The</no> <class>device</class> <method>beeps</method> <no>and</no> <no>the</no> <no>message</no>, <method>&quot;NOT TRANSLATED&quot;</method> <no>is</no> 
+<no>displayed</no> <no>on</no> <no>the</no> <no>screen</no>. 
+ <no>3.3.6</no> <class>Includes</class> –<no>Typing</no> <no>in</no> <no>the</no> <class>text</class>, <method>comparing</method> <no>to</no> <no>database</no>, <method>displaying</method> <attribute>translated</attribute> <class>text</class>. 
+ 3.3.7 <class>Requirements</class>- 
+<no>3.3.7.1</no> <no>The</no> <no>system</no> <no>shall</no> <method>receive</method> <class>text</class> <no>input</no> <no>from</no> <no>the</no> <class>user</class>. 
+<no>3.3.7.2</no> <no>The</no> <no>system</no> <no>shall</no><method> identify </method><no>the</no> <attribute>language</attribute> <no>of</no> <no>the</no> <class>text</class> <attribute>entered</attribute>. 
+<no>3.3.7.3</no> <no>The</no> <no>system</no> <no>shall</no> <method>compare</method> <no>the</no> <no>input</no> <no>to</no> <no>the</no> <no>database</no>. 
+<no>3.3.7.4</no> <no>The</no> <no>system</no> <no>shall</no> translate <no>the</no> <class>text</class> <no>into</no> <no>the</no> <attribute>desired</attribute> <attribute>language</attribute>. 
+<no>3.3.7.5</no> <no>The</no> <no>system</no> <no>shall</no> <no>output</no> <no>the</no> <attribute>translated</attribute> <class>text</class>. 
+
+<no>3.3.7.6</no> <no>The</no> <no>system</no> <no>shall</no> <no>indicate</no> <no>when</no> <no>a</no> <method>translation</method> <no>cannot</no> <no>be</no> <no>found</no>. 
+<no>3.3.7.7</no> <no>The</no> <no>system</no> <no>shall</no> <no>indicate</no> <no>when</no> <no>the</no> <class>text</class><no>’s</no> <attribute>language</attribute> <no>cannot</no> <no>be</no> <method>identified</method>. 
+ <no>3.3.8</no> <no>Preconditions-</no> <no>The</no> <class>user</class> <no>has</no> <no>already</no> <method>typed</method> <no>in</no> <no>the</no> <class>text</class>. 
+ <no>3.3.9</no> <no>Post</no> <no>conditions</no> - <no>The</no> <class>text</class> <no>has</no> <no>been</no> <attribute>translated</attribute> <no>into</no> <no>the</no> <attribute>desired</attribute> <attribute>language</attribute> <no>and</no> <no>the</no> 
+<no>final</no> <no>output</no> <no>has</no> <no>reached</no> <no>the</no> <class>user</class> <no>in</no> <no>the</no> <no>desired</no> <no>form</no>. <no>The</no> <class>user</class> <no>understands</no> <no>the</no> <no>foreign</no> 
+<class>text</class>. 
+<no> 3.3.10 Nonfunctional requirements – </no>
+<no>3.3.10.1 Performance Requirements- </no>
+<no>3.3.10.1.1</no> <no>Maximum</no> <no>allowed</no> <no>execution</no> <no>time</no> <no>for</no> <no>U3</no> <no>use case</no> <no>is</no> <no>5</no> <no>seconds</no> <no>for</no> <no>every</no> <no>30</no> <no>words</no> <no>being</no> <no>processed</no>. 
+<no>3.3.10.2</no> <no>Safety</no> <no>Requirements</no>-<no>None</no>. 
+<no>3.3.10.3</no> <no>Security</no> <no>Requirements</no>-<no>None</no>. 
+      <no>3.3.10.4</no> <no>Software</no> <no>Quality</no> <no>Requirements</no>-<no>None</no>.  
+ <no>3.3.11</no> <no>Notes</no>/<no>Issues</no> – <no>None</no>. 
+ <no>3.3.12</no> <no>Special Requirements - </no><no>The</no> <class>database</class> <no>needs</no> <no>to</no> <no>be</no> <association>updated</association> <no>frequently</no> <no>by</no> <no>the</no> <class>user</class> <no>by</no> <no>connecting</no> <no>the</no> <class>device</class> <no>to</no> <no>any</no> <no>computer</no> <no>and</no> <method>looking</method> <no>for</no> <method>updates</method>. <no>There</no> <no>should</no> <no>be</no> <no>fast</no> <no>processing</no> <no>also</no>. 
+  
+<no>3.4</no> <no>Use case</no> <no>name</no> <no>and</no> <no>identifier</no>- <method>Translate</method> <attribute>spoken</attribute> <attribute>language</attribute> <no>(</no><no>U4</no><no>)</no> 
+ <no>3.4.1</no> <no>Objective</no> - <no>The</no> <no>object</no> <no>of</no> <no>the</no> <no>U4</no> <no>use case</no> <no>is</no> <no>to</no><class> translate</class> <no>any</no> <no>chosen</no> <class>speech</class>, <no>in</no> <no>the</no> <class>device</class>, <no>to</no> <no>any</no> <attribute>desired </attribute><attribute>language</attribute>.<no> It</no> <no>would</no> <no>help</no> <no>anyone</no> <no>understand</no> <no>the</no> <no>foreign</no> <class>speech</class> <no>in</no> <no>his</no> <no>or</no> <no>her</no> <class>device</class>. <no>The</no> <no>foreign</no> <class>speech</class> <no>would</no> <no>be</no> <no>recorded</no> <no>into</no> <no>the</no> <class>device</class> <no>by</no> <no>the</no> <no>in</no><no>-built </no><no>microphone</no>. 
+<no> 3.4.2</no> <no>Priority</no> <no>–</no> <no>This</no> <no>requirement</no> <no>is</no> <no>high</no> <no>priority</no>. 
+ <no>3.4.3</no> <no>Source</no> – <no>The</no> <no>source</no> <no>of</no> <no>this</no> <no>use case</no> <no>is</no> <no>the</no> <class>customer</class>. 
+<no> 3.4.4</no> <no>Actors</no> - <no>The</no> <no>only</no> <no>actor</no> <no>in</no> <no>this</no> <no>part</no> <no>is</no> <no>the</no> <class>customer</class>. 
+ <no>3.4.5</no> <no>Flow of Events-</no> 
+<no>3.4.5.1</no> <no>Basic Flow-</no> 
+<no>3.4.5.1.1</no> <class>Speech</class> <no>is</no> <method>recorded</method> <no>by</no> <no>microphone</no>. 
+<no>3.4.5.1.2</no> <attribute>Language</attribute> <no>being</no> <no>used</no> <no>is</no> <method>identified</method>. 
+<no>3.4.5.1.3</no> <class>Speech</class> <no>is</no> <class>compared</class> <no>to</no> <no>database</no>. 
+<no>3.4.5.1.4</no> <class>Speech</class> <no>is</no> <method>translated</method> <no>to</no> <no>the</no> <method>desired language</method>. 
+<no>3.4.5.1.5</no> <no>Final</no> <class>result</class> <no>will</no> <no>either</no> <no>be</no> <method>displayed</method> <no>on</no> <no>the</no><no> screen</no> <no>or</no> <no>will</no> <no>be</no> <method>output</method> <no>through</no> <no>the</no> <method>speaker</method>, <no>depending</no> <no>on</no> <no>the</no> <class>user</class><no>’s</no> <no>choice</no> <no>of</no> <no>output</no>. 
+<no>3.4.5.2</no> <no>Alternative</no> <no>flow</no>- <no>At</no> <no>step</no> <no>3.4.5.1.2</no>, <no>the</no> <class>device</class> <no>does</no> <method>not recognize</method> <no>the</no> 
+<attribute>language</attribute> <no>due</no> <no>to</no> <no>incorrect</no> <no>input</no>. 
+<no>3.4.5.2.1</no> <no>The</no> <class>device</class> <method>beeps</method> <no>and</no> <no>the</no> <no>message</no> <method>&quot;INVALID INPUT&quot;</method> <no>is</no> <no>displayed </no><no>on</no> <no>the</no> <no>screen</no>. 
+<no>3.4.5.3</no> <no>Exception</no> <no>Flow</no>- <no>At</no> <no>step</no> <no>3.4.5.1.4</no>, <no>the</no> <class>device</class> <method>cannot find</method><method> translations</method> 
+<no>in</no> <no>the</no> <no>database</no>.   
+<no>3.4.5.3.1</no> <no>The</no> <class>device</class> <method>beeps</method> <no>and</no> <no>the</no> <no>message</no>, <method>&quot;NOT TRANSLATED&quot;</method> <no>is</no> 
+<no>displayed </no><no>on</no> <no>the</no> <no>screen</no>. 
+<no> 3.4.6</no> <class>Includes</class> - <no>Recording</no> <class>speech</class>, <method>comparing</method> <no>to</no> <no>database</no>, <method>displaying</method> <attribute>translated</attribute> <class>speech</class>. 
+<no> 3.4.7</no> <no>Requirements</no>- 
+<no>3.4.7.1</no> <no>The</no> <no>system</no> <no>shall</no> <method>record</method> <class>speech</class> <no>using</no> <no>the</no> <no>microphone</no>. 
+ 
+<no>3.4.7.2</no> <no>The</no> <no>system</no> <no>shall</no> <method>identify</method> <no>the</no> <attribute>language</attribute> <no>of</no> <no>the</no> <attribute>spoken</attribute> <attribute>words</attribute>. 
+<no>3.4.7.3</no> <no>The</no> <no>system</no> <no>shall</no> <method>compare</method> <no>the</no> <no>input</no> <no>to</no> <no>the</no> <class>database</class>. 
+<no>3.3.7.3</no> <no>The</no> <no>system</no> <no>shall</no> <no>query </no><no>the</no> <class>user</class> <no>as</no> <no>to</no> <no>the</no> <attribute>format</attribute> <no>of</no> <no>output</no> <no>to</no> <no>use </no>(<class>text</class> <no>or</no> 
+<class>speech</class>). 
+<no>3.4.7.4</no> <no>The</no> <no>system</no> <no>shall</no> <no>output</no> <no>the</no> <attribute>spoken</attribute> <attribute>language</attribute> <no>as</no> <class>text</class>. 
+<no>3.4.7.5</no> <no>The</no> <no>system</no> <no>shall</no> <no>output</no> <no>the</no> <attribute>spoken</attribute> <attribute>language</attribute> <no>as</no> <class>speech</class>. 
+<no>3.3.7.6</no> <no>The</no> <no>system</no> <no>shall</no> <no>indicate</no> <no>when</no> <no>a</no> <method>translation</method> <method>cannot</method> <no>be</no> <method>found</method>. 
+<no>3.4.7.6</no> <no>The</no> <no>system</no> <no>shall</no> <no>indicate</no> <no>when</no> <no>the</no> <class>speech</class><no>’s</no> <attribute>language</attribute> <method>cannot</method> <no>be</no> 
+<method>identified</method>. 
+<no> 3.4.8</no> <no>Preconditions - </no><no>The</no> <class>user</class> <no>has</no> <association>recorded</association> <no>the</no> <class>speech</class> <no>into</no> <no>the</no> <class>device</class>. 
+<no> 3.4.9</no> <no>Post</no> <no>conditions</no> - <no>The</no> <class>speech</class> <no>has</no> <no>been </no><method>translated</method> <no>into</no> <no>the</no> <attribute>desired</attribute> <attribute>language</attribute> <no>and</no> <no>final</no> <no>output</no> <no>has</no> <no>reached</no> <no>the</no> <no>user</no> <no>in</no> <no>his</no>/<no>her</no> <no>desired</no> <no>form</no>. <no>The</no> <class>user</class> <no>understands</no> <no>the</no> <no>foreign</no> <class>speech</class>.  
+<no> 3.4.10</no> <no>Nonfunctional</no> <no>requirements</no>- 
+<no>3.4.10.1</no> <no>Performance</no> <no>Requirements</no>- 
+<no>3.4.10.1.1</no> <no>Maximum</no> <no>allowed</no> <no>execution</no> <no>time</no> <no>for</no> <no>U4</no> <no>use case</no> <no>is</no> <no>5</no> 
+<no>seconds</no> <no>for</no> <no>every</no> <no>30</no> <no>words</no> <no>being</no> <no>processed</no>. 
+<no>3.4.10.2</no> <no>Safety</no> <no>Requirements</no>-<no>None</no>. 
+<no>3.4.10.3</no> <no>Security</no> <no>Requirements</no>-<no>None</no>. 
+     <no>3.4.10.4</no> <no>Software</no> <no>Quality</no> <no>Requirements</no>-<no>None</no>. 
+ <no>3.2.11</no> <no>Notes</no>/<no>Issues</no> – <no>None</no>. 
+ <no>3.4.12</no> <no>Special</no> <no>Requirements</no> - <no>The</no> <class>database</class> <no>needs</no> <no>to</no> <no>be</no> <association>updated</association> <no>frequently</no> <no>by</no> <no>the</no> <class>user</class> <no>by</no> <no>connecting</no> <no>the</no> <class>device</class> <no>to</no> <no>any</no> <no>computer</no> <no>and</no> <method>looking for updates</method>. <no>Fast</no> <no>processing</no> <no>is</no> <no>an</no> <no>additional</no> <no>special requirement.</no> 
+ 
+<no>3.5</no> <no>Use case</no> <no>name</no> <no>and</no> <no>Identifier</no>-<method>Translate</method> <class>signs</class><no> (</no><no>U5</no><no>) </no>
+ <no>3.5.1</no> <no>Objective</no> - <no>The</no> <no>object</no> <no>of</no> <no>the</no> <no>U5</no> <no>use case</no> <no>is</no> <no>to</no> <method>interpret</method> <no>any</no> <no>chosen</no> <class>sign</class>, <no>with</no> <no>or</no> <no>without</no> <class>text</class>, <no>in</no> <no>the</no> <class>device</class>. <no>It</no> <no>would</no> <no>help</no> <no>anyone</no> <no>understand</no> <no>the</no> <no>foreign</no> <class>sign</class> <no>in</no> <no>his</no> <no>or</no> <no>her</no> <class>device</class>. <no>The</no> <no>camera</no> <no>in</no> <no>the</no> <no>nTravel</no> <no>will</no> <no>take</no> <no>a</no> <class>picture</class> <no>of</no> <no>the</no> <no>foreign</no> <class>sign</class> <no>and</no> <no>returns</no> <no>an</no> <no>explanation</no> <no>of</no> <no>the</no> <class>sign</class>. 
+ <no>3.5.2</no> <no>Priority</no> <no>–</no> <no>This</no> <no>requirement</no> <no>is</no> <no>medium</no> <no>priority</no>. 
+ <no>3.5.3</no> <no>Source</no> <no>–</no> <no>The</no> <no>source</no> <no>of</no> <no>this</no> <no>use case</no> <no>is</no> <no>the</no> <class>customer</class>. 
+ <no>3.5.4</no> <no>Actors</no> - <no>The</no> <no>only</no> <no>actor</no> <no>in</no> <no>this</no> <no>part</no> <no>is</no> <no>the</no> <class>customer</class>. 
+ <no>3.5.5</no> <no>Flow of Events-</no> 
+<no>3.5.5.1</no> <no>Basic Flow-</no>  
+<no>3.5.5.1.2</no> <no>The</no> <no>chosen</no> <class>sign</class> <no>is</no> <method>selected</method> <no>from</no> <no>a</no> <no>permanently</no> <method>saved</method> <no>or</no> <no>temporarily</no> <method>saved</method> <class>picture</class>. 
+<no>3.5.5.1.3</no> <no>The</no> <attribute>language</attribute> <no>and</no> <class>symbol</class> <no>is</no> <method>identified</method>. 
+<no>3.5.5.1.4</no> <no>Then</no>, <no>it</no> <no>is</no> <method>compared</method> <no>to</no> <no>the</no> <attribute>downloaded</attribute> <class>database</class> <no>in</no> <no>our</no> <class>device</class>. 
+<no>3.5.5.1.5</no> <no>It</no> <no>is</no> then <method>interpreted</method> <no>in</no> <no>the</no> <no>desired</no> <attribute>language</attribute>.  
+<no>3.5.5.1.6</no> <no>Final</no> <class>result</class> <no>will</no> <no>either</no> <no>be</no> <method>displayed</method> <no>on</no> <no>the</no> screen <no>or</no> <no>will</no> <no>be</no> 
+<no>output</no> <no>through</no> <no>the</no> <method>speaker</method>, <no>depending</no> <no>on</no> <no>the</no> <class>user</class><no>&apos;s</no> <attribute>choice of output</attribute>. 
+<no>3.5.5.2</no> <no>Alternative</no> <no>flow</no>- <no>At</no> <no>step</no> <no>3.5.5.1.2</no>, <no>the</no> <class>device</class> <no>does</no> <method>not recognize</method> <no>the</no> 
+<method>language</method> <no>due</no> <no>to</no> <no>incorrect</no> <no>input</no>. 
+<no>3.5.5.2.1</no> <no>The</no> <class>device</class> <method>beeps</method> <no>and</no> <no>the</no> <no>message</no> &quot;<method>INVALID INPUT</method>&quot; <no>is</no> 
+<no>displayed</no> <no>on</no> <no>the</no> <no>screen</no>. 
+
+ 
+<no>3.5.5.3 </no><no>Exception</no> <no>Flow</no>- <no>At</no> <no>step</no> <no>3.5.5.1.4</no>, <no>the</no> <class>device</class> <no>can</no> <method>not find a translation</method> 
+<no>in</no> <no>the</no> <class>database</class>.   
+<no>3.5.5.3.1</no> <no>The</no> <class>device</class> <method>beeps</method> <no>and</no> <no>the</no> <method>message</method>, <method>&quot;NOT TRANSLATED</method>&quot; <no>is</no> 
+<method>displayed</method> <no>on</no> <no>the</no> <no>screen</no>. 
+<no> 3.5.6</no> <no>Includes</no> –<no>Taking </no><no>a</no> <class>picture</class> <no>of</no> <no>the</no> <class>sign</class>, <method>comparing</method> <no>to</no> <class>database</class>, <method>displaying 
+interpretation</method>. 
+<no> 3.5.7</no> <no>Requirements</no>- 
+<no>3.5.7.1</no> <no>The</no> <no>system</no> <no>shall</no> <method>identify</method> <no>a</no> <class>sign</class> <no>in</no> <no>an</no> <no>existing</no> <class>picture</class>. 
+<no>3.5.7.2</no> <no>The</no> <no>system</no> <no>shall</no> <no>identify</no> <no>the</no> <attribute>language</attribute> <no>in</no> <no>a</no> <class>sign</class>. 
+<no>3.5.7.3</no> <no>The</no> <no>system</no> <no>shall</no> <method>compare</method> <no>the</no> <class>sign</class> <no>to</no> <class>signs</class> <no>that</no> <no>exist</no> <no>in</no> <no>the</no> <class>database</class>. 
+<no>3.5.7.4</no> <no>The</no> <no>system</no> <no>shall</no> <no>translate</no> <no>any</no> <class>text</class> <no>on</no> <no>the</no> <class>sign</class>. 
+<no>3.3.7.3</no> <no>The</no> <no>system</no> <no>shall</no> <no>query</no> <no>the</no> <class>user</class> <no>as</no> <no>to</no> <no>the</no> <attribute>format</attribute> <no>of</no> <no>output</no> <no>to</no> <no>use </no>(<class>text</class> <no>or</no> 
+<class>speech</class>). 
+<no>3.5.7.5</no> <no>The</no> <no>system</no> <no>shall</no> <no>output</no> <no>the</no> <class>sign</class> <no>information</no> <no>as</no> <class>text</class>. 
+<no>3.5.7.6</no> <no>The</no> <no>system</no> <no>shall</no> <no>output</no> <no>the</no> <class>sign</class> <no>information</no> <no>as</no> <class>speech</class>. 
+<no>3.3.7.6</no> <no>The</no> <no>system</no> <no>shall</no> <no>indicate</no> <no>when</no> <no>a</no> <method>translation</method> <no>of</no> <no>the</no> <class>sign</class> <method>cannot</method> <no>be</no> <method>found</method>. 
+<no>3.5.7.7</no> <no>The</no> <no>system</no> <no>shall</no> <no>indicate</no> <no>when</no> <no>the</no> <class>sign</class><no>’s</no> <attribute>language</attribute> <method>cannot</method> <no>be</no> <method>recognized</method>. 
+ <no>3.5.8</no> <no>Preconditions – </no><no>None</no>. 
+ <no>3.5.9</no> <no>Post</no> <no>conditions</no> - <no>The</no> <class>sign</class> <no>has</no> been <method>interpreted</method> <no>into</no> <no>the</no> <attribute>desired</attribute> <attribute>language</attribute> <no>and</no> <no>final</no> <no>output</no> <no>has</no> <no>reached </no><no>the</no> <class>user</class> <no>in</no> <no>his</no> <attribute>desired</attribute> <attribute>language</attribute>. 
+<no>3.5.10</no> <no>Nonfunctional</no> <no>requirements</no> – 
+<no>3.5.10.1</no> <no>Performance</no> <no>Requirements</no>- 
+
+ 
+<no>3.5.10.1.1</no> <no>Maximum</no> <no>allowed</no> <no>execution</no> <no>time</no> <no>for</no> <no>U5</no> <no>use case</no> <no>is</no> <no>5</no> <no>seconds</no>, <no>starting</no> <no>when</no> <no>the</no> <class>user</class> <method>requests</method> <no>a</no> <class>sign</class> <method>translation</method> <no>and</no> <no>ending </no><no>when</no> <no>the</no> <no>audio</no>/<no>visual</no> <no>output</no> <no>has</no> <no>been</no> <no>transmitted</no>. 
+<no>3.5.10.2</no> <no>Safety</no> <no>Requirements</no>-<no>None</no>. 
+<no>3.5.10.3</no> <no>Security</no> <no>Requirements</no>-<no>None</no>. 
+      <no>3.5.10.4</no> <no>Software</no> <no>Quality</no> <no>Requirements</no>-<no>None</no>. 
+ <no>3.5.11</no> <no>Notes</no>/<no>Issues</no> – <no>None</no>. 
+ <no>3.5.12</no> <no>Special Requirements - </no><no>The</no> <class>database</class> <no>needs</no> <no>to</no> <no>be</no> <association>updated</association> <no>frequently</no> <no>by</no> <no>the</no> <class>user</class> <no>by</no> <no>connecting</no> <no>the</no> <class>device</class> <no>to</no> <no>any</no> <no>computer</no> <no>and</no> <method>looking for updates</method>. 
+ 
+<no>3.6</no> <no>Use case</no> <no>name</no> <no>and</no> <no>identifier</no>- <method>Update</method> <class>device software</class> <no>(</no><no>U6</no><no>)</no> 
+ <no>3.6.1</no> <no>Objective</no> - <no>Update</no> <no>is</no> <no>used</no> <no>to</no> <no>update</no> <no>products</no> <class>software</class> <no>applications</no> <no>and</no> <class>database</class>. 
+ <no>3.6.2</no> <no>Priority</no> – <no>This</no> <no>requirement</no> <no>is</no> <no>low</no> <no>priority</no>. 
+ <no>3.6.3</no> <no>Source</no> – <no>The</no> <no>source</no> <no>of</no> <no>this</no> <no>requirement</no> <no>is</no> <no>the</no> <no>developers</no>. 
+ <no>3.6.4</no> <no>Actors</no> – <class>Customer</class>, <class>Customer</class>’s <class>Computer</class>, <no>Master</no> <class>Database</class>. 
+ <no>3.6.5</no> <no>Flow of events-</no> 
+<no>3.6.5.1</no> <no>Basic Flow- </no> 
+<no>3.6.5.1.1</no> <class>User</class> <method>connects</method> <no>the</no> <class>device</class> <no>to</no> <no>the</no> <class>computer</class> <no>using</no> <no>a</no> <no>USB</no> <no>2.0</no> <no>cable</no>. 
+<no>3.6.5.1.2</no> <no>The</no> <class>computer</class> <method>identifies</method> <no>the</no> <no>nTravel</no> <no>as</no> <no>being</no> <no>connected</no>. 
+<no>3.6.5.1.3</no> <no>The</no> <class>software</class> <no>on</no> <no>the</no> <no>computer</no> <association>asks</association> <no>the</no> <class>user</class> <no>if</no> <no>it</no> <no>can</no> <method>search</method> <no>online</no> <no>for</no> <method>updates</method>. 
+<no>3.6.5.1.4</no> <class>User</class> <method>says “yes”</method>. 
+<no>3.6.5.1.5</no> <class>Software</class> <method>looks</method> <no>for</no> <method>update</method>. 
+
+ 
+<no>3.6.5.1.6</no> <no>If</no> <attribute>updates</attribute> <no>are</no> <method>found</method>, <no>they</no> <no>are</no> <method>downloaded</method> <no>to</no> <no>the</no> <class>device</class> <no>&amp;</no> 
+<method>installed</method>. 
+<no>3.6.5.1.7</no> <class>User</class> <association>disconnects</association> <no>the</no> <class>device</class> <no>from</no> <no>the</no> <class>computer</class>. 
+<no>3.6.5.2</no> <no>Alternative</no> <no>Flow</no> –<no>At</no> <no>step</no> <no>3.6.5.1.3</no>, <no>the</no> <class>user</class> <method>says “no”</method>. 
+<no>3.6.5.2.1</no> <no>The</no> <class>software</class> <method>exits</method> <no>without</no> <no>updating</no>. 
+<no>3.6.5.2.2</no> <no>The</no> <class>user</class> <no>can</no> <no>now</no> <association>remove</association> <no>the</no> <class>device</class> <no>from</no> <no>the</no> <class>computer</class>. 
+<no>3.6.5.3</no> <no>Exception</no> <no>Flow</no> – <no>At</no> <no>step</no> <no>3.6.5.1.1</no>, <no>the</no> <class>computer</class> <no>does</no> <method>not detect</method> <no>the</no> 
+<no>nTravel</no> <class>device</class>. 
+<no>3.6.5.3.1</no> <no>Error</no> <no>message</no>, “<method>UNKNOWN DEVICE”</method> <no>is</no> <method>displayed</method> <no>suggesting</no> 
+<no>that</no> <no>the</no> <class>user</class> <method>check</method> <no>nTravel</no> <class>software</class> <method>installation</method> <no>on</no> <class>computer</class>. 
+ <no>3.6.6</no> <class>Includes</class> <no>–</no> <no>None</no>. 
+ <no>3.6.7</no> <no>Requirements</no>- 
+<no>3.6.7.1</no> <no>The</no> <no>system</no> <no>shall</no> <no>communicate</no> <no>via</no> <no>USB</no> <no>2.0</no> <no>using</no> <no>the</no> <no>drivers</no> <no>installed</no> <no>on</no> 
+<no>the</no> <class>user</class><no>’s</no> <class>computer</class>. 
+<no>3.6.7.2</no> <no>The</no> <no>system</no> <no>shall</no> <no>relay</no> <no>information</no> <no>regarding</no> <no>current</no> <class>software</class> <attribute>version</attribute> 
+<no>information</no> <no>such</no> <no>that</no> <no>it</no> <no>can</no> <no>be</no> <no>determined</no> <no>whether</no> <no>a</no> <class>software</class> <method>update</method> <no>is</no> <no>required</no>. 
+<no>3.6.7.3</no> <no>The</no> <no>system</no> <no>shall</no> <no>allow</no> <class>software</class> <no>updates</no> <no>to</no> <no>be</no> <no>transferred</no> <no>to</no> <no>it</no> <no>via</no> <no>USB</no> <no>2.0</no> 
+<no>from</no> <no>the</no> <class>user</class><no>’s</no> <class>computer</class>. 
+<no>3.6.7.4</no> <no>The</no> <no>system</no> <no>shall</no> <no>indicate</no> <no>when</no> <no>no</no> <class>software</class> <no>updates</no> <no>are</no> <no>available</no>. 
+<no>3.6.7.5</no> <no>The</no> <no>system</no> <no>shall</no> <no>indicate</no> <no>when</no> <no>the</no> <no>nTravel</no> <class>device</class> <no>is</no> <no>unrecognizable</no> <no>by</no> 
+<no>the</no> <class>user</class><no>’s</no> <class>computer</class>. 
+ <no>3.6.8</no> <no>Preconditions - </no><method>Update</method> <class>software</class> <no>given</no> <no>with</no> <no>the</no> <class>device</class> <no>should</no> <no>be</no> <no>installed</no> <no>on</no> <no>the</no> 
+<class>computer</class>. 
+
+ 
+ <no>3.6.9</no> <no>Post</no> <no>conditions</no> - <no>Updates</no> <no>are</no> <no>installed</no> <no>on</no> <no>the</no> <class>device</class>. 
+ <no>3.6.10</no> <no>Nonfunctional</no> <no>requirements</no> – 
+<no>3.6.10.1</no> <no>Performance</no> <no>Requirements</no>-  
+<no>3.6.10.1.1</no> <no>Maximum</no> <no>time</no> <no>to</no> <no>perform</no> <no>data</no> <no>synchronization</no> <no>is</no> <no>10</no> <no>minutes</no>.  
+<no>3.6.10.2</no> <no>Safety</no> <no>Requirements</no>- <no>None</no>. 
+<no>3.6.10.3</no> <no>Security</no> <no>Requirements</no>- <no>None</no>. 
+<no>3.6.10.3.1</no> <no>Security</no> <no>protocols</no> <no>must</no> <no>be</no> <no>implemented</no> <no>to</no> <no>ensure</no> <no>that</no> 
+<no>malicious</no> <no>programming</no> <no>cannot</no> <no>pass</no> <no>from</no> <no>the</no> <class>computer</class> <no>to</no> <no>the</no> <class>device</class>. 
+     <no>3.6.10.4</no> <no>Software</no> <no>Quality</no> <no>Requirements</no>- <no>None</no>. 
+ <no>3.6.11</no> <no>Notes</no>/<no>Issues</no> <no>–</no> <no>For</no> <no>optimal</no> <no>performance</no>, <class>device</class><no>’s</no> <class>database</class> <no>should</no> <no>be</no> <no>updated</no> <no>at</no> 
+<no>least</no> <no>once</no> <no>per</no> <no>month</no><no>.3.6.12</no> <no>Special Requirements - </no><no>The</no> <class>computer</class> <no>should</no> <no>have</no> <no>an</no> <no>Internet</no> <no>facility</no> <no>available</no> <no>to</no> <no>install</no> <no>updates</no>. 
+ 
+<no>3.7</no> <no>Use case</no> <no>name</no> <no>and</no> <no>identifier</no> -<method>Set</method> <attribute>Language</attribute> <no>(</no><no>U7</no><no>)</no> 
+ <no>3.7.1</no> <no>Objective</no> <no>–</no> <no>The</no> <class>customer</class> <no>can</no> <method>set</method> <no>the</no> <class>text</class>/<class>audio</class> <no>input</no> <attribute>language</attribute> <no>and</no> <attribute>language</attribute> <no>to</no> <no>which</no> <no>the</no> <class>text</class>/<class>audio</class> <no>input</no> <no>is</no> <no>to</no> <no>be</no> <no>converted</no>. 
+ <no>3.7.2</no> <no>Priority</no> <no>–</no> <no>This</no> <no>requirement</no> <no>is</no> <no>high</no> <no>priority</no>. 
+ <no>3.7.3</no> <no>Source</no> <no>–</no> <no>The</no> <no>source</no> <no>of</no> <no>this</no> <no>requirement</no> <no>is</no> <no>the</no> <class>customer</class>. 
+ <no>3.7.4</no> <no>Actors</no> <no>–</no> <no>An</no> <no>end</no> <class>user</class> <no>of</no> <no>the</no> <class>device</class> (<no>a</no> <class>customer</class>) <no>would</no> <no>be</no> <no>the</no> <no>relevant</no> <no>actor</no> <no>for</no> <no>this</no> <no>use case</no>. 
+ <no>3.7.5</no> <no>Flow of Events-</no>  
+<no>3.7.5.1</no> <no>Basic</no> <no>Flow</no><no> – </no>
+ 
+<no>3.7.5.1.1</no> <no>The</no> <class>user</class> <method>sets</method> <no>the</no> <no>input</no> <attribute>language</attribute> <no>and</no> <no>the</no> <no>system</no> <no>gets</no> <no>ready</no> <no>to</no> 
+<method>store</method> <no>the</no> <no>input</no>. 
+<no>3.7.5.1.2</no> <no>The</no> <class>user</class> <no>sets</no> <no>the</no> <attribute>language</attribute> <no>in</no> <no>which</no> <no>the</no> <method>translation</method> <no>is</no> <no>needed</no> <no>and</no> 
+<no>the</no> <no>system</no> <no>retrieves</no> <no>the</no> <no>corresponding</no> <class>database</class>. 
+<no>3.7.5.2</no> <no>Alternative</no> <no>Flow</no> – <no>At</no> <no>step</no> <no>3.7.5.1.1</no>, <no>the</no> <class>user</class> <no>does</no> <method>not find</method> <no>the</no> 
+<no>required</no> <attribute>language</attribute>.  
+<no>3.7.5.2.1</no> <class>Device</class>’s <attribute>language</attribute> <no>settings</no> <no>remain</no> <no>in</no> <no>current</no> <no>state</no>. 
+<no>3.7.5.3</no> <no>Exception</no> <no>Flow</no> –<no>At</no> <no>step</no> <no>3.7.5.1.1</no>, <no>the</no> <attribute>language</attribute> <class>database</class> <no>information</no> 
+<no>on</no> <no>nTravel</no> <class>device</class> <no>is</no> <attribute>corrupted</attribute> <no>and</no> <no>cannot</no> <no>be</no> <no>read</no>. 
+<attribute>3.7.5.3.1</attribute> <class>Device</class> <method>displays</method> <no>a</no> <method>message</method> <no>indicating</no> <no>error</no> <no>in</no> <attribute>language</attribute> <class>database</class> 
+<no>and</no> <no>a</no> <no>suggestion</no> <no>to</no> <method>download</method> <no>the</no> <attribute>language</attribute> <class>database</class> <no>again</no>. 
+ <no>3.7.6</no> <class>Includes</class> <no>–</no> <method>Update</method> <class>device</class> <class>software</class> <no>(U6)</no>. 
+ <no>3.7.7</no> <no>Requirements</no>- 
+<no>3.7.7.1</no> <no>The</no> <no>system</no> <no>shall</no> <no>allow</no> <no>the</no> <class>user</class> <no>to</no> <no>select</no> <no>input</no> <attribute>language</attribute>. 
+<no>3.7.7.2</no> <no>The</no> <no>system</no> <no>shall</no> allow <no>the</no> <class>user</class> <no>to</no> <no>select</no> <no>output</no> <attribute>language</attribute>. 
+<no>3.7.7.3</no> <no>The</no> <no>system</no> <no>shall</no> <no>check</no> <no>the</no> <method>updated</method> <class>database</class> <no>to</no> <no>find</no> <no>required</no> <attribute>language</attribute>. 
+<no>3.7.7.4</no> <no>The</no> <no>system</no> <no>shall</no> <no>get</no> <no>ready</no> <no>to</no> <method>translate</method> <no>via</no> <no>chosen</no> <no>output</no>. 
+<no>3.7.7.5</no> <no>The</no> <no>system</no> <no>shall</no> <no>indicate</no> <no>when</no> <no>a</no> <class>database</class> <no>file</no> <no>is</no> <no>corrupt</no> <no>and</no> <no>cannot</no> <no>be</no> <no>read</no>. 
+
+ 
+ <no>3.7.8</no> <no>Preconditions</no> – <class>User</class> <no>must</no> <association>download</association> <no>the</no> <attribute>language</attribute> <class>database</class> <no>to</no> <no>the</no> <class>device</class> <no>before</no> <no>selection</no>. 
+ <no>3.7.9</no> <no>Post</no> <no>conditions</no> – <no>The</no> <class>device</class> <no>will</no> <no>be</no> <no>ready</no> <no>to</no> <method>translate</method> <no>after</no> <no>the</no> <no>input</no> <no>and</no> <no>output</no> <attribute>languages</attribute> <no>are</no> <no>selected</no>. 
+<no>3.7.10</no> <no>Nonfunctional</no> <no>requirements</no> <no>–</no> 
+<no>3.7.10.1</no> <no>Performance</no> <no>Requirements</no>- 
+<no>3.7.10.1.1</no> <no>Maximum</no> <no>allowed</no> <no>execution</no> <no>time</no> <no>for</no> <no>a</no> <attribute>language</attribute> <class>database</class> 
+<no>change</no> <no>is</no> <no>20</no> <no>seconds</no>. 
+<no>3.7.10.2</no> <no>Safety</no> <no>Requirements</no>- <no>None</no>. 
+<no>3.7.10.3</no> <no>Security</no> <no>Requirements</no>- <no>None</no>. 
+     <no>3.7.10.4</no> <no>Software</no> <no>Quality</no> <no>Requirements</no>- <no>None</no>. 
+ <no>3.7.11</no> <no>Notes</no>/<no>Issues</no> <no>–</no> <no>None</no>. 
+ <no>3.7.12</no> <no>Special Requirements –</no> <no>None</no>. 
+  
+<no>3.8</no> <no>Use case</no> <no>name</no> <no>and</no> <no>identifier</no> <no>-</no><method>Synchronize</method> <class>Files</class> <no>(</no><no>U8</no><no>)</no> 
+ <no>3.8.1</no> <no>Objective</no> <no>–</no> <no>The</no> <class>customer</class> <no>can</no> <association>connect</association> <no>the</no> <no>nTravel</no> <class>device</class> <no>to</no> <no>a</no> <no>personal</no> <class>computer</class> <no>to</no> <method>transfer</method> <no>saved</no> <class>pictures</class> <no>and</no> <no>notes</no>. 
+ <no>3.8.2</no> <no>Priority</no> <no>–</no> <no>This</no> <no>requirement</no> <no>is</no> <class>low</class> <no>priority</no>. 
+ <no>3.8.3</no> <no>Source</no> <no>–</no> <no>The</no> <no>source</no> <no>of</no> <no>this</no> <no>requirement</no> <no>is</no> <no>the</no> <class>customer</class>. 
+ <no>3.8.4</no> <no>Actors</no> <no>–</no> <class>Customer</class>, <class>Customer</class><no>’s</no> <class>Computer</class>. 
+ <no>3.8.5</no> <no>Flow</no> <no>of</no> <no>Events</no>- 
+ 
+<no>3.8.5.1</no> <no>Basic Flow </no>– 
+<no>3.8.5.1.1</no> <class>User</class> <method>connects</method> <no>the</no> <class>device</class> <no>to</no> <no>the</no> <class>computer</class> <no>using</no> <no>a</no> <no>USB</no> <no>cable</no>. 
+<no>3.8.5.1.2</no> <class>User</class><no>’s</no> <class>computer</class> <method>identifies</method> <no>the</no> <no>nTravel</no> <no>as</no> <no>being</no> <no>connected</no>. 
+<no>3.8.5.1.3</no> <no>nTravel</no> <method>software</method> <no>on</no> <class>user</class><no>’s</no> <class>computer</class> <no>queries</no> <no>the</no> <class>user</class> <no>for</no> <no>desire</no> 
+<no>to</no> <association>synchronize</association> <no>nTravel</no>-<no>related</no> <class>files</class> (<class>pictures</class> <no>and</no> <no>notes</no>). 
+<no>3.8.5.1.4</no> <class>User</class> <no>indicates</no> <no>desire</no> <no>to</no> <association>synchronize</association> <no>nTravel</no>-<no>related</no> <class>files</class> <no>such</no> <no>that</no> <no>the</no> <class>files</class> <no>on</no> <no>the</no> <class>computer</class> <no>will</no> <no>be</no> <association>updated</association> <no>with</no> <no>the</no> <class>files</class> <no>currently</no> <no>on</no> <no>the</no> <no>nTravel</no>. 
+<no>3.8.5.1.5</no> <class>Files</class> <no>on</no> <no>nTravel</no> <no>are</no> <method>copied</method> <no>to</no> <method>directory</method> <class>specified</class> <no>by</no> <class>user</class>. 
+<no>3.8.5.1.6</no> <class>User</class> <association>disconnects</association> <class>device</class> <no>from</no> <class>computer</class>. 
+<no>3.8.5.2</no> <no>Alternative</no> <no>Flow</no> – <no>At</no> <no>step</no> <no>3.8.5.1.3</no>, <no>the</no> <class>user</class> <method>indicates lack</method> <no>of</no> <method>desire</method> <no>to</no> 
+<method>synchronize</method> <no>nTravel-related</no> <class>files</class>. 
+<no>3.8.5.2.1</no> <class>User</class> <association>disconnects</association> <class>device</class> <no>from</no> <class>computer</class>. 
+<no>3.8.5.3</no> <no>Exception</no> <no>Flow</no> –<no>At</no> <no>step</no> <no>3.8.5.1.1</no>, <class>user</class><no>’s</no> <class>computer</class> <no>is</no> <method>unable</method> <no>to</no> <method>identify</method> 
+<no>the</no> <no>nTravel</no> <no>as</no> <no>being</no> <no>connected</no>. 
+<no>3.8.5.3.1</no> <no>Error</no> <no>message</no>, <method>“UNKNOWN DEVICE”</method> <no>is</no> <method>displayed</method> <no>suggesting</no> 
+<no>that</no> <class>user</class> <association>check</association> <no>nTravel</no> <class>software</class> <no>installation</no> <no>on</no> <class>computer</class>. 
+ <no>3.8.5.6</no> <class>Includes</class> <no>–</no> <no>None</no>. 
+ 
+ <no>3.8.7</no> <no>Requirements</no>- 
+<no>3.6.7.1</no> <no>The</no> <no>system</no> <no>shall</no> <no>communicate</no> <no>via</no> <no>USB</no> <no>2.0</no> <no>using</no> <no>the</no> <no>drivers</no> <no>installed</no> <no>on</no> 
+<no>the</no> <class>user</class><no>’s</no> <class>computer</class>. 
+<no>3.6.7.5</no> <no>The</no> <no>system</no> <no>shall</no> <no>indicate</no> <no>when</no> <no>the</no> <no>nTravel</no> <class>device</class> <no>is</no> <no>unrecognizable</no> <no>by</no> 
+<no>the</no> <class>user</class><no>’s</no> <class>computer</class>. 
+<no>3.8.7.1</no> <no>The</no> <no>system</no> <no>shall</no> <no>query</no> <no>the</no> <class>user</class> <no>regarding</no> <no>desire</no> <no>to</no> <no>synchronize</no> <class>image</class> <no>and</no> 
+<no>note</no> <class>files</class>. 
+<no>3.8.7.2</no> <no>The</no> <no>system</no> <no>shall</no> <method>transfer</method> <class>image</class> <no>and</no> <no>note</no> <class>files</class> <no>from</no> <no>the</no> <no>nTravel</no> <no>to</no> <no>the</no> 
+<class>user</class><no>’s</no> <class>computer</class> <no>using</no> <no>USB</no> <no>2.0</no>. 
+ <no>3.8.8</no> <no>Preconditions – </no><class>User</class> <no>has</no> <method>installed</method> <no>nTravel</no> <class>software</class> <no>on</no> <method>user</method><no>’s</no> <class>computer</class>. 
+ <no>3.8.9</no> <no>Post</no> <no>conditions</no> – <class>User</class><no>’s</no> <class>computer</class> <no>has</no> <association>updated</association> <class>files</class> <method>stored</method>. 
+ <no>3.8.10</no> <no>Nonfunctional</no> <no>requirements</no> <no>–</no> 
+<no>3.8.10.1</no> <no>Performance</no> <no>Requirements</no>- 
+<no>3.8.10.1.1</no> <no>Maximum</no> <no>allowed</no> <no>execution</no> <no>time</no> <no>for</no> <no>file</no> <no>synchronization</no> <no>is</no> <no>1</no> 
+<no>second</no> <no>per</no> <no>20</no> <no>MB</no> <no>of</no> <no>files</no> <no>being</no> <no>transferred</no>. 
+<no>3.8.10.2</no> <no>Safety</no> <no>Requirements</no>- <no>None</no>. 
+<no>3.8.10.3</no> <no>Security</no> <no>Requirements</no>- <no>None</no>.  
+     <no>3.8.10.4</no> <no>Software</no> <no>Quality</no> <no>Requirements</no>- <no>None</no>. 
+ <no>3.8.11</no> <no>Notes</no>/<no>Issues</no> – <no>None</no>. 
+ <no>3.8.12</no> <no>Special Requirements –</no> <no>None</no>. 
+
+ </document>

@@ -1,0 +1,285 @@
+<document><no>3.2.1</no> <method>Log in</method> <no>to</no> <no>the</no> <no>system</no> <no>from</no> <no>the</no> <method>internet</method>
+• <no>Summary</no>: <no>accessing</no> <no>the</no> <no>system</no> <no>from</no> <no>outside</no> <no>the</no> <no>VUB-network</no>
+• <no>Actors</no>: <no>everyone</no> <no>who</no> <no>wants</no> <no>to</no> <no>make</no> <no>use</no> <no>of</no> <no>the</no> <no>system</no>
+• <no>Preconditions</no>: <no>the</no> <class>actor</class> <no>needs</no> <no>a</no> <no>computer</no> <no>with</no> <no>internet</no> <no>access</no>
+• <no>Description</no>: <no>the</no> <class>actor</class> <no>gets</no> <no>a</no> <no>screen</no> <no>where</no> <no>he</no>/<no>she</no> <no>will</no> <no>be</no> <no>able</no> <no>to</no> <no>login</no>
+• <no>Exceptions</no>: <class>user</class> <no>must</no> <no>be</no> <no>registered</no> <no>and</no> <no>have</no> <no>a</no> <attribute>username</attribute> <no>and</no> <attribute>password</attribute>
+• <no>Result</no>: <no>the</no> <class>actor</class> <no>can</no> <method>login</method>
+
+<no>3.2.2</no> <method>Log in</method> <no>to</no> <no>the</no> <no>system</no> <no>via</no> <no>the</no> <method>VUB-network</method>
+• <no>Summary</no>: <no>accessing</no> <no>the</no> <no>system</no> <no>whilst</no> <no>using</no> <no>the</no> <no>VUB-Network</no>.
+• <no>Actors</no>: <no>everyone</no> <no>who</no> <no>wants</no> <no>to</no> <no>make</no> <no>use</no> <no>of</no> <no>the</no> <no>system</no>
+• <no>Preconditions</no>: <no>be</no> <no>on</no> <no>a</no> <no>computer</no> <no>that</no> <no>is</no> <no>connected</no> <no>to</no> <no>the</no> <no>VUB</no> <no>network</no>
+• <no>Description</no>: <no>the</no> <class>actor</class> <no>gets</no> <no>a</no> <no>screen</no> <no>where</no> <no>he</no> <no>will</no> <no>be</no> <no>able</no> <no>to</no> <no>login</no> <no>or</no> <no>where</no> <no>he</no>/<no>she</no> <no>can</no> <no>start</no> <no>a</no> <method>search</method> <no>immediately</no>
+• <no>Exceptions</no>: <no>none</no>
+• <no>Result</no>: <no>the</no> <class>actor</class> <no>can</no> <method>login</method> <no>or</no> <no>can</no> <no>perform</no> <no>a</no> <method>search</method>
+
+<no>3.2.3</no> <method>Register</method> <no>for</no> <no>an</no> <class>account</class>
+• <no>Summary</no>: <no>requesting</no> <no>access</no> <no>to</no> <no>the</no> <no>system</no> (<no>become</no> <no>a</no> <no>Member</no>)
+• <no>Actors</no>: <no>everyone</no> <no>who</no> <no>wants</no> <no>to</no> <no>make</no> <no>use</no> <no>of</no> <no>the</no> <no>system</no>
+• <no>Preconditions</no>: <no>the</no> <class>actor</class> <no>needs</no> <no>a</no> <no>computer</no> <no>with</no> <no>internet</no> <no>access</no> <no>or</no> <no>is</no> <no>connected</no> <no>to</no> <no>the </no><no>VUB-network</no>
+• <no>Description</no>:
+– <no>the</no> <class>actor</class> <no>selects</no> <no>the</no> <method>Register</method> <no>function</no>
+– <no>the</no> <class>actor</class> <method>chooses</method> <no>a</no> <attribute>username</attribute> <no>and</no> <attribute>password</attribute> <no>and</no> <method>fills</method> <no>in</no> <no>personal</no> <no>data</no>: <attribute>name</attribute>, <attribute>loginname</attribute>,<attribute> email address</attribute>, <attribute>university</attribute> <no>and</no> <attribute>department</attribute>
+– <no>the</no> <no>system</no> <no>checks</no> <no>if</no> <attribute>username</attribute> <no>already</no> <method>exists</method>
+– <no>the</no> <class>actor</class> <method>confirms</method>
+• <no>Exceptions</no>: <no>none</no>
+• <no>Result</no>: <no>an</no> <method>email</method> <no>is</no> <method>sent</method> <no>to</no> <no>the</no> <class>Administrator</class>
+<no>3.2.4</no> <class>Log off</class>
+• <no>Summary</no>: <method>Log off </method><no>the</no> <no>system</no>
+• <no>Actors</no>: <class>Members</class> , <class>Publishers</class>, <class>Moderators</class> <no>and</no> <class>Administrators</class>
+• <no>Preconditions</no>: <no>the</no> <class>user</class> <no>is</no> <no>logged</no> <no>in</no> <no>to</no> <no>the</no> <no>system</no>
+• <no>Description</no>: <no>the</no> <class>actor</class> <no>selects</no> <no>the</no> <method>Logout</method> <no>function</no>
+• <no>Exceptions</no>: <no>none</no>
+• <no>Result</no>: <no>the</no> <class>actor</class> <no>is</no> <no>directed</no> <no>to</no> <no>the</no> <no>system</no> <no>start</no> <no>page</no> <no>where</no> <no>he</no>/<no>she</no> <no>can</no> <class>log in</class>.
+<no>3.2.5</no> <method>Change</method> <attribute>password</attribute>
+• <no>Summary</no>: <no>A</no> <class>user</class> <no>who</no> <no>has</no> <no>forgotten</no> <no>his</no>/<no>her</no> <no>password</no>, <no>can</no> <no>request</no> <no>a</no> new one.
+• <no>Actors</no>: <class>VUB-network users</class>, <class>Members</class> , <class>Publishers</class>, <class>Moderators</class> <no>and</no> <class>Administrators</class>
+• <no>Preconditions</no>: <no>the</no> <class>user</class> <no>must</no> <no>have</no> <no>registered</no> <no>before</no>, <no>he</no>/<no>she</no> <no>must</no> <no>have</no> <no>a</no> <no>valid</no> <no>username</no> <no>on</no> <no>the</no> <no>system</no>.
+• <no>Description</no>:
+– <no>the</no> <class>actor</class> <method>chooses</method> <no>to</no> <method>change</method> <attribute>password</attribute>
+– <no>the</no> <class>actor</class> <method>fills</method> <no>in</no> <no>his</no> <attribute>user name</attribute> <no>and</no> <method>enters</method> <no>a</no> <attribute>new</attribute> <attribute>password</attribute>
+– <no>the</no> <class>actor</class> <method>confirms</method>
+• <no>Exceptions</no>: <no>no</no> <no>valid</no> <no>username</no> <no>on</no> <no>the</no> <no>system</no>
+• <no>Result</no>: <no>an</no> <method>email</method> <no>is</no> <method>sent</method> <no>to</no> <no>the</no> <class>Administrator</class>
+
+<no>3.2.6</no> <method>Search</method> <no>for</no> <class>publications</class>
+• <no>Summary</no>: <no>searching</no> <no>for</no> <no>publications</no> <no>in</no> <no>the</no> <no>system</no>
+• <no>Actors</no>: <class>VUB-network users</class> <no>and</no> <class>Members</class> , <class>Publishers</class>, <class>Moderators</class> <no>and</no> <class>Administrators</class>
+• <no>Preconditions</no>: <no>the</no> <class>actor</class> <no>needs</no> <no>to</no> <no>be</no> <no>logged</no> <no>in</no> <no>to</no> <no>the</no> <no>system</no> <no>or</no> <no>is</no> <no>connected</no> <no>to</no> <no>the</no> <no>VUB-network</no>
+• <no>Description</no>:
+– <no>The</no> <class>actor</class> <no>selects</no> <no>the</no> <association>Search</association> <class>Pubication</class> <no>function</no>.
+– <no>The</no> <class>actor</class> <method>fills in</method> <no>the</no> <method>search criteria</method>: <attribute>keyword</attribute>, <attribute>author</attribute>, <attribute>period of publication</attribute> <no>and</no>/<no>or</no> <no>more</no> <no>advanced</no> <no>search</no> <no>criteria</no> <no>such</no> <no>as</no> <attribute>keyword</attribute>(<no>s</no>) <no>and</no>/<no>or</no> <attribute>reference</attribute>, <no>etc</no>.
+• <no>Exceptions</no>: <no>none</no>
+• <no>Result</no>: <no>a</no> <no>list</no> <no>of</no> <no>publications</no> <no>fulfilling</no> <no>the</no> <no>search</no> <no>criteria</no>.
+<no>3.2.7</no> <method>View</method> <no>the</no> <method>results</method> <no>of</no> <no>a</no> <no>Search</no>
+• <no>Summary</no> : <method>view</method> <no>of</no> <no>the</no> <method>results</method> <no>of</no> <no>a</no> <class>publication</class> <method>search</method>
+• <no>Actors</no> : <class>VUB-network users</class> <no>and</no> <class>Members</class> , <class>Publishers</class>, <class>Moderators</class> <no>and</no> <class>Administrators</class>
+• <no>Preconditions</no> : <no>having</no> <no>executed</no> <no>a</no> <no>Publication</no> <no>Search</no>
+• <no>Description</no> : <no>The</no> <class>actor</class> <no>gets</no> <no>one</no> <no>or</no> <no>more</no> <no>screens</no> <no>displaying</no> <no>one</no> <no>or</no> <no>more</no> <no>of</no> <no>the</no> <no>search</no> <no>results</no>. <no>For</no> <no>each</no> <no>result</no>, <no>the</no> <attribute>title</attribute> <no>and</no> <no>the</no> <attribute>main author</attribute> <no>of</no> <no>the</no> <class>publication</class> <no>are</no> <method>displayed</method>. <no>Navigation</no> <no>through</no> <no>different</no> <no>screens</no> <no>of</no> <no>search</no> <no>results</no> <no>is</no> <no>possible</no> <no>with</no> <no>the</no> <no>next</no> <no>or</no> <no>previous</no> <no>page</no> <no>option</no>.
+• <no>Exceptions</no> : <no>when</no> <no>the</no> <no>search</no> <no>criteria</no> <no>did</no> <no>not</no> <no>give</no> <no>any</no> <no>result</no>
+• <no>Result</no> : <no>the</no> <class>actor</class> <no>will</no> <method>obtain</method> <no>the</no> <no>full</no> <no>list</no> <no>of</no> <no>all</no> <method>results </method><no>satisfying</no> <no>his</no> <no>search</no> <no>criteria</no>.
+<no>3.2.8</no> <method>View</method> <class>publication</class> <attribute>details</attribute>
+• <no>Summary</no> : <no>view</no> <no>details</no> <no>of</no> <no>a</no> <no>selected</no> <no>publication</no>
+• <no>Actors</no> : <class>VUB-network users</class> <no>and</no> <class>Members</class> , <class>Publishers</class>, <class>Moderators</class> <no>and</no> <class>Administrators</class>
+• <no>Preconditions</no> : <no>having</no> <no>executed</no> <no>a</no> <no>Search</no> <no>and</no> <no>viewed</no> <no>the</no> <no>search</no> <no>results</no> <no>screen</no>
+• <no>Description</no> : <no>the</no> <class>actor</class> <no>can</no> <association>view</association> <no>more</no> <association>detailed</association> <association>information</association> <no>of</no> <no>a</no> <no>selected</no> <class>publication</class> <no>byclicking</no> <no>the</no> <no>title</no> <no>of</no> <no>the</no> <no>publication</no> <no>or</no> <no>by</no> <no>clicking</no> <no>the</no> <no>view</no> <no>button</no> <no>located</no> <no>behind</no> <no>the</no> <no>title</no>.
+• <no>Exceptions</no> : <no>none</no>
+• <no>Result</no> : <no>the</no> <class>actor</class> <no>will</no> <association>obtain</association> <no>the</no> <attribute>title</attribute>, <attribute>authors</attribute>, <attribute>publication date</attribute>, <attribute>abstract</attribute>, <attribute>cited refer-ences</attribute>, ... <no>of</no> <no>the</no> <no>selected</no> <class>publication</class>.
+
+<no>3.2.9</no> <method>View</method> <method>detailed</method> <method>information</method> <no>for</no> <method>multiple</method> <class>publications</class>.
+• <no>Summary</no> : <no>detailed</no> <no>view</no> <no>of</no> <no>multiple</no> <no>publications</no>
+• <no>Actors</no> : <class>VUB-network users</class> <no>and</no> <class>Members</class> , <class>Publishers</class>, <class>Moderators</class> <no>and</no> <class>Administrators</class>
+• <no>Preconditions</no> : <no>having</no> <no>executed</no> <no>a</no> <no>Search</no> <no>and</no> <no>viewed</no> <no>the</no> <no>search</no> <no>results</no> <no>screen</no>
+• <no>Description</no> :
+– <no>The</no> <class>actor</class> <association>selects</association> <association>some</association> <no>of</no> <no>the</no> <class>publications</class> <no>by</no> <no>ticking</no> <no>the</no> <no>box</no> <no>in</no> <no>front</no> <no>of</no> <no>the</no> <no>titles</no> <no>and</no> <no>selects</no> <no>the</no> <no>View</no> <no>function</no>
+– <no>or</no>: <no>The</no> <class>actor</class> <association>selects</association> <association>all</association> <class>publications</class> <no>by</no> <no>clicking</no> <no>the</no> ’<no>View</no> <no>All</no>’ <no>button</no> <no>at</no> <no>the</no> <no>bottom</no> <no>of</no> <no>the</no> <no>screen</no>.
+• <no>Exceptions</no> : <no>none</no>
+• <no>Result</no> : <no>the</no> <class>actor</class> <method>obtains</method> <no>a</no> <method>set</method> <no>of</no> <method>screens</method> <method>displaying</method> <no>the</no> <attribute>title</attribute>, <attribute>authors</attribute>, <attribute>publication date</attribute>,<attribute>abstract</attribute>, <attribute>cited</attribute> <attribute>references</attribute>, ... <no>of</no> <no>the</no> <no>selected</no> <class>publications</class>.
+<no>3.2.10</no> <method>Download</method> <no>a</no> <no>single</no> <class>publication</class>
+• <no>Summary</no> : <no>downloading</no> <no>the</no> <no>full</no> text <no>of</no> <no>a</no> <no>publication</no>
+• <no>Actors</no> : <class>VUB-network users</class> <no>and</no> <class>Members</class> , <class>Publishers</class>, <class>Moderators</class> <no>and</no> <class>Administrators</class>
+• <no>Preconditions</no> :
+– <no>having</no> <no>executed</no> <no>a</no> <no>Search</no> <no>and</no> <no>viewed</no> <no>the</no> <no>search</no> <no>results</no> <no>screen</no>
+– <no>having</no> <no>entered</no> <no>the</no> <no>detailed</no> <no>view</no> <no>screen</no> <no>of</no> <no>a</no> <no>publication</no>
+• <no>Description</no> :
+– <no>in</no> <no>the</no> <no>results</no> <no>screen</no> : <no>the</no> <class>actor</class> <no>can</no> <association>download</association> <no>a</no> <no>selected</no> <class>publication</class> <no>by</no> <no>clicking</no> <no>on</no> <no>the</no> <no>Download</no> <no>button</no> <no>for</no> <no>the</no> <no>selected</no> <no>publication</no>
+– <no>in</no> <no>the</no> <no>detailed</no> <no>view</no> <no>screen</no> <no>of</no> <no>a</no> <no>publication</no> : <no>the</no> <class>actor</class> <no>can</no> <association>download</association> <no>the</no> <class>publication</class> <no>by</no> <no>clicking</no> <no>the</no> <no>Download</no> <no>button</no> <no>just</no> <no>beneath</no> <no>the</no> <no>abstract</no>.
+• <no>Exceptions</no> : <no>none</no>
+• <no>Result</no> : <no>the</no> <class>actor</class> <no>will</no> <method>obtain</method> <no>an</no> <method>electronic</method> <no>copy</no> <no>of</no> <no>the</no> <class>publication</class>.
+<no>3.2.11</no> <method>Download</method> <method>multiple</method> <class>publications</class>
+• <no>Summary</no> : <no>downloading</no> <no>the</no> <no>full</no> <no>text</no> <no>of</no> <no>multiple</no> <no>publications</no>
+• <no>Actors</no> : <class>VUB-network users</class> <no>and</no> <class>Members</class> , <class>Publishers</class>, <class>Moderators</class> <no>and</no> <class>Administrators</class>
+• <no>Preconditions</no> : <no>having</no> <no>executed</no> <no>a</no> <no>Search</no> <no>and</no> <no>viewed</no> <no>the</no> <no>search</no> results <no>screen</no>
+• <no>Description</no> : <no>the</no> <class>actor</class> <no>can</no> <association>download</association> <association>all</association> <no>the</no> <class>publications</class> <no>in</no> <no>a</no> <no>search</no> <no>result</no> <no>by</no> <no>clicking</no> <no>on</no> <no>the</no> <no>Download</no> <no>button</no> <no>next</no> <no>to</no> ”<no>All</no>” <no>at</no> <no>the</no> <no>bottom</no> <no>of</no> <no>the</no> <no>screen</no>.
+• <no>Exceptions</no> : <no>none</no>
+• <no>Result</no> : <no>the</no> <class>actor</class> <no>will</no> <method>obtain</method> <no>an</no> <method>electronic</method> <method>copy</method> <no>of</no> <no>the</no> <class>publications</class>.
+
+<no>3.2.12</no> <method>Consult</method> <class>publication</class> <attribute>references</attribute>
+• <no>Summary</no> : <no>consult</no> <no>the</no> <no>references</no> <no>cited</no> <no>in</no> <no>a</no> <no>publication</no> <no>resulting</no> <no>from</no> <no>a</no> <no>search</no> <no>done</no> <no>on</no> <no>the</no> <no>system</no>
+• <no>Actors</no> : <class>VUB-network users</class> <no>and</no> <class>Members</class> , <class>Publishers</class>, <class>Moderators</class> <no>and</no> <class>Administrators</class>
+• <no>Preconditions</no> :
+– <no>having</no> <no>executed</no> <no>a</no> <no>Search</no> <no>and</no> <no>viewed</no> <no>the</no> <no>search</no> <no>results</no> <no>screen</no>
+– <no>having</no> <no>entered</no> <no>the</no> <no>detailed</no> <no>view</no> <no>screen</no> <no>of</no> <no>a</no> <no>publication</no>
+• <no>Description</no> :
+– <no>in</no> <no>the</no> <no>results</no> <no>screen</no> : <no>the</no> <class>actor</class> <method>clicks</method> <no>on</no> <no>the</no> <method>reference button</method> <no>located</no> <no>behind</no> <no>the</no> <no>publication</no> <no>title</no>
+– <no>in</no> <no>the</no> <no>detailed</no> <no>view</no> <no>screen</no> <no>of</no> <no>a</no> <no>publication</no> : <no>the</no> <class>actor</class> <method>clicks</method> <no>on</no> <no>the</no> <method>reference button</method> <no>just</no> <no>under</no> <no>the</no> <no>abstract</no>.
+• <no>Exceptions</no> : <no>none</no>
+• <no>Result</no> : <no>the</no> <class>actor</class> <no>will</no> <method>obtain</method> <no>a</no> <method>screen</method> <no>displaying</no> <no>the</no> <attribute>title</attribute>, <attribute>authors</attribute>, <attribute>publication date</attribute>,<attribute>abstract</attribute> <no>and</no> <attribute>cited references</attribute> <no>of</no> <no>the</no> <no>selected</no> <no>reference</no>.
+<no>3.2.13</no> <method>Consult</method> <method>references</method> <no>for</no> <method>multiple</method> <class>publications</class>
+• <no>Summary</no> : <no>consult</no> <no>the</no> <no>references</no> <no>cited</no> <no>in</no> <no>all</no> <no>the</no> <no>publications</no> <no>resulting</no> <no>from</no> <no>a</no> <no>search</no> <no>done</no> <no>on</no> <no>the</no> <no>system</no>
+• <no>Actors</no> : <class>VUB-network users</class> <no>and</no> <class>Members</class> , <class>Publishers</class>, <class>Moderators</class> <no>and</no> <class>Administrators</class>
+• <no>Preconditions</no> : <no>having</no> <no>executed</no> <no>a</no> <no>Search</no> <no>and</no> <no>viewed</no> <no>the</no> <no>search</no> <no>results</no> <no>screen</no>
+• <no>Description</no> : <no>the</no> <class>actor</class> <no>can</no> <method>see</method> <method>all</method> <no>the</no> <attribute>references cited</attribute> <no>in</no> <no>the</no> <class>publications</class> <no>by</no> <no>clicking</no> <no>on</no> <no>the</no> <no>references</no> <no>button</no> <no>next</no> <no>to</no> ”<no>All</no>” <no>at</no> <no>the</no> <no>bottom</no> <no>of</no> <no>the</no> <no>screen</no>.
+• <no>Exceptions</no> : <no>none</no>
+• <no>Result</no> : <no>the</no> <class>actor</class> <no>will</no> <method>obtain</method> <no>a</no> list <no>of</no> <attribute>references cited</attribute> <no>in</no> <no>the</no> <class>publications</class>.
+<no>3.2.14</no> <method>Display</method> <no>the</no> <no>full</no> <method>text</method> <no>of</no> <no>a</no> <class>publication</class>
+• <no>Summary</no> : <no>obtain</no> <no>a</no> <no>copy</no> <no>of</no> <no>the</no> <no>full</no> <no>text</no> <no>of</no> <no>a</no> <no>publication</no> <no>resulting</no> <no>from</no> <no>a</no> <no>search</no> <no>done</no> <no>on</no> <no>the</no> <no>system</no>
+• <no>Actors</no> : <class>VUB-network users</class> <no>and</no> <class>Members</class> , <class>Publishers</class>, <class>Moderators</class> <no>and</no> <class>Administrators</class>
+• <no>Preconditions</no> : <no>having</no> <no>entered</no> <no>the</no> <no>detailed</no> <no>view</no> <no>screen</no> <no>of</no> <no>a</no> <no>publication</no>
+• <no>Description</no> : <no>in</no> <no>the</no> <no>detailed</no> <no>view</no> <no>screen</no> <no>of</no> <no>a</no> <no>publication</no> : <no>the</no> <class>actor</class> <method>displays</method> <no>the</no> <method>fulltext</method> <no>of</no> <no>the</no> <class>publication</class> <no>by</no> <no>clicking</no> <no>the</no> <no>full</no> <no>text</no> <no>button</no> <no>just</no> <no>under</no> <no>the</no> <no>abstract</no>.
+• <no>Exceptions</no> : <no>full</no> <no>text</no> <no>must</no> <no>be</no> <no>available</no> <no>in</no> <no>the</no> <no>system</no>
+• <no>Result</no> : <no>the</no> <class>actor</class> <no>will</no> <method>see</method> <no>the</no> <method>full text</method> <no>of</no> <no>the</no> <class>publication</class>.
+
+<no>3.2.15</no> <method>View</method> <method>details</method> <no>of</no> <no>a</no> <attribute>reference</attribute>
+• <no>Summary</no> : <no>view</no> <no>details</no> <no>of</no> <no>a</no> <no>selected</no> <no>reference</no> <no>cited</no> <no>in</no> <no>a</no> <no>publication</no> <no>resulting</no> <no>from</no> <no>a</no> <no>search</no> <no>done</no> <no>on</no> <no>the</no> <no>system</no>
+• <no>Actors</no> : <class>VUB-network users</class> <no>and</no> <class>Members</class> , <class>Publishers</class>, <class>Moderators</class> <no>and</no> <class>Administrators</class>
+• <no>Preconditions</no> : <no>having</no> <no>entered</no> <no>the</no> <no>detailed</no> <no>view</no> <no>screen</no> <no>of</no> <no>a</no> <no>publication</no>
+• <no>Description</no> : <no>in</no> <no>the</no> <no>detailed</no> <no>view</no> <no>screen</no> <no>of</no> <no>a</no> <no>publication</no>, <no>the</no> <class>actor</class> <no>can</no> <method>access</method> <no>directly</no> <no>to</no> <no>the</no> <method>detailed view screen</method> <no>of</no> <no>a</no> <class>cited reference</class> <no>by</no> <no>clicking</no> <no>on</no> <no>the</no> <no>reference</no>
+• <no>Exceptions</no> : <no>only</no> <no>when</no> <no>the</no> <no>reference</no> <no>is</no> <no>present</no> <no>in</no> <no>the</no> <no>system</no>
+• <no>Result</no> : <no>the</no> <class>actor</class> <no>will</no> <method>access</method> <no>the</no> <method>view screen</method> (<no>containing</no> <no>title</no>, <no>authors</no>, <no>data</no> <no>of</no> <no>publication</no>, <no>abstract</no> <no>and</no> <no>cited</no> <no>reference</no>) <no>of</no> <no>the</no> <no>selected</no> <no>reference</no> .
+<no>3.2.16</no> <method>Export</method> <no>the</no> <attribute>references cited</attribute> <no>in</no> <no>a</no> <class>publication</class> (<method>BIB format</method>)
+• <no>Summary</no> : <class>download</class> <no>the</no> <attribute>references cited</attribute> <no>in</no> <no>a</no> <no>publication</no> <no>in</no> <no>bib</no> <no>format</no>
+• <no>Actors</no> : <class>VUB-network users</class> <no>and</no> <class>Members</class> , <class>Publishers</class>, <class>Moderators</class> <no>and</no> <class>Administrators</class>
+• <no>Preconditions</no> : <no>having</no> <no>entered</no> <no>the</no> <no>detailed</no> <no>view</no> <no>screen</no> <no>of</no> <no>a</no> <no>publication</no>
+• <no>Description</no> : <no>in</no> <no>the</no> <no>detailed</no> <no>view</no> <no>screen</no> <no>of</no> <no>a</no> <no>publication</no> : <no>the</no> <class>actor</class> <method>selects</method> <no>the</no> <method>format</method>(<method>bib</method>) <no>for</no> <no>the</no> <method>exported</method> <attribute>references</attribute> <no>and</no> <method>confirms</method>.
+• <no>Exceptions</no> : <no>none</no>
+• <no>Result</no> : File <no>with</no> <no>the</no> <no>references</no> <no>of</no> <no>a</no> <no>publication</no> <no>in</no> <no>bib</no> <no>format</no>
+<no>3.2.17</no> <method>Export </method><no>the</no> <attribute>references cited</attribute> <no>in</no> <no>a</no> <class>publication</class> (<method>RIS format</method>)
+• <no>Summary</no> : <no>download</no> <no>the</no> <no>references</no> <no>cited</no> <no>in</no> <no>a</no> <no>publication</no> <no>in</no> <no>RIS</no> <no>format</no>
+• <no>Actors</no> : <class>VUB-network users</class> <no>and</no> <class>Members</class> , <class>Publishers</class>, <class>Moderators</class> <no>and</no> <class>Administrators</class>
+• <no>Preconditions</no> : <no>having</no> <no>entered</no> <no>the</no> <no>detailed</no> <no>view</no> <no>screen</no> <no>of</no> <no>a</no> <no>publication</no>
+• <no>Description</no> : <no>in</no> <no>the</no> <no>detailed</no> <no>view</no> <no>screen</no> <no>of</no> <no>a</no> <class>publication</class> : <no>the</no> <class>actor</class> <method>selects</method> <no>the</no> <method>format(RIS)</method> <no>for</no> <no>the</no> <method>exported</method> <attribute>references</attribute> <no>and</no> <method>confirms</method>.
+• <no>Exceptions</no> : <no>none</no>
+• <no>Result</no> : <no>file</no> <no>with</no> <no>the</no> <no>references</no> <no>of</no> <no>a</no> <no>publication</no> <no>in</no> <no>RIS</no> <no>format</no>
+<no>3.2.18</no> <method>View</method> <attribute>authors</attribute>
+• <no>Summary</no> : <no>view</no> <no>information</no> <no>about</no> <no>an</no> <no>author</no> <no>of</no> <no>a</no> <no>publication</no> <no>in</no> <no>the</no> <no>system</no>
+• <no>Actors</no> : <class>VUB-network users</class> <no>and</no> <class>Members</class> , <class>Publishers</class>, <class>Moderators</class> <no>and</no> <class>Administrators</class>
+• <no>Preconditions</no> : <no>having</no> <no>executed</no> <no>a</no> <no>publication</no> <no>search</no> <no>and</no> <no>viewed</no> <no>the</no> <no>search</no> <no>results</no> <no>screen</no>
+• <no>Description</no> : <no>in</no> <no>the</no> <no>results</no> <no>screen</no> : <no>the</no> <class>actor</class> <method>clicks</method> <no>on</no> <no>the</no> <method>author</method> <method>name</method> <no>of</no> <no>one</no> <no>of</no> <no>the</no> <class>publications</class>
+• <no>Exceptions</no> : <no>none</no>
+• <no>Result</no> : <no>the</no> <no>system</no> shows <no>the</no> <no>author</no> <no>details</no>
+<no>3.2.19</no> <method>Editing</method> <method>personal data</method>
+• <no>Summary</no> : <no>editing</no> <no>personal</no> <no>data</no>
+• <no>Actors</no> : <class>Members</class> , <class>Publishers</class>, <class>Moderators</class> <no>and</no> <class>Administrators</class>
+• <no>Preconditions</no> : <no>the</no> <class>actor</class> <no>needs</no> <no>to</no> <no>be</no> <no>logged</no> <no>in</no> <no>to</no> <no>the</no> <no>system</no>
+• <no>Description</no> :
+– <no>the</no> <class>actor</class> <method>selects</method> <no>the</no> <method>Edit Settings</method> <no>function</no>
+– <no>the</no> <class>actor</class> <method>changes</method> <no>his</no> <method>personal data</method> <no>such</no> <no>as</no> <attribute>password</attribute>, <attribute>university</attribute>, <attribute>department</attribute>
+– <no>the</no> <class>actor</class> <method>confirms</method>
+• <no>Exceptions</no> : <no>none</no>
+• <no>Result</no> : <no>the</no> <no>personal</no> <no>data</no> <no>of</no> <no>the</no> <class>user</class> <no>will</no> <no>be</no> <no>changed</no>
+<no>3.2.20</no> <method>Access</method> <no>to</no> <no>your</no> <method>own</method> <class>publications</class>
+• <no>Summary</no> : <no>access</no> <no>directly</no> <no>to</no> <no>your</no> <no>own</no> <no>publications</no>
+• <no>Actors</no> : <class>Publishers</class>, <class>Moderators</class> <no>and</no> <class>Administrators</class>
+• <no>Preconditions</no> : <no>none</no>
+• <no>Description</no> : <no>the</no> <class>Publisher</class> <method>selects</method> <no>the</no> <method>”My Publications</method>” <no>box</no>
+• <no>Exceptions</no> : <no>none</no>
+• <no>Result</no> : <no>the</no> <class>user</class> <method>obtains</method> <no>a</no> <method>set of screens</method> <method>displaying</method> <no>the</no> <attribute>title</attribute>, <attribute>authors</attribute>, <attribute>publication date</attribute>, <attribute>abstract</attribute> <no>and</no> <attribute>cited</attribute> <attribute>references</attribute> <no>of</no> <no>the</no> <no>all</no> <no>the</no> <class>publications</class> <no>that</no> <no>he</no>/<no>she</no> <no>has</no> <no>previously</no> <no>uploaded</no> <no>in</no> <no>the</no> <no>system</no>
+<no>3.2.21</no> <method>Edit</method> <no>your</no> <method>own</method> <class>publications</class>
+• <no>Summary</no> : <no>possibility</no> <no>to</no> <no>modify</no> <no>information</no> <no>of</no> <no>your</no> <no>own</no> <no>publications</no> <no>by</no> <no>a</no> <no>Publisher</no>
+• <no>Actors</no> : <class>Publishers</class> , <class>Moderators</class> <no>and</no> <class>Administrators</class>
+• <no>Preconditions</no> : <no>the</no> <class>actor</class> <no>needs</no> <no>to</no> <no>be</no> <no>logged</no> <no>in</no> <no>to</no> <no>the</no> <no>system</no> <no>and</no> <no>has</no> <no>done</no> <no>a</no> ”<no>MyPublications</no>” <no>search</no>
+• <no>Description</no> :
+– <no>in</no> <no>the</no> <no>results</no> <no>screen</no> : <no>the</no> <class>actor</class> <association>chooses</association> <no>a</no> <class>publication</class> <no>from</no> <no>the</no> <no>list</no>, <association>edits</association> <no>the</no> <class>publication</class> <no>and</no> <method>confirms</method> <no>his</no> <method>changes</method>.
+– <no>via</no> <no>the</no> <no>My</no> <no>Publications</no> <no>search</no> : <no>the</no> <no>list</no> <no>of</no> <no>Publisher</no> <class>publications</class> <no>will</no> <no>be</no> <method>displayed</method> <no>and</no> <method>editing</method> <no>is</no> <no>possible</no> <no>by</no> <no>ticking</no> <no>the</no> ”<no>edit</no>” <no>box</no>
+• <no>Exceptions</no> : <no>only</no> <no>for</no> <class>publications</class> <no>owned</no> <no>by</no> <no>the</no> <class>actor</class>
+• <no>Result</no> : <no>changes</no> <no>are</no> <no>applied</no> <no>to</no> <no>the</no> <no>publication</no> <no>in</no> <no>the</no> <no>system</no>.
+
+<no>3.2.22</no> <method>Upload</method> <class>publications</class>
+• <no>Summary</no> : <no>add</no> <no>a</no> <no>publication</no> <no>to</no> <no>the</no> <no>system</no>
+• <no>Actors</no> : <class>Publishers</class> , <class>Moderators</class> <no>and</no> <class>Administrators</class>
+• <no>Preconditions</no> : <no>The</no> <class>actor</class> <no>has</no> <no>a</no> <no>document</no> <no>in</no> <no>one</no> <no>of</no> <no>the</no> <no>supported</no> <no>formats</no>: <no>pdf</no>, <no>ps</no>, <no>odt</no>
+• <no>Description</no> :
+– <no>The</no> <class>actor</class> <method>selects</method> <no>the</no> <method>document</method> <no>to</no> <method>add</method> <no>to</no> <no>the</no> <no>system</no> <no>and</no> <method>confirms</method>.
+– <no>The</no> <no>system</no> tries <no>to</no> <method>retrieve</method> <no>the</no> <class>publication</class> <method>details</method> <no>from</no> <no>the</no> <method>document</method>.
+– <no>The</no> <no>system</no> <method>shows</method> <no>the</no> <method>new</method> <class>publication</class> <no>with</no> <no>the</no> <method>retrieved</method> <method>information</method>.
+– <no>The</no> <class>actor</class> ei<no>the</no>r <method>accepts</method> <no>or</no> <no>makes</no> <no>some</no> <method>changes</method> <no>to</no> <no>the</no> <class>publication</class> <no>and</no> <method>confirms</method> <no>the</no> <method>changes</method>.
+• <no>Exceptions</no> : <no>none</no>
+• <no>Result</no> : <no>the</no> <no>system</no> <no>contains</no> <no>a</no> <no>new</no> <no>publication</no>
+<no>3.2.23</no> <class>Search</class> <no>users</no>
+• <no>Summary</no> : <no>searching</no> <no>users</no> <no>in</no> <no>the</no> <no>system</no>
+• <no>Actors</no> : <class>Moderators</class> <no>and</no> <class>Administrators</class>
+• <no>Preconditions</no> : <no>the</no> <class>actor</class> <no>needs</no> <no>to</no> <no>be</no> <no>logged</no> <no>into</no> <no>the</no> <no>system</no>
+• <no>Description</no> :
+– <no>the</no> <class>actor</class> <no>selects</no> <no>the</no> <association>Search</association> <class>Users</class> <no>function</no>.
+– <no>the</no> <class>actor</class> <method>fills</method> <no>in</no> <no>some</no> <method>search criteria</method>.
+– <no>the</no> <no>system</no> <method>shows</method> <no>the</no> <method>results</method>.
+• <no>Exceptions</no> :<no> non</no>e
+• <no>Result</no> : <no>list</no> <no>of</no> <no>users</no> <no>meeting</no> <no>the</no> <no>search</no> <no>criteria</no>
+<no>3.2.24</no> <method>Edit</method> <class>user</class> <method>settings</method>
+• <no>Summary</no> : <no>Select</no> <no>a</no> <no>system</no> <class>user</class> (<class>Members</class>, <class>Publishers</class>, <class>Moderators</class>) <no>and</no> <no>change</no> <no>his</no> <no>settings
+</no>• <no>Actors</no> : <class>Moderators</class> <no>and</no> <class>Administrators</class>
+• <no>Preconditions</no> : <no>a</no> <no>list</no> <no>of</no> <no>users</no> <no>as</no> <no>resulting</no> <no>from</no> <no>the</no> <class>user</class> <no>search</no> <no>function</no>.
+• <no>Description</no> :
+– <no>The</no> <class>actor</class> <association>selects</association> <no>a</no> <class>user</class> <no>from</no> <no>a</no> <no>list</no> <no>of</no> <no>users</no> <no>resulting</no> <no>from</no> <no>a</no> <no>search</no> <no>query</no>.
+– <no>The</no> <class>actor</class> <association>changes</association> <no>the</no> <class>user</class> <association>settings</association>.
+– <no>The</no> <class>actor</class> <method>confirms</method> <no>the</no> <method>changes</method>.
+• <no>Exceptions</no> : <no>none</no>
+• <no>Result</no> : <no>the</no> <class>user</class> <no>settings</no> <no>are</no> <no>changed</no>
+
+<no>3.2.25</no> <method>Create</method> <class>User</class>
+• <no>Summary</no> : <no>create</no> <no>a</no> <no>new</no> <class>user</class>
+• <no>Actors</no> : <class>Administrator</class>
+• <no>Preconditions</no> : <no>none</no>
+• <no>Description</no> :
+– <class>Administrator</class> <no>selects</no> <no>the</no> <association>Create</association> <class>User</class> <no>function</no>
+– <class>Administrator</class> <association>fills</association> <no>in</no> <class>user</class> <no>details</no>: <attribute>username</attribute>, <attribute>password</attribute>, <attribute>email</attribute>, <attribute>group</attribute>
+– <class>Administrator</class> <method>confirms</method>
+• <no>Exceptions</no> : <no>the</no> <no>username</no> <no>already</no> <no>exists</no> <no>in</no> <no>the</no> <no>system</no>
+• <no>Result</no> : <no>the</no> <no>system</no> <no>contains</no> <no>a</no> <no>new</no> <class>user</class>
+<no>3.2.26</no> <method>Delete</method> <class>User</class>
+• <no>Summary</no> : <no>delete</no> <no>an</no> <no>existing</no> <class>user</class>
+• <no>Actors</no> : <class>Administrator</class>
+• <no>Preconditions</no> : <no>none</no>
+• <no>Description</no> :
+– <class>Administrator</class> <no>selects</no> <no>the</no> <association>Delete</association> <class>User</class> <no>function</no>
+– <class>Administrator</class> <method>fills</method> <no>in</no> <attribute>username</attribute>
+– <no>System</no> <method>shows</method> <class>user</class> <method>details</method>
+– <class>Administrator</class> <method>confirms</method>
+• <no>Exceptions</no> : <no>the</no> <no>username</no> <no>does</no> <no>not</no> <no>exist</no> <no>in</no> <no>the</no> <no>system</no>
+• <no>Result</no> : <no>the</no> <class>user</class> <no>is</no> <method>deleted</method> <no>in</no> <no>the</no> <no>system</no>
+<no>3.2.27</no> <method>Create</method> <class>Group</class>
+• <no>Summary</no> : <no>create</no> <no>a</no> <no>new</no> <no>group</no>
+• <no>Actors</no> : <class>Administrator</class>
+• <no>Preconditions</no> : <no>none</no>
+• <no>Description</no> :
+– <class>Administrator</class> <no>selects</no> <no>the</no> <association>Create</association> <class>Group</class> <no>function</no>
+– <class>Administrator</class> <method>fills</method> <no>in</no> <class>group</class> <no>details</no>: <attribute>groupname</attribute>, <attribute>users</attribute>
+– <class>Administrator</class> <method>confirms</method>
+• <no>Exceptions</no> : <no>the</no> <no>groupname</no> <no>already</no> <no>exists</no> <no>in</no> <no>the</no> <no>system</no>
+• <no>Result</no> : <no>the</no> <no>system</no> <no>contains</no> <no>a</no> <no>new</no> <no>group</no>
+
+<no>3.2.28</no> <method>Search</method> <class>Group</class>
+• <no>Summary</no> : <no>select</no> <no>a</no> <no>group</no> <no>from</no> <no>a</no> <no>list</no> <no>in</no> <no>order</no> <no>to</no> <no>view</no> <no>the</no> <no>group</no> <no>details</no>
+• <no>Actors</no> : <class>Administrator</class>
+• <no>Preconditions</no> :<no> none</no>
+• <no>Description</no> :
+– <class>Administrator</class> <no>selects</no> <no>the</no> <method>Search</method> <class>Group</class> <no>function</no>
+– <class>Administrator</class> <method>fills in</method> <class>group</class> <no>details</no>
+– <no>System</no> <method>shows</method> <method>search</method> <no>results</no>
+• <no>Exceptions</no> :<no> none</no>
+• <no>Result</no> : <no>a</no> <no>list</no> <no>of</no> <no>groups</no> <no>fulfilling</no> <no>the</no> <no>search</no> <no>criteria</no>
+<no>3.2.29</no> <method>Delete</method> <class>Group</class>
+• <no>Summary</no> : <no>delete</no> <no>an</no> <no>existing</no> <no>group</no> <no>in</no> <no>the</no> <no>system</no>
+• <no>Actors</no> : <class>Administrator</class>
+• <no>Preconditions</no> : <no>the</no> <no>group</no> <no>must</no> <no>be</no> <no>empty</no> (<no>no</no> <no>users</no>)
+• <no>Description</no> :
+– <class>Administrator</class> <no>selects</no> <no>the</no> <association>Delete</association> <class>Group</class><no> functio</no>n
+– <class>Administrator</class> <method>fills</method> <no>in</no> <method>groupname</method>
+– <no>System</no> <method>shows</method> <class>group</class> <no>details</no>
+– <no>Administrator</no> <no>confirms</no>
+• <no>Exceptions</no> : <no>the</no> <attribute>groupname</attribute> <no>does</no> <no>not</no> <method>exist</method> <no>in</no> <no>the</no> <no>system</no> <no>or</no> <no>the</no> <no>group</no> <no>is</no> <no>not</no> <no>empy</no>
+• <no>Result</no> : <no>the</no> <class>group</class> <no>is</no> <method>deleted</method> <no>in</no> <no>the</no> <no>system</no>
+<no>3.2.30</no> <no>Edit</no> <no>group</no> <no>settings</no>
+• <no>Summary</no> : <no>Select</no> <no>a</no> <no>system</no> <no>group</no> <no>and</no> <no>change</no> <no>its</no> <no>settings</no>
+• <no>Actors</no> : <class>Administrators</class>
+• <no>Preconditions</no> : <no>a</no> <no>list</no> <no>of</no> <no>groups</no> <no>as</no> <no>resulting</no> <no>from</no> <no>the</no> <no>group</no> <no>search</no> <no>function</no>.
+• <no>Description</no> :
+– <no>The</no> <class>actor</class> <association>selects</association> <no>a</no> <class>group</class> <no>from</no> <no>a</no> <no>list</no> <no>of</no> <no>groups</no> <no>resulting</no> <no>from</no> <no>a</no> <no>search</no> query.
+– <no>The</no> <class>actor</class> <association>changes</association> <no>the</no> <class>group</class> <no>settings</no>.
+– <no>The</no> <class>actor</class> <method>confirms</method> <no>the</no> <method>changes</method>.
+• <no>Exceptions</no> :<no> none</no>
+• <no>Result</no> : <no>the</no> <no>group</no> <no>settings</no> <no>are</no> <no>changed</no>
+
+<no>3.2.31</no> <method>Edit</method> <no>system</no> <class>configuration</class> <no>settings</no>
+• <no>Summary</no> : <no>access</no> <no>the</no> <no>configuration</no> <no>panel</no> <no>in</no> <no>order</no> <no>to</no> <no>change</no> <no>the</no> <no>system</no> <no>configuration</no> <no>settings</no>.
+• <no>Actors</no> : <class>Administrators</class>
+• <no>Preconditions</no> :<no> none</no>
+• <no>Description</no> :
+– <class>Administrator</class> <association>accesses</association> <no>the</no> <class>configuration</class> <association>panel</association>.
+– <class>Administrator</class> <association>changes</association> <no>the</no> <no>system</no> <class>configuration</class> <association>settings</association>
+– <class>Administrator</class> <method>confirms</method> <no>the</no> <no>changes</no>
+• <no>Exceptions</no> :<no> none</no>
+• <no>Result</no> : <no>configuration</no> <no>changes</no> <no>are</no> <no>applied</no> <no>to</no> <no>the</no> <no>system</no>
+</document>

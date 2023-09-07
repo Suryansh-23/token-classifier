@@ -1,0 +1,45 @@
+<document>5.1. <method>transferring</method> <class>Assets</class> 
+5.1.1. <no>Within</no> <no>the</no> <no>same</no> <class>department</class>: <no>data base</no> <no>can</no> <no>be</no> <method>updated</method> <no>directly</no> <no>without</no> <no>any</no> <class>request</class> 
+5.1.2. <no>inter</no> <class>departments</class>: <class>request</class> <no>must</no> <no>be</no> <method>approved</method> <no>by</no> <no>a</no> <class>DAgroup</class> <no>member</no> <no>and</no> <class>faculty</class> <no>group</no> <no>member</no> <no>unless</no> <no>it</no> <no>came</no> <no>from</no> <no>a</no> <class>higher level</class> <no>group</no> 
+5.1.3. <no>inter</no> <class>faculties transfer</class>: <class>request</class> <no>can</no> <no>be</no> <no>made</no> <no>by</no> <no>any</no> <class>authorised user</class> <no>and</no> <method>approved</method> <no>by</no> <class>faculty</class> <no>group</no> <no>or</no> <class>higher level</class> 
+5.1.4. <class>transfer</class> <no>outside</no> <no>university</no> <no>should</no> <no>be</no> <method>approved</method> <no>by</no> <no>the</no> <no>university group</no>
+5.2. <method>editing</method> <class>Assets</class> 
+5.2.1. <no>Any</no> <class>administrative level</class> <class>user</class> <no>or</no> <class>inventory</class> <class>user</class> <no>can</no> <association>edit</association> <no>an</no> <class>asset</class> <no>that</no> <association>belongs</association> <no>to</no> <no>its</no> <class>department</class>; <no>same</no> <no>thing</no> <no>for</no> <class>faculty</class> <class>user</class>, <no>or</no> <no>university</no> <class>user</class>; <no>in</no> <no>order</no> <no>to</no> <no>make</no> <method>modification</method> <no>if</no> <no>he</no> <no>is</no> <attribute>authorised</attribute> <no>to</no> <no>do</no> <no>it</no>. 
+5.3. <method>modifying</method> <class>assets</class> 
+5.3.1. <no>all</no> <attribute>fields</attribute> <no>of</no> <no>an</no> <attribute>edited</attribute> <class>asset</class> <no>can</no> <no>be</no> <method>modified</method> <no>except</no> <no>Ids </no>
+5.3.2. <no>a</no> <no>bulk</no> <no>entry</no> <class>file</class> <no>can</no> <no>be</no> <no>used</no>
+5.4. <method>adding</method> <class>inventory</class> <class>assets</class> 
+5.4.1. <no>Any</no> <class>DAgroup</class> <no>member</no> <no>or</no> <attribute>authorised</attribute> <class>inventorygroup</class> <no>member</no> <class>asset</class> <no>is</no> <association>owned</association> <no>by</no> <no>the</no> <class>department</class> 
+5.4.2. <no>Any</no> <class>faculty</class> <method>group</method> <method>member</method> <no>can</no> <method>add</method> <no>all</no> <association>related</association> <class>departments</class> <class>inventory</class> 
+5.4.3. <no>Any</no> <class>university</class> <no>group</no> <no>member</no> <no>can</no> <no>add</no> <no>all</no> <class>assets</class> <no>in</no> <no>the</no> <class>inventory 
+</class>
+5.4.4. <no>A</no> <no>bulk</no> <no>entry</no> <no>can</no> <no>be</no> <no>used</no> <no>to</no> <method>add</method> <no>many</no> <class>assets</class> 
+
+5.5. <method>creating</method> <class>request</class> <no>to</no> <association>borrow</association> <no>an</no> <class>asset</class> <no>or</no> <no>a</no> <method>reserve</method> <no>a</no> <attribute>location</attribute> 
+
+
+5.5.1. <class>request</class> <no>can</no> <no>be</no> <association>made</association> <no>by</no> <no>any</no> <attribute>authorised</attribute> <class>user</class> 
+5.5.2. <method>After</method> <no>creation</no> <no>a</no> <class>request</class> <no>still</no> <attribute>pending</attribute> <attribute>waiting</attribute> <no>to</no> <no>be</no> <association>approved</association> <no>by</no> <no>an</no> <class>administrative level</class> <class>user</class> <no>according</no> <no>to</no> <no>that</no> <no>have</no> <no>this</no> <no>authority 
+</no>
+
+5.6. <method>returning</method> <class>assets</class> 
+5.6.1. <no>An</no> <class>inventory</class> <class>user</class> <no>should</no> <association>check</association> <association>returned</association> <class>asset</class> <no>and</no> <association>update</association> <class>inventory 
+</class>
+5.7. <method>creating</method> <no>a</no> <no>new</no> <method>location</method> 
+5.7.1.<class> ITgroup</class> <no>members</no> <no>can</no> <method>create</method> <no>a</no> <method>new space</method> <no>and</no> <method>modify</method> <method>floor structure</method> <no>when</no> <no>they</no> <method>receive</method> <no>an</no> <method>exception</method> <class>request</class> <no>from</no> <no>any</no> <class>administrative level</class>
+5.8. <method>approving</method> <class>requests </class>
+5.8.1. <no>Any</no> <class>administration</class><class> level</class> <no>or</no> <class>authorised</class> <class>inventory</class><no>group</no> <no>member</no> <no>can</no> <method>display</method> <no>al</no>l <attribute>pending</attribute> <class>requests</class> <no>waiting</no> <no>for</no> <method>approval</method> <no>from</no> <no>this</no> <no>level</no> <no>and</no> <no>approve</no> <no>those</no> <no>requests</no> 
+5.8.2. <no>When</no> <class>request</class> <no>is</no> <method>treated</method> <class>user</class> <no>is</no> <method>notified</method> <no>by</no> <no>email</no> 
+5.8.3. <class>Request</class> <no>is</no> <method>added</method> <no>to</no> <no>the</no> <method>waiting</method> <no>for</no> <no>execution</no> <no>list</no> 
+5.8.4. <class>Inventory</class> <no>is</no> <method>updated</method> <no>when</no> <class>user</class> <association>receive</association> <attribute>requested</attribute> <class>asset</class>
+5.9. <class>authentication</class> 
+5.9.1. <class>Authentication</class> <no>is</no> <no>made</no> <no>by</no> <attribute>user name</attribute> <no>and</no> <no>a</no> <attribute>password</attribute> <no>for</no> <no>all</no> <class>users</class> 
+5.9.2. <class>administrative level</class> <no>working</no> <no>on</no> <no>administration</no> <no>computer</no> 
+5.10. <method>changing permission</method> 
+5.10.1. <no>Any</no> <class>administrative level</class> <class>user</class> <no>can</no> <association>delegate</association> <no>another</no> <class>user</class> <no>to</no> <association>execute</association> <no>some</no> <no>or</no> <no>all</no> <no>his</no> <attribute>authorized</attribute> <attribute>actions</attribute> <no>and</no> <no>this</no> <class>user</class> <method>acquires</method> <no>the</no> <attribute>role</attribute> <no>of</no> <no>inventory</no> <no>administrator</no> 
+5.11. <method>output reports 
+</method>
+5.11.1. <class>Asset</class> <method>report</method> <no>by</no> <attribute>location</attribute> 
+5.11.2. <class>Request</class> <no>report</no> 
+5.11.3. <class>User</class> <no>permission</no> <no>user</no>
+</document>

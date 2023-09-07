@@ -1,0 +1,192 @@
+<document><no>7.</no> <no>Basic</no> <no>Functional</no> <no>Requirements</no>  <no>Req</no>. <no>#</no> 
+<no>Category</no>   
+<no>List</no> <no>the</no> <no>basic</no> <no>functional</no> <no>requirements</no> <no>–</no> <no>what</no> <no>capabilities</no> <no>should</no> <no>the</no> <no>service</no> <no>provide</no>. 
+<no>1.1</no> <class>E-mail</class>, <class>Calendar</class>, <class>Contacts</class> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <association>send</association>, <association>receive</association>, <no>and</no> <association>delete</association> <class>e-mail</class> <no>and</no> <class>attachments</class>. 
+<no>1.2</no> <class>E-mail</class>, <class>Calendar</class>, <class>Contacts</class> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <association>reply</association> <no>to</no> <class>e-mail</class> <no>and</no> <class>attachments</class>. 
+<no>1.3</no> <class>E-mail</class>, <class>Calendar</class>, <class>Contacts</class> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <association>forward</association> <class>e-mail</class> <no>and</no> <class>attachments</class>. 
+<no>1.4</no> <class>E-mail</class>, <class>Calendar</class>, <class>Contacts</class> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <association>print</association> <class>e-mail</class> <no>messages</no>. 
+<no>1.5</no> <class>E-mail</class>, <class>Calendar</class>, <class>Contacts</class> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <association>customize</association> <class>e-mail</class> <no>messages</no> <no>with</no> <no>word</no> <no>processor</no> <no>like</no> <no>features</no> <no>for</no> <no>formatting</no> <no>of</no> <class>e-mail</class> <no>content</no>. 
+<no>1.6</no> <class>E-mail</class>, <class>Calendar</class>, <class>Contacts</class> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <association>establish</association> <class>rules</class> (<method>auto reply</method>, <method>out of office reply</method>, <method>temporary transfer to another party</method>, <method>move files to inbox folders</method>). 
+<no>1.7</no> <class>E-mail</class>, <class>Calendar</class>, <class>Contacts</class> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <method>spell check</method>. 
+<no>1.8</no> <class>E-mail</class>, <class>Calendar</class>, <class>Contacts</class> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <method>organize</method> <method>content</method> <no>into</no> <class>personal folders</class> <no>or</no> <no>similar</no> <no>storage</no> <no>mechanism</no> <no>to</no> <no>aid</no> <no>with</no> <class>e-mail</class> <method>retrieval</method>. 
+<no>1.9</no> <class>E-mail</class>, <class>Calendar</class>, <class>Contacts</class> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <method>migrate</method> <no>existing</no> <class>public folders</class> <no>into</no> <no>the</no> <no>statewide</no> <class>e-mail</class> <no>system</no>. 
+<no>1.10</no> <class>E-mail</class>, <class>Calendar</class>, <class>Contacts</class> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <association>create</association> <no>and</no> <association>manage</association> <class>public folders</class> <no>or</no> <no>similar</no> <no>storage</no> <no>mechanism</no> <no>to</no> <no>aid</no> <no>with</no> <no>the</no> <no>collection</no>, <no>organization</no>, <no>and</no> <no>sharing</no> <no>of</no> <no>information</no> <no>with</no> <no>other</no> <no>people</no> <no>in</no> <no>their</no> <no>individual</no> <no>agency</no> <no>or</no> <no>organization</no>. 
+<no>1.11</no> <class>E-mail</class>, <class>Calendar</class>, <class>Contacts</class> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <association>create</association> <class>contact</class> <no>lists</no>, <no>including</no> <no>those</no> <no>imported</no> <no>from</no> <no>other</no> <no>sources</no>. 
+<no>1.12</no> <class>E-mail</class>, <class>Calendar</class>, <class>Contacts</class> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <association>export</association> <class>contact</class> <no>lists</no>. 
+<no>1.13</no> <class>E-mail</class>, <class>Calendar</class>, <class>Contacts</class> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <association>share</association> <class>contact</class> <no>lists</no> / <no>address</no> <no>book</no>. 
+<no>1.14</no> <class>E-mail</class>, <class>Calendar</class>, <class>Contacts</class> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <association>create</association> <no>and</no> <association>share</association> <class>distribution lists</class> (<no>including</no> <no>the</no> <no>ability</no> <no>to</no> <no>create</no> <no>query</no> <no>based</no> <no>distribution</no> <no>lists</no> <no>from</no> <no>LDAP-like</no> <no>directory</no> <no>services</no>). 
+<no>1.15</no> <class>E-mail</class>, <class>Calendar</class>, <class>Contacts</class> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <association>create</association> <class>calendars</class> <no>and</no> <association>customize</association> <association>calendar</association> <no>views</no>. 
+<no>1.16</no> <class>E-mail</class>, <class>Calendar</class>, <class>Contacts</class> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <method>schedule</method> <method>resources</method> <no>such</no> <no>as</no> <no>conference</no> <no>rooms</no>, <no>teleconference</no> <no>rooms</no>, <no>etc</no>. 
+<no>1.17</no> <class>E-mail</class>, <class>Calendar</class>, <class>Contacts</class> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <method>create</method> <method>reminders</method> <no>and</no> <method>tasks</method>. 
+<no>1.18</no> <class>E-mail</class>, <class>Calendar</class>, <class>Contacts</class> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <method>accommodate</method> <method>programmer testing</method> <no>of</no> <class>e-mail</class> <no>functionality</no> <no>embedded</no> <no>in</no> <no>software</no> <no>applications</no>. 
+<no>1.19</no> <class>E-mail</class>, <class>Calendar</class>, <class>Contacts</class> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <method>share</method> <method>inbox</method>, <class>calendar</class>, <no>and</no> <method>files</method> <no>with</no> <class>users</class>, <no>given</no> <no>permission</no>.  
+<no>1.20</no> <class>E-mail</class>, <class>Calendar</class>, <class>Contacts</class> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <method>delegate</method> <no>their</no> <method>permissions</method> <no>to</no> <no>another</no> <class>user</class>. 
+<no>1.21</no> <class>E-mail</class>, <class>Calendar</class>, <class>Contacts</class> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <method>embed</method> <method>links</method> <no>to</no> <no>files</no> <no>and</no> <method>websites</method> <no>in</no> <class>e-mails</class>. 
+<no>1.22</no> <class>E-mail</class>, <class>Calendar</class>, <class>Contacts</class> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <association>provision</association> <class>e-mail</class> <class>accounts</class> <no>for</no> <no>their</no> <no>individual</no> <no>agency</no> <no>or</no> <no>organization</no> (<no>including</no> <no>the</no> <no>ability</no> <no>to</no> <no>integrate</no> <class>e-mail</class> <no>account</no> <no>provisioning</no> <no>with</no> <no>LDAP-like</no> <no>directory</no> <no>services</no>). 
+<no>1.23</no> <class>E-mail</class>, <class>Calendar</class>, <class>Contacts</class> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <association>search</association> <no>for</no> <class>e-mails</class> <no>based</no> <no>on</no> <attribute>age</attribute>, <attribute>size</attribute>, <attribute>sender</attribute>, <attribute>recipient</attribute>, <attribute>subject</attribute>, <attribute>key word</attribute>, <attribute>attachment content</attribute>. 
+<no>1.24</no> <class>E-mail</class>, <class>Calendar</class>, <class>Contacts</class> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <method>auto-enforce</method> <method>standard conventions</method> <no>for</no> <association>creating</association> <class>accounts</class> <no>and</no> <class>distribution lists</class>. 
+<no>1.25</no> <class>E-mail</class>, <class>Calendar</class>, <class>Contacts</class> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>data center admin</class> <no>to</no> <method>control</method> <no>message</no> <method>size limits</method> <no>for</no> <class>e-mail</class> (<no>inbound</no> <no>and</no> <no>outbound</no>). 
+<no>1.26</no> <class>E-mail</class>, <class>Calendar</class>, <class>Contacts</class> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <association>create</association> <no>generic</no> <class>email accounts</class>/<no>addresses</no> <no>to</no> <no>be</no> <method>accessed</method> <no>by</no> <no>multiple</no> <class>users</class>. 
+<no>1.27</no> <class>E-mail</class>, <class>Calendar</class>, <class>Contacts</class> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <no>customize</no> <no>their</no> <no>view</no> <no>in</no> <no>the</no> <no>client</no> <no>application</no> (<no>such</no> <no>as</no> <no>adding</no> <no>fields</no>, <no>arranging</no> <no>fields</no>, <no>and</no> <no>ordering</no> <no>emails</no> <no>by</no> <no>fields</no>). 
+<no>1.28</no> <no>Archiving</no>, <no>Retention</no>, <no>Discovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <method>archive</method> <no>at</no> <no>the</no> <no>desktop</no>. 
+<no>1.29</no> <no>Archiving</no>, <no>Retention</no>, <no>Discovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <no>provide</no> <no>a</no> <no>server</no> <no>based</no> <no>archiving</no> <no>solution</no>. 
+<no>1.30</no> <no>Archiving</no>, <no>Retention</no>, <no>Discovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <method>archive</method> <no>at</no> <no>various</no> <no>regularly</no> <no>defined</no> <method>intervals</method>. 
+<no>1.31</no> <no>Archiving</no>, <no>Retention</no>, <no>Discovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <association>search</association> <class>archive</class> <no>and</no> <method>forward</method>, <method>print</method> <no>and</no> <method>restore</method> <no>in</no> <no>bulk</no> <no>items</no> <no>from</no> <class>archive</class>. 
+<no>1.32</no> <no>Archiving</no>, <no>Retention</no>, <no>Discovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <association>filter</association> <class>archive</class> <no>by</no> <attribute>sender</attribute>, <attribute>recipient</attribute>, <attribute>date</attribute>, <attribute>subject</attribute>, <attribute>content</attribute>, <class>attachments</class>, <attribute>keyword</attribute>, <no>etc</no>. 
+<no>1.33</no> <no>Archiving</no>, <no>Retention</no>, <no>Discovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <no>provide</no> <no>long</no> <no>term</no> <attribute>retention</attribute> <no>separate</no> <no>from</no> <no>active</no> <class>e-mail</class> <no>system</no>. 
+<no>1.34</no> <no>Archiving</no>, <no>Retention</no>, <no>Discovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <association>provide</association> <no>individual</no> <class>users</class> <no>the</no> <no>ability</no> <no>to</no> <method>search</method> <no>their</no> <no>portion</no> <no>of</no> <no>the</no> <method>archive</method> <no>repository</no>. 
+<no>1.35</no> <no>Archiving</no>, <no>Retention</no>, <no>Discovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <no>meet</no> <no>Federal</no> <no>regulations</no> <no>for</no> <attribute>retention</attribute> (<no>i.e</no>. <no>Sarbanes</no> <no>Oxley</no>, <no>Gramm-Leach-Bliley</no> <no>Act</no> (<no>GLB</no>), <no>HIPAA</no>, <no>etc</no>.) 
+<no>1.36</no> <no>Archiving</no>, <no>Retention</no>, <no>Discovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <method>satisfy</method> <method>legal</method> <method>requests</method> <no>for</no> <class>e-mail</class> <method>discovery</method> <no>and</no> <no>provide</no> <method>printed</method> <no>or</no> <method>digital</method> <method>results</method>. 
+<no>1.37</no> <no>Archiving</no>, <no>Retention</no>, <no>Discovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <method>capture</method> <no>all</no> <method>sent</method> <no>and</no> <method>received</method> <class>e-mails</class> <no>into</no> <no>the</no> <no>organization</no>. 
+<no>1.38</no> <no>Archiving</no>, <no>Retention</no>, <no>Discovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <method>select</method> <no>the</no> <class>e-mail</class> <attribute>retention</attribute> <no>period</no> <no>for</no> <no>a</no> <no>specific</no> <class>e-mail</class> <no>(</no> <no>e.g</no>. <no>1</no> <no>year</no>, <no>3</no> <no>year</no>, <no>or</no> <no>5</no> <no>year</no> <no>)</no> .
+<no>1.39</no> <no>Archiving</no>, <no>Retention</no>, <no>Discovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <method>search</method> <no>the</no> <class>e-mail</class> <attribute>&quot;header&quot;</attribute> <no>including</no> <no>Date</no>: <attribute>From</attribute>, <attribute>Subject</attribute>, <attribute>To</attribute>, <no>and</no> <attribute>CC</attribute>. 
+<no>1.40</no> <no>Archiving</no>, <no>Retention</no>, <no>Discovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <method>search</method> <no>the</no> &quot;<attribute>body</attribute>&quot; <no>of</no> <no>the</no> <class>e-mail</class> <no>including</no> <no>the</no> <no>header</no> <no>and</no> <no>all</no> <no>text</no> <no>contained</no> <no>within</no> <no>the</no> <class>e-mail</class> <no>itself</no>. 
+<no>1.41</no> <no>Archiving</no>, <no>Retention</no>, <no>Discovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <no>perform</no> <no>a</no> <method>&quot;full text&quot; search</method> <no>including</no> <no>the</no> <no>header</no>, <no>body</no> <no>and</no> <no>any</no> <class>attachments</class> <no>to</no> <no>the</no> <class>e-mail</class>. 
+<no>1.42</no> <no>Archiving</no>, <no>Retention</no>, <no>Discovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <method>support</method> <method>litigation requests</method> <no>by</no> <no>production</no> <no>of</no> <no>responsive</no> <class>e-mail</class> <no>in</no> <no>to</no> a <no>specified</no> <no>location</no>, <no>for</no> <no>read</no> <no>and</no> <no>redaction</no> <no>purposes</no>. 
+<no>1.43</no> <no>Archiving</no>, <no>Retention</no>, <no>Discovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <method>move</method> <no>older</no> <method>data to tiered storage</method> (<no>lower</no> <no>cost</no> <no>storage</no>) <no>while</no> <no>maintaining</no> <no>accessibility</no>. 
+<no>1.44</no> <no>Archiving</no>, <no>Retention</no>, <no>Discovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <method>import</method> <method>data</method> <no>from</no> <no>other</no> <no>sources</no> <no>such</no> <no>as</no> <no>PST</no>, <no>NSF</no> <no>files</no> <no>into</no> <method>archiving solution</method>. 
+<no>1.45</no> <no>Archiving</no>, <no>Retention</no>, <no>Discovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <method>put</method> <method>discovery search results</method> <no>on</no> <no>legal</no> <method>hold</method> <no>to</no> <method>suspend</method> <method>deletion</method>. 
+<no>1.46</no> <no>Archiving</no>, <no>Retention</no>, <no>Discovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> (<no>Legal</no>, <no>OIG</no>, <no>etc</no>.) <no>to</no> <method>review</method> <no>and</no> <method>mark</method> <no>discovery</no> <method>search results</method>. 
+<no>1.47</no> <no>Archiving</no>, <no>Retention</no>, <no>Discovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <method>search</method> <no>using</no> <method>Boolean fields</method>. 
+<no>1.48</no> <no>Archiving</no>, <no>Retention</no>, <no>Discovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <method>archive</method> <no>based</no> <no>on</no> <method>policy</method> (<no>i.e</no>. <class>e-mail</class> <no>address</no>, <no>OU</no>, <no>group</no>, <no>organization</no>, <no>etc</no>.) 
+<no>1.49</no> <no>Archiving</no>, <no>Retention</no>, <no>Discovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <method>delete</method>, <no>or</no> <method>flag</method> <no>for</no> <method>deletion</method> <no>by</no> <class>system administrators</class>, <class>e-mails</class> <no>that</no> <no>have</no> <method>met</method> <no>their</no> <attribute>retention</attribute>, <no>in</no> <no>accordance</no> <no>with</no> <no>s.119.021</no>(<no>2</no>)(<no>c</no>) <no>which</no> <no>requires</no> <no>agencies</no> <no>to</no> “<no>systematically</no> <method>dispose of records</method> <no>no</no> <no>longer</no> <no>needed</no>.” (<no>Note</no>: <no>Deletion</no> <no>means</no> <no>complete</no> <no>removal</no>/<no>elimination</no> <no>of</no> <no>all</no> <no>copies</no> <no>of</no> <no>an</no> <class>e-mail</class> <no>from</no> <no>all</no> <no>portions</no> <no>of</no> <no>the</no> <no>system</no>)”  
+<no>1.50</no> <no>Archiving</no>, <no>Retention</no>, <no>Discovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <method>flag</method> <no>individual</no> <class>e-mails</class> <no>to</no> <no>not</no> <no>be</no> <no>archived</no>.  
+<no>1.51</no> <no>Backup</no>, <no>Restore</no> <no>Ability</no> <no>for</no> <no>the</no> <class>data center admin</class> <no>to</no> <method>recover</method> <no>at</no> <no>the</no><method> file level</method>. 
+<no>1.52</no> <no>Backup</no>, <no>Restore</no> <no>Ability</no> <no>for</no> <no>the</no> <class>data center admin</class> <no>to</no> <method>recover</method> <no>all</no> <method>messages</method>. 
+<no>1.53</no> <no>Backup</no>, <no>Restore</no> <no>Ability</no> <no>for</no> <no>the</no> <class>data center admin</class> <no>to</no> <method>recover</method> <no>a</no> <no>specific</no> <class>e-mail</class> <no>message</no>. 
+<no>1.54</no> <no>Backup</no>, <no>Restore</no> <no>Ability</no> <no>for</no> <no>the</no> <class>data center admin</class> <no>to</no> <method>recover</method> <no>by</no> <method>mailbox</method>. 
+<no>1.55</no> <no>Backup</no>, <no>Restore</no> <no>Ability</no> <no>for</no> <no>the</no> <class>data center admin</class> <no>to</no> <method>recover</method> <no>by</no><method> time</method>. 
+<no>1.56</no> <no>Backup</no>, <no>Restore</no> <no>Ability</no> <no>for</no> <no>the</no> <class>data center admin</class> <no>to</no> <method>maintain</method> <method>backup</method> <no>and</no> <method>restore</method> <method>event logs</method>. 
+<no>1.57</no> <no>Backup</no>, <no>Restore</no> <no>Ability</no> <no>for</no> <no>the</no> <class>data center admin</class> <no>to</no> <method>restore</method> <method>previous</method> <method>backup</method> <no>without</no> <no>service</no> <no>interruption</no>. 
+<no>1.58</no> <no>Security</no>, <no>Anti-Virus</no>, <no>Filtering</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>data center admin</class> <no>to</no> <no>provide</no> <no>pre-emptive</no> <class>e-mail</class> <method>virus protection</method> (<no>scanning</no> <no>prior</no> <no>to</no> <no>delivery</no> <no>at</no> <no>the</no> <no>mail</no> <no>server</no>). 
+<no>1.59</no> <no>Security</no>, <no>Anti-Virus</no>, <no>Filtering</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>data center admin</class> <no>to</no> <no>provide</no> <no>pre-emptive</no> <class>e-mail</class> <method>content filtering</method>. 
+<no>1.60</no> <no>Security</no>, <no>Anti-Virus</no>, <no>Filtering</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>data center admin</class> <no>to</no> <method>whitelist</method>/<method>blacklist</method> <attribute>senders</attribute> <no>by</no> <no>domain</no> <no>or</no> <no>IP</no> <no>address</no>. 
+<no>1.61</no> <no>Security</no>, <no>Anti-Virus</no>, <no>Filtering</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>data center admin</class> <no>to</no> <association>block</association> <no>or</no> <association>allow</association> <class>e-mail</class> <no>based</no> <no>on</no> <no>multiple</no> <no>message</no> <no>attributes</no>. 
+<no>1.62</no> <no>Security</no>, <no>Anti-Virus</no>, <no>Filtering</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>data center admin</class> <no>to</no> <method>integrate</method> <method>message hygiene</method> (<no>antispam</no>/<no>antivirus</no>) <no>with</no> <method>LDAP</method>. 
+<no>1.63</no> <no>Security</no>, <no>Anti-Virus</no>, <no>Filtering</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>data center admin</class> <no>to</no> <no>provide</no> <method>message hygiene</method> (<no>antispam</no>/<no>antivirus</no>) <method>statistical</method> <method>reports</method>. 
+<no>1.64</no> <no>Security</no>, <no>Anti-Virus</no>, <no>Filtering</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <method>encrypt</method> <method>outbound</method> <class>e-mail</class>. 
+<no>1.65</no> <no>Security</no>, <no>Anti-Virus</no>, <no>Filtering</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <no>establish</no> <method>TLS encryption</method> <no>with</no> <no>other</no> <method>businesses</method> <no>or</no> <class>customers</class>. 
+<no>1.66</no> <no>Security</no>, <no>Anti-Virus</no>, <no>Filtering</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>data center admin</class> <no>to</no> <method>protect</method> <no>the</no> <no>reputation</no> <no>of</no> <method>outbound mail gateways</method>. 
+<no>1.67</no> <no>Security</no>, <no>Anti-Virus</no>, <no>Filtering</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>data center admin</class> <no>to</no> <method>protect</method> <no>internal</no> <class>e-mail</class> <class>customer</class> <attribute>identity</attribute>. 
+<no>1.68</no> <no>Remote</no> <no>Access</no>, <no>Mobile</no> <no>Messaging</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <association>access</association> <class>e-mail</class> <no>by</no> <association>secure web</association> <no>or</no> <no>client</no>. (<association>Calendar</association>, <no>Address</no> <no>book</no>, <no>Ability</no> <no>to</no> <method>send</method> <no>and</no> <no>receive</no>). 
+<no>1.69</no> <no>Remote</no> <no>Access</no>, <no>Mobile</no> <no>Messaging</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <association>access</association> <class>e-mail</class> <no>with</no> <association>Blackberry</association> <no>services</no> <no>using</no> <no>BlackBerry</no> <no>device</no>. 
+<no>1.70</no> <no>Remote</no> <no>Access</no>, <no>Mobile</no> <no>Messaging</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <association>access</association> <class>e-mail</class> <no>with</no> <association>non-Blackberry </association><no>mobile</no> <no>data</no> <no>devices</no> (<no>iPhones</no>, <no>Treos</no>, <no>Pres</no>. <no>Etc</no>.). 
+<no>1.71</no> <no>Remote</no> <no>Access</no>, <no>Mobile</no> <no>Messaging</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <no>support</no> <no>other</no> <no>mobile</no> <no>device</no> <no>protocols</no> (<no>ActiveSync</no>). 
+<no>1.72</no> <no>Remote</no> <no>Access</no>, <no>Mobile</no> <no>Messaging</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <method>Create</method>, <method>Update</method> <no>and</no> <method>Delete</method> <method>Blackberry accounts</method>. 
+<no>1.73</no> <no>Remote</no> <no>Access</no>, <no>Mobile</no> <no>Messaging</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <method>access</method> <method>mailbox</method> <no>and</no> <method>components</method> <no>via</no> <no>a</no> <no>web</no> <no>browser</no> <no>over</no> <no>a</no> <no>secure</no> (<no>encrypted</no>) <no>connection</no>. 
+<no>1.74</no> <no>Additional</no> <class>E-mail</class> <no>Services</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <association>send</association>/<association>receive</association> <association>e-mails</association> <no>within</no> <no>workflow</no> <no>applications</no>. 
+<no>1.75</no> <no>Additional</no> <class>E-mail</class> <no>Services</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <no>provide</no> <association>resource</association> <method>reservations</method> <method>integrated</method> <no>into</no> <class>e-mail</class>. 
+<no>1.76</no> <no>Additional</no> <class>E-mail</class> <no>Services</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <method>access</method> <no>an</no> <method>SMTP</method> <method>bridgehead</method> <no>for</no> <no>agency</no> <no>applications</no>. 
+<no>1.77</no> <no>Additional</no> <class>E-mail</class> <no>Services</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <method>integrate</method> <method>agency applications</method> <no>into</no> <no>the</no> <class>e-mail</class> <no>and</no> <no>mobile</no> <no>messaging</no> <no>environments</no>. 
+ 
+<no>8</no>. <no>Extended</no> <no>Functional</no> <no>Requirements</no>  <no>Req</no>. <no>#</no> 
+<no>Category</no>   
+<no>List</no> <no>the</no> <no>extended</no> <no>functional</no> <no>requirements</no> – <no>what</no> <no>additional</no> <no>capabilities</no> <no>could</no> <no>the</no> <no>service</no> <no>provide</no>. 
+<no>2.1</no> <no>Archiving</no>, <no>Retention</no>, <no>Discovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <method>manually</method> <method>archive</method> <no>to</no> <no>server</no> <no>from</no> <no>their</no> <no>client</no>. 
+<no>2.2</no> <no>Archiving</no>, <no>Retention</no>, <no>Discovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <method>electronically</method> <no>redact</no> <method>information</method> <no>from</no> <no>archival</no> <no>storage</no>. 
+<no>2.3</no> <no>Archiving</no>, <no>Retention</no>, <no>Discovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <method>digitally</method> <method>certify</method> <method>search</method> results. 
+<no>2.4</no> <no>Archiving</no>, <no>Retention</no>, <no>Discovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <no>catalog</no> <no>responsive</no> <class>e-mail</class> (<no>by</no> <no>case</no>) <no>so</no> <no>that</no> <class>e-mail</class> <no>can</no> <no>be</no> <no>electronically</no> <no>certified</no> <no>as</no> <no>complete</no> <no>to</no> <no>fulfill</no> <no>the</no> <no>production</no>. 
+<no>2.5</no> <no>Archiving</no>, <no>Retention</no>, <no>Discovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <method>demonstrate</method> <method>due</method> <method>diligence</method> <no>and</no> <method>maintain</method> <no>markings</no> <no>for</no> <no>privileged</no> <no>and</no> <no>non-responsive</no> <no>search</no> <no>results</no>. 
+<no>2.6</no> <no>Archiving</no>, <no>Retention</no>, <no>Discovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <method>provide</method> <no>a</no> <no>full</no> <method>audit</method> <method>trail</method> <no>of</no> <no>discovery</no> <no>and</no> <no>review</no>. 
+<no>2.7</no> <no>Disaster</no> <no>Recovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>data center admin</class> <no>to</no> <no>do</no> <method>real-time</method> <method>replication</method> <no>to</no> <method>alternate site</method>. 
+<no>2.8</no> <no>Disaster</no> <no>Recovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>data center admin</class> <no>to</no> <no>do</no> <method>near-time</method> <method>replication</method> <no>to</no> <method>alternate site</method>. 
+<no>2.9</no> <no>Disaster</no> <no>Recovery</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>data center admin</class> <no>to</no> <method>fail-over</method> <no>mail</no> <no>system</no> <no>and</no> <no>clients</no> <no>to</no> <no>alternate</no> <no>site</no>. 
+<no>2.10</no> <no>Security</no>, <no>Anti-Virus</no>, <no>Filtering</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>data center admin</class> <no>to</no> <method>retrieve</method> <method>quarantined</method> <method>messages</method>. 
+<no>2.11</no> <no>Security</no>, <no>Anti-Virus</no>, <no>Filtering</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>data center admin</class> <no>to</no> <method>add</method> <method>digital</method> <method>signatures</method> <no>to</no> <class>e-mail</class>. 
+<no>2.12</no> <no>Remote</no> <no>Access</no>, <no>Mobile</no> <no>Messaging</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <method>access</method> <class>e-mail</class> <method>archive</method>. 
+<no>2.13</no> <no>Remote</no> <no>Access</no>, <no>Mobile</no> <no>Messaging</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <no>use</no> <method>wireless</method> <method>service</method> <no>with</no> <no>GIS</no>. 
+<no>2.14</no> <no>Additional</no> <class>E-mail</class> <no>Services</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <method>provide</method> <method>fax</method> <method>service</method> <method>integrated</method> <no>into</no> <class>e-mail</class>. 
+<no>2.15</no> <no>Additional</no> <class>E-mail</class> <no>Services</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <method>integrate</method> <method>telephone</method> <method>messaging</method> (<no>VOIP</no>) <no>into</no> <class>e-mail</class> <no>and</no> <no>vice</no>/<no>versa</no>. 
+<no>2.16</no> <no>Additional</no> <class>E-mail</class> <no>Services</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>user</class> <no>to</no> <method>provide</method> <no>List</no> <method>Server</method> <method>option</method> <no>for</no> <method>internal</method> <no>and</no> <method>external</method> <no>publishing</no> <no>of</no> <no>information</no> (<no>report</no> <no>subscriptions</no>). 
+<no>2.17</no> <no>Additional</no> <class>E-mail</class> <no>Services</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <method>integrate</method> <method>directory</method> <method>services</method> <no>with</no> <no>other</no> <no>complimentary</no> <no>external</no> <no>systems</no> <no>for</no> <no>a</no> <no>unified</no> <no>client</no> <no>experience</no>. 
+<no>2.18</no> <no>Additional</no> <class>E-mail</class> <no>Services</no> 
+<no>Ability</no> <no>for</no> <no>the</no> <class>agency admin</class> <no>to</no> <method>provide</method> <method>RSS</method> <method>Feeds</method>. 
+
+</document>

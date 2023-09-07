@@ -1,0 +1,889 @@
+<document><no>3.1</no>. <class>View</class> <class>Inventory </class>
+<no>The</no> <no>system</no> <no>should</no> <no>provide</no> <no>a</no> <no>categorized</no> <method>view</method> <no>of</no> <no>the</no> <no>entire</no> <class>inventory</class> <no>to</no> <no>the</no> <class>Construction Junction staff</class>. <no>Starting</no> <no>at</no> <no>the</no> <class>department</class> <no>level</no>, <class>users</class> <no>can</no> <association>navigate</association> <no>into</no> <no>the</no> <class>inventory</class> <class>item</class> <class>categories</class> <no>and</no> <class>sub-categories</class>, <no>all</no> <no>the</no> <no>way</no> <no>down</no> <no>to</no> <no>an</no> <no>individual</no> <class>inventory</class> <class>item</class>. 
+<no>3.1.1</no>. <no>Actor</no>(<no>s</no>): 
+ <class>Administrator</class> 
+ <class>Director</class> 
+ <class>Manager</class> 
+ <class>Customer Service Representative </class>
+ <class>Receiving Associate</class> 
+ <class>Pick Up Associate</class> 
+ <class>Decon Associate</class> 
+<no>3.1.2</no>. <no>Assumptions</no>, <no>Pre-Conditions</no> <no>&amp;</no> <no>Triggers</no>: 
+<no>1</no>. <class>User</class> <no>is</no> <method>logged</method> <no>into</no> <no>the</no> <no>system</no> 
+<no>3.1.3</no>. <no>Use</no> <no>Case</no> <no>Dependencies</no> 
+<no>None</no> 
+<no>3.1.4</no>. <no>Basic</no> <no>Flows</no>: 
+<no>1.</no> <class>User</class> <association>accesses</association> <no>the</no> <no>main</no> <class>inventory</class> <no>screen</no> 
+<no>2.</no> <no>The</no> <no>screen</no> <method>displays</method> <no>all</no> <class>inventory</class> <class>departments </class>
+<no>3.</no> <class>User</class> <association>clicks</association> <no>a</no> <class>department</class> <no>cell</no> 
+<no>4.</no> <no>The</no> <no>screen</no> <method>displays</method> <no>all</no> <class>inventory</class> <class>categories</class> <no>for</no> <no>the</no> <attribute>selected</attribute> <class>department</class> 
+<no>5</no>. <class>User</class> <association>clicks</association> <no>a</no> <class>category</class> <no>cell</no> <no>that</no> <association>contains</association> <class>sub-categories</class> 
+<no>6.</no> <no>The</no> <no>screen</no> <method>displays</method> <no>all</no> <class>inventory</class> <class>sub-categories</class> <no>for</no> <no>the</no> <attribute>selected</attribute> <class>category</class>
+<no>7.</no> <class>User</class> <association>clicks</association> <no>a</no> <class>sub-category</class> <no>cell</no> (leaf <no>category</no>) 
+<no>7.1.</no> <no>For</no> <no>a</no> <no>Unique</no> <class>Item</class> <class>category</class>: 
+<no>7.1.1.</no> <no>The</no> <no>screen</no> <method>displays</method> <no>a</no> <no>list</no> <no>of</no> <no>all</no> <class>inventory</class> <class>items</class> <no>for</no> <no>that</no> <attribute>selected</attribute> <class>category</class> 
+<no>7.1.2</no>. <class>User</class> <association>clicks</association> <no>an</no> <class>item</class> <no>in</no> <no>the</no> <class>items</class> <no>list</no> 
+<no>7.1.3.</no> <no>The</no> <no>screen</no> <method>displays</method> <no>the</no> <no>details</no> <no>for</no> <no>the</no> <class>item</class> 
+<no>7.2.</no> <no>For</no> <no>a</no> <no>Stock</no> <class>Item</class> <class>category</class>: 
+<no>7.2.1</no>. <no>The</no> <no>screen</no> <method>displays</method> <no>the</no> <method>details</method> <no>for</no> <no>that</no> <no>Stock</no> <class>Item</class> <class>category</class> 
+<no>7.3</no>. <no>For</no> <no>a</no> <no>Under</no> <no>$5</no> <class>category</class>: 
+<no>7.3.1.</no> <no>Nothing</no> <no>happens</no> – <no>The</no> <class>category</class> <no>cell</no> <no>is</no> <method>not clickable</method> 
+<no>3.1.5.</no> <no>Alternative</no> <no>Flows</no>: 
+<no>1.</no> <no>At</no> <no>any</no> <no>point</no>, <no>the</no> <class>user</class> <no>may</no> <association>click</association> <no>on</no> <no>a</no> <class>department</class> <no>on</no> <no>the</no> <class>inventory</class> <class>department</class> <no>shortcuts</no> <no>list</no>, <no>which</no> <no>takes</no> <no>the</no> <class>user</class> <no>to</no> <no>the</no> <class>inventory</class> <association>view</association> <no>for</no> <no>that</no> <no>particular</no> <class>department</class>. 
+<no>2.</no> <no>The</no> <class>user</class> <no>may</no> <no>click</no> <no>the</no> <method>View All Items</method> <no>button</no> <no>at</no> <no>any</no> <no>level</no> <no>in</no> <no>the</no> <class>inventory</class> <no>to</no> <no>view</no> <no>a</no> <no>list</no> <no>of</no> <no>all</no> <class>items</class> <no>in</no> <no>that</no> <class>department</class> <no>or</no> <class>category</class> 
+<no>3.</no> <no>The</no> <class>user</class> <no>may</no> <no>click</no> <no>the</no> <no>View</no> <no>All</no> <no>Items</no> <no>button</no> <no>on</no> <no>the</no> <no>main</no> <class>inventory</class> <no>screen</no> <no>to</no> <no>view</no> <no>the</no> <no>complete</no> <no>list</no> <no>of</no> <no>all</no> <class>items</class> <no>in</no> <no>the</no> <class>inventory</class> 
+<no>4.</no> <no>Once</no> <no>in</no> <no>the</no> <no>view</no> <class>items</class> <no>list</no> <no>screen</no>, <no>the</no> <class>user</class> <no>may</no> <no>filter</no> <no>the</no> <no>results</no> <no>by</no> <no>searching</no> <no>for</no>: 
+<no>4.1.</no> <no>A</no> <no>particular</no> <class>item</class> <no>by</no> <class>item</class> <no>number</no>
+<no>4.2.</no> <no>All</no> <class>items</class> <no>with</no> <attribute>Donor</attribute>, <class>Department</class>, <class>Category</class> <no>or</no> <attribute>Description</attribute> <no>matching</no> <no>the</no> <no>provided</no> <no>keyword</no> 
+<no>4.3.</no> <no>All</no> <class>items</class> <no>with</no> <no>certain</no> <attribute>attributes</attribute>, <attribute>features</attribute> <no>and</no>/<no>or</no> <attribute>details</attribute> 
+<no>3.1.6.</no> <no>Business</no> <no>Rules</no>: 
+<no>1.</no> <class>Inventory</class> <class>departments</class> <no>and</no> <class>categories</class> <no>are</no> <method>displayed</method> <no>in</no> <class>matrix</class> <no>format</no> 
+<no>2.</no> <no>The</no> <class>matrix</class> <attribute>dimensions</attribute> <no>are</no> <attribute>fixed</attribute>, <no>and</no> <no>are</no> <no>the</no> <no>same</no> <no>when</no> <attribute>displaying</attribute> <class>departments</class> <no>or</no> <class>categories</class>. 
+<no>3.</no> <attribute>Unused</attribute> <class>matrix</class> <no>cells</no> <no>are</no> <method>displayed</method> <method>empty</method>. 
+<no>4.</no> <no>The</no> <no>actual</no> <method>matrix</method> <attribute>dimensions</attribute> <no>are</no> <no>to</no> <no>be</no> <method>determined</method> <no>during</no> <no>system</no> <no>implementation</no>. 
+<no>4.1.</no> <no>The</no> <class>matrix</class> <no>should</no> <no>be</no> <no>able</no> <no>to</no> <method>hold</method> <method>at least 30 tiles</method> <no>at</no> <no>each</no> <no>level</no> 
+<no>5.</no> <no>Each</no> <class>matrix</class> <no>cell</no> <method>displays</method> <no>a</no> <class>department</class> <no>or</no> <class>category</class> <no>name</no>. 
+<no>5.1.</no> <no>For</no> <class>departments</class> <no>with</no> <class>subcategories</class>, <no>the</no> <class>department</class> <attribute>name</attribute> <no>is</no> <no>a</no> <no>hyperlink</no> <no>to</no> <no>the</no> <association>view</association> <no>of</no> <no>the</no> <class>department</class> <no>subcategories</no> 
+<no>5.2.</no> <no>For</no> <no>a</no> <class>department</class> <no>with</no> <class>no subcategories</class>, <no>the</no> <class>department</class> <attribute>name</attribute> <no>is</no> <no>a</no> <no>hyperlink</no> <no>to</no> <no>the</no> <association>view</association> <no>of</no> <no>the</no> <class>items</class> <no>in</no> <no>that</no> <class>department</class> 
+<no>5.3.</no> <no>For</no> <class>categories</class> <no>with</no> <class>subcategories</class>, <no>the</no> <class>category</class> <attribute>name</attribute> <no>is</no> <no>a</no> <no>hyperlink</no> <no>to</no> <no>the</no> <association>view</association> <no>of</no> <no>the</no> <class>subcategories</class> 
+<no>5.4.</no> <no>For</no> <no>a</no> <class>category</class> <no>with</no> <no>no</no> <class>subcategories</class> 
+<no>5.4.1.</no> <no>For</no> <no>a</no> <no>Unique</no> <class>Item</class> <class>category</class>, <no>the</no> <class>category</class> <attribute>name</attribute> <no>is</no> <no>a</no> <no>hyperlink</no> <no>to</no> <no>a</no> <association>view</association> <no>of</no> <no>the</no> <class>items</class> <no>under</no> 
+<no>that</no> <class>category</class> 
+<no>5.4.2.</no> <no>For</no> <no>a</no> <no>Stock</no> <class>Item</class> <class>category</class>, <no>the</no> <class>category</class> <attribute>name</attribute> <no>is</no> <no>a</no> <no>hyperlink</no> <no>to</no> <no>a</no> <association>view</association> <no>of</no> <no>the</no> <no>details</no> <no>for</no> <no>that</no> 
+<no>Stock</no> <class>Item</class>, <no>including</no> <no>the</no> <no>current</no> <no>quantity</no> <no>on</no> <no>hand</no> 
+<no>5.4.3.</no> <no>For</no> <no>a</no> <no>Under</no> <no>$5</no> <class>category</class>: 
+<no>5.4.3.1.</no> <no>The</no> <class>category</class> <attribute>name</attribute> <no>is</no> <no>not</no> <no>a</no> <no>hyperlink</no> 
+<no>6.</no> <no>By</no> <no>default</no>, <no>the</no> <class>items</class> <no>list</no> <no>contains</no> <no>the</no> <no>list</no> <no>of</no><no>all</no> <no>Unique</no> <no>and</no> <no>Stock</no> <class>items</class> <no>in</no> <no>the</no> <no>selected</no> <class>department</class> <no>or</no> <class>category</class>, <no>or</no> across <no>all</no> <class>departments</class> <no>and</no> <class>categories</class> <no>when</no> <association>viewing</association> <no>the</no> <no>all</no> <class>inventory</class> <class>items</class> <no>screen</no> 
+<no>7.</no> <no>When</no> <no>a</no> <method>search keyword</method> <no>is</no> <method>specified</method>, <no>the</no> <no>system</no> <method>filters</method> <no>the</no> <no>default</no> <class>items</class> <no>list</no> <no>for</no> <no>that</no> <no>screen</no> <no>and</no> 
+<method>returns</method> <no>only</no> <no>the</no> <class>items</class> <no>for</no> <no>which</no> <no>the</no> <no>keyword</no> <no>matches</no> <no>one</no> <no>or</no> <no>more</no> <no>of</no> <no>the</no> <no>following</no> <no>columns</no>: 
+<no>7.1.</no> <attribute>Donor</attribute> 
+<no>7.2.</no> <class>Department</class> 
+<no>7.3.</no> <class>Category</class> 
+<no>7.4.</no> <attribute>Description</attribute> 
+<no>8.</no> <no>When</no> <class>user</class> <association>clicks</association> <no>on</no> <no>an</no> <class>item</class> <no>in</no> <no>the</no> <class>items</class> <no>list</no> <no>for</no> <no>a</no> <class>category</class> <no>or</no> <class>department</class>, <no>the</no> <no>system</no> <method>displays</method> <no>the</no> <class>item</class> <no>details</no> <no>screen</no>  
+<no>9.</no> <class>Departments</class> <no>and</no> <class>categories</class> <no>are</no> <no>listed</no> <no>in</no> <no>alphabetical</no> <no>order</no> <no>in</no> <no>each</no> <no>row</no>, <no>from</no> <no>left</no> <no>to</no> <no>right</no> <no>and</no> <no>top</no> <no>to</no> <no>bottom</no> 
+<no>10.</no> <no>The</no> <no>cell</no> <no>in</no> <no>the</no> <no>top</no> <no>left</no> <no>corner</no> <no>of</no> <no>the</no> <class>matrix</class> <no>always</no> <association>represents</association> <no>a</no> <no>generic</no> <class>item</class> <no>in</no> <no>the</no> <attribute>selected</attribute> <class>department</class> (<no>e.g.</no> <no>a</no> <no>generic</no> <no>appliance</no> <no>when</no> <method>viewing</method> <no>the</no> <class>categories</class> <no>in</no> <no>the</no> <no>appliance</no> <class>department</class>) <no>and</no> <no>is</no> <no>automatically</no> <method>generated</method> <no>by</no> <no>the</no> <no>system</no>  
+<no>11.</no> <no>The</no> <no>cell</no> <no>to</no> <no>the</no> <no>right</no> <no>of</no> <no>the</no> <no>top</no> <no>left</no> <no>corner</no> <no>of</no> <no>the</no> <class>matrix</class> <no>always</no> <association>represents</association> <no>under</no> <no>$5</no> <class>items</class> <no>in</no> <no>the</no> <attribute>selected</attribute> <class>department</class> <no>and</no> <no>is</no> <no>automatically</no> <method>generated</method> <no>by</no> <no>the</no> <no>system</no> 
+<no>3.1.7.</no> <no>Post-Condition</no>(<no>s</no>): <no>None</no> 
+<no>3.1.8</no>. <no>Open</no> <no>Issues</no>: 
+<no>None</no> 
+<no>3.1.9</no>. <no>Extension</no> <no>Points</no>: <no>None</no> 
+<no>3.1.10</no>. <no>Activity</no> <no>Diagram</no>(<no>s)</no>: 
+<no>None</no> 
+<no>3.1.11</no>. <no>Notes</no>: 
+<no>See</no> <no>the</no> <no>View</no> <class>Inventory</class> <class>user</class> <no>interface</no> <no>requirements</no>.  
+ 
+ 
+<no>3.2.</no> <no>Manage</no> <class>Departments</class> <no>The</no> <no>system</no> <no>should</no> <no>allow</no> <class>inventory</class> <class>administrators</class> <no>to</no> <association>customize</association> <no>the</no> <class>inventory</class> <no>structure</no> <no>by</no> <association>defining</association> <no>the</no> <class>inventory</class> <class>departments</class> (<no>not</no> <no>to</no> <no>be</no> <no>confused</no> <no>actual</no> <no>retail</no> <no>floor</no> <class>departments</class> <no>known</no> <no>later</no> <no>in</no> <no>this</no> <no>document</no> <no>as</no> <no>stocking</no> <no>locations</no>). 
+<no>3.2.1.</no> <no>Actor</no>(<no>s</no>): 
+ <class>Administrator</class> 
+<no>3.2.2</no>. <no>Assumptions</no>, <no>Pre-Conditions</no> &amp; <no>Triggers</no>: 
+<no>1.</no> <class>User</class> <no>is</no> <method>logged</method> <no>into</no> <no>the</no> <no>system</no> 
+<no>3.2.3</no>. <no>Use</no> <no>Case</no> <no>Dependencies</no> 
+<no>1</no>. <method>View</method> <class>Inventory</class> 
+<no>3.2.4.</no> <no>Basic</no> <no>Flows</no>: <no>1</no>. <method>Add</method> <class>Department</class> 
+<no>1.1</no>. <class>User</class> <association>accesses</association> <no>the</no> <no>main</no> <class>inventory</class> <no>screen</no> 
+<no>1.2</no>. <no>System</no> <method>displays</method> <no>the</no> <method>Add</method> <class>Department</class> <no>button</no> 
+<no>1.3</no>. <class>User</class> <no>clicks</no> <no>the</no> <association>Add</association> <class>Department</class> <no>button</no> 
+<no>1.4</no>. <class>User</class> <no>enters</no> <no>the</no> <class>Department</class> <no>data</no> 
+<no>1.5</no>. <no>System</no> <method>validates</method> <no>the</no> <class>Department</class> <method>data</method> 
+<no>1.6</no>. <no>System</no> <no>adds</no> <no>the</no> <no>new</no> <class>Department</class> <no>to</no> <no>the</no> <class>inventory</class> 
+<no>1.7</no>. <class>User</class> <no>is</no> <no>taken</no> <no>back</no> <no>to</no> <no>the</no> <no>main</no> <class>inventory</class> <no>screen</no> 
+ <no>2.</no> <no>Edit</no> <class>Department</class> 
+<no>2.1</no>. <class>User</class> <no>navigates</no> <no>to</no> <no>a</no> <class>Department</class> (<no>see</no> <no>View</no> <class>Inventory</class>) 
+<no>2.2</no>. <no>System</no> <no>displays</no> <no>the</no> <no>Edit</no> <class>Department</class> <no>button</no> 
+<no>2.3</no>. <class>User</class> <no>clicks</no> <no>the</no> <association>Edit</association> <class>Department</class> <no>button</no> 
+<no>2.4</no>. <no>System</no> <no>displays</no> <no>the</no> <class>Department</class> <no>data</no> 
+<no>2.5</no>. <class>User</class> <association>edits</association> <class>Department</class> <no>data</no> 
+<no>2.6</no>. <no>System</no> <no>validates</no> <no>the</no> <class>Department</class> <no>data</no> 
+<no>2.7</no>. <no>System</no> <method>updates</method> <no>the</no> <class>Department</class> <no>information</no> 
+<no>2.8</no>. <class>User</class> <no>is</no> <no>taken</no> <no>back</no> <no>to</no> <no>the</no> <class>Department</class> <no>screen</no> 
+ <no>3.</no> <no>Delete</no> <class>Department</class> 
+<no>3.1</no>. <class>User</class> <no>navigates</no> <no>to</no> <no>a</no> <class>Department</class> (<no>see</no> <no>View</no> <class>Inventory</class>) 
+<no>3.2</no>. <no>System</no> <no>displays</no> <no>the</no> <no>Edit</no> <class>Department</class> <no>button</no> 
+<no>3.3</no>. <class>User</class> <no>clicks</no> <no>the</no> <association>Edit</association> <class>Department</class> <no>button</no> 
+<no>3.4</no>. <no>System</no> <no>displays</no> <no>the</no> <class>Department</class> <no>data</no> 
+<no>3.5</no>. <class>User</class> <no>clicks</no> <no>the</no> <association>Delete</association> <class>Department</class> <no>button</no> 
+<no>3.6</no>. <no>System</no> <method>validates</method> <no>the</no> <class>Department</class> <method>deletion</method> 
+<no>3.7</no>. <no>System</no> <method>removes</method> <no>the</no> <class>Department</class> from <no>the</no> <class>inventory</class> 
+<no>3.8</no>. <class>User</class> <no>is</no> <no>taken</no> <no>back</no> <no>to</no> <no>the</no> <no>main</no> <class>inventory</class> <no>screen</no> 
+<no>3.2.5</no>. <no>Alternative</no> <no>Flows</no>: 
+<no>1</no>. <no>Add</no> <class>Department</class> 
+<no>1.1</no>. <class>User</class> <association>cancels</association> <no>the</no> <class>Department</class> <association>add</association> <no>and</no> <no>is</no> <no>taken</no> <no>back</no> <no>to</no> <no>the</no> <no>main</no> <class>inventory</class> <no>screen</no> 
+<no>1.2</no>. <no>During</no> <no>data</no> <no>validation</no>, <no>data</no> <no>is</no> <no>deemed</no> <no>invalid</no> <no>and</no> <no>an</no> <no>error</no> <no>message</no> <no>is</no> <no>presented</no> <no>to</no> <no>the</no> <class>user</class> 
+ <no>2.</no> <no>Edit</no> <class>Department</class> 
+<no>2.1</no>. <class>User</class> <association>cancels</association> <no>the</no> <class>Department</class> <association>edit</association> <no>and</no> <no>is</no> <no>taken</no> <no>back</no> <no>to</no> <no>the</no> <no>main</no> <class>inventory</class> <no>screen</no> 
+<no>2.2.</no> <no>During</no> <no>data</no> <no>validation</no>, <no>data</no> <no>is</no> <no>deemed</no> <no>invalid</no> <no>and</no> <no>an</no> <no>error</no> <no>message</no> <no>is</no> <no>presented</no> <no>to</no> <no>the</no> <class>user</class> 
+<no> 3.</no> <no>Delete</no> <class>Department</class> 
+<no>3.1.</no> <class>User</class> <association>cancels</association> <no>the</no> <class>Department</class> <association>deletion</association> <no>and</no> <no>is</no> <no>taken</no> <no>back</no> <no>to</no> <no>the</no> <class>Department</class> <no>screen</no> 
+<no>3.2</no>. <no>During</no> <no>deletion</no> <no>validation</no>, <no>deletion</no> <no>is</no> <no>deemed</no> <no>invalid</no> <no>and</no> <no>an</no> <no>error</no> <no>message</no> <no>is</no> <no>presented</no> <no>to</no> <no>the</no>
+<class>user</class> 
+<no>3.2.6</no>. <no>Business</no> <no>Rules</no>: 
+<no>1.</no> <no>Add</no> <class>Department</class> 
+<no>1.1</no>. <no>The</no> <no>following</no> <no>fields</no> <no>are</no> <no>mandatory</no>: 
+<no>1.1.1</no>. <attribute>Name</attribute> 
+<no>1.1.2</no>. <attribute>POS Department Code</attribute> 
+<no>1.1.3</no>. <attribute>Unique Tag</attribute>  
+<no>1.2</no>. <no>The</no> <class>Department</class> <attribute>Name</attribute> <no>must</no> <no>be</no> <no>unique</no> <no>across</no> <no>the</no> <class>inventory</class> 
+<no>1.3</no>. <no>The</no> <class>Department</class><no>‟s</no> <attribute>Unique Tag</attribute> <no>must</no> <no>be</no> <no>unique</no> <no>across</no> <no>the</no> <class>inventory</class> 
+<no>1.4</no>. <no>The</no> <attribute>POS Department Code</attribute> <no>must</no> <no>be</no> <no>at</no> <no>most</no> <no>3</no> <no>characters</no> <no>long</no> 
+<no>1.5</no>. <no>The</no> <attribute>Unique Tag</attribute> <no>must</no> <no>be</no> <no>at</no> <no>most</no> <no>18</no> <no>characters</no> <no>long</no> 
+<no>1.6</no>. <no>There</no> <no>must</no> <no>be</no> <no>at</no> <no>least</no> <no>one</no> <no>slot</no> <no>available</no> <no>in</no> <no>the</no> <class>Department</class> <no>matrix</no> <no>to</no> <no>hold</no> <no>the</no> <no>new</no> <class>Department</class> 
+ <no>2</no>. <no>Edit</no> <class>Department</class> 
+<no>2.1</no>. <no>The</no> <no>following</no> <no>fields</no> <no>are</no> <no>mandatory</no>: 
+<no>2.1.1</no>. <attribute>Name </attribute>
+<no>2.1.2</no>. <attribute>Unique Tag</attribute>  
+<no>2.2</no>. <no>The</no> <class>Department</class> <attribute>Name</attribute> <no>must</no> <no>be</no> <no>unique</no> <no>across</no> <no>the</no> <class>inventory</class> 
+<no>2.3</no>. <no>The</no> <class>Department</class><no>‟s</no> <attribute>Unique Tag</attribute> <no>must</no> <no>be</no> <no>unique</no> <no>across</no> <no>the</no> <class>inventory</class> 
+<no>2.4</no>. <no>The</no> <attribute>Unique Tag</attribute> <no>must</no> <no>be</no> <no>at</no> <no>most</no> <no>18</no> <no>characters</no> <no>long</no> 
+ <no>3.</no> <no>Delete</no> <class>Department</class> 
+<no>3.1</no>. <no>A</no> <class>Department</class> <no>cannot</no> <no>be</no> <no>deleted</no> <no>if</no> <no>it</no> <no>contains</no> <class>categories</class> <no>and</no>/<no>or</no> <class>items</class> 
+<no>3.2.</no> <no>The</no> <no>system</no> <no>must</no> <no>ask</no> <no>for</no> <no>confirmation</no> <no>before</no> <no>deleting</no> <no>a</no> <class>Department</class> 
+<no>3.2.7.</no> <no>Post-Condition</no><no>(s</no>): 
+<no>1.</no> <no>Add</no> <class>Department</class> 
+<no>1.1.</no> <no>The</no> <no>new</no> <class>Department</class> <no>is</no> <no>added</no>  
+<no>2.</no> <no>Edit</no> <class>Department</class> 
+<no>2.1</no>. <no>The</no> <class>Department</class> <no>is</no> <no>updated</no> 
+ <no>3</no>. <no>Delete</no> <class>Department</class> 
+<no>3.1</no>. <no>The</no> <class>Department</class> <no>is</no> <no>deleted</no> 
+<no>3.2.8</no>. <no>Open</no> <no>Issues</no>: <no>None</no> 
+<no>3.2.9</no>. <no>Extension</no> <no>Points</no>: 
+<no>None</no> 
+<no>3.2.10</no>. <no>Activity</no> <no>Diagram</no>(<no>s</no>): <no>None</no> 
+<no>3.2.11.</no> <no>Notes</no>: 
+<no>See</no> <no>the</no> <no>Manage</no> <class>Departments</class> <class>user</class> <no>interface</no> <no>requirements</no>.  
+ 
+ 
+<no>3.3</no>. <no>Manage</no> <class>Categories</class> <no>The</no> <no>system</no> <no>should</no> <no>allow</no> <class>inventory administrators</class> <no>to</no> <association>customize</association> <no>the</no> <class>inventory</class> <no>structure</no> <no>by</no> <no>defining</no> <no>the</no> <class>inventory</class> <class>departments</class> <no>and</no> <class>categories</class>.  
+<no>3.3.1</no>. <no>Actor</no>(<no>s</no>): 
+ <class>Administrator</class> 
+<no>3.3.2</no>. <no>Assumptions</no>, <no>Pre-Conditions</no> <no>&amp;</no> <no>Triggers</no>: 
+<no>1.</no> <class>User</class> <no>is</no> <method>logged</method> <no>into</no> <no>the</no> <no>system</no> 
+<no>3.3.3</no>. <no>Use</no> <no>Case</no> <no>Dependencies</no> 
+<no>1.</no> <method>View</method> <class>Inventory</class> 
+<no>2.</no> <no>Manage</no> <no>Attributes</no> <no>and</no> <no>Details</no> 
+
+<no>3.3.4</no>. <no>Basic</no> <no>Flows</no>: 
+<no>1</no>. <no>Add</no> <class>Category</class> 
+<no>1.1</no>. <class>User</class> <association>navigates</association> <no>to</no> <no>a</no> <class>Department</class> <no>or</no> <no>Category</no> (<no>see</no> <no>View</no> <class>Inventory</class>) 
+<no>1.2.</no> <no>System</no> <no>displays</no> <no>the</no> <no>Add</no> <class>Category</class> <no>buttons</no> 
+<no>1.2.1</no>. <no>Unique</no> <class>Item</class>  
+<no>1.2.2</no>. <no>Stock</no> <class>Item</class> 
+<no>1.3</no>. <class>User</class> <association>clicks</association> <no>the</no> <no>desired</no> <association>Add</association> <class>Category</class> <no>button</no> 
+<no>1.4</no>. <no>System</no> <no>displays</no> <no>the</no> <no>appropriate</no> <no>screen</no> <no>for</no> <no>the</no> <class>Category</class> <no>type</no> 
+<no>1.4.1</no>. <attribute>Unique</attribute> <class>Item</class>  
+<no>1.4.2</no>. <attribute>Stock</attribute> <class>Item</class> 
+<no>1.5</no>. <class>User</class> <association>enters</association> <class>Category</class> <no>data</no> 
+<no>1.6</no>. <no>System</no> <method>validates</method> <no>the</no> <class>Category</class> <no>data</no> 
+<no>1.7</no>. <no>System</no> <no>adds</no> <no>the</no> <no>new</no> <class>Category</class> <no>to</no> <no>the</no> <class>inventory</class> 
+<no>1.8.</no> <class>User</class> <no>is</no> <no>taken</no> <no>back</no> <no>to</no> <no>the</no> <no>parent</no> <class>Department</class> <no>or</no> <no>Category</no> <no>of</no> <no>the</no> <no>added</no> <class>Category</class> 
+ <no>2.</no> <no>Edit</no> <class>Category</class> 
+<no>2.1.</no> <class>User</class> <no>navigates</no> <no>to</no> <no>a</no> <class>Category</class> (<no>see</no> <no>View</no> <class>Inventory</class>)
+ <no>2.2.</no> <no>System</no> <no>displays</no> <no>the</no> <no>Edit</no> <class>Category</class> <no>button</no> 
+<no>2.3.</no> <class>User</class> <no>clicks</no> <no>the</no> <association>Edit</association> <class>Category</class> <no>button</no> 
+<no>2.4</no>. <no>System</no> <no>displays</no> <no>the</no> <no>appropriate</no> <no>screen</no> <no>for</no> <no>the</no> <class>Category</class> <no>type</no> 
+<no>2.4.1</no>.<attribute> Unique</attribute> <class>Item</class>  
+<no>2.4.2</no>. <attribute>Stock</attribute> <class>Item</class> 
+<no>2.5</no>. <class>User</class> <association>edits</association> <class>Category</class> <no>data</no> 
+<no>2.6</no>. <no>System</no> <method>validates</method> <no>the</no> <class>Category</class> <no>data</no> 
+<no>2.7</no>. <no>System</no> <no>updates</no> <no>the</no> <class>Category</class> <no>information</no> 
+<no>2.8</no>. <class>User</class> <no>is</no> <no>taken</no> <no>back</no> <no>to</no> <no>the</no> <class>Category</class> <no>screen</no> 
+ <no>3.</no> <no>Delete</no> <class>Category</class> 
+<no>3.1</no>. <class>User</class> <no>navigates</no> <no>to</no> <no>a</no> <class>Category</class> (<no>see</no> <no>View</no> <class>Inventory</class>) 
+<no>3.2</no>. <no>System</no> <no>displays</no> <no>the</no> <no>Edit</no> <class>Category</class> <no>button</no> 
+<no>3.3</no>. <class>User</class> <no>clicks</no> <no>the</no> <no>Edit</no> <class>Category</class> <no>button</no> 
+<no>3.4</no>. <no>System</no> <no>displays</no> <no>the</no> <no>appropriate</no> <no>screen</no> <no>for</no> <no>the</no> <class>Category</class> <no>type</no> 
+<no>3.4.1</no>. <attribute>Unique</attribute> <class>Item</class>  
+<no>3.4.2</no>. <attribute>Stock</attribute> <class>Item</class> 
+<no>3.5</no>. <class>User</class> <no>clicks</no> <no>the</no> <association>Delete</association> <class>Category</class> <no>button</no> 
+<no>3.6</no>. <no>System</no> <no>validates</no> <no>the</no> <class>Category</class> <no>deletion</no> 
+<no>3.7</no>. <no>System</no> <no>removes</no> <no>the</no> <class>Category</class> <no>from</no> <no>the</no> <class>inventory</class> 
+<no>3.8</no>. <class>User</class> <no>is</no> <no>taken</no> <no>back</no> <no>to</no> <no>the</no> <no>parent</no> <class>Department</class> <no>or</no> <class>Category</class> <no>of</no> <no>the</no> <no>deleted</no> <class>Category</class> 
+ <no>4.</no> <no>Move</no> <class>Categories</class> 
+<no>4.1</no>. <class>User</class> <no>navigates</no> <no>to</no> <no>a</no> <class>Department</class> <no>or</no> <class>Category</class> (<no>see</no> <no>View</no> <class>Inventory</class>) 
+<no>4.2</no>. <no>System</no> <no>displays</no> <no>the</no> <no>Move</no> <class>Categories</class> <no>button</no> 
+<no>4.3</no>. <class>User</class> <no>clicks</no> <no>the</no> <association>Move</association> <class>Categories</class> <no>button</no> 
+<no>4.4</no>. <no>System</no> <no>displays</no> <no>the</no> <no>Move</no> <class>Categories</class> <no>screen</no> 
+<no>4.5</no>. <class>User</class> <no>selects</no> <class>Categories</class> <no>to</no> <no>move</no> 
+<no>4.6</no>. <class>User</class> <method>selects target location</method> <no>on</no> <no>categorized</no> <class>inventory</class> <no>for</no> <no>the</no> <no>moved</no> <class>Categories</class> 
+<no>4.6.1</no>. <class>User</class> <no>may</no> <association>select</association> <no>an</no> <association>existing</association> <class>Department</class> <no>or</no> <class>Category</class> 
+<no>4.6.2</no>. <class>User</class> <no>may</no> <no>choose</no> <no>to</no> <no>create</no> <no>a</no> <no>new</no> <class>Category</class> <no>to</no> <no>hold</no> <no>the</no> <no>moved</no> <class>Categories</class> 
+<no>4.6.2.1</no>. <no>In</no> <no>this</no> <no>case</no>, <class>user</class> <no>selects</no> <no>the</no> <no>parent</no> <class>Department</class> <no>or</no> <class>Category</class> <no>of</no> <no>the</no> <no>new</no> <class>Category</class> <no>to</no> <no>be</no> <no>created</no> 
+<no>4.6.2.2</no>. <class>User</class> <association>enters</association> <no>the</no> <association>new</association> <class>Category</class> <no>data</no> 
+<no>4.7</no>. <class>User</class> <no>selects</no> <no>the</no> <no>type</no> <no>of</no> <no>move</no> <no>to</no> <no>be</no> <no>performed</no> 
+<no>4.7.1</no>. <no>Move</no> <no>selected</no> <class>categories</class> <no>as-</no><no>is</no> <no>and</no> <no>make</no> <no>them</no> <no>children</no> <no>of</no> <no>the</no> <no>target</no> <class>Department</class> <no>or</no> <class>Category</class> 
+<no>4.7.2</no>. <no>Merge</no> <no>the</no> <no>contents</no> (<attribute>items</attribute>) <no>of</no><no>the</no> <no>selected</no> <class>categories</class> <no>and</no> <no>add</no> <no>them</no> <no>to</no> <no>the</no> <no>target</no> <class>Department</class> <no>or</no> <class>Category</class> 
+<no>4.8.</no> <no>System</no> <no>validates</no> <no>the</no> <no>entered</no> <no>data</no> 
+<no>4.9</no>. <no>System</no> <no>moves</no> <no>the</no> <no>selected</no> <class>Categories</class> 
+<no>4.10</no>. <class>User</class> <no>is</no> <no>taken</no> <no>back</no> <no>to</no> <no>the</no> <no>parent</no> <class>Department</class> <no>or</no> <class>Category</class> <no>of</no> <no>the</no> <no>moved</no> <class>Categories</class> 
+<no>3.3.5</no>. <no>Alternative</no> <no>Flows</no>: 
+<no>1.</no> <no>Add</no> <class>Category</class> 
+<no>1.1.</no> <class>User</class> <association>cancels</association> <no>the</no> <class>Category</class> <association>add</association> <no>and</no> <no>is</no> <no>taken</no> <no>back</no> <no>to</no> <no>parent</no> <class>Department</class> <no>or</no> <class>Category</class> 
+<no>1.2.</no> <no>During</no> <no>data</no> <no>validation</no>, <no>data</no> <no>is</no> <no>deemed</no> <no>invalid</no> <no>and</no> <no>an</no> <no>error</no> <no>message</no> <no>is</no> <no>presented</no> <no>to</no> <no>the</no> <class>user</class> 
+<no> 2. </no><no>Edit</no> <class>Category</class> 
+<no>2.1.</no> <class>User</class> <association>cancels</association> <no>the</no> <class>Category</class> <association>edit</association> <no>and</no> <no>is</no> <no>taken</no> <no>back</no> <no>to</no> <class>Category</class> <no>screen</no> 
+<no>2.2</no>. <no>During</no> <no>data</no> <no>validation</no>, <no>data</no> <no>is</no> <no>deemed</no> <no>invalid</no> <no>and</no> <no>an</no> <no>error</no> <no>message</no> <no>is</no> <no>presented</no> <no>to</no> <no>the</no> <class>user</class> 
+ <no>3</no>. <no>Delete</no> <class>Category</class> 
+<no>3.1</no>. <class>User</class> <association>cancels</association> <no>the</no> <class>Category</class> <association>deletion</association> <no>and</no> <no>is</no> <no>taken</no> <no>back</no> <no>to</no> <no>the</no> <class>Category</class> <no>screen</no> 
+<no>3.2</no>. <no>During</no> <no>deletion</no> <no>validation</no>, <no>deletion</no> <no>is</no> <no>deemed</no> <no>invalid</no> <no>and</no> <no>an</no> <no>error</no> <no>message</no> <no>is</no> <no>presented</no> <no>to</no> <no>the</no>
+<class>user</class>  
+<no>4.</no> <method>Move</method> <class>Categories</class> 
+<no>4.1</no>. <class>User</class> <association>cancels</association> <no>the</no> <class>Category</class> <no>move</no> <no>and</no> <no>is</no> <no>taken</no> <no>back</no> <no>to</no> <no>the</no> <no>parent</no> <class>Department</class> <no>or</no> <class>Category</class> <no>screen</no> 
+<no>4.2.</no> <no>During</no> <no>move</no> <no>validation</no>, <no>move</no> <no>is</no> <no>deemed</no> <no>invalid</no> <no>and</no> <no>an</no> <no>error</no> <no>message</no> <no>is</no> <no>presented</no> <no>to</no> <no>the</no> <class>user</class> 
+<no>3.3.6. </no><no>Business</no> <no>Rules</no>: 
+<no>1.</no> <no>Add</no> <class>Category</class> 
+<no>1.1.</no> <no>The</no> <no>following</no> <no>fields</no> <no>are</no> <no>mandatory</no>: 
+<no>1.1.1</no>. <attribute>Unique</attribute> <class>Item</class> <class>Category</class> 
+<no>1.1.1.1</no>. <attribute>Name</attribute> 
+<no>1.1.1.2</no>. <attribute>Unique Tag</attribute> 
+<no>1.1.2</no>. <attribute>Stock</attribute> <class>Item</class> <class>Category</class> 
+<no>1.1.2.1</no>. <attribute>Name</attribute> 
+<no>1.1.2.2</no>. <attribute>Unique Tag  </attribute>
+<no>1.1.2.3</no>. <attribute>Price</attribute> 
+<no>1.2</no>. <no>The</no> <class>Category</class> <attribute>Name</attribute> <no>must</no> <no>be</no> <no>unique</no> <no>across</no> <no>the</no> <class>inventory</class> 
+<no>1.3</no>. <no>The</no> <class>Category</class><no>‟s</no> <attribute>Unique Tag</attribute> <no>must</no> <no>be</no> <no>unique</no> <no>across</no> <no>the</no> <class>inventory</class> 
+<no>1.4</no>. <no>The</no> <attribute>Unique Tag</attribute> <no>must</no> <no>be</no> <no>at</no> <no>most</no> <no>18</no> <no>characters</no> <no>long</no> 
+<no>1.5</no>. <no>There</no> <no>must</no> <no>be</no> <no>at</no> <no>least</no> <no>one</no> <no>slot</no> <no>available</no> <no>in</no> <no>the</no> <class>Category</class> <no>matrix</no> <no>at</no> <no>the</no> <no>level</no> <no>the</no> <no>new</no> <class>Category</class> <no>will</no> <no>be</no> <no>created</no> <no>to</no> <no>hold</no> <no>the</no> <no>new</no> <class>Category</class> 
+<no>1.6.</no> <no>The</no> <no>available</no> <no>options</no> <no>in</no> <no>the</no> <no>Material</no>, <no>Finish</no>, <no>Color</no> <no>and</no> <no>Features</no> <no>selectors</no> <no>should</no> <no>be</no> <no>the</no> <no>ones</no> <no>defined</no> <no>for</no> <no>the</no> <no>selected</no> <class>department</class> (<no>see</no> <no>Manage</no> <no>Attributes</no> <no>and</no> <no>Details</no>) 
+<no>1.7</no>. <no>The</no> <no>fields</no> <no>and</no> <no>available</no> <no>options</no> <no>under</no> <no>the</no> <no>Details</no> <no>section</no> <no>should</no> <no>be</no> <no>the</no> <no>ones</no> <no>defined</no> <no>for</no> <no>the</no> <no>selected</no> <class>category</class> (<no>see</no> <no>Manage</no> <no>Attributes</no> <no>and</no> <no>Details</no>) 
+<no>1.8</no>. <no>When</no> <no>a</no> <no>Stock</no> <class>Item</class> <class>Category</class> <no>is</no> <method>created</method>, <no>a</no> <no>corresponding</no> <class>item</class> <no>is</no> <method>added</method> <no>to</no> <method>QuickBooks POS</method> 
+<no>1.8.1</no>. <no>The</no> <attribute>ID</attribute> <no>of</no> <no>the</no> <class>item</class> <no>in</no> <no>POS</no> <no>is</no> <association>set</association> <no>to</no> <no>the</no> <class>Category</class><no>‟s</no> <attribute>Unique Tag</attribute> 
+<no>1.8.2</no>. <no>The</no> <no>initial</no> <class>item</class> <no>quantity</no> <no>in</no> <no>POS</no> <no>is</no> <method>set</method> <no>to</no><method> zero </method>
+ <no>2.</no> <no>Edit</no> <class>Category</class> 
+<no>2.1</no>. <no>The</no> <no>following</no> <no>fields</no> <no>are</no> <no>mandatory</no>: 
+<no>2.1.1</no>. <attribute>Unique</attribute> <class>Item</class> <class>Category</class> 
+<no>2.1.1.1</no>. <attribute>Name</attribute> 
+<no>2.1.1.2</no>. <association>Unique Tag</association> 
+<no>2.1.2</no><no>.</no> <no>Stock</no> <class>Item</class> <class>Category</class> 
+<no>2.1.2.1</no>. <attribute>Name</attribute> 
+<no>2.1.2.2</no>. <attribute>Unique Tag </attribute> 
+<no>2.1.2.3</no>. <attribute>Price</attribute> 
+<no>2.2</no>. <no>The</no> <class>Category</class> <attribute>Name</attribute> <no>must</no> <no>be</no> <no>unique</no> <no>across</no> <no>the</no> <class>inventory</class> 
+<no>2.3</no>. <no>The</no> <class>Category</class><no>‟s</no> <attribute>Unique Tag</attribute> <no>must</no> <no>be</no> <no>unique</no> <no>across</no> <no>the</no> <class>inventory</class> 
+<no>2.4</no>. <no>The</no> <attribute>Unique Tag</attribute> <no>must</no> <no>be</no> <no>at</no> <no>most</no> <no>18</no> <no>characters</no> <no>long</no> 
+<no>2.5</no>. <no>The</no> <no>available</no> <no>options</no> <no>in</no> <no>the</no> <no>Material</no>, <no>Finish</no>, <no>Color</no> <no>and</no> <no>Features</no> <no>selectors</no> <no>should</no> <no>be</no> <no>the</no> <no>ones</no> <no>defined</no> <no>for</no> <no>the</no> <attribute>selected</attribute> <class>department</class> (<no>see</no> <no>Manage</no> <no>Attributes</no> <no>and</no> <no>Details</no>) 
+<no>2.6</no>. <no>The</no> <no>fields</no> <no>and</no> <no>available</no> <no>options</no> <no>under</no> <no>the</no> <no>Details</no> <no>section</no> <no>should</no> <no>be</no> <no>the</no> <no>ones</no> <no>defined</no> <no>for</no> <no>the</no> <no>selected</no> <class>category</class> (<no>see</no> <no>Manage</no> <no>Attributes</no> <no>and</no> <no>Details</no>) 
+<no>2.7</no>. <no>When</no> <no>a</no> <no>Stock</no> <class>Item</class> <class>Category</class> <no>is</no> <method>updated</method>, <no>the</no> <no>corresponding</no> <class>item</class> <no>is</no> <method>updated</method> <no>in</no> <method>QuickBooks POS </method>
+<no>2.7.1</no>. <no>The</no> <attribute>ID</attribute> <no>of</no><no>the</no> <class>item</class> <no>in</no> <no>POS</no> <no>is</no> <attribute>set</attribute> <no>to</no> <no>the</no> <class>Category</class><no>‟s</no> <method>Unique Tag</method> 
+<no>2.7.2</no>. <no>The</no> <no>initial</no> <class>item</class> <no>quantity</no> <no>in</no> <no>POS</no> <no>is</no> <method>set</method> <no>to</no> <method>zero</method> 
+<no>2.8</no>. <no>Generic</no> <class>categories</class> <no>and</no> <no>Under</no> <no>$5</no> <class>item</class> <class>categories</class> <no>are</no> <method>generated</method> <no>automatically</no> <no>by</no> <no>the</no> <no>system</no> <no>and</no> <no>cannot</no> <no>be</no> <no>modified</no> 
+ <no>3.</no> <method>Delete</method> <class>Category</class> 
+<no>3.1</no>. <no>When</no> <no>a</no> <class>Category</class> <no>is</no> <method>deleted</method>, <no>all</no> <no>of</no> <no>its</no> <class>items</class> <no>should</no> <no>be</no> <association>moved</association> <no>to</no> <no>the</no> <no>parent</no> <class>category</class> 
+<no>3.2.</no> <no>The</no> <no>system</no> <no>must</no> <no>ask</no> <no>for</no> <no>confirmation</no> <no>before</no> <no>deleting</no> <no>a</no> <class>Category</class> 
+<no>3.3</no>. <no>Generic</no> <class>item</class> <class>categories</class> <no>and</no> <no>Under</no> <no>$5</no> <class>item</class> <class>categories</class> <no>are</no> <method>generated</method> automatically <no>by</no> <no>the</no> <no>system</no> <no>and</no> <no>cannot</no> <no>be</no> <no>deleted</no>  
+<no>4</no>. <method>Move</method> <class>Categories</class> 
+<no>4.1</no>. <no>The</no> <class>Categories</class> <no>to</no> <no>Move</no> <no>selector</no> <no>is</no> <no>populated</no> <no>with</no> <no>the</no> <class>categories</class> <no>seen</no> <no>on</no> <no>the</no> <no>matrix</no> <no>at</no> <no>the</no> <no>level</no> <no>where</no> <no>the</no> <no>Move</no> <class>Categories</class> <no>button</no> <no>was</no> <no>pressed</no>. 
+<no>4.2</no>. <class>User</class> <no>must</no> <association>select</association> <no>at</no> <no>least</no> <no>one</no> <class>Category</class> <no>to</no> <no>move</no> 
+<no>4.3</no>. <class>User</class> <no>must</no> <association>select</association> <no>either</no> <no>an</no> <no>existing</no> <no>or</no> <no>new</no> <no>target</no> <class>Department</class> <no>or</no> <class>Category</class> 
+<no>4.4</no>. <class>User</class> <no>cannot</no> <no>move</no> <class>categories</class> <no>to</no> <no>any</no> <class>Departments</class> <no>or</no> <class>Categories</class> <no>that</no> <no>don</no><no>‟t</no> <no>have</no> <no>enough</no> <no>slots</no> <no>available</no> <no>in</no> <no>the</no> <no>matrix</no> <no>to</no> <no>hold</no> <no>the</no> <no>moved</no> <class>categories</class> 
+<no>4.5</no>. <class>User</class> <no>cannot</no> <no>move</no> <class>categories</class> <no>to</no> <no>any</no> <no>of</no><no>their</no> <no>subcategories</no> (<no>cannot</no> create <no>loops</no> <no>in</no> <no>the</no> <class>inventory</class> <no>hierarchy</no>) 
+<no>4.6</no>. <no>If</no> <no>a</no> <no>new</no> <no>target</no> <class>Category</class> <no>is</no> <no>selected</no>  
+<no>4.6.1</no>. <class>User</class> <no>must</no> <method>enter</method> 
+<no>4.6.1.1</no>. <attribute>Name</attribute> 
+<no>4.6.1.2</no>. <attribute>Unique Tag</attribute> 
+<no>4.6.1.3</no>. <no>Parent</no> <class>Department</class> <no>or</no> <class>Category</class> <no>of</no> <no>the</no> <no>new</no> <class>Category</class> 
+<no>4.6.2</no>. <no>The</no> <class>Category</class> <no>is</no> <no>created</no> <no>as</no> <no>a</no> <no>Unique</no> <class>Item</class> <class>Category</class> 
+<no>4.7</no>. <class>User</class> <no>cannot</no> <no>select</no> <no>a</no> <no>Stock</no> <class>Item</class>, <no>Under</no> <no>$5</no> <class>Category</class> <no>or</no> <no>Generic</no> <class>Category</class> <no>as</no> <no>the</no> <no>target</no> <class>Category</class> 
+<no>4.8</no>. <no>When</no> <no>a</no> <class>Category</class> <no>is</no> <no>moved</no> <no>it</no> <no>keeps</no> <no>its</no> <no>assigned</no> <class>Item</class> <no>Details</no> 
+<no>4.9</no>. <no>When</no> <no>the</no> <no>option</no> <no>to</no> <no>merge</no> <no>the</no> <no>contents</no> <no>of</no> <no>the</no> <no>selected</no> <class>Categories</class> <no>is</no> <no>selected</no>, <no>the</no> <class>Item</class> <no>Details</no>
+<no>assigned</no> <no>to</no> <no>the</no> <no>selected</no> <class>Categories</class> <no>are</no> <no>combined</no> <no>and</no> <no>assigned</no> <no>to</no> <no>the</no> <no>target</no> <class>Department</class> <no>or</no> <class>Category</class> 
+<no>4.10</no>. <no>When</no> <no>the</no> <no>option</no> <no>to</no> <association>merge</association> <no>the</no> <no>contents</no> <no>of</no><no>the</no> <no>selected</no> <class>Categories</class> <no>is</no> <no>selected</no>, <no>the</no> <no>moved</no> <class>items</class> <no>must</no> <no>be</no> <no>updated</no> <no>in</no> <no>QuickBooks</no> <no>POS</no> 
+<no>3.3.7</no>. <no>Post-Condition</no>(<no>s</no>): 
+<no>1</no>. <no>Add</no> <class>Category</class> 
+<no>1.1</no>. <no>The</no> <no>new</no> <class>Category</class> <no>is</no> <no>added</no>  
+<no>2</no>. <no>Edit</no> <class>Category</class> 
+<no>2.1</no>. <no>The</no> <class>Category</class> <no>is</no> <no>updated</no> 
+ <no>3</no>. <no>Delete</no> <class>Category</class> 
+<no>3.1</no>. <no>The</no> <class>Category</class> <no>is</no> <no>deleted</no>  
+<no>4</no>. <no>Move</no> <class>Categories</class> 
+<no>4.1</no>. <no>If</no> <no>the</no> „<no>move</no> <no>to</no> <no>a</no> <no>new</no> <class>Category</class>‟ <no>option</no> <no>is</no> <no>selected</no>, <no>a</no> <no>new</no> <class>Category</class> <no>is</no> <method>created</method> 
+<no>4.2</no>. <no>If</no> <no>the</no> „<no>move</no> <class>categories</class> <no>and</no> <no>make</no> <no>them</no> <no>children</no>‟ <no>option</no> <no>is</no> <no>selected</no>, <no>the</no> <no>selected</no> <class>Categories</class> <no>are</no> <method>moved</method> <no>to</no> <no>the</no> <no>selected</no> <no>target</no> <no>location</no> 
+<no>4.3</no>. <no>If</no> <no>the</no> „<no>merge</no> <no>contents</no> <no>of</no> <no>selected</no> <class>categories</class>‟ <no>option</no> <no>is</no> <no>selected</no>, <no>the</no> <no>contents</no> <no>of</no> <no>the</no> <no>selected</no> <class>Categories</class> <no>are</no> <no>moved</no> <no>to</no> <no>the</no> <no>selected</no> <no>target</no> <no>location</no> 
+<no>3.3.8</no>. <no>Open</no> <no>Issues</no>: 
+<no>None</no> 
+<no>3.3.9</no>. <no>Extension</no> <no>Points</no>: <no>None</no> 
+<no>3.3.10</no>. <no>Activity</no> <no>Diagram</no>(<no>s</no>): 
+<no>None</no> 
+<no>3.3.11</no>. <no>Notes</no>: 
+<no>See</no> <no>the</no> <no>Manage</no> <class>Categories</class> <class>user</class> <no>interface</no> <no>requirements</no>.  
+ 
+ 
+<no>3.4</no>. <no>Manage</no> <no>Attributes</no> <no>and</no> <no>Details</no> <no>The</no> <no>system</no> <no>should</no> <no>allow</no> <class>inventory</class> <class>administrators</class> <no>to</no> <method>customize</method> <no>the</no> <method>attributes</method> <no>and</no> <no>details</no> <no>available</no> <no>for</no> <no>each</no> <class>inventory</class> <class>item</class>. <no>Attributes</no> <no>can</no> <no>be</no> <no>defined</no> <no>for</no> <no>each</no> <class>department</class>, <no>and</no> <no>details</no> <no>can</no> <no>be</no> <no>defined</no> <no>for</no> <no>each</no> <class>department</class> <no>and</no>/<no>or</no> <class>category</class> 
+<no>3.4.1</no>. <no>Actor</no>(s): 
+ <class>Administrator</class> 
+<no>3.4.2</no>. <no>Assumptions</no>, <no>Pre-Conditions</no> &amp; <no>Triggers</no>: 
+<no>1</no>. <class>User</class> <no>is</no> <method>logged</method> <no>into</no> <no>the</no> <no>system</no> 
+<no>3.4.3</no>. <no>Use</no> <no>Case</no> <no>Dependencies</no> 
+<no>1</no>. <method>View</method> <class>Inventory</class> 
+<no>3.4.4</no>. <no>Basic</no> <no>Flows</no>: 
+<no>1.</no> <method>View</method> <class>Item</class> <method>Attributes</method> 
+<no>1.1</no>. <class>User</class> <association>accesses</association> <no>the</no> <no>main</no> <class>inventory</class> <no>screen</no> 
+<no>1.2</no>. <no>System</no> <no>displays</no> <no>the</no> <no>Edit</no> <no>Attributes</no> <no>button</no> 
+<no>1.3</no>. <class>User</class> <no>clicks</no> <no>the</no> <method>Edit</method> <method>Attributes</method> <no>button</no> 
+<no>1.4</no>. <no>System</no> <no>displays</no> <no>the</no> <no>Edit</no> <no>Attributes</no> <no>screen</no> <no>which</no> <no>displays</no> <no>all</no> <no>existing</no> <class>item</class> <no>attributes</no> <no>and</no> <no>their</no> <no>attribute</no> <no>x</no> <class>department</class> <no>assignments</no> 
+<no>1.5</no>. <no>Optionally</no>, <class>user</class> <no>filters</no> <no>view</no> <no>by</no> <no>attribute</no> <no>status</no> (<no>active</no>, <no>inactive</no>, <no>all</no>) 
+<no>1.6</no>. <class>User</class> <no>clicks</no> <no>the</no> <no>Done</no> <no>button</no> 
+<no>1.7</no>. <class>User</class> <no>is</no> <no>taken</no> <no>back</no> <no>to</no> <no>the</no> <no>main</no> <class>inventory</class> <no>screen</no> 
+ <no>2.</no> <method>View</method> <class>Item</class> <no>Details</no> 
+<no>2.1</no>. <class>User</class> <association>accesses</association> <no>the</no> <no>main</no> <class>inventory</class> <no>screen</no> 
+<no>2.2</no>. <no>System</no> <no>displays</no> <no>the</no> <no>Edit</no> <no>Details</no> <no>button</no> 
+<no>2.3</no>. <class>User</class> <no>clicks</no> <no>the</no> <method>Edit Details</method> <no>button</no> 
+<no>2.4</no><no>.</no> <no>System</no> <no>displays</no> <no>the</no> <no>Edit</no> <no>Details</no> <no>screen</no> <no>which</no> <no>displays</no> <no>all</no> <no>existing</no> <class>item</class> <no>details</no> <no>and</no> <no>their</no> <no>detail</no> <no>x</no> <class>department</class> <no>and</no> <class>category</class> <no>assignments</no> 
+<no>2.5</no>. <no>Optionally</no>, <class>user</class> <no>filters</no> <no>view</no> <no>by</no> <no>detail</no> <no>status</no> (<no>active</no>, <no>inactive</no>, <no>all</no>) 
+<no>2.6</no>. <class>User</class> <no>clicks</no> <no>the</no> <no>Done</no> <no>button</no> 
+<no>2.7</no>. <class>User</class> <no>is</no> <no>taken</no> <no>back</no> <no>to</no> <no>the</no> <no>main</no> <class>inventory</class> <no>screen</no> 
+ <no>3</no>. <method>Edit</method> <class>Item</class> <method>Attributes</method> 
+<no>3.1</no>. <class>User</class> <association>accesses</association> <no>the</no> <no>main</no> <class>inventory</class> <no>screen</no> 
+<no>3.2</no>. <no>System</no> <no>displays</no> <no>the</no> <no>Edit</no> <no>Attributes</no> <no>button</no> 
+<no>3.3</no>. <class>User</class> <no>clicks</no> <no>the</no> <association>Edit Attributes</association> <no>button</no> 
+<no>3.4</no>. <no>System</no> <no>displays</no> <no>the</no> <no>Edit</no> <no>Attributes</no> <no>screen</no> <no>which</no> <no>displays</no> <no>all</no> <no>existing</no> <class>item</class> <no>attributes</no> <no>and</no> <no>their</no> <no>attribute</no> <no>x</no> <class>department</class> <no>assignments</no> 
+<no>3.5</no>. <no>Optionally</no>, <class>user</class> <no>filters</no> <no>view</no> <no>by</no> <no>attribute</no> <no>status</no> (<no>active</no>, <no>inactive</no>, <no>all</no>) 
+<no>3.6</no>. <class>User</class> <method>edits</method> <method>attributes</method> 
+<no>3.6.1</no>. <class>User</class> <association>changes</association> <association>attribute</association> <no>x</no> <class>department</class> <no>assignments</no> 
+<no>3.6.2</no>. <class>User</class> <method>changes attribute data </method>
+<no>3.6.3</no>. <class>User</class> <method>changes attribute active </method><no>x</no> <no>inactive</no> <no>status</no> 
+<no>3.6.4</no>. <class>User</class> <no>creates</no> <no>new</no> <no>attribute</no> 
+<no>3.6.5</no>. <no>System</no> <method>validates</method> <no>the</no> <method>attribute</method> <no>data</no> 
+<no>3.6.6</no>. <no>System</no> <no>updates</no> <no>the</no> <class>Item</class> <no>Attribute</no> <no>information</no> 
+<no>3.7</no>. <class>User</class> <no>clicks</no> <no>the</no> <no>Done</no> <no>button</no> 
+<no>3.8</no>. <class>User</class> <no>is</no> <no>taken</no> <no>back</no> <no>to</no> <no>the</no> <no>main</no> <class>inventory</class> <no>screen</no> 
+ <no>4.</no> <method>Edit</method> <class>Item</class> <method>Details</method> 
+<no>4.1</no>. <class>User</class> <association>accesses</association> <no>the</no> <no>main</no> <class>inventory</class> <no>screen</no> 
+<no>4.2</no>. <no>System</no> <no>displays</no> <no>the</no> <no>Edit</no> <no>Details</no> <no>button</no> 
+<no>4.3</no>. <class>User</class> <no>clicks</no> <no>the</no> <method>Edit Details button</method> 
+<no>4.4</no>. <no>System</no> <no>displays</no> <no>the</no> <no>Edit</no> <no>Details</no> <no>screen</no> <no>which</no> <no>displays</no> <no>all</no> <no>existing</no> <class>item</class> <no>details</no> <no>and</no> <no>their</no> <no>detail</no> <no>x</no> <class>department</class> <no>and</no> <class>category</class> <no>assignments</no> 
+<no>4.5</no>. <no>Optionally</no>, <class>user</class> <no>filters</no> <no>view</no> <no>by</no> <no>detail</no> <no>status</no> (<no>active</no>, <no>inactive</no>, <no>all</no>) <no>4.6</no>. <class>User</class> <no>edits</no> <no>details</no> 
+<no>4.6.1</no>. <class>User</class> <no>changes</no> <no>detail</no> <no>x</no> <class>department</class> <no>or</no> <class>category</class> <no>assignments</no> 
+<no>4.6.2</no>. <class>User</class> <no>changes</no> <no>detail</no> <no>data</no> 
+<no>4.6.3</no>. <class>User</class> <no>changes</no> <no>detail</no> <no>active</no> <no>x</no> <no>inactive</no> <no>status</no> 
+<no>4.6.4</no>. <class>User</class> <no>creates</no> <no>new</no> <no>detail</no> 
+<no>4.6.5</no>. <no>System</no> <no>validates</no> <no>the</no> <no>detail</no> <no>data</no> 
+<no>4.6.6</no>. <no>System</no> <no>updates</no> <no>the</no> <class>Item</class> <no>detail</no> <no>information</no> 
+<no>4.7</no>. <class>User</class> <no>clicks</no> <no>the</no> <no>Done</no> <no>button</no> 
+<no>4.8</no>. <class>User</class> <no>is</no> <no>taken</no> <no>back</no> <no>to</no> <no>the</no> <no>main</no> <class>inventory</class> <no>screen</no> 
+<no>3.4.5</no>. <no>Alternative</no> <no>Flows</no>: 
+<no>1</no>. <no>View</no> <class>Item</class> <no>Attributes</no> <no>None</no> 
+ <no>2</no>. <no>View</no> <class>Item</class> <no>Details</no> 
+<no>None</no>  
+<no>3</no>. <method>Edit</method> <class>Item</class> <method>Attributes</method> 
+<no>3.1</no>. <class>User</class> <association>cancels</association> <no>the</no> <class>Item</class> <association>Attribute</association> <association>edit</association> <no>and</no> <no>is</no> <no>taken</no> <no>back</no> <no>to</no> <no>the</no> <no>main</no> <class>inventory</class> <no>screen</no> 
+<no>3.2</no>. <no>During</no> <no>data</no> <no>validation</no>, <no>data</no> <no>is</no> <no>deemed</no> <no>invalid</no> <no>and</no> <no>an</no> <no>error</no> <no>message</no> <no>is</no> <no>presented</no> <no>to</no> <no>the</no> <class>user</class> 
+ <no>4</no>. <method>Edit</method> <class>Item</class> <method>Details</method> 
+<no>4.1</no>. <class>User</class> <association>cancels</association> <no>the</no> <class>Item</class> <association>Detail</association> <no>edit</no> <no>and</no> <no>is</no> <no>taken</no> <no>back</no> <no>to</no> <no>the</no> <no>main</no> <class>inventory</class> <no>screen</no> 
+<no>4.2</no>. <no>During</no> <no>data</no> <no>validation</no>, <no>data</no> <no>is</no> <no>deemed</no> <no>invalid</no> <no>and</no> <no>an</no> <no>error</no> <no>message</no> <no>is</no> <no>presented</no> <no>to</no> <no>the</no> <class>user</class> 
+
+<no>3.4.6</no>. <no>Business</no> <no>Rules</no>: 
+<no>1.</no> <method>View</method> <class>Item</class> <method>Attributes</method> <no>None</no> 
+ <no>2.</no> <no>View</no> <class>Item</class> <no>Details</no> 
+<no>None</no>  
+<no>3</no>. <method>Edit</method> <class>Item</class> <method>Attributes</method> 
+<no>3.1</no>. <no>The</no> <no>following</no> <no>fields</no> <no>are</no> <no>mandatory</no>: 
+<no>3.1.1</no>. <attribute>Name</attribute> 
+<no>3.2</no>. <no>The</no> <class>Item</class> <method>Attribute</method> <attribute>Name</attribute> <no>must</no> <no>be</no> <no>unique</no> <no>across</no> <no>the</no> <class>inventory</class> 
+<no>3.3</no>. <no>The</no> <method>De-Activate</method> <method>Attribute</method> <no>button</no> <no>is</no> <no>replaced</no> <no>with</no> <no>an</no> <no>Activate</no> <no>Attribute</no> <no>button</no> <no>when</no> <no>the</no> <no>attribute</no> <no>is</no> <no>inactive</no> 
+<no>3.4</no>. <attribute>Material</attribute> <no>and</no> <attribute>Features</attribute> <no>attributes</no> <no>can</no> <no>be</no> <method>assigned</method> <no>to</no> <no>any</no> <no>combination</no> <no>of</no><class>departments</class> 
+<no>3.5</no>. <attribute>Material</attribute> <no>and</no> <attribute>Features</attribute> <no>attributes</no> <no>can</no> <no>be</no> <method>assigned</method> <no>to</no> „<no>All</no>‟ <class>departments</class> <no>3.6</no>. <attribute>Color</attribute> <no>and</no> <attribute>Finish</attribute> <no>attributes</no> <no>can</no> only <no>be</no> <method>set</method> <no>to</no> „<no>All</no>‟ <class>departments</class> 
+<no>3.7</no>. <no>An</no> <no>Attribute</no> <no>cannot</no> <no>be</no> <no>set</no> <no>simultaneously</no> <no>to</no> „<no>All</no>‟ <class>departments</class> <no>and</no> <no>to</no> <no>specific</no> <class>department</class>(<no>s</no>) 
+<no>3.7.1</no>. <no>Assigning</no> <no>an</no> <no>attribute</no> <no>to</no> „<no>All</no>‟ <class>departments</class> <method>disables</method> <no>the</no> <no>individual</no> <class>department</class> <no>selectors</no>, <no>but</no> <no>preserves</no> <no>the</no> <no>current</no> <class>department</class> <no>selections</no> 
+<no>3.7.2</no>. <no>Un-assigning</no> <no>an</no> <no>attribute</no> <no>from</no> <no>the</no> „<no>All</no>‟ <class>departments</class> <method>enables</method> <no>the</no> <no>individual</no> <class>department</class> <no>selectors</no>, <no>restoring</no> <no>the</no> <no>previous</no> <class>department</class> <no>selections</no>  
+<no>4.</no> <method>Edit</method> <class>Item</class> <method>Details</method> 
+<no>4.1</no>. <no>The</no> <no>available</no> <no>detail</no> <no>types</no> <no>are</no>: 
+<no>4.1.1</no>. <attribute>Number</attribute> 
+<no>4.1.2</no>. <attribute>Text</attribute> 
+<no>4.1.3</no>. <attribute>Selection</attribute> 
+<no>4.2</no>. <no>The</no> <no>following</no> <no>fields</no> <no>are</no> <no>mandatory</no>: 
+<no>4.2.1</no>. <attribute>Name</attribute> 
+<no>4.2.2</no>. <attribute>Type</attribute> 
+<no>4.3</no>. <no>If</no> <no>the</no> <attribute>Type</attribute> <no>is</no> <method>set</method> <no>to</no> „<method>Selection</method>‟, <no>then</no> <no>the</no> <no>selection</no> <no>list</no> <no>must</no> <no>contain</no> <no>at</no> <no>least</no> <no>one</no> <class>item</class> 
+<no>4.4</no>. <no>The</no> <class>Item</class> <no>Detail</no> <attribute>Name</attribute> <no>must</no> <no>be</no> <no>unique</no> <no>across</no> <no>the</no> <class>inventory</class> 
+<no>4.5</no>. <no>The</no> <no>De-Activate</no> <no>Detail</no> <no>button</no> <no>is</no> <no>replaced</no> <no>with</no> <no>an</no> <no>Activate</no> <no>Detail</no> <no>button</no> <no>when</no> <no>the</no> <no>detail</no> <no>is</no> <no>inactive</no> 
+<no>4.6</no>. <no>Details</no> <no>can</no> <no>be</no> <method>assigned</method> <no>to</no> <no>any</no> <no>combination</no> <no>of</no> <class>departments</class> <no>and</no> <class>categories</class> 
+<no>4.7</no>. <no>Details</no> <no>can</no> <no>be</no> <method>assigned</method> <no>to</no> „<no>All</no>‟ <class>departments</class> <no>and</no>/<no>or</no> <class>categories</class> 
+<no>4.8</no>. <method>Assigning</method> <no>a</no> <no>detail</no> <no>to</no> <no>a</no> <class>department</class> <no>or</no> <class>category</class> <no>automatically</no> <no>assigns</no> <no>it</no> <no>to</no> <no>its</no> <class>subcategories</class> 
+<no>4.8.1</no>. <no>Assignments</no> <no>automatically</no> <no>made</no> <no>by</no> <no>the</no> <no>system</no> <no>can</no> <no>be</no> <no>changed</no> <no>by</no> <no>the</no> <class>user</class> 
+<no>3.4.7</no>. <no>Post-Condition</no>(<no>s</no>): 
+<no>1</no>. <no>View</no> <class>Item</class> <no>Attributes</no> <no>None</no> 
+ <no>2</no>. <no>View</no> <class>Item</class> <no>Details</no> 
+<no>None</no>  
+<no>3.</no> <no>Edit</no> <class>Item</class> <no>Attributes</no> 
+<no>3.1</no>. <no>The</no> <class>Item</class> <no>Attributes</no> <no>are</no> <no>updated</no>  
+<no>4.</no> <no>Edit</no> <class>Item</class> <no>Details</no> 
+<no>4.1</no>. <no>The</no> <class>Item</class> <no>Details</no> <no>are</no> <no>updated</no> 
+<no>3.4.8</no>. <no>Open</no> <no>Issues</no>: 
+<no>None</no> 
+<no>3.4.9</no>. <no>Extension</no> <no>Points</no>: 
+<no>None</no> 
+<no>3.4.10</no>. <no>Activity</no> <no>Diagram</no>(<no>s</no>): 
+<no>None</no> 
+<no>3.4.11</no>. <no>Notes</no>: <no>See</no> <no>the</no> <no>Manage</no> <no>Attributes</no> <no>and</no> <no>Details</no> <class>user</class> <no>interface</no> <no>requirements</no>.  
+ 
+ 
+<no>3.5</no>. <association>Add</association> <class>Item</class> <no>to</no> <class>Inventory</class> <class>Items</class> <no>are</no> <no>typically</no> <association>added</association> <no>to</no> <no>the</no> <class>inventory</class> <no>as</no> <no>part</no> <no>of</no> <no>the</no> <no>donation</no> <no>processes</no>. <no>This</no> <no>is</no> <no>called</no> <no>adding</no> <no>an</no> <class>item</class> <no>in</no> <no>donation</no> <no>processing</no>. <no>Alternatively</no>, <class>items</class> <no>can</no> <no>be</no> <no>added</no> <no>during</no> <no>routine</no> <class>inventory</class> <no>maintenance</no>. <no>This</no> <no>is</no> <no>called</no> <no>adding</no> <no>an</no> <class>item</class> <no>in</no> <class>inventory</class> <no>management</no> <no>mode</no>. 
+<no>3.5.1</no>. <no>Actor</no>(<no>s</no>): 
+ <class>Administrator</class> 
+ <class>Director</class> 
+ <class>Manager</class> 
+ <class>Receiving Associate</class> 
+ <class>Pickup Associate </class>
+ <class>Decon Associate</class> 
+ <class>Customer Service Representative</class> 
+<no>3.5.2</no>. <no>Assumptions</no>, <no>Pre-Conditions</no> <no>&amp;</no> <no>Triggers</no>: 
+<no>1.</no> <class>User</class> <no>is</no> <method>logged</method> <no>into</no> <no>the</no> <no>system</no> 
+<no>3.5.3</no>. <no>Use</no> <no>Case</no> <no>Dependencies</no> 
+<no>1</no>. <method>View</method> <class>Inventory</class> 
+<no>2</no>. <method>Suggest</method> <class>Item</class> <attribute>Price</attribute> 
+<no>3</no>. <method>Manage</method> <method>Attributes</method> <no>and</no> <method>Details</method> 
+<no>4</no>. <method>Receive</method> <class>Acquisition</class> 
+<no>3.5.4</no>. <no>Basic</no> <no>Flows</no>: 
+<no>1</no>. <class>User</class> <association>accesses</association> <no>the</no> <no>main</no> <class>inventory</class> <no>screen</no> 
+<no>5.</no> <no>The</no> <no>screen</no> <no>displays</no> <no>all</no> <class>inventory</class> <class>departments</class> <no>in</no> <no>matrix</no> <no>format</no> (<no>see</no> <no>View</no> <class>Inventory</class>) 
+<no>2</no>. <class>User</class> <association>drills down</association> <no>to</no> <no>the</no> <no>appropriate</no> <class>category</class> <no>for</no> <no>the</no> <class>item</class> 
+<no>2.1</no>. <no>If</no> <no>in</no> <no>donation</no> <no>processing</no> <no>mode</no>, <no>the</no> <class>item</class> <no>entry</no> <no>screen</no> <no>is</no> <no>presented</no> <no>automatically</no> 
+<no>2.2</no>. <no>If</no> <no>in</no> <class>inventory</class> <no>management</no> <no>mode</no>, <no>the</no> <no>list</no> <no>of</no> <no>existing</no> <class>inventory</class> <class>items</class> <no>in</no> <no>that</no> <class>category</class> <no>is</no> <no>displayed</no> 
+<no>2.2.1</no>. <class>User</class> <no>clicks</no> <no>the</no> <association>Add</association> <class>Item</class> <no>button</no> 
+<no>3.</no> <no>The</no> <no>appropriate</no> <class>item</class> <no>entry</no> <no>screen</no> <no>is</no> <no>presented</no> 
+<no>4.</no> <class>User</class> <association>fills</association> <no>in</no> <class>item</class> <no>information</no>
+ <no>5</no>. <class>User</class> <association>confirms</association> <no>the</no><association> addition</association> <no>of</no><no>the</no> <no>new</no> <class>item</class> 
+<no>6.</no> <class>Inventory</class> <no>is</no> <method>updated</method> 
+<no>7</no>. <no>System</no> <no>gives</no> <no>the</no> <no>option</no> <no>of</no> <no>printing</no> <no>an</no> <class>item</class> <no>tag</no> 
+<no>8.</no> <class>User</class> <association>prints</association> <class>item</class> <attribute>tag</attribute>(<no>s</no>)<no>s</no> <no>for</no> <no>unique</no> <no>or</no> <no>stock</no> <class>item</class>(<no>s</no>)
+<no>9</no>. <class>User</class> <association>attaches</association> <association>tag</association>(<no>s</no>) <no>to</no> <no>the</no> <class>item</class>(<no>s</no>) 
+
+<no>3.5.5</no>. <no>Alternative</no> <no>Flows</no>: 
+<no>1.</no> <no>At</no> <no>any</no> <no>point</no>, <no>the</no> <class>user</class> <no>may</no> <no>click</no> <no>on</no> <no>a</no> <class>department</class> <no>on</no> <no>the</no> <class>inventory</class> <class>department</class> <no>shortcuts</no> <no>list</no>, <no>which</no> <no>takes</no> <no>the</no> <class>user</class> <no>to</no> <no>the</no> <class>inventory</class> <no>view</no> <no>for</no> <no>that</no> <no>particular</no> <class>department</class>. 
+<no>2.</no> <no>At</no> <no>any</no> <no>point</no> <no>while</no> <no>in</no> <no>the</no> <class>item</class> <no>add</no> <no>screen</no>, <no>the</no> <class>user</class> <no>may</no> <method>cancel</method> <no>the</no> <no>operation</no>. 
+<no>3.5.6</no>. <no>Business</no> <no>Rules</no>: 
+<no>1.</no> <no>When</no> <no>navigating</no> <no>to</no> <no>the</no> <no>desired</no> <class>item</class> <class>category</class>, <class>departments</class> <no>and</no> <class>categories</class> <no>are</no> <no>displayed</no> <no>according</no> <no>to</no> <no>the</no> <no>rules</no> <no>defined</no> <no>in</no> <no>View</no> <class>Inventory</class> 
+<no>2.</no> <class>Items</class> <no>can</no> <no>be</no> <association>added</association> <no>at</no> <no>any</no> <no>level</no> <no>in</no> <no>the</no> <no>categorized</no> <class>inventory</class> 
+<no>3</no>. <no>Only</no> <attribute>unique</attribute> <no>and</no> <attribute>stock</attribute> <class>items</class> <no>are</no> <association>tracked</association> <no>by</no> <no>the</no> <class>inventory</class> <no>system</no> 
+<no>3.1.</no> <no>Only</no> <attribute>unique</attribute> <no>and</no> <attribute>stock</attribute> <class>items</class> <no>are</no> <no>available</no> <no>to</no> <no>be</no> <association>added</association> <no>in</no> <class>inventory</class> <no>management</no> <no>mode</no> 
+<no>3.2.</no> <no>Under</no> <no>$5</no> <class>items</class> <no>can</no> <no>only</no> <no>be</no> <no>added</no> <no>in</no> <no>donation</no> <no>processing</no> <no>mode</no> 
+<no>3.2.1</no>. <no>Information</no> <no>about</no> <no>Under</no> <no>$5</no> <class>items</class> <no>is</no> <no>only</no> <association>added</association> <no>for</no> <no>the</no> <no>purpose</no> <no>of</no> <no>generating</no> <no>the</no> <no>donation</no> <no>receipt</no> 
+<no>4.</no> <no>When</no> <no>an</no> <class>item</class> <no>is</no> <association>added</association> <no>to</no> <no>the</no> <class>inventory</class>, <no>the</no> <no>system</no> <association>updates</association> <association>QuickBooks</association> <no>POS</no> <no>accordingly</no> <no>and</no> <no>promptly</no> 
+<no>4.1</no>. <no>A</no> <no>new</no> <class>item</class> <no>entry</no> <no>is</no> <association>created</association> <no>in</no> <association>POS</association> <no>for</no> <no>a</no> <no>unique</no> <class>item</class> 
+<no>4.2</no>. <no>The</no> <class>item</class> <class>category</class> <attribute>name</attribute> <no>in</no> <association>POS</association> <no>is</no> <no>set</no> <no>to</no> <no>XXXXXXXXXXXXXXXXXX-NNNNNNNNNNN</no>, <no>where</no> 
+<no>XXXXXXXXXXXXXXXXXX</no> <no>is</no> <no>the</no> <class>category</class>‟<no>s</no> <no>Unique</no> <no>Tag</no> <no>and</no> <no>NNNNNNNNNNN</no> <no>is</no> <no>a</no> <no>sequential</no>, <no>system–generated</no> <no>number</no> 
+<no>4.3.</no> <no>The</no> <class>item</class> <no>quantity</no> <no>is</no> <association>updated</association> <no>for</no> <no>a</no> <no>stock</no> <class>item</class> 
+<no>5</no>. <no>Mandatory</no> <no>fields</no>: 
+<no>5.1</no>. <attribute>Unique </attribute><class>items</class> 
+<no>5.1.1</no>. <attribute>Quantity</attribute> 
+<no>5.1.2</no>. <attribute>Condition</attribute> 
+<no>5.1.3</no>. <attribute>Price </attribute>
+<no>5.1.4</no>. <attribute>Description</attribute>, <no>if</no> <no>the</no> <no>selected</no> <class>category</class> <no>is</no> <no>a</no> <no>generic</no> <class>category</class> 
+<no>5.2</no>. <attribute>Stock</attribute> <class>items</class> 
+<no>5.2.1</no>. <no>None</no> – <no>all</no> <no>fields</no> <no>are</no> <no>pre-set</no> <no>and</no> <no>cannot</no> <no>be</no> <no>modified</no>  
+<no>5.3</no>. <no>Under</no> <no>$5</no> <class>items</class> 
+<no>5.3.1</no>. <attribute>Description</attribute> 
+<no>6.</no> <no>The</no> <class>Category</class> <no>field</no> <no>is</no> <no>a</no> <association>link</association> <no>to</no> <no>the</no> <class>inventory</class> <no>matrix</no> <no>view</no>, <no>which</no> <no>allows</no> <no>you</no> <no>to</no> <no>select</no> <no>a</no> <no>new</no> <class>category</class> <no>by</no> <no>drilling</no> <no>down</no> <no>to</no> <no>any</no> <no>existing</no> <class>category</class> 
+<no>7.</no> <no>The</no> <no>available</no> <no>options</no> <no>in</no> <no>the</no> <attribute>Material</attribute>, <attribute>Finish</attribute>, <attribute>Color</attribute> <no>and</no> <attribute>Features</attribute> <no>selectors</no> <no>should</no> <no>be</no> <no>the</no> <no>ones</no> <method>defined</method> <no>for</no> <no>the</no> <attribute>selected</attribute> <class>department</class> (<no>see</no> <no>Manage</no> <no>Attributes</no> <no>and</no> <no>Details</no>) 
+<no>8.</no> <no>The</no> <no>fields</no> <no>and</no> <no>available</no> <no>options</no> <no>under</no> <no>the</no> <no>Details</no> <no>section</no> <no>should</no> <no>be</no> <no>the</no> <no>ones</no> <no>defined</no> <no>for</no> <no>the</no> <no>selected</no> <class>category</class> (<no>see</no> <no>Manage</no> <no>Attributes</no> <no>and</no> <no>Details</no>) 
+<no>9.</no> <no>For</no> <attribute>Stock</attribute> <class>Items</class>, <no>all</no> <no>fields</no> <no>are</no> <method>pre-set</method> <no>and</no> <method>disabled</method>, <no>and</no> <no>cannot</no> <no>be</no> changed 
+<no>10.</no> <no>For</no> <attribute>Unique</attribute> <class>Items</class>, <no>all</no> <no>fields</no> <no>with</no> <no>values</no> <no>defined</no> <no>when</no> <no>the</no> <attribute>Unique</attribute> <class>Item</class> <class>category</class> <no>was</no> <method>created</method> <no>are</no> <no>pre-set</no> <no>and</no> <no>cannot</no> <no>be</no> <no>changed</no> 
+<no>11.</no> <no>For</no> <attribute>unique</attribute> <no>and</no> <attribute>stock</attribute> <class>items</class>, <no>the</no> <no>system</no> <no>makes</no> <method>pricing</method> <method>recommendations</method> <no>to</no> <no>the</no> <class>user</class> <no>on</no> <no>the</no> <class>item</class> <no>entry</no> <no>screen</no> (<no>see</no> <no>Suggest</no> <class>Item</class> <no>Price</no><no>)</no> 
+<no>11.1</no>. <no>For</no> <no>unique</no> <class>items</class>, <class>user</class> <no>can</no> <method>accept</method> <no>the</no> <method>suggested price</method>, <method>enter</method> <no>a</no> <no>different</no> <method>one</method>, <no>or</no> <method>leave</method> <no>it</no> <no>blank</no> 
+<no>11.1.1</no>. <no>The</no> <class>item</class> <attribute>price</attribute> <no>can</no> <no>only</no> <no>be</no> <association>left blank</association> <no>during</no> <no>the</no> <association>processing</association> <no>of</no> <no>an</no> <class>acquisition</class>. <no>The</no> <attribute>price</attribute> <no>has</no> <no>to</no> <no>be</no> <method>set</method> <no>before</no> <no>the</no> <class>item</class> <no>can</no> <no>be</no> <method>added</method> <no>to</no> <no>the</no> <class>inventory</class> 
+<no>11.2</no>. <no>For</no> <no>stock</no> <class>items</class>, <no>the</no> <no>price</no> <no>is</no> <no>pre-set</no> <no>and</no> <no>the</no> <class>user</class> <no>cannot</no> <no>change</no> <no>it</no> 
+<no>12.</no> <class>Receiving Associates</class> <no>and</no> <class>Pickup</class> <no>and</no> <class>Decon Associates</class> <no>can</no> <no>only</no> <association>add</association> <class>items</class> <no>to</no> <no>the</no> <class>inventory</class> <no>as</no> <no>part</no> <no>of</no> <no>processing</no> <no>a</no> <no>donation</no> (<no>see</no> <no>Receive</no> <class>Acquisition</class>) 
+<no>13</no>. <class>Pickup</class> <no>and</no> <class>Decon Associates</class> <no>can</no> <association>access </association><no>the</no> <no>screen</no> <no>and</no> <no>enter</no> <no>all</no> <class>item</class> <no>information</no>, <no>but</no> <no>they</no> <no>cannot</no> <no>complete</no> <no>the</no> <no>add</no> <no>operation</no> <no>and</no> <no>add</no> <no>the</no> <class>item</class> <no>into</no> <no>the</no> <class>inventory</class>. 
+<no>14</no>. <no>The</no> <class>item</class> <no>tag</no>, <no>which</no> <no>could</no> <no>be</no> <no>an</no> <no>RFID</no> <no>tag</no>, <no>should</no> <no>contain</no> <no>the</no> <no>following</no> <no>information</no>: 
+<no>14.1</no>.<class> CJ logo </class>
+<no>14.2</no>. <class>Department</class> <attribute>name</attribute> 
+<no>14.3</no>. <class>Category</class> <attribute>name</attribute> 
+<no>14.4</no>. <class>Item</class> <attribute>description </attribute>
+<no>14.5</no>. <attribute>Condition</attribute> 
+<no>14.6</no><no>.</no> <attribute>Size</attribute> (<no>with</no> <no>units</no>) 
+<no>14.7</no>. <attribute>Price</attribute> (<no>with</no> <no>indication</no> <no>if</no> <class>item</class> <no>is</no> <no>being</no> <no>sold</no> <no>on</no> <no>consignment</no>) 
+<no>14.8</no>. <class>Item</class> <attribute>number</attribute> <no>and</no> <attribute>bar code </attribute>
+<no>14.9</no>. <attribute>Acquisition number </attribute>
+<no>14.10</no>. <attribute>Date received </attribute>
+<no>3.5.7</no>. <no>Post-Condition</no>(<no>s</no>): 
+<no>1</no>. <class>Item</class> <no>is</no> <no>present</no> <no>in</no> <no>the</no> <class>Inventory</class> <no>Management</no> <no>System</no> 
+<no>2</no>. <attribute>Unique</attribute> <no>and</no> <attribute>stock</attribute> <class>items</class> <no>have</no> <class>item</class> <no>tags</no> 
+<no>3</no>. <no>In</no> <no>the</no> <no>case</no> <no>of</no> <no>a</no> <no>unique</no> <class>item</class>, <class>item</class> <no>is</no> <method>added</method> <no>to</no> <method>QuickBooks POS </method>
+<no>4</no>. <no>In</no> <no>the</no> <no>case</no> <no>of</no> <no>a</no> <no>stock</no> <class>item</class>, <class>item</class> <no>quantity</no> <no>is</no> <method>updated</method> <no>in</no> <method>QuickBooks POS </method>
+<no>3.5.8</no>. <no>Open</no> <no>Issues</no>: <no>None</no> 
+<no>3.5.9</no>. <no>Extension</no> <no>Points</no>: 
+<no>None</no> 
+<no>3.5.10</no>. <no>Activity</no> <no>Diagram</no>(<no>s</no>): 
+<no>None</no> 
+<no>3.5.11</no>. <no>Notes</no>: <no>See</no> <no>the</no> <no>Add</no> <class>Item</class> <no>to</no> <class>Inventory</class> <class>user</class> <no>interface</no> <no>requirements</no>. 
+  
+ 
+<no>3.6</no>. <no>Manage</no> <class>Inventory</class> <no>Items</no> <no>The</no> <no>system</no> <no>should</no> <no>allow</no> <no>various</no> <no>management</no> <no>actions</no> <no>to</no> <no>be</no> <no>performed</no> <no>on</no> <class>items</class> <no>existing</no> <no>in</no> <no>the</no> <class>inventory</class>. <no>These</no> <no>include</no> <method>modifying</method>, <method>deleting</method> <no>and</no> <method>splitting</method> <no>an</no> <class>item</class>, <no>and</no> <no>viewing</no> <no>the</no> <class>item</class>‟<no>s</no> <no>details</no> <no>and</no> <class>item</class> <no>history</no>. <no>These</no> <no>actions</no> <no>are</no> <no>only</no> <no>available</no> <no>for</no> <no>Unique</no> <no>and</no> <no>Stock</no> <class>items</class>. 
+<no>3.6.1</no>. <no>Actor</no>(<no>s</no>): 
+ <class>Administrator</class> 
+ <class>Director</class> 
+ <class>Manager</class> 
+<no>3.6.2</no>. <no>Assumptions</no>, <no>Pre-Conditions</no> &amp; <no>Triggers</no>: 
+<no>1.</no> <class>User</class> <no>is</no> <method>logged</method> <no>into</no> <no>the</no> <no>system</no> 
+<no>3.6.3</no>. <no>Use</no> <no>Case</no> <no>Dependencies</no> 
+<no>1.</no> <no>View</no> <class>Inventory</class> 
+<no>2</no>. <no>Add</no> <class>Item</class> <no>to</no> <class>Inventory</class> 
+<no>3.</no> <no>Suggest</no> <class>Item</class> <no>Price</no> 
+<no>3.6.4</no>. <no>Basic</no> <no>Flows</no>: 
+<no>1.</no> <no>Modify</no> <class>Inventory</class> <class>Item</class> 
+
+<no>1.1</no>. <class>User</class> <association>accesses</association> <no>the</no> <no>main</no> <class>inventory</class> <no>screen</no> 
+<no>1.2</no>. <no>The</no> <no>screen</no> <no>displays</no> <no>all</no> <class>inventory</class> <class>departments</class> <no>in</no> <no>matrix</no> <no>format</no> <no>with</no> <no>option</no> <no>to</no> <no>select</no> <no>and</no>/<no>or</no> <no>edit</no> <class>items</class> <no>to</no> <no>move</no> <no>them</no> <no>to</no> <no>a</no> <no>new</no> <class>department</class>/ <class>category</class> 
+<no>1.3</no>. <class>User</class> <association>drills down</association> <no>to</no> <no>the</no> <no>desired</no> <no>existing</no> <class>inventory</class> <class>item</class> (<no>see</no> <no>View</no> <class>Inventory</class>) 
+<no>1.4</no>. <no>The</no> <class>item</class> <no>detail</no> <no>screen</no> <no>is</no> <no>presented</no> 
+<no>1.5</no>. <class>User</class> <association>modifies</association> <class>item</class> <no>information</no> 
+<no>1.6</no>. <no>The</no> <no>system</no> <no>validates</no> <class>item</class> <no>information</no> 
+<no>1.7</no>. <class>Item</class> <no>information</no> <no>is</no> <association>updated</association> <no>in</no> <no>the</no> <class>inventory</class> 
+<no>1.8</no>. <no>System</no> <no>gives</no> <no>the</no> <no>option</no> <no>of</no> <no>re-printing</no> <no>then</no> <class>item</class> <no>tag</no> 
+<no>1.9</no>. <class>User</class> <no>optionally</no> <association>re-prints</association> <no>the</no> <class>item</class> <attribute>tag</attribute> <no>and</no> <association>attaches</association> <no>it</no> <no>to</no> <no>the</no> <class>item</class> 
+ <no>2.</no> <method>Adjust</method> <class>Item</class> <method>Quantity</method> 
+<no>2.1</no>. <class>User</class> <no>accesses</no> <no>the</no> <no>main</no> <class>inventory</class> <no>screen</no> 
+<no>2.2</no>. <no>The</no> <no>screen</no> <no>displays</no> <no>all</no> <class>inventory</class> <class>departments</class> <no>in</no> <no>matrix</no> <no>format</no>
+ <no>2.3</no>. <class>User</class> <no>drills</no> <no>down</no> <no>to</no> <no>the</no> <no>desired</no> <no>existing</no> <class>inventory</class> <class>item</class> (<no>see</no> <no>View</no> <class>Inventory</class>) 
+<no>2.4</no>. <no>The</no> <class>item</class> <no>detail</no> <no>screen</no> <no>is</no> <no>presented</no> 
+<no>2.5</no>. <class>User</class> <association>changes</association> <no>the</no> <class>item</class> <no>quantity</no> 
+<no>2.6</no>. <no>The</no> <no>system</no> <no>displays</no> <no>a</no> <no>confirmation</no> <no>screen</no> <no>where</no> <no>a</no> <no>reason</no> <no>for</no> <no>the</no> <no>adjustment</no> <no>must</no> <no>be</no> <no>specified</no> <no>by</no> <no>the</no> <class>user</class> 
+<no>2.7.</no> <no>The</no> <no>system</no> <no>validates</no> <no>the</no> <class>item</class> <no>change</no> 
+<no>2.8</no>. <class>Item</class> <no>information</no> <no>is</no> <method>updated</method> <no>in</no> <no>the</no> <class>inventory</class> 
+ <no>3</no>. <method>Split</method> <class>Inventory</class> <class>Item</class> 
+<no>3.1</no>. <class>User</class> <no>accesses</no> <no>the</no> <no>main</no> <class>inventory</class> <no>screen</no> 
+<no>3.2</no>. <no>The</no> <no>screen</no> <no>displays</no> <no>all</no> <class>inventory</class> <class>departments</class> <no>in</no> <no>matrix</no> <no>format</no> 
+<no>3.3</no>. <class>User</class> <no>drills</no> <no>down</no> <no>to</no> <no>the</no> <no>desired</no> <no>existing</no> <class>inventory</class> <class>item</class> (<no>see</no> <no>View</no> <class>Inventory</class>) 
+<no>3.4</no>. <no>The</no> <class>item</class> <no>detail</no> <no>screen</no> <no>is</no> <no>presented</no> 
+<no>3.5</no>. <class>User</class> <no>clicks</no> <no>the</no> <association>Split</association> <class>Item</class> <no>button</no> 
+<no>3.6</no>. <no>The</no> <no>system</no> <no>displays</no> <no>the</no> <class>Item</class> <no>Split</no> <no>screen</no> 
+<no>3.7</no>. <class>User</class> <association>builds</association> <no>the</no> <no>list</no> <no>of</no> <class>items</class> <no>that</no> <no>the</no> <no>original</no> <class>item</class> <no>will</no> <no>be</no> <method>split</method> <no>into</no> 
+<no>3.7.1</no>. <class>User</class> <no>can</no> <association>clone</association> <no>the</no> <no>original</no> <class>item</class> <no>to</no> <association>add</association> <no>new</no> <class>item</class>(<no>s</no>) <no>to</no> <no>the</no> <no>list</no> <no>that</no> <no>have</no> <no>similar</no> <no>attributes</no> <no>as</no> <no>the</no> <no>original</no> <class>item</class> 
+<no>3.7.2</no>. <class>User</class> <no>can</no> <association>add</association> <no>new</no> <class>items</class> <no>to</no> <no>the</no> <no>list</no> <no>by</no> <no>selecting</no> <attribute>Unique</attribute> <no>and</no> <attribute>Stock</attribute> <class>categories</class> <no>in</no> <no>the</no> <no>same</no> <no>way</no> <no>as</no> <no>adding</no> <no>a</no> <no>new</no> <class>item</class> <no>to</no> <no>the</no> <class>inventory</class> (<no>see</no> <no>Add</no> <class>Item</class> <no>to</no> <class>Inventory</class>) 
+<no>3.8</no>. <no>Once</no> <no>the</no> <no>list</no> <no>is</no> <no>complete</no>, <class>user</class> <no>confirms</no> <no>the</no> <no>split</no> 
+<no>3.9</no>. <no>The</no> <no>system</no> <method>validates</method> <no>the</no> <method>split</method> 
+<no>3.10</no>. <class>Item</class> <no>information</no> <no>is</no> <association>updated</association> <no>in</no> <no>the</no> <class>inventory</class> 
+<no>3.10.1</no>. <no>The</no> <method>original</method> (<method>split</method>) <class>item</class> <no>is</no> <method>updated</method> <no>in</no> <no>the</no> <class>inventory</class> 
+<no>3.10.2</no>. <no>Any</no> <no>new</no> <class>items</class> <no>that</no> <no>were</no> <method>added</method> <no>to</no> <no>the</no> <no>split</no> <no>list</no> <no>are</no> <no>added</no> <no>to</no> <no>the</no> <class>inventory</class> <no>maintaining</no> <no>parental</no> <no>history</no>  
+<no>4.</no> <method>View</method> <class>Inventory</class> <class>Item</class> <no>History</no> 
+<no>4.1.</no> <class>User</class> <association>accesses</association> <no>the</no> <no>main</no> <class>inventory</class> <no>screen</no> 
+<no>4.2</no>. <no>The</no> <no>screen</no> <no>displays</no> <no>all</no> <class>inventory</class> <class>departments</class> <no>in</no> <no>matrix</no> <no>format</no> 
+<no>4.3</no>. <class>User</class> <no>drills</no> <no>down</no> <no>to</no> <no>the</no> <no>desired</no> <no>existing</no> <class>inventory</class> <class>item</class> (<no>see</no> <no>View</no> <class>Inventory</class>) 
+<no>4.4</no>. <no>The</no> <class>item</class> <no>detail</no> <no>screen</no> <no>is</no> <no>presented</no> 
+<no>4.5</no>. <class>User</class> <association>clicks</association> <no>the</no> <class>Item</class> <attribute>History</attribute> <no>button</no> 
+<no>4.6</no>. <no>The</no> <no>system</no> <no>displays</no> <no>the</no> <class>Item</class> <no>History</no> <no>screen</no> <no>containing</no> <no>current</no> <no>and</no> <no>historical</no> <no>information</no> <no>about</no> <no>the</no> <class>inventory</class> <class>item</class> 
+<no>3.6.5</no>. <no>Alternative</no> <no>Flows</no>: 
+<no>1.</no> <method>Modify</method> <class>Inventory</class> <class>Item</class> 
+<no>1.1</no>. <class>User</class> <method>cancels</method> <no>the</no> <method>operation</method> <no>and</no> <no>is</no> <no>taken</no> <no>back</no> <no>to</no> <no>the</no> <class>item</class> <no>selection</no> <no>screen</no> 
+<no>1.2</no>. <no>During</no> <no>data</no> <no>validation</no>, <no>data</no> <no>is</no> <no>deemed</no> <no>invalid</no> <no>and</no> <no>an</no> <method>error message</method> <no>is</no> <no>presented</no> <no>to</no> <no>the</no> <class>user</class> 
+<no>2</no>. <method>Adjust</method> <class>Item</class> <method>Quantity</method> 
+<no>2.1.</no> <class>User</class> <method>cancels</method> <no>the</no> <method>operation</method> <no>and</no> <no>is</no> <no>taken</no> <no>back</no> <no>to</no> <no>the</no> <class>item</class> <no>selection</no> <no>screen</no> 
+<no>2.2</no>. <no>During</no> <no>data</no> <no>validation</no>, <no>data</no> <no>is</no> <no>deemed</no> <no>invalid</no> <no>and</no> <no>an</no> <method>error message</method> <no>is</no> <no>presented</no> <no>to</no> <no>the</no> <class>user</class> 
+ <no>3.</no> <method>Split</method> <class>Inventory</class> <class>Item</class> 
+<no>3.1</no>. <class>User</class> <method>cancels</method> <no>the</no> <method>operation</method> <no>and</no> <no>is</no> <no>taken</no> <no>back</no> <no>to</no> <no>the</no> <class>item</class> <no>selection</no> <no>screen</no> 
+<no>3.2</no>. <no>During</no> <no>data</no> <no>validation</no>, <no>data</no> <no>is</no> <no>deemed</no> <no>invalid</no> <no>and</no> <no>an</no> <method>error message</method> <no>is</no> <no>presented</no> <no>to</no> <no>the</no> <class>user</class> 
+ <no>4.</no> <method>View</method> <class>Inventory</class> <class>Item</class> <method>History</method> 
+<no>None</no> 
+<no>3.6.6</no>. <no>Business</no> <no>Rules</no>: 
+<no>1.</no> <method>Modify</method> <class>Inventory</class> <class>Item</class> 
+<no>1.1</no>. <no>All</no> <class>item</class> <no>properties</no> <no>available</no> <no>when</no> <no>the</no> <class>item</class> <no>was</no> <no>originally</no> <association>added</association> <no>to</no> <no>the</no> <class>inventory</class> <no>can</no> <no>be</no> <method>modified</method>, <no>except</no> <no>for</no> <no>the</no> <no>system-generated</no> <class>item</class> <no>number</no> (<no>see</no> <no>Add</no> <class>Item</class> <no>to</no> <class>Inventory</class>). 
+<no>1.2</no>. <no>The</no> <no>business</no> <no>rules</no> <no>defined</no> <no>for</no> <association>adding</association> <no>a</no> <no>new</no> <class>item</class> <no>into</no> <no>the</no> <class>inventory</class> <no>are</no> <no>also</no> <no>applicable</no> <no>to</no> <no>modifying</no> <no>an</no> <no>existing</no> <class>inventory</class> <class>item</class> (<no>see</no> <no>Add</no> <class>Item</class> <no>to</no> <class>Inventory</class>). 
+<no>1.3</no>. <no>Once</no> <no>set</no> <no>for</no> <no>the</no> <no>first</no> <no>time</no> <no>in</no> <no>the</no> <class>inventory</class>, <no>the</no> <class>item</class> <attribute>price</attribute> <no>can</no> <no>only</no> <no>be</no> <method>modified</method> <no>by</no> <no>a</no> <class>Manager</class>, <class>Director</class> <no>or</no> <class>Administrator</class>, <no>must</no> <method>maintain</method> <no>a</no> <no>history</no> <no>and</no> <no>include</no> <no>an</no> <no>explanation</no> <no>for</no> <no>the</no> <no>price</no> <no>change</no> 
+<no>1.4</no>. <no>Changes</no> <no>to</no> <no>the</no> <class>item</class> <no>in</no> <no>the</no> <class>inventory</class> <no>should</no> <no>be</no> <no>reflected</no> <no>in</no> <no>the</no> <no>corresponding</no> <class>item</class> <no>in</no> <no>QuickBooks</no> <no>POS</no>  
+<no>2.</no> <method>Adjust</method> <class>Item</class> <attribute>Quantity</attribute> 
+<no>2.1</no>. <no>When</no> <no>an</no> <class>item</class> <no>is</no> <method>updated</method>, <no>the</no> <no>system</no> <no>must</no> <no>automatically</no> <no>detect</no> <no>that</no> <no>the</no> <class>item</class> <attribute>quantity</attribute> <no>has</no> <no>been</no> <method>modified</method> <no>and</no> <no>present</no> <no>the</no> <method>adjustment</method> <no>confirmation</no> <no>screen</no> 
+<no>2.2</no>. <no>If</no> <no>the</no> <attribute>quantity</attribute> <no>is</no> <method>decreased</method>, <no>a</no> <no>reason</no> <no>for</no> <no>the</no> <no>change</no> <no>is</no> <no>required</no> 
+<no>2.2.1</no>. <no>Valid</no> <no>reasons</no> <no>for</no> <no>are</no>: 
+<no>2.2.1.1</no>. <no>Scraped</no> 
+<no>2.2.1.2</no>. <no>Given</no> <no>Away</no> (<no>free</no> <no>bin</no><no>)</no> 
+<no>2.2.1.3</no>. <no>Discarded</no> 
+<no>2.2.1.4</no>. <no>Broken</no> 
+<no>2.2.1.5</no>. <no>Shrinkage</no> (<no>stolen</no> <no>or</no> <no>lost</no>) 
+<no>2.2.1.6</no>. <no>Correction</no> (<no>data</no> <no>entry</no> <no>mistake</no>) 
+<no>2.2.1.7</no>. <no>Other</no> (<no>please</no> <no>explain</no>) 
+<no>2.2.2</no>. <no>If</no> <no>the</no> „<no>Other</no>‟ <no>reason</no> <no>is</no> <no>selected</no>, <no>the</no> <class>user</class> <no>must</no> <method>enter</method> <no>an</no> <method>additional</method> <method>comment</method> 
+<no>2.3</no>. <no>If</no> <no>the</no> <attribute>quantity</attribute> <no>is</no> <method>increased</method>, <no>the</no> <class>user</class> <no>must</no> <method>enter</method> <no>a</no> <no>comment</no> <no>describing</no> <no>the</no> <method>reason</method> <no>for</no> <no>the</no> <no>change</no> 
+<no>2.4</no>. <no>Changes</no> <no>to</no> <no>an</no> <class>item</class>‟<no>s</no> <no>quantity</no> <no>in</no> <no>the</no> <class>inventory</class> <no>should</no> <no>be</no> <no>reflected</no> <no>in</no> <no>the</no> <no>corresponding</no> <class>item</class> <no>in</no> <no>QuickBooks</no> <no>POS</no>  
+<no>3.</no> <method>Split</method> <class>Inventory</class> <class>Item</class> 
+<no>3.1</no>. <no>When</no> <no>building</no> <no>the</no> <no>split</no> <class>item</class> <no>list</no>, <no>at</no> <no>least</no> <no>two</no> <class>items</class> <no>must</no> <no>exist</no> <no>in</no> <no>the</no> <no>list</no>, <no>including</no> <no>the</no> <no>original</no> <class>item</class> 
+<no>3.2</no>. <no>When</no> <no>building</no> <no>the</no> <method>split</method> <class>item</class> <no>list</no>, <no>the</no> <no>business</no> <no>rules</no> <no>defined</no> <no>for</no> <method>adding</method> <no>a</no> <method>new</method> <class>item</class> <no>into</no> <no>the</no> <class>inventory</class> <no>are</no> <no>also</no> <no>applicable</no> (<no>see</no> <association>Add</association> <class>Item</class> <no>to</no> <class>Inventory</class>). 
+<no>3.3</no>. <no>Clicking</no> <no>the</no> <no>Clone</no> <no>button</no> <no>on</no> <no>a</no> <no>row</no> <no>adds</no> <no>a</no> <no>new</no> <class>item</class> <no>row</no> <no>with</no> <no>the</no> <no>same</no> <class>item</class> <no>values</no> <no>as</no> <no>the</no> <no>original</no>, <no>except</no> <no>for</no> <no>the</no> <class>item</class> <attribute>number</attribute>, <no>which</no> <no>is</no> <no>left</no> <no>blank</no> <no>3.4</no>. <no>Clicking</no> <no>the</no> <no>Add</no> <class>Item</class> <no>button</no> <no>takes</no> <no>the</no> <class>user</class> <no>through</no> <no>the</no> <class>inventory</class> <no>matrix</no> <no>so</no> <no>that</no> <no>a</no> <class>category</class> <no>can</no> <no>be</no> <no>selected</no> <no>for</no> <no>the</no> <attribute>new</attribute> <class>item</class>. <no>The</no> <class>user</class> <no>is</no> <no>then</no> <no>taken</no> <no>to</no> <no>the</no> <no>View</no>/<no>Update</no> <class>Item</class> <no>screen</no> 
+<no>3.5</no>. <no>Clicking</no> <no>the</no> <class>category</class> <attribute>name</attribute> <no>for</no> <no>an</no> <class>item</class> <no>takes</no> <no>the</no> <class>user</class> <no>to</no> <no>the</no> <no>View</no>/<no>Update</no> <class>Item</class> <no>screen</no> <no>for</no> <no>that</no> <class>item</class> 
+<no>3.6</no>. <no>All</no> <class>items</class> <no>in</no> <no>the</no> <attribute>split</attribute> <class>item</class> <no>list</no> <no>are</no> <association>saved</association> <no>in</no> <no>the</no> <class>inventory</class> <no>when</no> <no>the</no> <class>user</class> <no>confirms</no> <no>the</no> <no>split</no> 
+<no>3.6.1</no>. <no>The</no> <no>original</no> <class>item</class> <no>is</no> <method>updated</method> 
+<no>3.6.2</no>. <no>The</no> <no>new</no> <class>items</class> <no>are</no> <association>added</association> <no>to</no> <no>the</no> <class>inventory</class> 
+<no>3.6.3</no>. <no>New</no> <class>items</class> <association>added</association> <no>to</no> <no>the</no> <class>inventory</class> <no>as</no> <no>part</no> <no>of</no> <no>a</no> <no>split</no> <class>item</class> <no>operation</no> <no>contain</no> <no>a</no> <no>reference</no> <no>to</no> <no>the</no> <no>original</no> <class>item</class> <no>they</no> <no>were</no> <no>split</no> <no>from</no> 
+
+<no>4</no>. <method>View</method> <class>Inventory</class> <class>Item</class> <no>History</no> 
+<no>4.1</no>. <no>The</no> <no>system</no> <no>should</no> <no>record</no> <no>the</no> <no>following</no> <no>actions</no> <no>and</no> <no>associated</no> <no>parameters</no> <no>for</no> <no>every</no> <class>item</class> <no>in</no> <no>the</no> <class>inventory</class> <no>and</no> <no>display</no> <no>them</no> <no>on</no> <no>the</no> <class>item</class> <no>history</no> <no>screen</no>, <no>along</no> <no>with</no> <no>action</no> <no>date</no>/<no>time</no>: 
+<no>4.1.1</no>. <class>Item</class> <association>added</association> <no>to</no> <class>inventory</class>: <no>Initial</no> <no>quantity</no>, <class>user</class> <no>and</no> <no>original</no> (<no>parent</no>) <class>item</class> <no>number</no> <no>if</no> <no>this</no> <class>item</class> <no>was</no> <no>created</no> <no>as</no> <no>part</no> <no>of</no> <no>a</no> <no>split</no> 
+<no>4.1.2</no>. <class>Item</class> <association>price</association> <association>set</association>: <no>Initial</no> <no>price</no> <no>and</no> <class>user</class> 
+<no>4.1.3</no>. <class>Item</class> <association>price</association> <association>changed</association>: <no>New</no> <no>price</no> <no>and</no> <class>user</class> 
+<no>4.1.4</no>. <class>Item</class> <association>sold</association>: <no>Sale</no> <no>price</no> <no>and</no> <no>quantity</no> 
+<no>4.1.5</no>. <no>Quantity</no> <no>adjusted</no>: <no>Adjusted</no> <no>quantity</no>, <class>user</class> <no>and</no> <no>reason</no> <no>if</no> <no>quantity</no> <no>decreased</no> 
+<no>4.1.6</no>. <class>Item</class> <association>split</association>: <class>Item</class> <attribute>numbers</attribute> <no>of</no> <no>the</no> <no>new</no> <class>items</class> <no>added</no> <no>as</no> <no>part</no> <no>of</no> <no>the</no> <no>split</no> <no>and</no> <class>user</class> 
+<no>3.6.7</no>. <no>Post-Condition</no>(<no>s</no>): 
+<no>1.</no> <no>Modify</no> <class>Inventory</class> <class>Item</class> 
+<no>1.1</no>. <class>Item</class> <no>is</no> <no>updated</no> <no>in</no> <no>the</no> <class>inventory</class> 
+<no>1.2.</no> <class>Item</class> <no>is</no> <no>updated</no> <no>in</no> <no>QuickBooks</no> <no>POS</no> 
+<no>2.</no> <no>Adjust</no> <class>Item</class> <no>Quantity</no> 
+<no>2.1</no>. <class>Item</class> <no>is</no> <no>updated</no> <no>in</no> <no>the</no> <class>inventory</class> 
+<no>2.2</no>. <class>Item</class> <no>is</no> <no>updated</no> <no>in</no> <no>QuickBooks</no> <no>POS</no> 
+ <no>3</no>. <no>Split</no> <class>Inventory</class> <class>Item</class> 
+<no>3.1</no>. <no>Original</no> <class>item</class> <no>is</no> <no>updated</no> <no>in</no> <no>the</no> <class>inventory</class> 
+<no>3.2</no>. <no>Original</no> <class>item</class> <no>is</no> <no>updated</no> <no>in</no> <no>QuickBooks</no> <no>POS</no> 
+<no>3.3</no>. <no>New</no> <class>items</class> <no>are</no> <no>updated</no> <no>in</no> <no>the</no> <class>inventory
+</class> <no>3.4</no>. <no>New</no> <class>items</class> <no>are</no> <no>updated</no> <no>in</no> <no>QuickBooks</no> <no>POS</no> 
+<no> 4.</no> <no>View</no> <class>Inventory</class> <class>Item</class> <no>History</no> 
+<no>None</no> 
+<no>3.6.8</no>. <no>Open</no> <no>Issues</no>: <no>None</no> 
+<no>3.6.9</no>. <no>Extension</no> <no>Points</no>: 
+<no>None</no> 
+<no>3.6.10</no>. <no>Activity</no> <no>Diagram</no>(<no>s</no>): <no>None</no> 
+<no>3.6.11</no>. <no>Notes</no>: 
+<no>See</no> <no>the</no> <no>Manage</no> <class>Inventory</class> <no>Items</no> <class>user</class> <no>interface</no> <no>requirements</no>. 
+  
+<no>3.7</no>. <method>Suggest</method> <class>Item</class> <attribute>Price</attribute> <no>The</no> <no>system</no> <no>should</no> <no>assist</no> <no>in</no> <no>the</no> <no>task</no> <no>of</no> <no>pricing</no> <no>a</no> <no>new</no> <class>inventory</class> <class>item</class> <no>by</no> <no>making</no> <no>pricing</no> <no>suggestions</no> <no>to</no> <no>the</no> <class>user</class> <no>when</no> <no>adding</no> <no>to</no> <no>or</no> <no>modifying</no> <no>an</no> <class>item</class> <no>in</no> <no>the</no> <class>inventory</class>. <no>The</no> <no>suggested</no> <no>prices</no> <no>should</no> <no>be</no> <no>calculated</no> <no>based</no> <no>on</no> <no>the</no> <no>original</no> <no>and</no> <no>sale</no> <no>prices</no> <no>of</no> <no>similar</no> <class>items</class> <no>that</no> <no>currently</no> <no>exist</no> <no>or</no> <no>existed</no> <no>in</no> <no>the</no> <class>inventory</class> <no>in</no> <no>the</no> <no>past</no>. 
+
+<no>3.7.1</no>. <no>Actor</no>(<no>s</no>): 
+ <class>Administrator</class> 
+ <class>Director</class> 
+ <class>Manager</class> 
+ <class>Customer Service Representative</class> 
+ <class>Receiving Associate</class> 
+ <class>Pickup Associate</class> 
+ <class>Decon Associate</class> 
+<no>3.7.2</no>. <no>Assumptions</no>, <no>Pre-Conditions</no> <no>&amp;</no> <no>Triggers</no>: 
+<no>1.</no> <class>User</class> <no>is</no> <method>logged</method> <no>into</no> <no>the</no> <no>system</no> 
+<no>3.7.3</no>. <no>Use</no> <no>Case</no> <no>Dependencies</no> 
+<no>1.</no> <no>Add</no> <class>Item</class> <no>to</no> <class>Inventory</class> 
+<no>2.</no> <no>Manage</no> <class>Inventory</class> <no>Items</no> 
+<no>3.7.4</no>. <no>Basic</no> <no>Flows</no>: 
+<no>1.</no> <class>User</class> <association>accesses</association> <no>the</no> <class>inventory</class> <no>entry</no> <no>screen</no> (<no>see</no> <no>Add</no> <class>Item</class> <no>to</no> <class>Inventory</class>, <no>Manage</no> <class>Inventory</class> <no>Items</no>) 
+<no>2.</no> <no>System</no> <method>shows</method> <method>price recommendations</method> <no>based</no> <no>on</no> <no>current</no> <class>item</class> <no>data</no> <no>and</no> <no>default</no> <no>price</no> <no>suggestion</no> <no>configuration</no> <no>options</no> 
+<no>3.</no> <class>User</class> <association>modifies</association> <class>item</class> <no>data</no> 
+<no>4</no>. <no>System</no> <no>makes</no> <no>new</no> <no>price</no> <no>suggestions</no> <no>based</no> <no>on</no> new <class>item</class> <no>data</no> 
+<no>3.7.5</no>. <no>Alternative</no> <no>Flows</no>: 
+<no>1.</no> <class>User</class> <method>changes</method> <method>price suggestion</method> <no>configuration</no> <no>options</no> 
+<no>2.</no> <no>System</no> <method>shows</method> <method>new price recommendations</method> <no>based</no> <no>on</no> <no>current</no> <class>item</class> <no>data</no> <no>and</no> <no>new</no> <no>configuration</no> <no>options</no> 
+<no>3.7.6</no>. <no>Business</no> <no>Rules</no>: 
+<no>1.</no> <no>Price</no> <no>suggestion</no> <no>is</no> <no>only</no> <no>applicable</no> <no>to</no> <no>Unique</no> <class>items</class> 
+<no>2</no>. <no>By</no> <no>default</no>, <no>price</no> <no>suggestion</no> <no>considers</no> <no>historical</no> <no>data</no> <no>for</no> <class>items</class> <no>of</no> <no>the</no> <no>same</no>: 
+<no>2.1</no>. <class>Department</class> 
+<no>2.2</no>. <class>Category</class> 
+<no>2.3</no>. <attribute>Condition</attribute> 
+<no>3.</no> <no>The</no> <no>following</no> <no>price</no> <no>suggestion</no> <no>configuration</no> <no>parameters</no> <no>are</no> <no>available</no>: <no>3.1.</no> <no>Number</no> <no>of</no> <no>months</no> <no>of</no> <no>historical</no> <no>price</no> <no>information</no> <no>to</no> <no>include</no> <no>when</no> <method>calculating</method> <method>price recommendations</method>. <no>Available</no> <no>options</no>: 
+<no>3.1.1</no>. <no>Six</no> <no>Months</no> 
+<no>3.1.2</no>. <no>Twelve</no> <no>Months</no> 
+<no>3.1.3</no>. <no>All</no> (<no>include</no> <no>all</no> <no>historical</no> <no>pricing</no> <no>data</no> <no>with</no> <no>no</no> <no>time</no> <no>restriction</no>) 
+<no>3.2</no>. <no>Whether</no> <no>or</no> <no>not</no> <no>to</no> <no>include</no> <class>item</class> <no>attributes</no> <no>when</no> <no>finding</no> <class>items</class> <no>of</no> <no>similar</no> <no>characteristics</no> 
+<no>3.2.1</no>. <no>When</no> <class>user</class> <no>chooses</no> <no>to</no> <association>include</association> <class>item</class> <association>attributes</association> <no>for</no> <class>item</class> <no>matching</no>, <class>user</class> <no>can</no> <association>specify</association> <no>which</no> <association>attributes</association> <no>to</no> <no>consider</no> 
+<no>4</no>. <no>System</no> <no>displays</no> <no>the</no> <no>following</no> <no>price</no> <no>recommendation</no> <no>information</no>: 
+<no>4.1</no>. <no>For</no> <no>unique</no> <class>items</class>: 
+<no>4.1.1</no>. <attribute>Historical</attribute> <attribute>original</attribute> <class>item</class> <no>price</no> <no>information</no>: 
+<no>4.1.1.1</no>. <attribute>Lowest price</attribute> 
+<no>4.1.1.2</no>. <attribute>Mean price </attribute>
+<no>4.1.1.3</no>. <attribute>Highest price</attribute> 
+<no>4.1.2</no>. <attribute>Historical</attribute> <attribute>sale</attribute> <no>price</no> <no>information</no> 
+<no>4.1.2.1</no>. <attribute>Lowest price</attribute> 
+<no>4.1.2.2</no>. <attribute>Mean price </attribute>
+<no>4.1.2.3</no>.<attribute> Highest price 
+</attribute>
+<no>4.1.3</no>. <attribute>Number</attribute> <no>of</no> <class>items</class> <method>evaluated</method> <no>when</no> <method>calculating</method> <no>the</no> <method>amounts</method> <no>above</no> 
+<no>5. </no><no>For</no> <no>stock</no> <class>items</class> 
+<no>5.1.1</no>. <no>System</no> <no>shows</no> <no>the</no> <no>pre-determined</no> <attribute>price</attribute> <no>for</no> <no>this</no> <no>stock</no> <class>item</class>, <no>set</no> <no>when</no> <no>the</no> <attribute>stock</attribute> <class>item</class> <class>category</class> <no>was</no> <method>created</method> 
+<no>3.7.7</no>. <no>Post-Condition</no>(<no>s</no>): 
+<no>1</no>. <no>Price</no> <no>suggestion</no> <no>information</no> <no>is</no> <no>displayed</no> <no>on</no> <no>the</no> <no>screen</no> 
+<no>3.7.8</no>. <no>Open</no> <no>Issues</no>: <no>None</no> 
+<no>3.7.9</no>. <no>Extension</no> <no>Points</no>: 
+<no>None</no> 
+<no>3.7.10</no>. <no>Activity</no> <no>Diagram</no>(<no>s</no>): 
+<no>None</no> 
+<no>3.7.11</no>. <no>Notes</no>: <no>None</no> 
+  
+ 
+<no>3.8</no>. <method>View</method> <class>Acquisitions</class> <class>Acquisition</class> <no>records</no> <no>for</no> <method>Drop-Off</method>, <method>Pickup</method> <no>and</no> <method>Decon donations</method> <no>are</no> <method>created</method> <no>in</no> <no>the</no> <no>CRM</no> <no>system</no>. <class>Inventory</class> <no>Management</no> <class>users</class> <no>should</no> <no>be</no> <no>able</no> <no>to</no> <method>view</method> <no>all</no> <attribute>past</attribute> <no>and</no> <attribute>current</attribute> <class>acquisitions</class>. <class>Receiving Associates</class> <no>use</no> <no>this</no> <no>function</no> <no>to</no> <association>locate</association> <no>an</no> <attribute>expected</attribute><class> acquisition</class> <no>when</no> <method>receiving</method> <no>a</no> <method>donation</method> <no>at</no> <no>the</no> <no>loading</no> <no>dock</no>. <class>Pickup</class> <no>and</no> <class>Decon</class> <class>crews</class> <no>may</no> <no>also</no> <no>use</no> <no>this</no> <no>function</no> <no>to</no> <no>initiate</no> <no>the</no> <no>process</no> <no>of</no> <association>receiving</association> <class>items</class> <no>while</no> <no>in</no> <no>the</no> <no>truck</no>, <no>on</no> <no>their</no> <no>way</no> <no>to</no> <no>the</no> <method>receiving</method> <method>dock</method>.  <class>Drop</class> <class>Off</class> <class>acquisitions</class> <no>are</no> <no>not</no> <no>typically</no> <no>pre-scheduled</no> <no>as</no> <class>Pick Up</class> <no>and</no> <class>Decon</class> <class>acquisitions</class> <no>except</no> <no>for</no> <no>those</no> <no>submitted</no> <no>through</no> <no>the</no> <no>organizational</no> <no>website</no>. <no>As</no> <no>such</no>, <no>when</no> <no>a</no> <class>donor</class> <no>arrives</no> <no>with</no> <no>an</no> <no>unexpected</no> <method>drop off donation</method>, <no>a</no> <no>new</no> <class>acquisition</class> <no>needs</no> <no>to</no> <no>be</no> <no>able</no> <no>to</no> <no>be</no> <method>created </method><no>in</no> <no>the</no> <no>CRM</no> <no>system</no> <no>first</no>, <no>at</no> <no>either</no> <no>the</no> <method>customer service desk</method> <no>or</no> <no>at</no> <no>the</no> <class>dock</class>, <no>before</no> <no>it</no> <no>can</no> <no>be</no> <method>viewed</method> <no>in</no> <no>the</no> <class>acquisitions</class> <no>screen</no>. 
+<no>3.8.1</no>. <no>Actor</no>(<no>s</no>): 
+ <class>Administrator</class> 
+ <class>Director</class> 
+ <class>Manager</class> 
+ <class>Customer Service Representative</class> 
+ <class>Receiving Associate</class> 
+ <class>Pick Up Associate</class> 
+ <class>Decon Associate</class> 
+<no>3.8.2</no>. <no>Assumptions</no>, <no>Pre-Conditions</no> <no>&amp;</no> <no>Triggers</no>: 
+1. <class>User</class> <no>is</no> <method>logged</method> <no>into</no> <no>the</no> <no>system</no> 
+<no>3.8.3</no>. <no>Use</no> <no>Case</no> <no>Dependencies</no> <no>None</no> 
+
+<no>3.8.4</no>. <no>Basic</no> <no>Flows</no>: 
+<no>1.</no> <class>User</class> <association>accesses</association> <no>the</no> <class>acquisitions</class> <no>screen</no> 
+<no>2</no>. <no>The</no> <no>screen</no> <no>displays</no> <no>a</no> <no>list</no> <no>of</no> <no>all</no> <class>acquisitions</class>, <no>latest</no> <no>ones</no> <no>at</no> <no>the</no> <no>top</no> <no>of</no><no>the</no> <no>list</no> 
+<no>3</no>. <class>User</class> <no>may</no> <no>optionally</no> <association>filter</association> <no>the</no> <class>acquisitions</class> <no>displayed</no> <no>on</no> <no>the</no> <no>screen</no> <no>by</no> <no>changing</no> <no>filtering</no> <no>options</no> 
+<no>4</no>. <class>User</class> <no>clicks</no> <no>on</no> <no>an</no> <class>acquisition</class> <class>record</class> 
+<no>5.</no> <no>System</no> <no>display</no> <no>the</no> <no>details</no> <no>for</no> <no>that</no> <class>acquisition</class>, <no>including</no> <no>expected</no> <class>items</class> 
+<no>3.8.5</no>. <no>Alternative</no> <no>Flows</no>: 
+<no>1.</no> <no>Drop</no> <no>Off</no> <class>acquisitions</class> 
+<no>1.1</no>. <class>User</class> <no>may</no> <no>alternatively</no> <no>click</no> <no>the</no> <no>New</no> <no>Drop</no> <no>Off</no> <no>button</no> <no>on</no> <no>the</no> <class>acquisition</class> <no>list</no> <no>screen</no> <no>which</no> <no>redirects</no> <no>the</no> <class>user</class> <no>to</no> <no>the</no> <no>CRM</no> <class>acquisition</class> <no>creation</no> <no>screen</no> 
+<no>1.2.</no> <class>User</class> <association>creates</association> <no>new</no> <attribute>Drop Off</attribute> <class>acquisition</class> <no>in</no> <no>the</no> <no>CRM</no> <no>system</no> 
+<no>1.3.</no> <class>User</class> <no>returns</no> <no>to</no> <no>the</no> <class>acquisitions</class> <no>screen</no> <no>and</no> <method>sees</method> <no>the</no> <attribute>newly</attribute> <no>created</no> <attribute>Drop Off</attribute> <class>acquisition</class> 
+<no>2.</no> <class>User</class> <no>can</no> <no>use</no> <no>a</no> <no>bar</no> <no>code</no> <no>scanner</no> <no>to</no> <association>scan</association> <no>the</no> <class>acquisition</class> <class>ticket</class> <no>generated</no> <no>at</no> <no>customer</no> <no>service</no> 
+<no>3.8.6</no>. <no>Business</no> <no>Rules</no>: 
+<no>1.</no> <no>The</no> <class>acquisitions</class> <no>screen</no> <no>should</no> <no>display</no>:
+ <no>1.1</no>. <class>Acquisition</class> <attribute>Number </attribute>
+<no>1.2</no>. <attribute>Type</attribute> 
+<no>1.2.1</no>. <attribute>Drop Off </attribute>
+<no>1.2.2</no>. <attribute>Pick Up </attribute>
+<no>1.2.3</no>. <attribute>Decon </attribute>
+<no>1.2.4</no>. <class>Donor</class> <attribute>Name</attribute> <no>with</no> <attribute>Zip Code</attribute> 
+<no>1.2.5</no>. <attribute>Primary</attribute> <attribute>Contact</attribute> <attribute>Name</attribute> 
+<no>1.2.6</no>. <attribute>Primary</attribute> <attribute>Contact</attribute> <attribute>Phone</attribute> <attribute>Number</attribute> 
+<no>1.2.7</no>. <attribute>Start Date</attribute> 
+<no>1.2.8</no>. <attribute>End Date</attribute> 
+<no>1.2.9</no>. <attribute>Status</attribute> 
+<no>1.2.9.1</no>. <attribute>Expected</attribute>  
+<no>1.2.9.2</no>. <attribute>Partially</attribute> <attribute>Received</attribute> 
+<no>1.2.9.3</no>. <attribute>Completed</attribute> 
+<no>2.</no> <class>Users</class> <no>should</no> <no>be</no> <no>able</no> <no>to</no> <association>filter</association> (<no>on</no> <no>multiple</no> <no>fields</no> <no>simultaneously</no> ) <class>acquisitions</class> <no>by</no>:
+ <no>2.1</no>. <attribute>Type</attribute> 
+<no>2.2</no>. <attribute>Donor</attribute> <no>and</no> <attribute>Primary</attribute> <attribute>Contact</attribute> <attribute>Name</attribute> 
+<no>2.3</no>. <class>Acquisition</class> <attribute>Number</attribute> 
+<no>2.4</no>. <attribute>Primary</attribute> <attribute>Contact</attribute> <attribute>Phone</attribute> <attribute>Number</attribute> 
+<no>2.5</no>. <attribute>Status</attribute> 
+<no>3</no>. <class>User</class> <no>should</no> <no>be</no> <no>able</no> <no>to</no> <association>sort</association> <no>the</no> <class>acquisition</class> <no>list</no> <no>by</no> <no>any</no> <no>of</no><no>its</no> <no>columns</no> 
+<no>4. </no><no>The</no> <no>default</no> <no>sorting</no> <no>is</no> <no>by</no> <no>descending</no> <no>order</no> <no>of</no><class>acquisition</class> <no>End</no> <no>Date</no> 
+<no>5</no>. <association>Changes</association> <no>to</no> <class>acquisition</class> <no>information</no> <no>in</no> <no>CRM</no> <no>should</no> <no>be</no> <no>immediately</no> <association>visible</association> <no>in</no> <no>the</no> <class>Inventory</class> <no>Management</no> <no>System</no>. 
+<no>6.</no> <association>Changes</association> <no>to</no> <class>acquisition</class> <no>information</no> <no>in</no> <no>the</no> <class>Inventory</class> <no>Management</no> <no>System</no> <no>should</no> <no>be</no> <no>immediately</no> <association>visible</association> <no>in</no> <class>CRM.</class> 
+<no>7.</no> <class>CRM</class> <no>should</no> <no>allow</no> <no>the</no> <association>creation</association> <no>of</no><no>a</no> <attribute>Drop Off</attribute> <class>acquisition</class> <no>where</no> <no>only</no> <no>a</no> <attribute>Zip Code</attribute> <no>and</no> <attribute>Donation</attribute> <attribute>Location</attribute> <attribute>Type</attribute> <no>or</no> <attribute>Donor</attribute> <attribute>Type</attribute> <no>are</no> <no>provided</no>. 
+<no>8</no>. <no>All</no> <class>acquisitions</class> <no>are</no> <association>created</association> <no>in</no> <class>CRM</class>. 
+<no>9.</no> <no>The</no> <no>system</no> <no>should</no> <no>provide</no> <no>a</no> <no>link</no> <no>from</no> <no>the</no> <class>acquisitions</class> <no>view</no> <no>in</no> <no>the</no> <class>Inventory</class> <no>Management</no> <no>System</no> <no>to</no> <no>the</no> <class>acquisition</class> <no>creation</no> <no>screen</no> <no>in</no> <no>CRM</no> <no>for</no> <no>easy</no> <no>access</no>. 
+<no>10.</no> <class>Inventory</class> <no>Management</no> <class>users</class> <no>should</no> <no>be</no> <no>granted</no> <no>permission</no> <no>to</no> <association>create</association> <no>new</no> <attribute>Drop Off</attribute> <class>acquisitions</class> <no>in</no> <no>CRM</no> <no>in</no> <no>order</no> <no>to</no> <no>access</no> <no>that</no> <no>functionality</no>. 
+<no>3.8.7</no>. <no>Post-Condition</no>(<no>s</no>): <no>None</no> 
+
+<no>3.8.8</no>. <no>Open</no> <no>Issues</no>: 
+<no>None</no> 
+<no>3.8.9</no>. <no>Extension</no> <no>Points</no>: 
+<no>None</no> 
+<no>3.8.10</no>. <no>Activity</no> <no>Diagram</no>(<no>s</no>): <no>None</no> 
+<no>3.8.11</no>. <no>Notes</no>: 
+<no>See</no> <no>the</no> <no>View</no> <class>Acquisitions</class> <class>user</class> <no>interface</no> <no>requirements</no>.  
+ 
+ 
+<no>3.9</no>. <method>Receive</method> <class>Acquisition</class> <no>A</no> <class>donor</class> <no>in</no> <no>possession</no> <no>of</no> <no>a</no> <no>valid</no> <class>acquisition</class> <attribute>number</attribute> <no>can</no> <method>proceed</method> <no>to</no> <no>the</no> <method>receiving</method> <attribute>dock</attribute> <no>where</no> <no>the</no> <class>items</class> <no>to</no> <no>be</no> <method>donated</method> <no>will</no> <no>be</no> <method>received</method> <no>and</no> <method>processed</method>, <no>and</no> <no>a</no> <method>donation</method> <method>receipt</method> <no>will</no> <no>be</no> <method>generated</method>. <no>Alternatively</no>, <no>a</no> <class>donor</class> <no>may</no> <no>go</no> <no>directly</no> <no>to</no> <no>the</no> <no>receiving</no> <no>dock</no>, <no>in</no> <no>which</no> <no>case</no> <no>a</no> <no>new</no> <class>acquisition</class> <no>is</no> <association>created</association> <no>by</no> <no>the</no> <class>Receiving Associate</class> <no>before</no> <class>items</class> <no>can</no> <no>be</no> <method>received</method> <no>and</no> <method>processed</method>.  <no>The</no> <no>screens</no> <no>used</no> <no>for</no> <no>the</no> <class>acquisition</class> <no>process</no> <no>should</no> <no>simplify</no> <no>and</no> <no>expedite</no> <no>the</no> <no>data</no> <no>entry</no> <no>process</no>, <no>allowing</no> <no>the</no> <class>Receiving Associate</class> <no>to</no> <method>enter</method> <no>only</no> <no>the</no> <method>information</method> <method>needed</method> <no>to</no> <method>generate</method> <no>the</no> <method>donation</method> <method>receipt</method>. <no>Additional</no> <no>attributes</no> <no>needed</no> <no>to</no> <no>complete</no> <no>the</no> <class>item</class> <no>information</no> <no>and</no> <no>effectively</no> <association>add</association> <no>the</no> <class>item</class> <no>to</no> <no>the</no> <class>inventory</class> <no>can</no> <no>be</no> <no>added</no> <no>at</no> <no>a</no> <no>second</no> <no>step</no>, <no>after</no> <no>the</no> <method>receipt</method> <no>has</no> <no>been</no> <method>printed</method> <no>and</no> <no>the</no> <class>donor</class> <no>has</no> <no>been</no> <method>served</method>. <no>The</no> <class>Receiving Associate</class> <no>can</no> <association>print</association> <no>temporary</no> <class>acquisition</class> <attribute>labels</attribute> <no>for</no> <class>items</class> <no>that</no> <no>require</no> <no>further</no> <no>processing</no>.  <class>Pick Up</class> <no>and</no> <class>Decon</class> <class>crews</class> <no>may</no> <no>also</no> <no>initiate</no> <no>the</no> <method>receiving</method> <method>process</method>, <method>entering</method> <no>as</no> <no>much</no> <no>detailed</no> <no>information</no> <no>about</no> <no>the</no> <attribute>donated</attribute> <class>items</class> <no>as</no> <no>desired</no>, <no>and</no> <method>generating</method> <no>a</no> <method>donation receipt</method>. <no>They</no> <no>cannot</no>, <no>however</no>, <association>add</association> <class>items</class> <no>to</no> <no>the</no> <class>inventory</class> <no>or</no> <method>complete</method> <no>the</no> <class>acquisition</class> <no>process</no>. <no>A</no> <class>Receiving Associate</class> <no>is</no> <no>required</no> <no>to</no> <association>review</association> <no>all</no> <no>the</no> <class>acquisition</class> <no>information</no> <no>before</no> <no>those</no> <no>actions</no> <no>can</no> <no>take</no> <no>place</no>. 
+<no>3.9.1</no>. <no>Actor</no>(<no>s</no>): 
+ <no>Donor</no> / <no>Primary</no> <no>Contact</no> 
+ <class>Administrator</class> 
+ <class>Director</class> 
+ <class>Manager</class> 
+ <class>Customer Service Representative</class> 
+ <class>Receiving Associate</class> 
+ <class>Pick Up Associate</class> 
+ <class>Decon Associate</class> 
+<no>3.9.2</no>. <no>Assumptions</no>, <no>Pre-Conditions</no> &amp; <no>Triggers</no>: 
+<no>1.</no> <no>An</no> <class>acquisition</class> <no>has</no> <no>been</no> <association>created</association> <no>for</no> <no>this</no> <association>donation</association> <no>in</no> <class>CRM</class> <no>and</no> <no>exists</no> <no>in</no> <no>the</no> <no>system</no> <no>in</no> <no>the</no> <no>Expected</no> 
+<no>state</no>. 
+<no>3.9.3</no>. <no>Use</no> <no>Case</no> <no>Dependencies</no> 
+<no>1.</no> <no>View</no> <class>Acquisitions</class> 
+<no>2.</no> <no>Add</no> <class>Item</class> <no>to</no> <class>Inventory</class> 
+
+<no>3.9.4</no>. <no>Basic</no> <no>Flows</no>: 
+<no>1.</no> <class>Donor</class> <no>or</no> <attribute>Primary Contact</attribute> <attribute>arrives</attribute> <no>at</no> <attribute>receiving</attribute> <class>dock</class> <no>with</no> <no>a</no> <no>valid</no> <attribute>donation</attribute> <attribute>number</attribute> 
+<no>2</no>. <class>Receiving Associate</class> <method>locates</method> <method>donation</method> <method>request</method> <no>in</no> <no>the</no> <no>system</no> (<no>see</no> <no>View</no> <class>Acquisitions</class>) 
+<no>3</no>. <no>System</no> <no>displays</no> <no>donation</no> <no>request</no> <no>information</no> 
+<no>4</no>. <class>Receiving Associate</class> <method>enters</method> <no>information</no> <no>about</no> <no>each</no> <method>donated</method> <class>item</class> <no>into</no> <no>the</no> <no>donation</no> <no>request</no> (<no>see</no> <no>Add</no> <class>Item</class> <no>to</no> <class>Inventory</class>) 
+<no>4.1</no>. <no>A</no> <no>new</no> <class>item</class> <no>can</no> <no>be</no> <method>added</method> <no>to</no> <no>the</no> <no>list</no> <no>by</no> <no>cloning</no> <no>an</no> <no>existing</no> <class>item</class> 
+<no>4.2</no>. <no>A</no> <no>new</no> <class>item</class> <no>can</no> <no>be</no> <method>added</method> <no>by</no> <no>clicking</no> <no>the</no> <no>Add</no> <class>Item</class> <no>button</no> 
+<no>4.3</no>. <no>An</no> <class>item</class> <no>can</no> <no>be</no> <method>removed</method> <no>by</no> <no>setting</no> <no>the</no> <no>received</no> <no>quantity</no> <no>to</no> <no>zero</no> 
+<no>5.</no> <class>Receiving Associate</class> <method>prints</method> <no>a</no> <method>donation receipt</method> 
+<no>6.</no> <class>Receiving Associate</class> <no>optionally</no> <no>writes</no> <no>information</no> <no>to</no> <no>the</no> <no>receipt</no> <no>by</no> <no>hand</no> <no>such</no> <no>as</no> <no>condition</no> 
+<no>7.</no> <class>Donation receipt</class> <no>is</no> <no>given</no> <no>to</no> <no>the</no> <no>Donor</no> <no>or</no> <no>Primary</no> <no>Contact</no> 
+<no>8.</no> <class>Receiving Associate</class> <association>prints</association> <class>item</class> <association>tags</association> <no>for</no> <no>unique</no> <no>and</no> <no>stock</no> <class>items</class> (<no>see</no> <no>Add</no> <class>Item</class> <no>to</no> <class>Inventory</class>)
+ <no>9.</no> <class>Receiving Associate</class> <association>attaches</association> <association>printed tags</association> <no>to</no> <no>corresponding</no> <class>items</class> 
+<no>10</no>. <class>Receiving Associate</class> <association>closes</association> <association>donation</association> <association>request</association> 
+<no>3.9.5</no>. <no>Alternative</no> <no>Flows</no>: 
+<no>1.</no> <no>Items</no> <no>can</no> <no>be</no> <no>set</no> <no>aside</no> <no>for</no> <no>further</no> <no>processing</no> 
+<no>1.1</no>. <no>In</no> <no>this</no> <no>case</no>, <no>the</no> <class>Receiving Associate</class> <no>can</no> <no>alternatively</no> <method>tags</method> displaying <no>the</no> <attribute>donation number</attribute> <no>and</no> <class>donor</class> <no>information</no>.  
+<no>1.2</no>. <no>The</no> <class>acquisition</class> <no>is</no> <no>left</no> <no>in</no> <no>the</no> <no>Partially</no> <no>Received</no> <no>state</no> <no>until</no> <no>processing</no> <no>is</no> <no>completed</no> <no>at</no> <no>a</no> <no>later</no> <no>time</no> 
+<no>3.9.6</no>. <no>Business</no> <no>Rules</no>: 
+<no>1.</no> <no>Donation</no> <no>receipt</no> <no>information</no>: 
+<no>1.1</no>. <no>Donation</no> <attribute>date</attribute> 
+<no>1.2</no>. <no>List</no> <no>of</no> <no>donated</no> <class>items</class> 
+<no>1.2.1</no>. <attribute>Description</attribute> 
+<no>1.2.2</no>. <attribute>Quantity</attribute> <no>Received</no> 
+<no>1.2.3</no>. <attribute>Condition</attribute> 
+<no>1.3</no>. <attribute>Name</attribute> <no>of</no> <class>Construction Junction representative</class> 
+<no>1.4</no>. <attribute>Signature</attribute> <no>of</no> <class>Construction Junction representative</class> 
+<no>1.5</no>. <attribute>Construction Junction contact information</attribute> 
+<no>1.6</no>. <class>Tax deduction</class> <no>information</no> <no>text</no> 
+<no>2.</no> <no>Buttons</no> <no>and</no> <no>shortcuts</no> <no>should</no> <no>be</no> <no>easy</no> <no>to</no> <no>click</no> <no>on</no> <no>a</no> <no>touch</no> <no>screen</no> <no>workstation</no>. <no>Extra</no> <no>spacing</no> <no>between</no> <no>rows</no> <no>should</no> <no>be</no> <no>added</no> <no>if</no> <no>necessary</no>. 
+<no>3.</no> <no>The</no> <no>donation</no> <class>item</class> <attribute>name</attribute> <no>initially</no> <no>displayed</no> <no>on</no> <no>each</no> <class>item</class> <no>row</no> <no>is</no> <no>the</no> <no>donation</no> <class>item</class> <attribute>name</attribute><no>in</no> <no>the</no> <no>CRM</no> <class>acquisition</class> <no>record</no>.  
+<no>4.</no> <no>The</no> <class>Pickup</class> <no>and</no> <class>Decon crews</class> <no>can</no> <association>change</association> <no>anything</no> <no>on</no> <no>this</no> <no>screen</no> <no>and</no> <no>also</no> <no>in</no> <no>the</no> <class>item</class> <no>detail</no> <no>screen</no>, <no>but</no> <no>can</no><no>&apos;t</no> <no>complete</no> <no>the</no> <class>acquisition</class> <no>or</no> <no>add</no> <class>items</class> <no>to</no> <no>the</no> <class>inventory</class> (<no>buttons</no> <no>are</no> <no>disabled</no>) 
+<no>5.</no> <no>The</no> <no>Email</no> <no>Receipt</no> <no>button</no> <no>takes</no> <no>you</no> <no>to</no> <no>the</no> <no>Email</no> <no>Receipt</no> <no>screen</no> 
+<no>6</no>. <no>The</no> <no>email</no> <no>receipt</no> <no>screen</no> <no>shows</no> <no>all</no> <no>email</no> <no>addresses</no> <no>associated</no> <no>with</no> <no>the</no> <class>Acquisition</class> <no>in</no> <no>CRM</no> 
+<no>6.1</no>. <class>One</class> <no>or</no> <no>more</no> <no>can</no> <no>be</no> <no>selected</no> <no>to</no> <no>receive</no> <no>the</no> <no>email</no> <no>receipt</no> 
+<no>6.2</no>. <no>If</no> <no>no</no> <no>emails</no> <no>are</no> <no>available</no>, <no>they</no> <no>need</no> <no>to</no> <no>be</no> <no>added</no> <no>in</no> <no>CRM</no> 
+<no>7</no>. <no>The</no> <no>system</no> <no>must</no> <method>record</method> <no>every</no> <no>time</no> <no>a</no> <method>receipt</method> <no>is</no> <no>printed</no> <no>or</no> <no>emailed</no> 
+<no>8</no>. <no>Selecting</no> <no>a</no> <class>stock</class> <class>category</class> <no>takes</no> <no>you</no> <no>back</no> <no>to</no> <no>the</no> <class>acquisition</class> <no>screen</no> , <no>not</no> <no>to</no> <no>the</no> <class>items</class> <no>details</no> <no>page</no>
+<no> 9</no>. <no>Selecting</no> <no>an</no> <no>under</no> <no>$5</no> <class>category</class> <no>prompts</no> <no>for</no> <no>a</no> <no>description</no> <no>and</no> <no>also</no> <no>takes</no> <no>you</no> <no>back</no> <no>to</no> <no>the</no> <class>acquisition</class> <no>screen</no> 
+<no>10</no>. <no>Condition</no> <no>is</no> <no>optional</no>. <no>If</no> <no>left</no> <no>blank</no>, <no>the</no> <no>donor</no> <no>may</no> <no>write</no> <no>it</no> <no>manually</no> <no>on</no> <no>the</no> <no>receipt</no> 
+<no>11</no>. <no>Clicking</no> <no>add</no> <class>item</class> <no>takes</no> <no>you</no> <no>directly</no> <no>to</no> <no>the</no> <class>inventory</class> <class>matrix</class> <no>so</no> <no>that</no> <no>the</no> <class>item</class> <class>category</class> <no>can</no> <no>be</no> <method>selected</method>, <no>then</no> <no>to</no> <no>the</no> <class>item</class> <no>details</no> <no>screen</no> 
+<no>12</no>. <method>Adding</method> <no>an</no> <class>item</class> <no>here</no> <no>also</no> <no>adds</no> <no>a</no> <class>record</class> <no>to</no> <no>the</no> <class>Acquisition</class> <no>in</no> <no>CRM</no> (<no>shared</no> <no>entities</no>) 
+<no>13</no>. <method>Updating</method> <no>an</no> <class>item</class> <no>here</no> <association>updates</association> <no>the</no> <class>inventory</class> <no>fields</no> <no>on</no> <no>the</no> <class>Acquisition</class> <class>record</class> <no>in</no> <no>CRM</no> (<no>shared</no> <no>entities</no>) 
+<no>14</no>. <no>Completing</no> <no>the</no> <class>acquisition</class> <method>freezes</method> <no>the</no> <class>record</class> <no>in</no> <no>both</no> <no>CRM</no> <no>and</no> <no>the</no> <class>Inventory</class> <no>Management</no> <no>System</no> 
+<no>15</no>. <no>The</no> <no>system</no> <no>should</no> <method>record</method> <no>the</no> <no>total</no> <no>amount</no> <no>of</no> <method>time</method> <no>taken</no> <no>to</no> <no>process</no> <no>each</no> <class>acquisition</class> 
+<no>16</no>. <no>The</no> <no>original</no> <no>CRM</no> <class>acquisition</class> <no>data</no> <no>must</no> <no>be</no> <no>kept</no>, <no>not</no> <no>overridden</no> <no>by</no> <no>the</no> <no>values</no> <no>entered</no> <no>here</no> 
+<no>3.9.7</no>. <no>Post-Condition</no>(<no>s</no>): 
+<no>1.</no> <no>Donated</no> <class>items</class> <no>are</no> <no>present</no> <no>in</no> <no>the</no> <class>Inventory</class> <no>Management</no> <no>System</no>
+ <no>2.</no> <class>Unique</class> <no>and</no> <class>stock</class> <class>items</class> <no>have</no> <class>item</class> <attribute>tags</attribute> 
+<no>3.</no> <class>Unique</class> <class>items</class> <no>are</no> <method>added</method> <no>to</no> <method>POS</method> 
+<no>4</no>. <no>Quantities</no> <no>for</no> <class>stock</class> <class>items</class> <no>are</no> <method>updated</method> <no>in</no><method> POS</method> 
+<no>5.</no> <class>Donor</class> <no>has</no> <attribute>donation receipt</attribute> 
+<no>6.</no> <method>Donation</method> <no>request</no> <no>in</no> <no>the</no> <no>system</no> <no>has</no> <no>a</no> <method>status</method> <no>of</no> <no>Processed</no> 
+<no>3.9.8</no>. <no>Open</no> <no>Issues</no>: 
+<no>None</no> 
+<no>3.9.9</no><no>.</no> <no>Extension</no> <no>Points</no>: <no>None</no> 
+<no>3.9.10</no>. <no>Activity</no> <no>Diagram</no>(<no>s</no>): 
+<no>None</no> 
+<no>3.9.11</no>. <no>Notes</no>: <no>See</no> <no>the</no> <no>Receive</no> <class>Acquisition</class> <class>user</class> <no>interface</no> <no>requirements</no>.  
+ 
+ 
+<no>3.10</no>. <method>Sell</method> <class>Item</class> <no>Any</no> <class>item</class> <no>in</no> <no>the</no> <class>inventory</class> <no>may</no> <no>be</no> <association>purchased</association> <no>by</no> <no>a</no> <class>Construction Junction customer</class>. <no>The</no> <method>sale</method> <no>of</no><no>the</no> <class>item</class> <no>is</no> <method>processed</method> <no>by</no> <method>QuickBooks POS</method> <no>and</no> <no>the</no> <class>inventory</class> <no>must</no> <no>be</no> <method>updated</method> <no>accordingly</no>. 
+<no>3.10.1</no>. <no>Actor</no>(<no>s</no>): 
+ <class>Buyer</class> 
+ <class>Sales Associate </class>
+ <class>Customer Service Representative</class> 
+<no>3.10.2</no>. <no>Assumptions</no>, <no>Pre-Conditions</no> <no>&amp;</no> <no>Triggers</no>: 
+<no>1</no>. <no>The</no> <class>item</class> <no>being</no> <method>purchased</method> <no>has</no> <no>been</no> <no>previously</no> <method>added</method> <no>to</no> <no>the</no> <class>inventory</class>. 
+<no>3.10.3</no>. <no>Use</no> <no>Case</no> <no>Dependencies</no> 
+<no>1.</no> <method>Add</method> <class>Item</class> <no>to</no> <class>Inventory</class> 
+<no>3.10.4</no>. <no>Basic</no> <no>Flows</no>: 
+<no>1.</no> <class>Buyer</class> <method>arrives</method> <no>at</no> <no>the</no> <class>cashier</class> <no>or</no> <method>checkout</method> <method>desk</method> <no>with</no> <no>the</no> <class>items</class> <no>to</no> <no>be</no> <no>purchased</no> 
+<no>2</no>. <class>Sales associate</class> <association>scans</association> <no>the</no> <class>item</class> tags 
+<no>3</no>. <class>Sales associate</class> <association>processes</association> <no>the</no> <association>sale</association> <no>of</no> <no>the</no> <class>items</class> <no>in</no> <no>QuickBooks</no> <no>POS</no> 
+<no>4</no>. <no>The</no> <no>system</no> <method>updates</method> <no>the</no> <class>inventory</class> <no>to</no> <no>reflect</no> <no>the</no> <no>sale</no> 
+<no>3.10.5</no>. <no>Alternative</no> <no>Flows</no>: 
+<no>1</no>. <no>Certain</no> <class>items</class> <no>sold</no> <no>in</no> <no>QuickBooks</no> <no>POS</no> <no>may</no> <no>not</no> <no>exist</no> <no>in</no> <no>the</no> <class>inventory</class> (<no>under</no> <no>$5</no> <class>items</class>, <no>for</no> <no>instance</no>). <no>The</no> <no>system</no> <no>must</no> <no>be</no> <no>able</no> <no>to</no> <no>recognize</no> <no>that</no> <no>situation</no> <no>and</no> <no>bypass</no> <no>the</no> <class>inventory</class> <no>update</no>. 
+
+<no>3.10.6</no>. <no>Business</no> <no>Rules</no>: 
+<no>1</no>. <no>After</no> <no>a</no> <no>sale</no> <no>in</no> <no>QuickBooks</no> <no>POS</no>, <no>the</no> <no>following</no> <class>item</class> <no>attributes</no> <no>must</no> <no>be</no> <no>updated</no> <no>in</no> <no>the</no> <class>inventory</class>: 
+<no>1.1.</no> <attribute>Sale price</attribute> 
+<no>1.2.</no> <attribute>Quantity</attribute> <no>on</no> <no>hand</no> 
+<no>2.</no> <no>The</no> <attribute>sale price</attribute> <no>must</no> <method>not override</method> <no>the</no> <attribute>original</attribute> <class>item</class> <no>price</no> <no>in</no> <no>the</no> <class>inventory</class> <no>3.</no> <no>The</no> <class>item</class> <no>quantity</no> <no>on</no> <no>hand</no> <no>in</no> <no>the</no> <class>inventory</class> <no>must</no> <no>be</no> <method>decremented</method> <no>by</no> <no>the</no> <method>quantity sold</method> 
+<no>3.10.7</no>. <no>Post-Condition</no>(<no>s</no>): <no>1</no>. <class>Inventory</class> <no>is</no> <method>updated</method> <no>to</no> <no>reflect</no> <no>the</no> <no>sale</no> 
+<no>3.10.8</no>. <no>Open</no> <no>Issues</no>: 
+<no>None</no> 
+<no>3.10.9</no>. <no>Extension</no> <no>Points</no>: 
+<no>None</no> 
+<no>3.10.10</no>. <no>Activity</no> <no>Diagram</no>(<no>s</no>): <no>None</no> 
+<no>3.10.11</no>. <no>Notes</no>: 
+<no>None</no>  
+ 
+ 
+<no>3.11</no>. <class>Reports </class> <no>The</no> <no>application</no> <no>will</no> <no>provide</no> <no>a</no> <no>reporting</no> <no>mechanism</no> <no>that</no>, <no>at</no> <no>a</no> <no>minimum</no>, <no>allows</no> <class>Construction Junction</class> <no>to</no> <method>review</method> <no>and</no> <class>report</class> <no>by</no> <class>inventory</class>, <class>inventory</class> <no>type</no>, <no>donor</no> <no>contact</no> <no>information</no>, <no>and</no> <no>the</no> <no>ability</no> <no>to</no> <no>link</no> <class>inventory</class> <no>to</no> <no>individual</no> <no>that</no> <no>donated</no> <no>it</no>.   <no>The</no> <no>system</no> <no>should</no> <no>be</no> <no>able</no> <no>to</no> <method>generate</method> <class>reports</class> <no>based</no> <no>on</no> <no>the</no> <no>following</no> <no>entities</no>, <no>including</no> <no>reports</no> <no>that</no> <no>correlate</no> <no>them</no>: 
+ <class>Inventory</class> <class>items</class> 
+ <class>Inventory</class> <class>departments</class> 
+ <class>Inventory</class> <class>categories</class> 
+ <class>Acquisitions Donors </class> 
+ <no>The</no> <no>following</no> <no>are</no> <no>examples</no> <no>of</no> <no>reports</no> <no>that</no> <no>the</no> <no>system</no> <no>is</no> <no>expected</no> <no>to</no> <no>be</no> <no>able</no> <no>to</no> <no>generate</no>:  
+ <no>Current</no> <no>status</no> <no>of</no> <class>inventory</class> 
+<no>o</no> <class>Item</class> <attribute>counts</attribute>, <attribute>value</attribute> <no>and</no> <attribute>volume</attribute> <no>by</no> <class>department</class>, <class>category</class>, <class>acquisition</class> <attribute>type</attribute>, <attribute>donor</attribute>, <attribute>donor location</attribute>, <attribute>donor type </attribute><no>on</no> <no>hand</no>, <no>by</no> <attribute>date </attribute><no>range</no> <no>and</no><attribute> date range</attribute> <attribute>comparison</attribute> <class>Inventory</class> <no>changes</no> 
+<no>o</no> <no>New</no> <class>item</class> <attribute>counts</attribute>, <attribute>value</attribute> <no>and</no> <attribute>volume</attribute> <no>by</no> <attribute>date</attribute> <no>range</no>/<attribute>comparison</attribute> <no>and</no> <no>by</no> <class>department</class>, <class>category</class>, <class>acquisition</class> <attribute>type</attribute>, <attribute>donor</attribute>, <attribute>donor location</attribute>, <attribute>donor type</attribute> 
+<no>o</no> <class>Item</class> <no>sale</no> <attribute>counts</attribute>, <attribute>value</attribute> <no>and</no> <attribute>volume</attribute> <no>by</no> <attribute>date range/</attribute><attribute>comparison</attribute> <no>and</no> <no>by</no> <class>department</class>, <class>category</class>, <class>acquisition</class> <attribute>type</attribute>, <attribute>donor</attribute>, <attribute>donor location</attribute>, <attribute>donor type</attribute> 
+<no>o</no> <attribute>Deleted</attribute> <class>inventory</class> <class>items</class> <no>by</no><attribute> date period</attribute>, <class>user</class> 
+<no>o</no> <class>Item</class> <attribute>price</attribute> <attribute>adjustments</attribute> <no>by</no> <attribute>date period</attribute>, <class>user</class> 
+<class>Acquisitions</class> 
+<no>o</no> <no>Current</no> <no>partially</no> <method>received</method> <class>acquisitions</class> 
+<no>o</no> <attribute>Number</attribute>, <attribute>value</attribute> <no>and</no> <attribute>volume</attribute> <no>of</no> <class>acquisitions</class> <no>processed</no> <no>by</no> <attribute>date</attribute> <no>range</no>/<no>comparison</no> <no>and</no> <no>by</no> <attribute>donation</attribute> <attribute>type</attribute>, <attribute>donor</attribute>, <attribute>donor</attribute> <attribute>location</attribute>, <attribute>donor</attribute> <attribute>type</attribute>, <class>receiving associate</class> 
+<no>o</no> <no>Processing</no> <no>time</no> <no>by</no> <attribute>date</attribute> <attribute>range</attribute> <no>and</no> <no>by</no> <attribute>donation</attribute> <attribute>type</attribute>, <attribute>donor</attribute>, <attribute>donor</attribute> <attribute>location</attribute>, <attribute>donor</attribute> <attribute>type</attribute>, <class>receiving associate</class> 
+<no>o</no> <class>Acquisition</class> <class>items</class> <method>entered</method> <no>as</no> <no>generic</no> <class>items</class> <no>by</no> <attribute>donation</attribute> <attribute>type</attribute>, <attribute>donor</attribute>, <attribute>donor</attribute> <attribute>location</attribute>, <attribute>donor</attribute> <attribute>type</attribute>, <class>receiving associate</class>  <no>The</no> <no>system</no> <no>should</no> <no>allow</no> <no>the</no> <class>Construction Junction Staff</class> <no>to</no> <association>create</association> <no>new</no> <association>reports</association> <no>whenever</no> <no>required</no> <no>to</no> <no>satisfy</no> <no>their</no> <no>changing</no> <no>operational</no> <no>and</no> <no>business</no> <no>needs</no>. 
+</document>

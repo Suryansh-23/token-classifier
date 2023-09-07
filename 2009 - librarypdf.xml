@@ -1,0 +1,314 @@
+<document><no>System</no> <no>Requirements</no>
+<no>Category</no>: <no>Systems</no>: <no>General</no>
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>6512</no>
+<no>Name</no>: <no>SQL-based</no> <class>database</class>
+<no>Description</no>: <no>System</no> <method>runs</method> <no>on</no> <no>a</no> <no>fully</no> <no>relational</no>, <no>SQL-based</no> <class>database</class> <no>system</no>.  <no>Ability</no> <no>to</no> <method>run</method> <class>SQL queries</class> <no>against</no> <no>any</no> <no>table</no> <no>in</no> <no>the</no> <class>database</class>. <no>Ability</no> <no>to</no> <method>access</method> <class>database</class> <no>as</no> <no>an</no> <no>ODBC</no> <no>source</no>. <no>All</no> <no>data</no> <no>tables</no> <no>and</no> <no>data</no> <no>storage</no> <no>are</no> <no>fully</no> <no>accessible</no>.
+
+<no>Related</no> <no>Reqs</no>: <no>2456</no> <no>2475</no> <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>5615</no>
+<no>Name</no>: <no>real-time</no> <no>processing</no>
+<no>Description</no>: <no>The</no> <no>system</no> <no>provides</no> <no>real-time</no> <no>processing</no>.  <no>For</no> <no>example</no>:  <no>pull</no> <no>lists</no> <no>are</no> <method>up to date</method> <no>at</no> <no>time</no> <no>of</no> <method>viewing</method> <no>or</no><method>printing</method>; <no>system</no> <no>supports</no> <method>live</method> <no>shelf</no> <method>reading</method> <no>and</no> <method>weeding</method>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>MGT</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>5323</no>
+<no>Name</no>: <no>field</no> <no>and</no> <no>record</no> <no>sharing</no>
+<no>Description</no>: <no>Ability</no> <no>for</no> <no>multiple</no> <class>staff members</class> <no>and</no> <class>patrons</class> <no>to</no> <no>simultaneously</no> <association>access</association> <no>and</no> <association>update</association> <class>patron</class> <no>and</no> <class>item</class> <class>records</class>, <no>including</no> <no>on</no> <class>staff</class> <attribute>check-in</attribute> and <attribute>check-out</attribute> <class>terminals</class>, <no>on</no> <no>self</no> <attribute>check-out</attribute> <attribute>stations</attribute>, <no>through</no> <no>SIP2</no>/<no>NCIP2</no> <no>and</no> <no>similar</no> <no>protocols</no> <no>and</no> <no>APIs</no>, <no>and</no> <no>in</no> <no>OPAC</no>. <no>Depending</no> <no>on</no> <no>assigned</no> <no>privileges</no>, <class>staff</class> <no>can</no> <association>view</association> <no>all</no> <class>patron</class> <no>and</no> <class>item</class> <no>fields</no>; <class>patrons</class> <no>can</no> <method>access</method> <class>only</class> <attribute>selected</attribute> <method>fields</method>. <class>Record</class> <method>changes</method> <no>are</no> <method>applied</method> <no>in</no> <no>a</no> <no>reasonable</no> <no>way</no>, <no>with</no> <method>prompts</method> <no>to</no> <no>warn</no> <no>when</no> <no>a</no> <class>record</class> <no>has</no> <no>been</no> <no>changed</no> <no>since</no> <no>it</no> <no>was</no> <no>displayed</no>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>CIR</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>6513</no>
+<no>Name</no>: <class>record</class> <no>lock</no> <no>management</no>
+<no>Description</no>: <no>For</no> <no>any</no> <class>patron</class> <class>record</class> <no>or</no> <class>item</class> <class>record</class>, <class>staff</class> <no>can</no> <method>identify</method> <no>where</no> <no>it</no> <no>is</no> <no>in</no> <no>use</no> (<attribute>location</attribute>, <attribute>user</attribute>, <attribute>date</attribute> <no>and</no> <attribute>time placed</attribute>).
+<no>Related</no> <no>Reqs</no>: <no>6501</no> <no>7302</no> <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+
+<no>Priority</no>: <no>2Req</no> <no>ID</no>: <no>2492</no>
+<no>Name</no>: <attribute>individual</attribute> <no>and</no> <attribute>shared</attribute> <class>staff</class> <attribute>login</attribute> <no>accounts</no>
+<no>Description</no>: <no>Support</no> <no>for</no> <attribute>individual</attribute> <no>and</no> <attribute>shared</attribute> <class>staff</class> <attribute>login</attribute> <class>accounts</class>; <no>access</no> <no>to</no> <no>modules</no> <no>is</no> <no>granted</no> <no>by</no> <no>use</no> <no>of</no> &quot;<no>roles</no>&quot; <no>or</no> &quot;<no>privileges</no>&quot; <no>that</no> <no>allow</no> <no>each</no> <class>account</class> <no>to</no> <method>access</method> <no>as</no> <no>many</no> (<no>or</no> <no>as</no> <no>few</no>) <method>modules</method> <no>as</no> <no>needed</no>. <no>Individual</no> <no>logins</no> <no>allow</no> <no>user-level</no> <no>preferences</no> <no>and</no> <no>audit</no> <no>trail</no>.
+<no>Related</no> <no>Reqs</no>: <no>5514</no> <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ACQ</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>2428</no>
+<no>Name</no>: <no>system</no> <no>documentation</no>
+<no>Description</no>: <no>System</no> <no>documentation</no> <no>is</no> <no>library-specific</no> <no>and</no> <no>follows</no> <no>standard</no> <no>formats</no> <no>for</no> <no>technical</no> <no>documentation</no>. <class>Documentation</class> <no>is</no> <no>specific</no> <no>to</no> <no>the</no> <no>particular</no> <attribute>version</attribute> <no>of</no> <no>the</no> <no>software</no> <no>in</no> <no>use</no> <no>at</no> <no>library</no>. <class>Documentation</class> <no>is</no> <attribute>web-based</attribute>, <method>indexed</method>, <method>organized</method> <no>by</no> <no>function</no>, <no>and</no> <no>easily</no> <method>searchable</method>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>2431</no>
+<no>Name</no>: <no>system</no> <no>upgrade</no> <no>guidelines</no>
+<no>Description</no>: <no>System</no> <method>upgrades</method> <no>and</no> <method>updates</method> <no>include</no> <no>written</no> <no>guidelines</no> <no>for</no> <no>updating</no> <class>servers</class> <no>and</no> <class>clients</class>.  <no>Includes</no> <no>list</no> <no>of</no> <attribute>new</attribute>, <attribute>changed</attribute>, <no>and</no> <attribute>removed</attribute> <class>features</class>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>2479</no>
+<no>Name</no>: <no>configuration</no> <no>file</no> <no>access</no>
+<no>Description</no>: <no>System</no> <no>provides</no> <method>access</method> <no>to</no> <no>all</no> <class>configuration files</class>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>2474</no>
+<no>Name</no>: <class>log</class> <class>file</class> <no>access</no>
+<no>Description</no>: <no>System</no> <no>provides</no> <no>full</no> <method>access</method> <no>to</no> <no>all</no> <class>log files</class>.  <class>Log files</class> <no>can</no> <no>be</no> <method>reviewed</method> <no>without</no> <no>stopping</no> <no>system</no>. <method>Logs</method> <no>can</no> <no>be</no> <method>enabled</method>, <no>disabled</no>, <no>and</no> <method>set</method> <no>to</no> <no>a</no> <no>specific</no> <attribute>retention threshold</attribute>.
+
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>2470</no>
+<no>Name</no>: <class>root shell</class> <no>access</no>
+<no>Description</no>: <no>System</no> <no>provides</no> <method>access</method> <no>to</no> <class>root shell</class>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+<no>Category</no>: <no>Systems</no>: <no>Consoles</no> <no>and</no> <no>Dashboards</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>6520</no>
+<no>Name</no>: <class>dashboard</class> <no>configuration</no>
+<no>Description</no>: <no>System</no> <no>supports</no> <method>creation</method> <no>of</no> <attribute>custom</attribute> <class>dashboards</class> <no>that</no> <method>display</method> <method>current</method> <no>and</no> <method>historical</method> <class>data</class> <no>about</no> <attribute>system performance</attribute>, <class>record</class> <method>creation</method> <no>and</no> <method>modification</method>, <method>circulation transactions</method>, <no>etc</no>.  <class>Administrators</class> <no>can</no> <association>create</association> <class>dashboards</class> <no>and</no> <no>give</no> <method>access</method> <no>to</no> <no>selected</no> <class>users</class> <no>and</no> <class>groups</class>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>6501</no>
+<no>Name</no>: <no>system</no> <no>monitoring</no>
+<no>Description</no>: <no>System</no> <no>provides</no> <no>full</no> <no>support</no> <no>for</no> <class>SNMP</class> <no>and</no> <no>supports</no> <method>monitoring</method> <no>of</no> <no>system</no> <attribute>resources</attribute>, <no>including</no> <attribute>disk space</attribute>, <attribute>CPU load</attribute>, <attribute>memory load</attribute>, <no>system</no> <class>processes</class>, <no>system</no> <attribute>interfaces</attribute> <no>and</no> <attribute>ports</attribute>.  <class>Alert</class> <no>thresholds</no> <no>are</no> <no>configurable</no>. <class>Alerts</class> <no>can</no> <no>be</no> <association>sent</association> <no>via</no> <attribute>administrative</attribute> <class>dashboards</class>, <method>email messages</method>, <no>and</no> <method>text messages</method>. <class>Alerts</class> <no>can</no> <no>be</no> <method>sent</method> <no>to</no> <no>unlimited</no> <no>number</no> <no>of</no> <class>recipients</class> <no>via</no> <no>any</no> <no>or</no> <no>all</no> <no>alert</no> <no>methods</no>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>7302</no>
+<no>Name</no>: <class>record</class> <method>lock</method> <no>administration</no>
+<no>Description</no>: <no>Ability</no> <no>to</no> <method>set</method> <attribute>thresholds</attribute> <no>on</no> <no>the</no> <no>length</no> <no>of</no> <no>time</no> <class>records</class> <no>are</no> <attribute>locked</attribute>  <no>and</no> provide, <no>for</no> <no>all</no> <class>record</class> <attribute>types</attribute>, <no>a</no> <no>list</no> <no>of</no> <no>records</no> <no>in</no> <no>sustained</no> <no>use</no>/<method>locked</method> <no>condition</no>. <no>Ability</no> <no>from</no> <no>the</no> <no>same</no> <no>console</no> <no>to</no> <method>unlock</method> <no>one</no> <no>or</no> <no>more</no> <class>records</class>.
+<no>Related</no> <no>Reqs</no>: <no>6513</no> <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>2467</no>
+<no>Name</no>: <no>system</no> <no>performance</no> <class>dashboard</class>
+<no>Description</no>: <no>System</no> <no>provides</no> <class>dashboard</class> <no>of</no> <no>performance</no> <no>monitoring</no> <no>and</no> <no>management</no> <no>tools</no>. <method>Identification</method> <no>of</no> <class>processes</class> <no>with</no> <class>process</class> <attribute>ID</attribute>, <attribute>owner username</attribute>, <attribute>IP address</attribute> (<no>if</no> <no>applicable</no>), <attribute>CPU utilization</attribute>, <attribute>memory utilization</attribute>, <attribute>run time</attribute>. <attribute>Runaway</attribute> <class>processes</class> <no>are</no> <method>identified</method>. <no>System</no> <no>status</no> <no>is</no> <no>represented</no> <no>by</no> <no>visual</no> <no>indicators</no> (<no>e.g</no>. <no>green</no> <no>and</no> <no>red</no> <no>lights</no>).
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>2466</no>
+<no>Name</no>: <no>server</no> <no>console</no>
+<no>Description</no>: <no>System</no> <no>provides</no> <no>a</no> <class>server management console</class> <no>including</no>:  <method>software shutdown utility</method>, <no>software</no> <method>startup utility</method>, <method>server shutdown utility</method>, <method>server restart utility</method>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>2464</no>
+<no>Name</no>: <no>application</no> <no>dashboard</no>
+<no>Description</no>: <no>System</no> <no>provides</no> <no>an</no> <attribute>administrative</attribute> <class>dashboard</class> <method>displaying</method>: <attribute>last</attribute> <attribute>full</attribute> <no>and</no> <attribute>incremental</attribute> <attribute>backup</attribute>; <attribute>last</attribute> <attribute>planned</attribute> <no>and</no> <attribute>unplanned</attribute> <no>system</no> <attribute>reboot</attribute>;<attribute> last</attribute> <attribute>software upgrade</attribute>; <no>current</no> <attribute>software version</attribute>; <attribute>transactions waiting</attribute> <no>to</no> <no>be</no> <no>processed</no>; <attribute>size</attribute> <no>of</no> <class>log-files</class>; <no>current</no> <attribute>count</attribute> <no>of</no> <class>records</class> <no>by</no> <class>record</class> <attribute>type</attribute> (<class>item</class>, <no>bibliographic</no>, <class>patron</class> <no>etc</no>), <class>database</class> <attribute>utilization</attribute> (<no>size</no>, <no>processes</no> <no>running</no>).
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>2430</no>
+<no>Name</no>: <no>client</no> <no>management</no> <no>console</no>
+<no>Description</no>: <no>System</no> <no>provides</no> <no>a</no> <class>management console</class> <association>displaying</association> <class>workstations</class> <no>running</no> <no>client</no> <no>software</no>; <class>workstation</class> <attribute>name</attribute> <no>and</no> <attribute>IP address</attribute>; <no>and</no> <no>utilities</no> <no>for</no> <method>managing</method> <no>and</no> <method>killing</method> <class>client sessions</class>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>6503</no>
+<no>Name</no>: <attribute>circulation</attribute> <class>dashboard</class>
+<no>Description</no>: <no>System</no> <no>provides</no> <no>a</no> <attribute>circulation</attribute> <class>dashboard</class> <method>showing</method> <no>key</no> <method>performace</method> <method>indicators</method> <no>such</no> <no>as</no> <attribute>check-outs</attribute> <no>per</no> <no>hour</no>, <attribute>check-ins</attribute> <no>per</no> <no>hour</no>, <attribute>holds placed</attribute> <no>per</no> <no>hour</no>, <attribute>holds paged</attribute> <no>per</no> <no>day</no>, <no>etc</no>. <no>Indicators</no> <no>can</no> <no>be</no> <no>limited</no> <no>to</no> <no>a</no> <no>single</no> <no>branch</no> <no>or</no> <no>set</no> <no>to</no> <no>systemwide</no>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>6517</no>
+<no>Name</no>: <class>configuration file</class> <class>console</class>
+<no>Description</no>: <no>System</no> <no>provides</no> <no>a</no> <no>single</no> <class>console</class> <no>with</no> <association>access</association> <no>to</no> <no>all</no> <class>configuration files</class>.  <method>Read</method> <no>and</no> <method>write</method> <method>permission</method> <no>to</no> <no>individual</no> <class>configuration files</class> <no>can</no> <no>be</no> <association>assigned</association> <no>to</no> <class>users</class> <no>and</no> <class>groups</class>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>2433</no>
+<no>Name</no>: <class>log-file dashboard</class>
+<no>Description</no>: <no>System</no> <no>provides</no> <no>a</no> <class>dashboard</class> <no>for</no> <attribute>locating</attribute> <no>and</no> <association>viewing</association> <class>log files</class>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>6521</no>
+<no>Name</no>: <no>job</no> <no>scheduling</no> <class>console</class>
+<no>Description</no>: <no>System</no> <no>provides</no> <no>a</no> <no>single</no> <no>interface</no> <no>for</no> <method>reviewing</method> <no>and</no> <method>controlling</method> <attribute>scheduled</attribute> <class>tasks</class>, <no>including</no> <attribute>staff-scheduled</attribute> <class>tasks</class>, <no>automated</no> <class>reports</class>, <attribute>scheduled imports</attribute> <no>and</no> <attribute>exports</attribute>, <no>software</no> <attribute>updates</attribute>, <no>etc</no>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>6515</no>
+<no>Name</no>: <class>email configuration</class>
+<no>Description</no>: <no>Ability</no> <no>to</no> <method>access</method> <no>and</no> <method>edit</method> <class>email configuration</class>, <no>including</no> <no>a</no> <no>quick</no> <no>menu</no> <no>of</no> <no>common</no> <no>settings</no> (<no>such</no> <no>as</no> <no>masquerading</no>, <no>log</no> <no>retention</no>, <no>bounce</no> <no>management</no>).
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>6516</no>
+<no>Name</no>: <no>SMTP</no> <no>support</no>
+<no>Description</no>: <no>System</no> <method>supports</method> <method>SMTP</method> <no>for</no> <no>email</no> <no>transport</no>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+<no>Category</no>: <no>Systems</no>: <no>Business</no> <no>Rules</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>2445</no>
+<no>Name</no>: <no>business</no> <no>rules</no>
+<no>Description</no>: <no>System</no> <no>supports</no> <method>restrictions</method> <no>based</no> <no>on</no> <no>business</no> <no>rules</no>, <no>e.g</no>. <no>restrictions</no> <no>on</no> <method>deleting</method> <class>item</class> <class>records</class> <no>that</no> <no>are</no> <no>in</no> <attribute>checked-out</attribute> <attribute>status</attribute>, <no>or</no> <no>restrictions</no> <no>on</no> <attribute>deleting</attribute> <attribute>bibliographic</attribute> <class>records</class> <no>with</no> <no>existing</no> <no>holds</no>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>5278</no>
+<no>Name</no>: <no>suppression</no> <no>rules</no>
+<no>Description</no>: <no>System</no> <no>provides</no> <no>customizable</no> &apos;<no>Rules</no> <no>of</no> <no>Suppression</no>&apos; <no>that</no> <no>specify</no> <no>whether</no> <class>patrons</class> <no>and</no> <class>staff</class> <no>can</no> <method>view</method> <attribute>authority</attribute>, <attribute>bibliographic</attribute>, <attribute>order</attribute>, <no>and</no> <class>item</class> <class>records</class> <no>in</no> <class>staff</class> <no>and</no> <no>public</no> (<no>OPAC</no>) <no>interfaces</no>. <class>Records</class> <no>may</no> <no>be</no> <method>visible</method> <no>to</no> <no>specific</no> <method>workgroups</method> <class>only</class>; <no>to</no> <no>all</no> <class>staff</class> <no>and</no> <class>patrons</class> <no>at</no> <no>specific</no> <attribute>locations</attribute>; <no>or</no> <no>to</no> <no>all</no> <class>staff</class> <no>and</no> <no>all</no> <class>patrons</class>. (<no>See</no> <no>REQ</no>-<no>5057</no> <no>for</no> <no>related</no> <no>requirements</no> <no>on</no> <no>loan</no> <no>rules</no>, <no>and</no> <no>REQ</no>-<no>5190</no> <no>for</no> <no>related</no> <no>requirements</no> <no>on</no> <no>holdability</no>.)
+<no>Related</no> <no>Reqs</no>: <no>5057</no> <no>5190</no> <no>580</no> <no>Related</no> <no>Process</no> <no>CAT180</no>
+<no>Source</no>: <no>CIR</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>5190</no>
+<no>Name</no>: <no>requesting</no> <no>rules</no>
+<no>Description</no>: <no>System</no> <no>allows</no> <method>creation</method> <no>and</no> <method>modification</method> <no>of</no> <no>requesting</no> <class>rules</class> <no>that</no> <no>determine</no> <no>whether</no> <no>a</no> <class>patron</class> <no>can</no> <no>place</no> <no>a</no> <association>hold</association> <no>on</no> <no>an</no> <class>item</class>. <no>Requesting</no> <class>rules</class> <no>may</no> <association>evaluate</association> <class>patron</class> <attribute>type</attribute>, <no>current</no> <attribute>number of holds</attribute>, <no>current</no> <class>patron</class> <class>account</class> <attribute>balance</attribute>, <class>item</class> <attribute>type</attribute>, <class>item</class> <attribute>status</attribute>, <no>owning</no> <attribute>location code</attribute>, <no>and</no> <no>other</no> <no>criteria</no>. <no>For</no> <no>example</no>, <no>requesting</no> <class>rules</class> <no>may</no> <association>prohibit</association> <class>patrons</class> <no>from</no> <no>placing</no> <method>holds</method> <no>on</no> <method>on-order CD titles</method>, but <no>allow</no> <class>patrons</class> <no>to</no> <no>place</no> <method>holds</method> <no>on</no> <no>other</no> <method>on-order titles</method>. <no>Requesting</no> <class>rules </class><no>also</no> <association>specify</association> <no>whether</no> <class>staff</class> <no>with</no> <no>specific</no> <no>privileges</no> <no>or</no> <no>roles</no> <no>can</no> <no>override</no> <no>specific</no> <no>criteria</no>. (<no>See</no> <no>REQ</no>-<no>5057</no> <no>re</no> <no>loan</no> <no>rules</no>, <no>REQ</no>-<no>5278</no> <no>re</no> <no>visibility</no>.)
+<no>Related</no> <no>Reqs</no>: <no>5057</no> <no>5278</no> <no>Related</no> <no>Process</no> <no>HOL</no>-<no>011</no>
+<no>Source</no>: <no>CIR</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>5057</no>
+<no>Name</no>: <no>loan</no> <no>rules</no>
+<no>Description</no>: <no>System</no> <no>allows</no> <method>creation</method> <no>and</no> <method>modification</method> <no>of</no> <class>loan rules</class> <no>that</no> <method>allow</method> <no>or</no> <method>disallow</method> <method>check-out</method> <no>of</no> <class>items</class>, <method>calculate</method> <method>loan periods</method>,  <no>and</no> <method>determine renewal limits</method>. <class>Loan rules</class> <no>may</no> <method>evaluate</method> <class>patron</class> <attribute>type</attribute>, <no>current</no> <attribute>number of</attribute> <class>items</class> <attribute>checked out</attribute>, <no>current</no> <class>patron</class> <class>account</class> <attribute>balance</attribute>, <class>item</class><attribute> type</attribute>, <class>item</class> <attribute>status</attribute>, <no>owning</no> <attribute>location code</attribute>, <attribute>check-out location code</attribute>, <no>and</no> <no>other</no> <no>criteria</no>. <no>For</no> <no>example</no>,<class> loan rules </class><no>may</no> <association>prohibit</association> <class>patrons</class> <no>from</no> <method>checking out</method> <class>items</class> <no>with</no> <no>an</no> <no>unavailable</no> <no>status</no>, <no>e.g</no>. <no>an</no> <class>item</class> <no>with</no> <no>a</no> <no>triggered</no> <association>hold</association> <no>for</no> <no>another</no> <class>patron</class> <no>or</no> <no>an</no> <class>item</class> <no>that</no> <no>is</no> <no>already</no> <association>checked out</association> <no>to</no> <no>another</no> <class>patron</class>. <class>Loan rules</class> <no>can</no> <method>access</method> <method>check-out location</method> <no>open</no>/<no>closed</no> <no>schedule</no> <no>in</no> <no>calculating</no> <no>due</no> <no>date</no>. <method>Loan rules</method> <no>also</no> <no>specify</no> <no>whether</no> <no>a</no> <no>specific</no> <no>criteria</no> <no>may</no> <no>be</no> <no>overridden</no> <no>by</no> <class>staff</class> <no>with</no> <no>specific</no> <no>privileges</no> <no>or</no> <class>roles</class>. (<no>Also</no> <no>see</no> <no>REQ</no>-<no>5190</no> <no>re</no> <no>requesting</no> <no>rules</no>.)
+<no>Related</no> <no>Reqs</no>: <no>5190</no> <no>Related</no> <no>Process</no> <no>HOL</no>-<no>131</no>
+<no>Source</no>: <no>CIR</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>5328</no>
+<no>Name</no>: <class>data</class> <method>validation</method>
+<no>Description</no>: <no>Ability</no> <no>to</no> <method>specify</method> <no>default</no> <attribute>value</attribute>, <class>data</class> <method>validation</method>, <no>automatic</no> <method>formatting</method>, <no>and</no> <no>required</no> <no>status</no> <no>for</no> <no>any</no> <no>field</no>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>CIR</no>
+<no>Category</no>: <no>Systems</no>: <no>Data</no> <no>Recovery</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>6502</no>
+<no>Name</no>: <no>system</no> <no>backup</no>
+<no>Description</no>: <no>System</no> <no>provides</no> <no>capability</no> <no>to</no> <method>perform</method> <no>live</no> <no>incremental</no> <no>and</no> <no>full</no> <method>backups</method> <no>of</no> <class>data</class> <no>and</no> <method>transaction</method> <class>logs</class>. <no>System</no> <no>supports</no> <no>use</no> <no>of</no> <no>third-party</no> <no>backup</no> <no>software</no> <no>such</no> <no>as</no> <no>EMC</no> <no>NetWorker</no>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>6505</no>
+<no>Name</no>: <class>data</class> <method>rollback</method>
+<no>Description</no>: <no>System</no> <class>logs</class> <class>data</class> <method>changes</method> (<no>such</no> <no>as</no> <class>record</class> <no>deletions</no>) <no>and</no> <no>provides</no> &quot;<method>undo</method>&quot; <no>functionality</no>.  <no>Ideally</no>, <no>system</no> <no>provides</no> <no>revision</no> <no>control</no>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>2462</no>
+<no>Name</no>: <no>server</no> <no>clustering</no>
+<no>Description</no>: <no>Ability</no> <no>to</no> <method>cluster</method> <method>servers</method> <no>for</no> <no>failover</no> <no>capability</no>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+<no>Category</no>: <no>Systems</no>: <no>Security</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>6510</no>
+<no>Name</no>: <class>patron</class> <class>data</class> <method>security</method>
+<no>Description</no>: <class>Patron</class> <class>data</class> <no>is</no> <method>secure</method> <no>in</no> <no>all</no> <method>transfers</method> <no>to</no> <no>and</no> <no>from</no> <no>the</no> <no>system</no>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>6509</no>
+<no>Name</no>: <class>user</class> <class>account</class> <attribute>privileges</attribute>
+<no>Description</no>: <no>System</no> <no>administrative</no> <class>staff</class> <no>has</no> <no>full</no> <method>visibility</method> <no>and</no> <method>control</method> <no>of</no> <class>user</class> <attribute>privileges</attribute>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>6511</no>
+<no>Name</no>: <no>secure</no> <no>protocol</no> <no>support</no>
+<no>Description</no>: <no>System</no> <no>supports</no> <no>secure</no> <no>protocols</no>, <no>including</no> <no>SFTP</no>, <no>SSL</no>, <no>and</no> <no>SSH</no>.  <no>SFTP</no> <no>is</no> <no>supported</no> <no>in</no> <no>both</no> <no>active</no> <no>and</no> <no>passive</no> <no>modes</no>, <no>configurable</no> <no>per</no> <no>vendor</no>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+<no>Category</no>: <no>Systems</no>: <no>Maintenance</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>1716</no>
+<no>Name</no>: <method>MARC import</method>/<method>export</method>
+<no>Description</no>: <no>MARC</no> <no>bibliographic</no> <no>and</no> <no>authority</no> <class>records</class> <no>can</no> <no>be</no> <method>imported</method> <no>and</no> <method>exported</method>, <no>singly</no> <no>and</no> <no>in</no> <no>batch</no>, <no>all</no> <no>fields</no> <no>or</no> <no>selected</no> <no>fields</no>, <no>to</no> <no>and</no> <no>from</no> <no>vendors</no> <no>including</no> <no>OCLC</no>. <attribute>Imported</attribute> <class>records</class> <no>can</no> <method>overlay</method> <no>existing</no> <no>short</no> <no>or</no> <no>full</no> <no>bibliographic</no> <class>records</class>. <attribute>Imported</attribute> <attribute>batches</attribute> <no>can</no> <no>be</no> <method>maintained</method> <no>and</no> <method>manipulated</method> <no>as</no> <no>selection</no> <no>lists</no> (<no>see</no> <no>REQ</no>-<no>3004</no>).
+<no>Related</no> <no>Reqs</no>: <no>3004</no> <no>Related</no> <no>Process</no> <no>CAT180</no>
+<no>Source</no>: <no>CAP</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>6518</no>
+<no>Name</no>: <class>record</class> <no>sets</no>
+<no>Description</no>: <no>System</no> <no>supports</no> <no>an</no> <no>unlimited</no> <no>number</no> <no>of</no> <class>record</class> <no>sets</no>, <no>with</no> <no>the</no> <no>ability</no> <no>to</no> <method>import</method> <no>and</no> <method>export</method> <no>set</no> <no>members</no> <no>in</no> <no>batch</no>.  <class>Record</class> <no>sets</no> <no>can</no> <no>be</no> <no>the</no> <no>basis</no> <no>for</no> <no>batch</no> <no>field</no> <method>updates</method>; <no>can</no> <no>be</no> <no>used</no> <no>as</no> <no>a</no> <method>limiting</method> <method>scope</method> <no>for</no> <no>queries</no>; <no>can</no> <no>be</no> <no>used</no> <no>to</no> <association>delete</association> <no>original</no> <class>records</class> <no>with</no> <no>the</no> <no>ability</no> <no>to</no> <no>review</no> <no>prior</no> <no>to</no> <no>deletion</no>, <association>write</association> <association>errors</association> <no>to</no> <no>a</no> <class>log file</class>, <no>and</no> <method>undo</method> <no>one</no> <no>or</no> <no>more</no> <method>deletions</method>.
+<no>Related</no> <no>Reqs</no>: <no>2204</no> <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>2420</no>
+<no>Name</no>: <class>staff</class> <class>account</class> <no>setup</no>
+<no>Description</no>: <no>System</no> <no>provides</no> <no>a</no> <no>dedicated</no> <no>interface</no> <no>for</no> <method>creating</method> <no>new</no> <class>staff</class> <class>accounts</class>.  <attribute>New</attribute> <class>staff</class> <class>account</class> <method>creation</method> <no>process</no> <no>provides</no> <no>configurable</no> <no>templates</no> <no>for</no> <class>account</class> <attribute>administrator</attribute> <no>use</no>; <method>provides</method> <no>granular</no> <method>privileges</method> <no>for</no> <class>account</class> <method>creation</method>, <method>modification</method>, <no>and</no> <no>deletion</no>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>2419</no>
+<no>Name</no>: <class>patron</class> <class>account</class> <no>setup</no>
+<no>Description</no>: <no>System</no> <no>provides</no> <no>a</no> <no>dedicated</no> <no>interface</no> <no>for</no> <method>creating</method> <no>new</no> <class>patron</class> <class>accounts</class>.  <class>Patron</class> <class>account</class> <no>creation</no> <no>process</no> <no>provides</no> <no>configurable</no> <no>templates</no> <no>for</no> <class>staff</class> <no>use</no>; <no>supports</no> <no>field</no> <method>validation</method> <no>and</no> <no>required</no> <no>fields</no>; <no>provides</no> <no>configurable</no> <no>defaults</no>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>6507</no>
+<no>Name</no>: <no>job</no> <no>scheduling</no>
+<no>Description</no>: <no>System</no> <no>supports</no> <method>scheduling</method> <no>of</no> <no>maintenance</no> <class>tasks</class>, <class>reports</class>, <no>and</no> <class>data</class> <method>exports</method>.  <class>Jobs</class> <no>can</no> <no>be</no> <method>scheduled</method> <no>in</no> <no>sequence</no> (&quot;<no>start</no> <no>job</no> <no>B</no> <no>when</no> <no>job</no> <no>A</no> <no>finishes</no>&quot;) <no>and</no> <no>can</no> <no>be</no> <method>modified</method> <no>or</no> <method>cancelled</method> <no>at</no> <no>any</no> <no>time</no> <no>prior</no> <no>to</no> <no>starting</no>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>6508</no>
+<no>Name</no>: <no>job</no> <no>scheduling</no>: <no>management</no>
+<no>Description</no>: <class>Staff</class> <no>can</no> <no>be</no> <no>given</no> <method>permission</method> <no>to</no> <class>schedule</class> <class>tasks</class>, <class>reports</class>, <no>and</no> <class>data</class> <method>exports</method>.  <no>System</no> <no>administration</no> <class>staff</class> <no>can</no> <method>view</method> <no>and</no> <method>manage</method> <class>jobs</class> <no>scheduled</no> <no>by</no> <no>other</no> <class>staff</class>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>2220</no>
+<no>Name</no>: <no>keyboard</no> <class>macros</class> <no>and</no> <class>shortcuts</class>
+<no>Description</no>: <no>System</no> <no>supports</no> <attribute>administrator-programmable</attribute> <no>and</no> <attribute>user-programmable</attribute> <class>macros</class> <no>and</no>/<no>or</no> <no>keyboard</no> <class>shortcuts</class>. <class>Shortcut</class> <no>keys</no> <no>may</no> <no>be</no> <association>assigned</association> <no>to</no> <class>macros</class> (<no>e.g</no>. &apos;<no>Insert</no> <no>Field</no>&apos;) <no>or</no> <no>to</no> <no>text</no> <no>strings</no>. <class>Macros</class> <no>are</no> <no>centrally</no> <method>managed</method> <no>on</no> <method>server</method>, <no>can</no> <no>be</no> <association>imported</association> <no>from</no> <no>and</no> <association>exported</association> <no>to</no> <no>individual</no> <class>users</class>, <no>and</no> <no>can</no> <no>be</no> <method>restricted</method> <no>for</no> <method>use</method> <no>and</no>/<no>or</no> <method>editting</method> <no>through</no> <no>centrally-managed</no> <no>permissions</no>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ACQ</no>
+<no>Category</no>: <no>Systems</no>: <no>Client</no> <no>Management</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>6514</no>
+<no>Name</no>: <class>accounts</class> <no>independent</no> <no>from</no> <no>workstation</no>
+<no>Description</no>: <class>Staff</class> <no>and</no> <no>group</no> <class>accounts</class> <no>are</no> <no>independent</no> <no>from</no> <no>workstations</no>; <no>client</no> <no>install</no> <no>should</no> <no>not</no> <no>be</no> <no>tied</no> <no>to</no> <no>a</no> <no>specific</no> <no>location</no>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>6504</no>
+<no>Name</no>: <no>client</no> <no>software</no> <method>updates</method>
+<no>Description</no>: <no>Client</no> <no>software</no> <no>installation</no> <no>and</no> <no>updates</no> <no>must</no> <no>be</no> <no>centrally</no> <no>managed</no>, <no>using</no> <no>standard</no> <no>or</no> <no>proprietary</no> <no>network</no> <no>management</no> <no>tools</no>, <no>allowing</no> <no>streaming</no> <no>updates</no> <no>from</no> <no>server</no>.  <no>Ability</no> <no>to</no> <no>specify</no> <no>specific</no> <no>clients</no> <no>to</no> <no>be</no> <method>updated</method>. <no>Client</no> <no>software</no> <no>can</no> <no>be</no> <method>managed</method> <no>with</no> <no>VNC</no> <no>and</no> <no>Remote</no> <no>Desktop</no>.
+<no>Related</no> <no>Reqs</no>: <no>2430</no> <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>6519</no>
+<no>Name</no>: <no>client</no> <no>configurations</no>
+<no>Description</no>: <no>All</no> <class>client configuration</class> <class>files</class> <no>are</no> <no>server</no> <no>based</no>; <no>configurations</no> <no>can</no> <no>be</no> <method>exported</method> <no>and</no> <method>imported</method> <no>between</no> <method>clients</method>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+<no>Category</no>: <no>Systems</no>: <no>Queries</no> <no>&amp;</no> <no>Reports</no>
+
+<no>Priority</no>: <no>2Req</no> <no>ID</no>: <no>2197</no>
+<no>Name</no>: <class>report</class> <attribute>format</attribute> <no>and</no> <attribute>output</attribute>
+<no>Description</no>: <no>Ability</no> <no>to</no> <no>fully</no> <attribute>customize</attribute> <no>layout</no> <no>and</no> <no>appearance</no> <no>of</no> <class>reports</class>. <no>Ability</no> <no>to</no> <method>display</method>, <method>print</method>, <method>email</method>, <no>or</no> <method>save</method> <class>report</class> <no>to</no> <no>standard</no> <no>formats</no> <no>including</no> <no>CSV</no> <no>and</no> <no>Excel</no>, <no>as</no> <no>well</no> <no>as</no> <no>to</no> <no>customizable</no> <no>formats</no>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ACQ</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>5624</no>
+<no>Name</no>: <no>query</no> <no>tool</no>
+<no>Description</no>: <no>System</no> <no>provides</no> <no>a</no> <no>user-friendly</no> <no>interface</no> <no>for</no> <no>designing</no> <method>queries</method> <no>against</no> <no>all</no> <class>record</class> <no>types</no>. <class>Staff</class> <no>can</no> <no>select</no> <no>fields</no> <no>to</no> <method>query</method>; <no>select</no> <no>values</no> <no>from</no> <no>picklist</no> <no>of</no> <no>possible</no> <no>values</no>; <method>select</method> <method>regular expressions</method> <no>from</no> <no>drop-down</no> <no>menu</no>, <no>and</no> <no>use</no> <no>a</no> <no>full</no> <no>range</no> <no>of</no> <no>Boolean</no> <no>operators</no>. <no>Administrators</no> <no>control</no> <class>staff</class> <method>access</method> <no>to</no> <method>tables</method> <no>and</no> <method>fields</method>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>MGT</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>5607</no>
+<no>Name</no>: <class>report</class> <attribute>templates</attribute>
+<no>Description</no>: <no>System</no> <no>administrators</no> <no>can</no> <method>create</method> <class>report</class> <attribute>templates</attribute> <no>that</no> <no>are</no> <no>available</no> <no>to</no> <no>front-line</no> <class>staff</class>, <no>and</no> <no>can</no> <no>be</no> <association>run</association> <no>as</no> <no>is</no> <no>or</no> <association>modified</association> <no>to</no> <no>the</no> <class>staff</class> <no>person&apos;s</no> <no>particular</no> <no>needs</no>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>MGT</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>5617</no>
+<no>Name</no>: <class>reports</class> <no>permissions</no>
+<no>Description</no>: <no>System</no> <no>provides</no> <no>fine-grained</no> <no>permissions</no> <no>to</no> <no>allow</no> <no>or</no> <no>disallow</no> <class>staff</class> <no>to</no> <association>run</association> <no>specific</no> <class>reports</class>, <no>and</no>/<no>or</no> <no>to</no> <association>run ad hoc</association> <class>reports</class> <no>on</no> <no>specific</no> <no>sets</no> <no>of</no> <class>data</class>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>MGT</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>2465</no>
+<no>Name</no>: <class>record</class> <attribute>number</attribute> <class>report</class>
+<no>Description</no>: <no>System</no> <no>reports</no> <no>for</no> <no>each</no> <class>record</class> <no>type</no>: <no>current</no> <class>record</class> <attribute>number</attribute>, <no>current</no> <no>number</no> <no>of</no> <no>records</no>, <no>number</no> <attribute>deleted</attribute>, <no>and</no> <no>number</no> <attribute>purged</attribute>. <class>Record</class> <no>types</no> <no>include</no> <class>patron</class>, <attribute>bibliographic</attribute>, <class>item</class>, <attribute>order</attribute>, <attribute>invoice</attribute>, <no>etc</no>.  <no>Access</no> <no>to</no> <class>record</class> <no>numbers</no> <no>is</no> <method>controlled</method> <no>at</no> <no>the</no> <no>user</no>/<no>group</no> <no>level</no>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>2441</no>
+<no>Name</no>: <class>printer</class> <no>support</no>
+<no>Description</no>: <no>Ability</no> <no>to</no> <method>define</method> <no>and</no> <method>select</method> <no>four</no> <generalization>types</generalization> <no>of</no> <class>printers</class>: <class>receipt printer</class>, <class>standard printer</class>, <class>label printer</class>, <no>and</no> <class>forms printer</class>.  <no>All</no> <no>Windows</no> <no>printers</no> <no>are</no> <no>supported</no>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+
+<no>Priority</no>: <no>3Req</no> <no>ID</no>: <no>2439</no>
+<no>Name</no>: <no>multiple</no> <no>print</no> <method>output</method> <method>options</method>
+<no>Description</no>: <no>Ability</no> <no>to</no> <method>print</method> <no>to</no> <no>a</no> <method>file</method> <no>on</no> <no>the</no> <no>server</no>, <no>ftp</no> , <no>email</no>, <no>or</no> <no>printer</no> <no>from</no> <no>any</no> <no>part</no> <no>of</no> <no>the</no> <no>application</no>. <no>When</no> <no>applicable</no>, <no>the</no> <no>ability</no> <no>to</no> <method>select</method> <class>record</class> <method>fields</method> <no>and</no> <method>control</method> <method>order</method> <no>of</no> <no>fields</no> <no>when</no> <no>printing</no>.
+<no>Related</no> <no>Reqs</no>: <no>Related</no> <no>Process</no>
+<no>Source</no>: <no>ITS</no>
+</document>

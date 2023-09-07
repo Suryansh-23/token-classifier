@@ -1,0 +1,408 @@
+<document><no>4.1</no> <no>Operational</no> <no>Functions</no> 
+<no>4.1.1</no> <no>On</no> <class>Board Equipment</class> <method>self Test</method>  
+<no>4.1.1.1</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.1.1.2</no> <no>Intentionally</no> <no>deleted</no>   
+<no>4.1.1.3a</no> <no>At</no> <no>Start</no> <no>Up</no>, <no>the</no> <no>on</no> <class>board equipment</class> <no>shall</no> <no>perform</no> <no>an</no> <no>automatic</no> <method>self-test</method>. (<no>M</no>) 
+<no>4.1.1.3b</no>  <no>Intentionally</no> <no>deleted</no>  
+<no>4.1.1.4a</no> <no>Intentionally</no> <no>deleted</no>   
+<no>4.1.1.4b</no> <no>The</no> <no>test</no> <no>shall</no> <no>require</no> <no>no</no> <no>action</no> <no>on</no> <no>the</no> <no>part</no> <no>of</no> <no>the</no> <class>driver</class>. (<no>M</no>) 
+<no>4.1.1.4c</no> <no>The</no> <no>DMI</no> <no>shall</no> <no>indicate</no> <no>the</no> <method>result</method> <no>of</no> <no>the</no> <method>self-test</method>. (<no>M</no>) 
+<no>4.1.1.4d</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.1.1.5</no> <no>Intentionally</no> <no>deleted</no> 
+<no>4.1.1.6</no> <no>Intentionally</no> <no>deleted</no> 
+<no>4.1.1.7a</no>  <no>Intentionally</no> <no>deleted</no> 
+<no>4.1.1.7b</no> <no>Intentionally</no> <no>deleted</no> 
+<no>4.1.1.7c</no> <no>Intentionally</no> <no>deleted</no> 
+<no>4.1.1.8</no>  <no>Intentionally</no> <no>deleted</no> 
+<no>4.1.1.9</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.1.1.10a</no> <no>Intentionally</no> <no>deleted</no> 
+<no>4.1.1.10b</no> <no>Intentionally</no> <no>deleted</no> 
+<no>4.1.1.10c</no> <no>Intentionally</no> <no>deleted</no> 
+<no>4.1.1.10d</no> <no>Intentionally</no> <no>deleted</no> 
+<no>4.1.2</no> <class>Train</class> <no>and</no> <class>driver</class> <method>Data</method> <method>Entry</method> 
+<no>4.1.2.1a</no> <class>Train</class> <method>data</method> <no>shall</no> <no>be</no> <method>entered</method> <no>before</no> <no>the</no> <class>on-board</class> <no>ETCS</no> <class>equipment</class> <no>allows</no> <class>train</class> <method>movement</method>. (<no>M</no>) 
+<no>4.1.2.1b</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.1.2.1c</no> <no>Intentionally</no> <no>deleted</no> 
+<no>4.1.2.2</no>.  <no>The</no> <class>driver</class> <no>shall</no> <no>be</no> <no>able</no> <no>to</no> <method>select</method> <class>Train</class> <method>Data</method> <method>Entry</method> <no>on</no> <no>the</no> <no>DMI</no>. (<no>M</no>) 
+<no>4.1.2.3a</no>  <method>Entering</method> <no>or</no> <method>overwriting</method> <method>data</method> <no>manually</no> <no>by</no> <no>the</no> <class>driver</class> <no>shall</no> <no>be</no> <no>possible</no> <no>but</no> <no>only</no> <no>when</no> <no>stationary</no>. (<no>M</no>)  
+<no>4.1.2.3b</no>  <no>Intentionally</no> <no>deleted</no>  
+<no>4.1.2.4</no>. <no>Intentionally</no> <no>deleted</no>. 
+<no>4.1.2.5a</no> <class>Train</class> <method>data</method> <no>may</no> <no>be</no> <method>entered</method> <method>automatically</method> <no>from</no> <no>a</no> <class>railway</class> <class>management</class> <no>system</no> <no>or</no> <no>from</no> <class>train memory</class>. (<no>O</no>) 
+<no>4.1.2.5b</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.1.2.5c</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.1.2.6a</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.1.2.6b</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.1.2.6c</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.1.2.7a</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.1.2.7b</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.1.2.7c</no>  <no>Intentionally</no> <no>deleted</no>  
+<no>4.1.2.8a</no>  <no>Intentionally</no> <no>deleted</no>  
+<no>4.1.2.8b</no>  <no>Intentionally</no> <no>deleted</no>  
+<no>4.1.2.8c</no>  <no>Intentionally</no> <no>deleted</no>  
+<no>4.1.2.9</no> <no>The</no> <class>driver</class> <no>shall</no> <no>be</no> <no>able</no> <no>to</no> <association>consult</association> <class>train</class> <association>data</association> <no>when</no> <no>the</no> <class>train</class> <no>is</no> <attribute>stationary</attribute> <no>or</no> <attribute>moving</attribute>. (<no>M</no>) 
+<no>4.1.2.10</no> <no>Current</no> <class>train</class> <method>data</method> <no>shall</no> <no>be</no> <method>stored</method> (<no>except</no> <no>at</no> <no>transition</no> <no>to</no> <class>shunting</class>) <no>in</no> <no>the</no> <no>ETCS</no> <class>equipment</class> <no>until</no> <no>the</no> <no>traction</no> <no>unit</no> <no>is</no> <no>not</no> <no>operative</no>. (<no>M</no>) 
+<no>4.1.2.11</no> <no>Stored</no> <class>train</class> <association>data</association> <no>shall</no> <no>be</no> <association>offered</association> <no>to</no> <no>the</no> <class>driver</class> <no>to</no> <no>be</no> <method>confirmed</method> <no>when</no> <no>Data</no> <no>Entry</no> <no>starts</no>. (<no>M</no>) 
+<no>4.1.2.12</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.1.2.13</no> <no>The</no> <no>system</no> <no>for</no> <class>Train</class> <no>Data</no> <no>Entry</no> <no>shall</no> <method>provide</method> <no>for</no> <no>the</no> <method>input</method> <no>of</no> <no>other</no> <no>data</no> <no>required</no> <no>by</no> <no>STMs</no> <no>connected</no> <no>to</no> <no>ETCS</no>. <no>This</no> <no>may</no> <no>require</no> <no>additional</no> <method>items</method>, <no>not</no> <no>required</no> <no>for</no> <no>ETCS</no>, <no>to</no> <no>be</no> <method>entered</method>. (<no>M</no>)  
+<no>4.1.2.14a</no>  <no>The</no> <method>entry</method> <no>of</no> <class>driver</class> <method>identification</method> <no>and</no> <no>the</no> <method>selection</method> <no>of</no> <no>the</no> <method>language</method> <no>shall</no> <no>be</no> <no>possible</no>. (<no>M</no>) 
+<no>4.1.2.14b</no>  <no>The</no> <method>change</method> <no>of</no> <class>driver</class> <method>identification</method> <no>during</no> <no>a</no> <no>journey</no> <no>or</no> <no>a</no> <class>Train</class> <attribute>Running</attribute> <attribute>Number</attribute> <no>shall</no> <no>be</no> <no>possible</no> (<no>M</no>)  
+<no>4.1.2.15</no> <no>Following</no> <no>successful</no> <no>completion</no> <no>of</no> <class>Train</class> <method>Data</method> <method>Entry</method>, <no>the</no> <class>driver</class> <no>shall</no> <no>be</no> <no>able</no> <no>to</no> <method>perform</method> <class>shunting</class> <method>movements</method> <no>or</no> <class>train</class> <method>movements</method>. (<no>M</no>) 
+<no>4.1.2.16</no> <no>The</no> <no>following</no> <no>data</no> <no>may</no> <no>be</no> <method>entered</method> <method>manually</method> <no>by</no> <no>the</no> <class>driver</class> <no>or</no> <no>from</no><class> train memory </class>(<no>M</no>), <no>or</no> <no>provided</no> <no>by</no> <class>external sources</class> (<no>O</no>)   
+- <class>Driver</class> <method>identification</method>   
+- <class>Train</class> <method>identification</method> (<class>train</class> <attribute>number</attribute>)   <no>STM</no> <no>ready</no> <no>for</no> <no>use</no>  
+- <no>Data</no> <no>required</no> <no>for</no> <method>brake</method> <method>calculation</method>  
+ - <no>Maximum</no> <class>train</class> <attribute>speed</attribute>    
+- <class>Train</class> <attribute>length</attribute>   
+- <attribute>Status</attribute> <no>of</no> <attribute>air tight</attribute> <no>system</no>   
+- <attribute>Type</attribute> <no>of</no> <attribute>electric</attribute> <attribute>power</attribute> accepted   
+- <no>Data</no> <no>additional</no> <no>required</no> <no>for</no> <no>STM</no> (<no>if</no> <no>any</no>)   
+- <no>International</no> <class>train</class> <attribute>category</attribute>   
+- <class>Train</class> <attribute>gauge</attribute>  
+- <no>Maximum</no> <no>axle</no> <attribute>load</attribute> <no>of</no> <no>the</no> <class>train</class> <no>with</no> <no>a</no> <no>resolution</no> <no>of</no> <no>0,5 t</no>. 
+<no>4.1.2.17</no> <no>If</no> <no>the</no> <class>onboard</class> <method>fails</method> <no>to</no> <method>contact</method> <no>the</no> <class>RBC</class> <no>when</no> <no>awakening</no> <no>the</no> <class>driver</class> <no>shall</no> <no>be</no> <no>asked</no> <no>to</no> <method>enter</method> <no>the</no> <class>RBC</class> <attribute>contact</attribute> <no>details</no> (<no>M</no>). 
+<no>4.1.3</no> <class>Shunting</class> <no>operation</no>  
+<no>4.1.3.1</no> <no>An</no> <no>ETCS</no> <no>equipped</no> <class>traction unit</class> <no>shall</no> <no>be</no> <no>capable</no> <no>of</no> <no>being</no> <association>moved</association> <no>in</no> <class>Shunting</class> <no>without</no> <class>train</class> <no>data</no>, <attribute>track data</attribute> <no>or</no> <class>movement authority</class>. (<no>M</no>) 
+<no>4.1.3.2a</no> <no>Transfer</no> <no>to</no> <class>Shunting</class> <no>on</no> <class>driver</class><no>’s</no> <method>selection</method> <no>shall</no> <no>only</no> <no>be</no> <no>possible</no> <no>when</no> <no>stationary</no>. (<no>M</no>) 
+<no>4.1.3.2b</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.1.3.2c</no> <no>To</no> <no>prevent</no> <no>unauthorised</no> <no>use</no> <no>of</no> <no>the</no> <no>function</no> <method>permission</method> <no>shall</no> <no>be</no> <method>obtained</method> <no>from</no> <no>the</no> <class>RBC</class> <no>if</no> <no>the</no> <class>train</class> <no>is</no> <no>operating</no> <no>under</no> <no>the</no> <association>control</association> <no>of</no> <no>the</no> <class>RBC</class>. (<no>M</no>) 
+<no>4.1.3.2d</no> <method>Permission</method> <no>received</no> <no>shall</no> <no>be</no> <method>indicated</method> <no>to</no> <no>the</no> <class>driver</class>. (<no>M</no>) 
+<no>4.1.3.3</no> <no>It</no> <no>shall</no> <no>be</no> <no>possible</no> <no>to</no> <no>manually</no> <method>select</method> <class>Shunting</class> <no>from</no> <class>Stand By operation</class>, <class>Full Supervision operation</class> <no>or</no> <class>Partial Supervision 
+operation</class> (<no>M</no>)  
+<no>4.1.3.4a</no> <no>Automatic</no> <method>transfer</method> <no>to</no> <class>Shunting</class> <no>may</no> <no>be</no> <no>from</no> <class>Full Supervision operation</class> <no>and</no> <class>Partial Supervision operation</class> <no>status</no> <no>at</no> <no>any</no> <attribute>speed</attribute> <no>lower</no> <no>than</no> <no>or</no> <no>equal</no> <no>to</no> <no>the</no> <no>supervised</no> <class>shunting</class> <attribute>speed</attribute> <no>based</no> <no>on</no> <class>trackside</class> <no>information</no>. (<no>M</no>) 
+<no>4.1.3.4b</no> <no>Before</no> <no>authomatic</no> <method>transition</method> <no>to</no> <class>Shunting</class>, <no>ETCS</no> <no>shall</no> <method>request</method> <method>confirmation</method> <no>from</no> <no>the</no> <class>driver</class>. (<no>M</no>) 
+<no>4.1.3.5a</no> <no>ETCS</no> <no>shall</no> <no>supervise</no> <class>Shunting</class> <no>operation</no> <no>to</no> <no>a</no> <no>permitted</no> <no>national</no> <no>speed</no> <no>value</no>. (<no>M</no>) 
+<no>4.1.3.5b</no> <no>The</no> <no>supervised</no> <class>Shunting</class> <attribute>speed</attribute> <no>shall</no> <no>be</no> <method>indicated</method> <no>to</no> <no>the</no> <class>driver</class> <no>on</no> <no>request</no> (<no>M</no>)  
+<no>4.1.3.6</no> <no>It</no> <no>shall</no> <no>be</no> <no>possible</no> <no>to</no> <no>apply</no> <no>the</no> <class>train</class> <no>trip</no> <no>function</no>, <no>if</no> <no>the</no> <class>shunting</class> <method>movement</method> <method>passes</method> <no>a</no> <method>signal</method> <no>showing</no> &quot;<no>danger</no> <no>for</no> <class>shunting</class>&quot;. (<no>M</no>) 
+<no>4.1.3.7</no> <no>Intentionally</no> <no>deleted</no> 
+<no>4.1.3.8a</no> <method>Exit</method> <no>from</no> <class>Shunting</class> <no>shall</no> <no>only</no> <no>be</no> <no>possible</no> <no>when</no> <no>the</no> <class>train</class> <no>is</no> <attribute>stationary</attribute>. (<no>M</no>) 
+<no>4.1.3.8b</no> <method>Exit</method> <no>from</no> <class>Shunting</class> <no>shall</no> <no>take</no> <no>place</no> <no>when</no> <no>the</no> <class>driver</class> <no>selects</no> <method>exit</method> <no>from</no> <class>shunting</class>. (<no>M</no>) 
+<no>4.1.4</no> <class>Partial Supervision</class>  
+<no>4.1.4.1</no> <class>Partial Supervision</class> <no>shall</no> <no>be</no> <method>selected</method> <no>either</no> <no>by</no> <no>the</no> <class>Driver</class>, <no>or</no> <no>by</no> <no>information</no> <no>received</no> <no>from</no> <no>track</no>-<no>to</no>-<class>train</class> <class>transmission</class>. (<no>M</no>) 
+<no>4.1.4.2a</no> <no>If</no> <class>acknowledgement</class> <no>is</no> <method>specified</method> <no>the</no> <class>driver</class> <no>shall</no> <no>acknowledge</no> <method>transfer</method> <no>from</no> <class>Full Supervision</class> <no>to</no> <class>Partial Supervision</class> <no>within</no> <no>5</no> <no>seconds</no> (<no>M</no>). 
+<no>4.1.4.2b</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.1.4.3</no> <class>Partial Supervision</class> <no>shall</no> <no>be</no> <method>indicated</method> <no>on</no> <no>the</no> <method>DMI</method>. (<no>M</no>) 
+<no>4.1.4.4a</no> <no>In</no> <class>Partial Supervision</class> <no>the</no> <class>train</class> <no>shall</no> <no>be</no> <method>supervised</method> <no>according</no> <no>to</no> <class>train</class> <attribute>speed</attribute> <no>and</no> <attribute>distance</attribute> <no>data</no> <no>available</no>. (<no>M</no>) 
+<no>4.1.4.4b</no> <no>The</no> <class>train</class> <no>shall</no> <no>have</no> <no>the</no> <no>capability</no> <no>of</no> <no>being</no> <method>supervised</method> <no>to</no> <no>a</no> <method>ceiling speed</method>. (<no>M</no>) 
+<no>4.1.4.4c</no> <no>This</no> <method>ceiling</method> <method>speed</method> <no>shall</no> <no>not</no> <no>be</no> <method>shown</method> <method>continually</method> <no>on</no> <no>the</no> <no>DMI</no> <no>but</no> <no>may</no> <no>be</no> <method>shown</method> <method>momentarily</method> <no>when</no> <method>selected</method> <no>by</no> <no>the</no> <class>driver</class>. (<no>M</no>) 
+<no>4.1.4.5</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.1.4.6</no> <no>The</no> <class>train</class> <no>shall</no> <association>leave</association> <class>Partial Supervision</class> <no>when</no> <no>the</no> <class>trainborn equipment</class> <no>is</no> <no>not</no> <no>operative</no> <no>any</no> <no>longer</no>, <no>when</no> <class>Shunting</class> <no>is</no> <method>selected</method> <no>or</no> <no>when</no> <class>Full Supervision</class> <no>is</no> <method>available</method>. (<no>M</no>) 
+<no>4.1.4.7</no> <no>It</no> <no>shall</no> <no>be</no> <no>possible</no> <no>to</no> <method>order</method> <no>a</no> <class>train</class> <class>trip</class> <no>when</no> <method>passing</method> <no>a</no> <method>stop signal</method> (<no>M</no>) 
+<no>4.1.5</no> <class>Full Supervision</class> <no>operation</no> 
+<no>4.1.5.1a</no> <method>Transferring</method> <no>to</no> <class>Full Supervision</class> <no>shall</no> <no>occur</no> <no>automatically</no> <no>when</no> <no>a</no> <class>movement authority</class> <no>and</no> <no>all</no> <no>other</no> <no>necessary</no> <method>information</method> <no>is</no> <method>received</method> <no>through</no> <no>track-to-train</no> <method>transmission</method>. (<no>M</no>) 
+<no>4.1.5.1b</no> <no>It</no> <no>shall</no> <no>be</no> <method>possible</method> <no>for</no> <no>the</no> <class>trackside</class> <no>to</no> <no>ask</no> <no>a</no> <class>driver</class> <no>for</no> <method>confirmation</method> <no>about</no> <no>the</no> <no>occupancy</no> <no>of</no> <no>the</no> <no>track</no> <no>ahead</no> <no>before</no> <no>sending</no> <no>a</no> <class>Full Supervision</class> <class>movement authority</class>. (<no>M</no>) 
+<no>4.1.5.2</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.1.5.3</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.1.5.4</no> <class>Full Supervision</class> <no>shall</no> <no>provide</no> <method>supervision</method> <no>of</no> <attribute>speed</attribute> <no>and</no> <attribute>distance</attribute>. (<no>M</no>) 
+<no>4.1.5.5</no> <no>The</no><class> trainborne equipment </class><no>shall</no> <no>remain</no> <no>in</no> <class>Full Supervision</class> <no>until</no> <no>the</no> <class>trainborne equipment</class> <no>is</no> <no>not</no> <attribute>active</attribute> <no>any</no> <no>longer</no>, <no>when</no> <class>Shunting</class> <no>is</no> <method>selected</method> <no>or</no> <no>when</no> <class>Partial Supervision</class> <method>information</method> <no>is</no> <method>received</method>. (<no>M</no> ) 
+<no>4.1.5.6</no>. <no>Intentionally</no> <no>deleted</no>. 
+<no>4.1.6</no> <method>Isolation</method> <no>of</no> <no>ETCS</no> <class>trainborne equipment</class> 
+<no>4.1.6.1a</no> <no>The</no> <no>ETCS</no> <class>trainborne equipment</class> <no>shall</no> <no>be</no> <method>capable</method> <no>of</no> <no>being</no> <method>isolated</method>. (<no>M</no>) 
+<no>4.1.6.1b</no> <no>Intentionally</no> <no>deleted</no> 
+<no>4.1.6.2</no>  <no>Intentionally</no> <no>deleted</no>.  
+<no>4.1.6.3</no> <no>Intentionally</no> <no>deleted</no>.  
+<no>4.1.6.4</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.1.6.5</no> <no>When</no> <no>the</no> <no>ETCS</no> <class>trainborne equipment</class> <no>is</no> <method>isolated</method>, <no>the</no> <no>system</no> <no>shall</no> <no>not</no> <no>show</no> <no>any</no> <no>ETCS</no> <no>information</no> <no>other</no> <no>than</no> <no>the</no> <no>fact</no> <no>that</no> <no>the</no> <no>system</no> <no>is</no> <method>isolated</method>.(<no>M</no>)
+<no>4.1.6.6</no> <method>Isolation</method> <no>of</no> <no>the</no> <no>ETCS</no> <class>trainborne equipment</class> <no>shall</no> <association>disconnect</association> <no>the</no> <no>ETCS</no> <class>trainborne equipment</class> <no>from</no> <no>the</no> <class>vehicle braking</class> <no>system</no>. (<no>M</no>) 
+<no>4.1.6.7</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.1.7</no> <no>Compatibility</no> <no>with</no> <no>existing</no> <class>train</class> <method>control</method> <no>and</no> <method>protection</method> systems 
+<no>4.1.7.1</no> <no>The</no> <no>ETCS</no> <class>trainborne equipment</class> <no>shall</no> <no>be</no> <method>capable</method> <no>of</no> <method>receiving</method> <method>information</method> <no>from</no> <no>the</no> <class>national train control</class> <no>systems</no> <no>by</no> <no>means</no> <no>of</no> <no>the</no> <no>STM</no>. (<no>M</no>) 
+<no>4.1.7.2</no> <no>The</no> <no>DMI</no> <no>shall</no> <method>display</method> <no>or</no> <no>be</no> <method>compatible</method> <no>with</no> <method>information</method> <no>from</no> <class>national train control</class> <no>systems</no>. <no>This</no> <no>may</no> <no>mean</no> <no>displaying</no> <no>the</no> <no>information</no> <no>shown</no> <no>by</no> <no>the</no> <no>national</no> <no>system</no>. (<no>M</no>) 
+<no>4.1.7.3</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.1.7.4</no> <no>Intentionally</no> <no>deleted</no> 
+<no>4.1.7.5</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.1.7.6</no> <no>Intentionally</no> <no>deleted</no>   
+<no>4.1.8</no>. <class>Unfitted</class> <no>Line</no> <no>Operation</no> 
+<no>4.1.8.1</no> <class>Unfitted</class> <no>operation</no> <no>shall</no> <no>be</no> <method>possible</method> <no>if</no> <method>ordered</method> <no>by</no> <class>trackside</class> (<no>M</no>). 
+<no>4.1.8.2</no> <class>Unfitted</class> <no>operation</no> <no>shall</no> <no>be</no> <method>possible</method> <no>if</no> <association>selected</association> <no>by</no> <no>the</no> <class>driver</class> <no>at</no> <no>start</no> <no>up</no> (<no>M</no>). 
+<no>4.1.8.3</no> <no>The</no> <class>onboard</class> <no>shall</no> <method>supervise</method> <no>the</no> <class>train</class> <no>against</no> <no>a</no> <no>ceiling</no> <attribute>speed</attribute>  (<no>M</no>).  
+<no>4.1.8.4</no> <no>The</no> <method>ceiling speed</method> <attribute>value</attribute> <no>for</no> <no>the</no> <class>unfitted</class> <no>operation</no> <no>is</no> <method>determined</method> <no>by</no> <no>the</no> <no>lower</no> <no>value</no> <no>out</no> <no>of</no> <no>Maximum</no> <class>train</class> <attribute>speed</attribute> <no>National</no> <no>value</no> <no>for</no> <class>unfitted</class> <no>operation</no> (<no>M</no>) 
+<no>4.1.8.5</no> <no>The</no> <class>onboard</class> <no>shall</no> <no>be</no> <method>capable</method> <no>to</no> <method>switch</method> <no>to</no> <no>another</no> <no>ETCS</no> <no>status</no> <no>when</no> <method>transmitted</method> <no>from</no> t<class>rackside </class>(<no>M</no>)   
+<no>4.2</no> <class>Infrastructure</class> <no>Functions</no> 
+<no>4.2.1</no> <class>Infrastructure</class> <no>data</no> <no>collection</no> 
+<no>4.2.1.1</no> <no>The</no> <no>ETCS</no> <class>on-board</class> <no>shall</no> <no>be</no> <method>capable</method> <no>of</no> <association>receiving</association> <association>track</association> <no>description</no> <no>from</no> <no>the</no> <class>trackside</class>. (<no>M</no>) 
+<no>4.2.1.2</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.2.1.3a</no> <no>It</no> <no>shall</no> <no>be</no> <method>possible</method> <no>to</no> <method>send</method> <method>information</method> <no>on</no> <no>adhesion</no> <no>conditions</no> <no>from</no> <class>trackside</class>. (<no>M</no>) 
+<no>4.2.1.3b</no> <no>It</no> <no>shall</no> <no>also</no> <no>be</no> <method>possible</method>, <no>to</no> <no>allow</no> <no>the</no> <class>driver</class> <no>to</no> <method>change</method> <no>the</no> <method>adhesion</method> <no>conditions</no>; <no>in</no> <no>this</no> <no>case</no> <no>information</no> <no>from</no> <class>trackside</class> <no>has</no> <no>priority</no>. (<no>M</no>) 
+<no>4.2.1.4a</no> <no>The</no> <class>trackside</class> <no>shall</no> <no>be</no> <no>able</no> <no>to</no> <method>send</method> <method>information</method> <no>for</no> <no>the</no> <method>calculation</method> <no>of</no> <method>speed</method> <method>profiles</method>. (<no>M</no>) 
+<no>4.2.1.4b</no> <no>If</no> <method>track</method> <method>data</method> <no>at</no> <no>least</no> <no>to</no> <no>the</no> <no>location</no> <no>where</no> <no>the</no> <no>relevant</no> <class>movement authority</class> <no>ends</no> <no>are</no> <no>not</no> <no>available</no> <class>on-board</class>, <no>the</no> <class>movement authority</class> <no>shall</no> <no>be</no> <method>rejected</method>. (<no>M</no>) 
+<no>4.2.1.5</no> <method>Track</method> <no>to</no> <class>train</class> <method>transmission</method> <no>shall</no> <no>provide</no> <no>the</no> <no>capability</no> <no>to</no> <method>send</method> <no>different</no> <method>speed profiles</method> <no>for</no> <no>specific</no> <class>train</class> <no>categories</no>. (<no>M</no>)  
+<no>4.2.2</no> <method>End</method> <no>of</no> <class>movement authority</class> 
+<no>4.2.2.1</no> <no>The</no> <no>ETCS</no> <class>trainborne equipment</class> <no>shall</no> <association>supervise</association> <no>the</no> <association>end</association> <no>of</no> <class>movement authority</class>, <no>if</no> <no>this</no> <no>information</no> <no>is</no> <attribute>available</attribute> <class>on-board</class>. (<no>M</no>) 
+<no>4.2.2.2</no> <no>The</no> <no>target</no> <attribute>distance</attribute> <no>to</no> <no>be</no> <method>displayed</method> <no>on</no> <no>the</no> <no>DMI</no> <no>shall</no> <no>be</no> <no>based</no> <no>on</no> <no>the</no> <no>most</no> <no>restrictive</no> <no>braking</no> <no>curve</no>. (<no>M</no>) 
+<no>4.2.2.3</no> <no>Together</no> <no>with</no> <no>the</no> <class>movement authority</class>, <no>the</no> <class>on board</class> <no>shall</no> <no>be</no> <no>able</no> <no>to</no> <method>receive</method> <no>one</no> <no>or</no> <no>more</no> <method>time-out</method>(<no>s</no>) <no>for</no> <no>certain</no> <no>sections</no> <no>of</no> <no>the</no> <class>movement authority</class>, <no>and</no> <method>shorten</method> <no>the</no> <class>movement authority</class> <no>accordingly</no> <no>when</no> <no>a</no> <method>time</method> <no>out</no> <method>expires</method>. (<no>M</no>)   
+<no>4.2.2.4a</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.2.2.4b</no> <no>Intentionally</no> <no>deleted</no> 
+<no>4.2.2.4c</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.2.2.5a</no> <no>Intentionally</no> <no>deleted</no>.  
+<no>4.2.2.5b</no> <no>Intentionally</no> <no>deleted</no>.   
+<no>4.2.3</no> <method>Supervision</method> <no>of</no> <no>driving</no> <no>into</no> <no>a</no> <no>section</no> <no>of</no> <no>track</no> <no>which</no> <no>could</no> <no>be</no> <no>occupied</no> (<no>On</no> <no>Sight</no> <no>operation</no>)  
+<no>4.2.3.1</no> <no>Using</no> <class>train</class> <no>data</no> <no>and</no> <class>infrastructure</class> <no>data</no>, <no>braking</no> <no>curves</no> <no>shall</no> <no>be</no> <method>calculated</method> <no>taking</no> <no>into</no> <method>account</method> <no>the</no> <no>target</no> <no>information</no> <no>but</no> <no>not</no> <no>the</no> <no>location</no> <no>of</no> <no>vehicles</no> <no>occupying</no> <no>the</no> <no>track</no>. (<no>M</no>) 
+<no>4.2.3.2</no> <no>The</no> <method>ceiling</method> <method>speed</method> <attribute>level</attribute> <no>for</no> <no>the</no> <class>movement authority</class> <no>shall</no> <no>be</no> <no>defined</no> <no>as</no> <no>data</no> <no>National</no> <no>Value</no>. (<no>M</no>) 
+<no>4.2.3.3</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.2.3.4</no> <no>Before</no> <no>entering</no> <no>an</no> <no>occupied</no> <no>track</no>, <no>a</no> <class>driver</class> <method>acknowledgement</method> <no>shall</no> <no>be</no> <method>requested</method> . (<no>M</no>) 
+<no>4.2.3.5</no> <no>Intentionally</no> <no>deleted</no>.  
+<no>4.2.3.6a</no> <no>The</no> <class>train</class> <no>shall</no> <no>be</no> <method>supervised</method> <no>according</no> <no>to</no> <class>train</class> <attribute>speed</attribute> <no>data</no> <no>available</no>. (<no>M</no>) 
+<no>4.2.3.6b</no> <no>The</no> <class>train</class> <no>shall</no>, <no>as</no> <no>a</no> <no>minimum</no>, <no>be</no> <method>supervised</method> <no>to</no> <no>a</no> <method>ceiling</method> <attribute>speed</attribute>; <no>the</no> <method>supervised</method> <attribute>speed</attribute> <no>shall</no> <no>not</no> <no>be</no> <no>shown</no> <no>on</no> <no>the</no> <no>DMI</no> <no>unless</no> <no>selected</no> <no>by</no> <no>the</no> <class>driver</class>. (<no>M</no>) 
+<no>4.2.3.6c</no> <no>The</no> <no>target</no> <attribute>distance</attribute> <no>shall</no> <no>not</no> <no>be</no> <method>shown</method> <no>on</no> <no>the</no> <no>DMI</no> <no>unless</no> <no>selected</no> <no>by</no> <no>the</no> <class>driver</class>. (<no>M</no>) 
+<no>4.2.3.6.d</no> <no>On</no> <no>request</no> <no>of</no> <no>the</no> <class>RBC</class>, <no>the</no> <class>driver</class> <no>shall</no> <no>have</no> <no>the</no> <no>possibility</no> <no>to</no> <method>confirm</method> <no>that</no> <no>the</no> <method>track</method> <no>ahead</no> <no>of</no> <no>him</no> <no>until</no> <no>the</no> <no>end</no> <no>of</no> <no>the</no> <no>on</no> <no>sight</no> <no>section</no> <no>is</no> <no>clear</no> (<no>M</no>). 
+<no>4.2.4</no>  <no>Intentionally</no> <no>deleted</no> 
+<no>4.2.5</no> <no>Intentionally</no> <no>deleted</no>              
+<no>4.3</no> <no>Trainborne</no> <no>Functions</no> 
+<no>4.3.1</no> <no>Static</no> <class>train</class> <attribute>speed</attribute> <no>profile</no> <method>calculation</method> 
+<no>4.3.1.1</no> <no>ETCS</no> <no>shall</no> <method>collect</method> <no>all</no> <no>relevant</no> <method>information</method> <no>concerning</no> <class>train</class> <no>and</no> <no>line</no> <attribute>speed</attribute>. (<no>M</no>) 
+<no>4.3.1.2a</no> <no>ETCS</no> <no>shall</no> <method>calculate</method> <no>the</no> <no>permitted</no> <attribute>speed</attribute> <no>for</no> <no>the</no> <class>train</class> <no>for</no> <no>all</no> <no>locations</no> <no>of</no> <no>the</no> <class>authorised movement</class>. (<no>M</no>) 
+<no>4.3.1.2b</no> <no>This</no> <no>static</no> <class>train</class> <attribute>speed</attribute> <no>profile</no> <no>shall</no> <no>also</no> <no>respect</no> <no>maximum</no> <attribute>line speed</attribute> <no>and</no> <attribute>track speed</attribute> <no>and</no> <no>special</no> <no>speed</no> <attribute>levels</attribute> <no>for</no> <no>special</no> <attribute>classes</attribute> <no>of</no> <class>trains</class>. (<no>M</no>) 
+<no>4.3.1.3</no> <no>Intentionaly</no> <no>deleted</no>. 
+<no>4.3.1.4a</no> <no>The</no> <no>ETCS</no> <class>trainborne equipment</class> <method>calculates</method> <no>the</no> <no>static</no> <class>train</class> <attribute>speed</attribute> <no>profile</no> <no>on</no> <no>the</no> <no>basis</no> <no>of</no> <class>infrastructure</class> <no>data</no> <no>and</no> <class>train</class> <no>data</no>. (<no>M</no>) 
+<no>4.3.1.4b</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.3.1.5</no> <no>Intentionally</no> <no>deleted</no> 
+<no>4.3.2</no> <no>Dynamic</no> <class>train</class> <attribute>speed</attribute><no> </no><no>profile</no> <method>calculation</method> 
+<no>4.3.2.1a</no> <no>Based</no> <no>on</no> <no>all</no> <no>relevant</no> <no>data</no>, <no>the</no> <no>ETCS</no> <no>shall</no> <method>calculate</method> <no>an</no> <method>emergency braking curve</method> <no>and</no> <no>a</no> <method>service braking curve</method> (<no>M</no>).  
+<no>4.3.2.1b</no> <no>It</no> <no>shall</no> <no>be</no> <method>possible</method> <no>to</no> <method>permit</method>/<method>inhibit</method> <no>the</no> <method>service brake intervention</method> <no>by</no> <class>trackside</class> (<no>M</no>). 
+<no>4.3.2.2a</no> <no>When</no> <method>changing</method> <no>to</no> <no>a</no> <attribute>lower speed level</attribute>, <no>the</no> <attribute>front</attribute> <no>end</no> <no>of</no> <no>the</no> <class>train</class> <no>shall</no> <no>respect</no> <no>the</no> <no>dynamic</no> <class>train</class> <attribute>speed</attribute> <no>profile</no>. (<no>M</no>) 
+<no>4.3.2.2b</no> <no>When</no> <method>changing</method> <no>to</no> <no>a</no> <attribute>higher speed leve</attribute>l <no>the</no> <attribute>rear</attribute> <no>end</no> <no>of</no> <no>the</no> <class>train</class> <no>shall</no> <no>respect</no> <no>the</no> <no>static</no> <class>train</class> <attribute>speed</attribute> <no>profile</no>. (<no>M</no>) 
+<no>4.3.2.3</no> <no>It</no> <no>shall</no> <no>be</no> <method>possible</method> <no>to</no> <no>define</no> <no>certain</no> <attribute>locations</attribute> (<no>e.g</no>. <no>tunnels</no>) <no>where</no> <attribute>speed</attribute> <method>increase</method> <no>is</no> <no>related</no> <no>to</no> <no>the</no> <no>front</no> <no>of</no> <no>the</no> <class>train</class>. (<no>M</no>) 
+<no>4.3.2.4</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.3.2.5</no> <no>The</no> <method>braking curves</method> <no>shall</no> <no>ensure</no> <no>that</no> <no>the</no> <class>train</class> <method>complies</method> <no>with</no> <no>its</no> <method>speed</method> <no>requirements</no>. (<no>M</no>) 
+<no>4.3.2.6</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.3.2.7</no> <no>Where</no> <no>failure</no> <no>to</no> <no>apply</no> <no>the</no> <no>full</no> <method>service brake</method> <no>is</no> <method>detected</method> <no>the</no> <method>emergency brake</method> <no>shall</no> <method>stop</method> <no>the</no> <class>train</class> <no>in</no> <no>rear</no> <no>of</no> <no>the</no> <no>danger</no> <no>point</no>. (<no>M</no>) 
+<no>4.3.3</no> <attribute>Release speed</attribute> <method>calculation</method> 
+<no>4.3.3.1a</no> <no>The</no> <attribute>release speed</attribute> <no>shall</no> <no>be</no> <method>calculated</method> <class>on board</class>, <no>based</no> <no>on</no> <no>either</no>: (<no>M</no>) 
+- <no>safety</no> <no>distance</no> <no>and</no> <no>overlap</no> - <no>accuracy</no> <no>of</no> <no>odometry</no> - <no>deceleration</no> <no>performance</no> <no>of</no> <no>the</no> <class>train</class>, <no>etc</no> <no>or</no> 
+<no>4.3.3.1b</no> <no>given</no> <no>from</no> <no>the</no> <class>trackside</class>. <no>The</no> <no>release</no> <attribute>speed</attribute> <no>given</no> <no>from</no> <no>the</no> <class>trackside</class> <no>shall</no> <method>take</method> <attribute>priority</attribute> <no>over</no> <no>the</no> <attribute>release speed</attribute> <method>calculated</method> <class>on board</class>.(<no>M</no>) 
+<no>4.3.3.2a</no> <no>Intentionally</no> <no>deleted</no>.  
+<no>4.3.3.2b</no> <no>Intentionally</no> <no>deleted</no>.  
+<no>4.3.3.2c</no> <no>The</no> <attribute>release speed</attribute> <no>shall</no> <no>be</no> <method>indicated</method> <no>on</no> <no>the</no> <no>DMI</no>. (<no>M</no>) 
+<no>4.3.3.2d</no>  <no>If</no> <no>the</no> <attribute>release speed</attribute> <no>is</no> <method>calculated</method> <class>on board</class> <no>it</no> <no>shall</no> <no>ensure</no> <no>that</no> <no>the</no> <class>train</class> <no>will</no> <method>stop</method> <no>before</no> <no>reaching</no> <no>the</no> <class>danger point</class> (<no>M</no>). 
+<no>4.3.3.3</no> <no>When</no> <no>the</no> <class>train</class> <no>is</no> <no>stationary</no> <no>or</no> <no>after</no> <no>a</no> <no>certain</no> <no>time</no> <no>(</no><no>e.g</no>. <no>the</no> <no>time</no> <no>for</no> &quot;<class>route</class> <no>releasing</no>&quot; <no>of</no> <no>the</no> <no>overlap</no>, <no>the</no> <attribute>release speed</attribute> <method>calculation</method> <no>shall</no> <no>be</no> <no>based</no> <no>on</no> <no>the</no> <attribute>distance</attribute> <no>to</no> <no>the</no> <class>danger point</class> (<no>if</no> <method>calculated</method> <class>on-board</class>). <no>The</no> <no>condition</no> <no>for</no> <no>this</no> <method>change</method> <no>shall</no> <no>be</no> <no>defined</no> <no>for</no> <no>each</no> <no>target</no> <no>as</no> <class>infrastructure</class> data. (<no>M</no>) 
+<no>4.3.3.4</no> <no>Each</no> <class>railway</class> <no>shall</no> <no>have</no> <no>the</no> <no>possibility</no> <no>of</no> <no>allowing</no> <no>a</no> <no>different</no> <attribute>release speed</attribute> <no>for</no> <no>every</no> <attribute>signal</attribute>. (<no>M</no>) 
+<no>4.3.3.5</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.3.3.6</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.3.4</no> <class>Train</class> <attribute>location</attribute> 
+<no>4.3.4.1</no> <no>The</no> <no>ETCS</no> <class>trainborne equipment</class> <no>shall</no> <no>be</no> <no>able</no> <no>to</no> <method>determine</method> <no>the</no> <attribute>location</attribute> <no>of</no> <no>the</no> <no>entire</no> <class>train</class>. (<no>M</no>) 
+<no>4.3.4.2</no> <no>On</no> <class>lines fitted</class> <no>with</no> <class>RBC</class>, <no>the</no> <no>ETCS</no> <class>trainborne equipment</class> <no>shall</no> <no>be</no> <no>able</no> <no>to</no> <method>transmit</method> <no>the</no> <attribute>location</attribute> <no>of</no> <no>the</no> <no>entire</no> <class>train</class> <no>to</no> <no>the</no> <class>RBC</class>. (<no>M</no>) 
+<no>4.3.4.3</no> <no>The</no> <class>train</class> <attribute>location</attribute> <method>calculation</method> <no>shall</no> <no>take</no> <no>into</no> <method>account</method> <method>error</method> <no>of</no> <no>odometry</no>. (<no>M</no>) 
+<no>4.3.4.4</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.3.4.5a</no> <no>Intentionally</no> <no>deleted</no> 
+<no>4.3.4.5b</no> <no>Intentionally</no> <no>deleted</no> 
+<no>4.3.4.5c</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.3.4.5d</no> <no>Intentionally</no> <no>deleted</no>    
+<no>4.3.5</no> <attribute>Speed</attribute> <method>calculation</method> <no>and</no> <method>indication</method>  
+<no>4.3.5.1a</no> <no>Actual</no> <attribute>speed</attribute> <no>shall</no> <no>be</no> <method>indicated</method> <no>on</no> <no>the</no> <no>DMI</no> (<no>M</no>). 
+<no>4.3.5.1b</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.3.5.2</no> <no>There</no> <no>shall</no> <no>be</no> <no>no</no> <no>discrepancy</no> <no>between</no> <no>the</no> <attribute>speed</attribute> <no>shown</no> <no>to</no> <no>the</no> <class>driver</class> <no>and</no> <no>the</no> <attribute>speed</attribute> <no>used</no> <no>for</no> <method>supervision</method> <no>of</no> <class>movement authorities</class> <no>and</no> <class>speed limits</class>, <no>function</no> (<no>4.3.7</no>.). (<no>M</no>) 
+<no>4.3.5.3</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.3.5.4</no> <no>Intentionally</no> <no>deleted</no> 
+<no>4.3.5.5</no> <no>Intentionally</no> <no>deleted</no> 
+<no>4.3.6</no> <method>Indication</method> <method>displayed</method> <no>on</no> <no>the</no> <no>DMI</no> 
+<no>4.3.6.1</no> <no>Intentionally</no> <no>deleted</no> 
+<no>4.3.6.2</no> <no>Intentionally</no> <no>deleted</no> 
+<no>4.3.6.3</no> <no>The</no> <method>indication</method> <no>provided</no> <no>shall</no> <no>enable</no> <no>the</no> <class>driver</class> <no>to</no> <method>drive</method> <no>at</no> <no>the</no> <attribute>permitted speed</attribute> <no>without</no> <no>receiving</no> <no>a</no> <no>warning</no> <no>and</no> <no>without</no> <no>intervention</no> <no>of</no> <no>ETCS</no>. (<no>M</no>) 
+<no>4.3.6.4</no> <no>The</no> <class>driver</class> <no>shall</no> <no>know</no> <no>the</no> <attribute>distance</attribute> <no>to</no> <no>the</no> <no>next</no> <no>point</no> <no>defining</no> <no>the</no> <method>indicated</method> <class>braking curve</class> <no>and</no> <no>the</no> <attribute>permitted speed</attribute> <no>allowed</no>. <no>This</no> <no>shall</no> <no>be</no> <no>shown</no> <no>to</no> <no>the</no> <class>driver</class> <no>in</no> <no>a</no> <no>way</no> <no>that</no> <no>is</no> <no>understandable</no> <no>and</no> <no>logical</no>. (<no>M</no>) 
+<no>4.3.6.5</no> <method>Visual</method> <no>and</no><method> acoustic warnings</method> <no>to</no> <no>the</no> <class>driver</class> <no>about</no> <method>possible</method> <method>intervention</method> <no>from</no> <no>ETCS</no> <no>shall</no> <no>be</no> <no>given</no> <no>to</no> <no>enable</no> <no>the</no> <class>driver</class> <no>to</no> <no>react</no> <no>and</no> <no>avoid</no> <no>intervention</no>. (<no>M</no>) 
+<no>4.3.6.6</no> <no>The</no> <class>driver</class> <no>shall</no> <no>have</no> <no>the</no> <no>possibility</no> <no>to</no> <method>select</method> <no>the</no> <method>language</method>, <no>this</no> <no>does</no> <no>not</no> <no>concern</no> <no>non</no> <no>pre-defined</no> <no>texts</no> <no>sent</no> <no>from</no> <no>the</no> <class>trackside</class>. (<no>M</no>) 
+<no>4.3.6.7</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.3.6.8</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.3.6.9</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.3.6.10</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.3.7</no> <method>Supervision</method> <no>of</no> <class>movement authorities</class> <no>and</no> <method>speed limits</method> 
+<no>4.3.7.1</no> <no>A</no> <class>train</class> <no>shall</no> <no>be</no> <method>supervised</method> <no>to</no> <no>its</no> <no>static</no> <no>and</no> <no>dynamic</no> <class>train</class> <attribute>speed</attribute> <no>profiles</no>. (<no>M</no>) 
+<no>4.3.7.2</no> <no>Within</no> <no>the</no> <no>braking</no> <no>curve</no> <no>area</no>, <no>a</no> <no>warning</no> <no>shall</no> <no>be</no> <no>given</no> <no>to</no> <no>the</no> <class>driver</class> <no>to</no> <no>enable</no> <no>him</no> <no>to</no> <method>react</method> <no>and</no> <no>avoid</no> <method>intervention</method> <no>from</no> <no>ETCS</no> <method>equipment</method> <no>at</no> <no>least</no> <no>5</no> <no>sec</no>. <no>before</no> <no>the</no> <no>intervention</no>. (<no>M</no>) 
+<no>4.3.7.3</no> <no>If</no> <no>the</no> <class>train</class> <no>or</no> <no>the</no> <class>shunting</class> <no>movement</no> <no>exceeds</no> <no>the</no> <no>permitted</no>  <no>ceiling</no> <no>speed</no> <no>by</no> <no>a</no> <no>certain</no> <no>harmonised</no> <no>margin</no>, <no>the</no> <class>trainborne equipment</class> <no>shall</no> <no>execute</no> <no>a</no> <no>brake</no> <no>intervention</no> <no>until</no> <no>the</no> <no>actual</no> <no>speed</no> <no>does</no> <no>not</no> <no>exceed</no> <no>permitted</no> <no>speed</no>; <no>then</no> <no>the</no> <class>driver</class> <no>shall</no> <no>be</no> <no>able</no> <no>to</no> <no>release</no> <no>the</no> <no>brake</no> (<no>M</no>). 
+<no>4.3.7.4a</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.3.7.4b</no> <no>The</no> <class>driver</class> <no>shall</no> <no>be</no> <no>able</no> <no>to</no> <method>release</method> <no>an</no> <no>ETCS</no> <method>emergency brake</method> <no>application</no> <no>when</no> <no>stationary</no>. (<no>M</no>) 
+<no>4.3.7.4c</no> <no>If</no> <no>decided</no> <no>by</no> <no>a</no> <no>national</no> <no>value</no>, <no>the</no> <class>driver</class> <no>may</no> <method>release</method> <no>the</no> <no>ETCS</no> <method>emergency brake</method> <no>when</no> <no>the</no> <no>actual</no> <no>speed</no> <no>is</no> <no>below</no> <no>the </no><no>permitted</no> <no>speed</no>. (<no>M</no>) 
+<no>4.3.7.4d</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.3.7.5</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.3.7.6</no>  <no>Intentionally</no> <no>deleted</no>  
+<no>4.3.8</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.3.9</no> <no>Roll</no> <no>away</no> <no>and</no> <no>reverse</no> <no>movement</no> <no>protection</no>  
+<no>4.3.9.1a</no> <no>To</no> <no>protect</no> <no>a</no> <class>traction unit</class> <no>from</no> <no>roll</no> <no>away</no> <no>and</no> <no>unwanted</no> <no>reverse</no> <no>movements</no> <no>the</no> <class>trainborne equipment</class> <no>shall</no> <method>monitor</method> <no>the</no> <method>direction</method> <no>of</no> <no>movement</no> <no>in</no> <no>relation</no> <no>to</no> <no>the</no> <no>permitted</no> <no>direction</no>. (<no>M</no>) 
+<no>4.3.9.1b</no> <no>The</no> <class>trainborne equipment</class> <no>shall</no> <method>apply</method> <no>the</no> <method>emergency brake</method> <no>after</no> <no>a</no> <attribute>distance</attribute>, <no>defined</no> <no>by</no> <no>a</no> <no>national</no> <no>value</no>, <no>is</no> <no>travelled</no> <no>by</no> <no>the</no> <class>train</class>. (<no>M</no>) 
+<no>4.3.9.1c</no> <no>The</no> <no>roll</no> <no>away</no>/<no>reverse</no> <method>movement</method> <method>intervention</method> <no>shall</no> <no>be</no> <method>indicated</method> <no>on</no> <no>the</no> <no>DMI</no>. (<no>M</no>) 
+<no>4.3.9.2</no> <no>When</no> <no>the</no> <class>traction unit</class> <no>has</no> <no>come</no> <no>to</no> <no>a</no> <no>standstill</no>, <no>the</no> <class>driver</class> <no>shall</no> <no>be</no> <no>able</no> <no>to</no> <method>release</method> <no>the</no> <method>emergency</method> <method>brake</method>. (<no>M</no>) 
+<no>4.3.9.3</no> <no>After</no> <no>releasing</no> <no>the</no> <no>emergency</no> <no>brake</no> <no>ETCS</no> <no>will</no> <no>provide</no> <no>the</no> <method>supervision</method> <no>appertaining</no> <no>when</no> <no>roll</no> <no>away</no> <no>protection</no> <no>was</no> <no>initiated</no> (<no>M</no>) 
+<no>4.3.9.4</no> <no>When</no> <no>using</no> <no>more</no> <no>than</no> <no>one</no> <class>traction unit</class> <no>this</no> <no>function</no> <no>shall</no> <no>be</no> <method>disabled</method> <no>in</no> <no>all</no> <no>but</no> <no>the</no> <method>leading</method> <class>traction unit</class>. (<no>M</no>) 
+<no>4.3.10</no> <no>Recording</no> <no>the</no> <no>ETCS</no> <no>information</no>  
+<no>4.3.10.1</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.3.10.2</no> <no>All</no> <no>data</no> <no>entered</no>, <no>received</no> <no>or</no> <no>indicated</no> <no>to</no> <no>the</no> <class>driver</class> <no>shall</no> <no>be</no> <association>recorded</association> <class>onboard</class>. <no>All</no> <no>data</no> <no>shall</no> <no>be</no> <no>related</no> <no>to</no> <no>UTC</no> (<no>Universal</no> <no>Time</no> <no>Corrected</no>) <no>and</no> <no>a</no> <no>reference</no> <no>point</no>. (<no>M</no>)  
+<no>4.3.10.3</no> <no>Information</no> <no>shall</no> <no>be</no> <no>recorded</no> <no>to</no> <no>an</no> <no>accuracy</no> <no>which</no> <no>enables</no> <no>a</no> <no>clear</no> <no>view</no> <no>of</no> <no>the</no> <no>functioning</no> <no>of</no> <no>ETCS</no> <no>and</no> <no>way</no> <no>the</no> <class>traction unit</class> <no>has</no> <no>been</no> <no>driven</no>. (<no>M</no>) 
+<no>4.3.10.4a</no> <no>Standardised</no> <no>output</no> <no>interfaces</no> <no>shall</no> <no>enable</no> <method>transmission</method> <no>of</no> <method>information</method> <method>recorded</method> <no>to</no> <no>other</no> <no>media</no> <no>for</no> <no>investigation</no>(<no>M</no>). 
+<no>4.3.10.4b</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.3.10.5</no> <no>The</no> <no>retention</no> <no>period</no> <no>for</no> <no>the</no> <no>recorded</no> <no>data</no> <no>will</no> <no>be</no> <no>different</no> <no>and</no> <no>two</no> <no>levels</no> <no>are</no> <no>foreseen</no>: (<no>M</no>) 
+<no>1</no>. <no>Data</no> <no>to</no> <no>enable</no> <method>investigation</method> <no>of</no> <method>accidents</method> <no>need</no> <no>only</no> <no>be</no> <method>stored</method> <no>for</no> <no>at</no> <no>least</no> <no>24</no> <no>hours</no>, <no>and</no> <no>shall</no> <no>be</no> <no>very</no> <no>detailed</no>. 
+<no>2</no>. <no>Operational</no> <no>data</no> <no>to</no> <no>enable</no> <method>assessment</method> <no>of</no> <class>driver</class> <attribute>performance</attribute> <no>shall</no> <no>be</no> <method>stored</method> <no>for</no> <no>at</no> <no>least</no> <no>one</no> <no>week</no>. 
+<no>3</no>. <no>Intentionally</no> <no>deleted</no> 
+<no>4.3.10.6</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.3.10.7</no> <no>The</no> <no>following</no> <no>information</no> <no>shall</no> <no>be</no> <no>recorded</no>: (<no>M</no>) 
+<no>1</no>. <no>any</no> <attribute>transition</attribute> <no>of</no> <no>Level</no> <no>and</no> <no>of</no> <attribute>operational</attribute> <attribute>status</attribute>, 
+<no>2</no>. <no>The</no> <class>driver</class>’s <attribute>confirmation</attribute> <no>of</no> <no>transition</no> <no>to</no> <class>shunting</class> <no>shall</no> <no>be</no> <no>recorded</no>. 
+<no>3</no>. <class>train</class> <no>supervision</no> <no>data</no> <no>and</no> <no>information</no> <no>received</no> <no>from</no> <class>national train control</class> <no>systems</no>, 
+<no>4.3.</no> <attribute>actual</attribute> <attribute>speed</attribute> 
+<no>5.</no><attribute> full service brake</attribute> <no>intervention</no>, 
+<no>6</no>. <attribute>emergency brake</attribute> <no>intervention</no>,
+<no>7</no>. <no>applying</no> <no>the</no> <class>train</class> <attribute>trip</attribute> <no>function</no>, 
+<no>8.</no> <no>selection</no> <no>of</no> <no>the</no> <attribute>override control</attribute>, 
+<no>9</no>. <no>override</no> <no>of</no> <no>the</no> <attribute>route suitability</attribute> <no>function</no>,  
+<no>10</no>. <no>isolation</no> <no>of</no> <no>on</no> <no>board</no> <no>ETCS</no> <no>equipment</no>. 
+<no>11</no>. <no>Data</no> <attribute>entered</attribute>, <attribute>recieved</attribute> <no>or</no> <no>indicated</no> <no>to</no> <no>the</no> <class>driver</class> 
+<no>4.4</no> <no>Special</no> <no>Operations</no> 
+<no>4.4.1</no> <no>Using</no> <no>multiple</no> <class>traction units</class> 
+<no>4.4.1.1</no> <no>It</no> <no>shall</no> <no>be</no> <method>possible</method> <no>to</no> <no>use</no> <no>multiple</no> <class>traction units</class> <no>without</no> <no>isolating</no> <no>the</no> <no>ETCS</no> <class>trainborne equipment</class> <no>on</no> <class>traction unit</class>(<no>s</no>) <no>with</no> <no>an</no> <no>in-operative</no> <no>cab</no>. (<no>M</no>) 
+<no>4.4.1.2</no> <no>Information</no> <no>received</no> <no>shall</no> <no>not</no> <no>influence</no> <no>the</no> <class>traction unit</class>(<no>s</no>) <no>with</no> <no>in-operative</no> <no>cabs</no>. (<no>M</no>) 
+<no>4.4.1.3</no> <no>The</no> <class>train</class> <no>trip</no> <no>function</no> (<no>4.6.12</no>.) <no>shall</no> <no>be</no> <association>suppressed</association> <no>in</no> <class>traction unit</class>(<no>s</no>) <no>with</no> <no>in-operative</no> <no>cabs</no>. (<no>M</no>) 
+<no>4.4.1.4</no> <no>Intentionally</no> <no>deleted</no> 
+<no>4.4.2</no> <no>Using</no> <class>tandem traction units</class> 
+<no>4.4.2.1</no> <no>It</no> <no>shall</no> <no>be</no> <method>possible</method> <no>to</no> <no>use</no> <class>tandem traction units</class> <no>without</no> <no>isolating</no> <no>the</no> <no>ETCS</no> <class>trainborne equipment</class> <no>on</no> <no>the</no> <no>tandem</no> <class>traction unit</class>. (<no>M</no>) 
+<no>4.4.2.2</no> <no>The</no> <class>train</class> <no>trip</no> <no>function</no> (<no>4.6.12</no>.) <no>shall</no> <no>be</no> <association>suppressed</association> <no>on</no> <no>the</no> <class>tandem traction unit</class>. (<no>M</no>) 
+<no>4.4.2.3</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.4.2.4</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.4.2.5</no> <no>The</no> <class>driver</class> <no>shall</no> <association>enter</association> <no>the</no> <class>driver</class> <attribute>ID</attribute> (<no>M</no>). 
+<no>4.4.3</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.4.4</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.4.5</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.4.7</no>  <class>Train</class> <method>reversing</method> 
+<no>4.4.7.1</no> <no>It</no> <no>shall</no> <no>be</no> <method>possible</method> <no>to</no> <method>drive</method> <no>the</no> <class>train</class> <method>backwards</method> <no>in</no> <no>a</no> <no>supervised</no> <no>way</no> (<no>speed</no> <no>and</no> <no>distance</no>) <no>according</no> <no>to</no> <no>information</no> <no>received</no> <no>from</no> <class>trackside</class> (<no>M</no>). 
+<no>4.5</no> <no>Functions</no> <no>required</no> <no>in</no> <no>the</no> <no>event</no> <no>of</no> <no>incidents</no> <no>or</no> <no>other</no> (<no>non</no> <no>ETCS</no>) <no>system</no> <no>failures</no> 
+<no>4.5.1</no>   <no>Intentionally</no> <no>deleted</no>  
+<no>4.5.2</no> <method>Passing</method> <no>a</no> <no>stop</no> <no>signal</no> <no>with</no> <method>restricted</method> <class>movement authority</class> 
+<no>4.5.2.1</no> <no>The</no> <class>train</class> <attribute>speed</attribute> <no>shall</no> <no>be</no> <no>at</no> <no>or</no> <no>below</no> <no>a</no> <attribute>speed</attribute> <method>specified</method> <no>by</no> <no>a</no> <no>national</no> <no>value</no>. (<no>M</no>) 
+<no>4.5.2.2a</no> <no>The</no> <class>driver</class> <no>shall</no> <no>select</no> <no>an</no> <method>override</method> <method>control</method> <no>according</no> <no>to</no> <no>the</no> <no>permission</no> <no>received</no>. (<no>M</no>) 
+<no>4.5.2.2b</no> <no>The</no> <method>override</method> <method>control</method> <no>shall</no> <no>be</no> <method>protected</method> <no>against</no> <no>inadvertent</no> <no>operation</no>. (<no>M</no>) 
+<no>4.5.2.3</no> <no>When</no> <no>the</no> <class>train</class> <method>passes</method> <no>the</no> <no>stop</no> <no>signal</no>, <no>the</no> <class>train</class> <method>trip</method> <no>function</no> <no>shall</no> <no>be</no> <method>suppressed</method>. (<no>M</no>) 
+<no>4.5.2.4</no> <no>Actual</no> <attribute>speed</attribute> <no>shall</no> <no>still</no> <no>be</no> <method>shown</method> <no>on</no> <no>the</no> <no>DMI</no>. (<no>M</no>) 
+<no>4.5.2.5a</no> <no>A</no> <no>special</no> <method>indication</method> <no>shall</no> <no>be</no> <method>shown</method> <no>on</no> <no>the</no> <no>DMI</no>. (<no>M</no>) 
+<no>4.5.2.5b</no> <no>The</no> <method>supervised</method> <method>speed</method> <no>shall</no> <no>not</no> <no>be</no> <method>shown</method> <no>on</no> <no>the</no> <no>DMI</no>. (<no>M</no>) 
+<no>4.5.2.6</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.5.2.7</no> <no>The</no> <class>train</class> <no>shall</no> <no>be</no> <method>capable</method> <no>of</no> <method>receiving</method> <no>any</no> <method>track-to-train</method> <method>information</method> <no>intended</no> <no>and</no> <no>relevant</no> <no>for</no> <no>this</no> <class>train</class> <no>including</no> <class>movement authority</class>. (<no>M</no>) 
+<no>4.5.3</no> <no>Intentionally</no> <no>deleted</no> 
+<no>4.5.4</no> <no>Intentionally</no> <no>deleted</no> 
+<no>4.5.5</no> <no>Intentionally</no> <no>deleted</no>.  
+<no>4.5.6</no> <no>Intentionally</no> <no>deleted</no>.  
+<no>4.6</no> <no>Protection</no> <no>Functions</no> 
+<no>4.6.1</no> <no>Intentionally</no> <no>deleted</no>.  
+<no>4.6.2</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.6.3</no> <no>Intentionally</no> <no>deleted</no> 
+<no>4.6.4</no> <method>Emergency stop</method> <no>to</no> <class>train</class>(<no>s</no>) 
+<no>4.6.4.1a</no> <no>If</no> <no>supervised</no> <no>by</no> <no>an</no> <class>RBC</class> it <no>shall</no> <no>be</no> <method>possible</method> <no>to</no> <association>command</association> <no>an</no> <association>emergency stop</association> <no>to</no> <no>all</no> <class>trains</class> <no>in</no> <no>a</no> <no>particular</no> <no>area</no> <no>or</no> <no>to</no> <no>a</no> <no>specific</no> <class>train</class> (<no>M</no>). 
+<no>4.6.4.1b</no> <no>It</no> <no>shall</no> <no>be</no> <method>possible</method> <no>to</no> <method>command</method> <no>an</no> <method>immediate</method> <class>train</class> <method>stop</method>. (<no>M</no>). 
+<no>4.6.4.1c</no> <no>It</no> <no>shall</no> <no>be</no> <method>possible</method> <no>to</no> <method>command</method> <no>a</no> <no>conditional</no> <method>emergency</method> <method>stop</method>. <no>If</no> <no>the</no> <class>train</class> <no>has</no> <no>already</no> <method>passed</method> <no>the</no> <no>location</no> <no>for</no> <no>the</no> <no>emergency</no> <no>stop</no> <no>the</no> <no>command</no> <no>shall</no> <no>be</no> <no>ignored</no> (<no>M</no>). 
+<no>4.6.4.2</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.6.4.3</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.6.4.4</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.6.4.5</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.6.4.6</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.6.4.7</no> <no>When</no> <no>a</no> <class>train</class> <no>has</no> <method>received</method> <no>an</no> <method>emergency stop</method> <no>ETCS</no> <no>shall</no> <no>command</no> <no>the</no> <no>emergency</no> <no>brake</no>. (<no>M</no>) 
+<no>4.6.4.8</no> <no>The</no> <method>emergency stop</method> <no>shall</no> <no>be</no> <method>indicated</method> <no>to</no> <no>the</no> <class>driver</class> <no>on</no> <no>the</no> <no>DMI</no>. (<no>M</no>) 
+<no>4.6.4.9</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.6.4.10</no>  <no>Intentionally</no> <no>deleted</no>. 
+<no>4.6.5</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.6.6</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.6.7</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.6.8</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.6.9</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.6.10</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.6.11</no> <class>Route</class> <no>suitability</no>  
+<no>4.6.11.1a</no> <no>It</no> <no>shall</no> <no>be</no> <method>possible</method> <no>to</no> <method>prevent</method> <no>a</no> <class>train</class> <no>from</no> <method>entering</method> <no>a</no> <class>route</class> <no>for</no> <no>which</no> <no>it</no> <no>does</no> <no>not</no> <no>meet</no> <no>the</no> <no>required</no> <no>criteria</no>. (<no>M</no>) 
+<no>4.6.11.1b</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.6.11.1c</no> <class>Route</class> <attribute>unsuitability</attribute> <no>shall</no> <no>be</no> <method>indicated</method> <no>on</no> <no>the</no> <no>DMI</no>. (<no>M</no>) 
+<no>4.6.11.1d</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.6.11.2</no> <no>The</no> <class>driver</class> <no>shall</no> <no>be</no> <no>able</no> <no>to</no> <method>override</method> <no>the</no> <no>function</no> <no>when</no> <no>the</no> <class>train</class> <no>is</no> <no>stationary</no>. (<no>M</no>)  
+<no>4.6.11.3</no> <no>After</no> <no>overriding</no> <no>this</no> <no>function</no> <no>the</no> <class>movement authority</class> <no>shall</no> <no>be</no> <method>re-established</method>. (<no>M</no>) 
+<no>4.6.12</no>   <class>Train</class> <no>trip</no>  
+<no>4.6.12.1</no> <no>When</no> <no>a</no> <class>traction unit</class> <method>passes</method> <no>a</no> <method>stop-signal</method> <no>the</no> <method>emergency brake</method> <no>shall</no> <no>be</no> <method>triggered</method>. (<no>M</no>) 
+<no>4.6.12.2</no> <no>Operation</no> <no>of</no> <no>the</no> <class>train</class> <method>trip</method> <no>shall</no> <no>be</no> <method>indicated</method> <no>on</no> <no>the</no> <no>DMI</no>. (<no>M</no>) 
+<no>4.6.12.3</no> <no>The</no> <method>emergency brake</method> <no>shall</no> <no>be</no> <method>applied</method> <no>until</no> <no>the</no> <class>traction unit</class> <no>is</no> <no>stationary</no>. (<no>M</no>) 
+<no>4.6.12.4</no> <no>When</no> <no>the</no> <class>traction unit</class> <no>is</no> <no>stationary</no> <no>the</no> <class>driver</class> <no>shall</no> <no>be</no> <no>required</no> <no>to</no> <no>acknowledge</no> <no>the</no> <class>train</class> <no>trip</no> <no>condition</no>. <no>This</no> <method>acknowledgement</method> <no>will</no> <method>release</method> <no>the</no> <method>emergency brake</method>. (<no>M</no>) 
+<no>4.6.12.5a</no> <no>After</no> <no>the</no> <no>acknowledgement</no> <no>the</no> <class>driver</class> <no>shall</no> <no>be</no> <no>able</no> <no>to</no> <method>continue</method> <no>the</no> <no>movement</no> (<no>M</no>) 
+<no>4.6.12.5b</no> <no>After</no> <no>the</no> <no>acknowledgement</no> <no>the</no> <class>train</class> <no>shall</no> <no>be</no> <no>able</no> <no>to</no> <no>be</no> <method>driven</method> <method>backwards</method> <no>for</no> <no>a</no> <no>certain</no> <no>distance</no> <no>defined</no> <no>by</no> <no>national</no> <no>value</no> (<no>M</no>). 
+<no>4.6.12.6</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.6.12.7</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.6.12.8</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.6.12.9</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.7</no> <class>Train</class> <no>Control</no> <no>Centre</no> <no>Functions</no> 
+<no>4.7.1</no> <class>Train</class> <method>identification</method> 
+<no>4.7.1.1</no> <no>The</no> <no>ETCS</no> <class>trainborne equipment</class> <no>shall</no> <association>transmit</association> <no>its</no> <no>own</no> <class>train</class> <association>identification</association> <no>to</no> <no>the</no> <class>RBC</class>. (<no>M</no>) 
+<no>4.7.1.2</no> <no>Intentionally</no> <no>deleted</no>.
+<no>4.7.1.3</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.7.1.4</no> <no>The</no> <class>train</class> <attribute>running number</attribute> <no>shall</no> <no>consist</no> <no>of</no> <no>a</no> <no>maximum</no> <no>of</no> <no>8</no> <no>numeric</no> <no>digits</no>. (<no>M</no>) 
+<no>4.7.1.5</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.7.1.6</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.7.2</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.7.3</no> <attribute>Geographical position</attribute> <no>of</no> <no>the</no> <class>train</class> 
+<no>4.7.3.1</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.7.3.2</no> <no>On</no> <no>demand</no>, <no>the</no> <attribute>position</attribute> <no>of</no> <no>the</no> <no>front</no> <no>end</no> <no>of</no> <no>the</no> <class>train</class> <no>at</no> <no>the</no> <no>time</no> <no>of</no> <no>the</no> <no>demand</no> <no>shall</no> <no>be</no> <method>indicated</method> <no>on</no> <no>the</no> <no>DMI</no>. <no>This</no> <no>shall</no> <no>be</no> <method>possible</method> <no>while</no> <no>the</no> <class>train</class> <no>is</no> <no>moving</no> <no>or</no> <no>stationary</no>. (<no>M</no>)  
+<no>4.7.3.3</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.8</no> <no>Additional</no> <no>Functions</no> 
+<no>4.8.1</no> <no>Control</no> <no>of</no> <no>pantograph</no> <no>and</no> <no>power</no> <no>supply</no>  
+<no>4.8.1.1</no> <no>The</no> <no>ETCS</no> <class>on-board</class> <no>shall</no> <no>be</no> <method>capable</method> <no>of</no> <method>receiving</method> <method>information</method> <no>about</no> <no>pantograph</no> <no>and</no> <no>power</no> <no>supply</no> <no>from</no> <no>the</no> <class>trackside</class>. (<no>M</no>) 
+<no>4.8.1.2</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.8.1.3</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.8.1.4a</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.8.1.4b</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.8.1.5a</no> <no>The</no> <no>ETCS</no> <class>trainborne equipment</class> <no>shall</no> <method>indicate</method> <no>on</no> <no>the</no> <no>DMI</no> <no>the</no> <no>information</no> <no>regarding</no> <method>pantograph</method> <no>and</no> <method>power supply</method>. (<no>M</no>) 
+<no>4.8.1.5b</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.8.1.6</no> <no>The</no> <no>information</no> <no>regarding</no> <no>lowering</no> <no>and</no> <no>raising</no> <no>of</no> <no>the</no> <method>pantograph</method> <no>and</no> <no>opening</no>/<no>closing</no> <no>of</no> <no>the</no> <method>circuit</method> <method>breaker</method> <no>shall</no> <no>be</no> <method>provided</method> <method>separately</method> <no>and</no> <no>in</no> <no>combinations</no>. (<no>M</no>) 
+<no>4.8.1.7</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.8.2</no> <no>Air</no> <no>tightness</no> <no>control</no> 
+<no>4.8.2.1</no> <no>The</no> <no>ETCS</no> <class>on-board</class> <no>shall</no> <no>be</no> <method>capable</method> <no>of</no> <method>receiving</method> <no>information</no> <no>regarding</no> <method>air tightness</method> <no>from</no> <no>the</no> <class>trackside</class>. (<no>M</no>) 
+<no>4.8.2.2</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.8.2.3</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.8.3</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.8.4</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.8.5</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.8.6</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.8.7</no> <no>Intentionally</no> <no>deleted</no> 
+<no>4.8.8</no> <no>Plain</no> <no>text</no> <no>transmission</no> 
+<no>4.8.8.1</no> <no>It</no> <no>shall</no> <no>be</no> <method>possible</method> <no>to</no> <method>send</method> <no>plain</no> <method>text messages</method> <no>from</no> <no>track</no> <no>to</no> <class>train</class>. (<no>M</no>) 
+<no>4.8.8.2</no> <no>Intentionally</no> <no>deleted</no> 
+<no>4.8.8.3</no> <no>When</no> <no>the</no> <no>plain</no> <method>text message</method> <method>appears</method> <no>on</no> <no>the</no> <no>DMI</no>, <no>the</no> <class>driver</class> <no>shall</no> <no>be</no> <method>alerted</method>. (<no>M</no>) 
+<no>4.8.8.4</no> <no>Intentionally</no> <no>deleted</no> 
+<no>4.8.8.5</no> <no>The</no> <class>onboard</class> <no>equipment</no> <no>shall</no> <method>display</method> <no>plain</no> <method>text messages</method> <no>as</no> <no>received</no>. (<no>M</no>) 
+<no>4.8.8.6</no> <no>The</no> <no>character</no> <no>set</no> <no>used</no> <no>shall</no> <no>support</no> <no>differentn</no> <no>languages</no>. (<no>M</no>) 
+<no>4.8.9</no>  <class>Fixed text messages</class>  
+<no>4.8.9.1</no> <no>It</no> <no>shall</no> <no>be</no> <method>possible</method> <no>to</no> <association>send</association> <class>fixed text messages</class> <no>from</no> <no>track</no> <no>to</no> <class>train</class> (<no>M</no>) 
+<no>4.8.9.2</no> <class>Fixed text messages</class> <no>shall</no> <no>be</no> <method>provided</method> <no>in</no> <no>the</no> <method>language</method> <no>selected</no> <no>by</no> <no>the</no> <class>driver</class>. (<no>M</no>) 
+<no>4.8.10</no>  <no>Management</no> <no>of</no> <no>special</no> <attribute>brakes</attribute> 
+<no>4.8.10.1</no> <no>It</no> <no>shall</no> <no>be</no> <method>possible</method> <no>to</no> <no>send</no> <no>information</no> <no>regarding</no> <no>the</no> <no>inhibition</no> <no>of</no> <no>the</no> <no>following</no> <no>different</no> <no>types</no> <no>of</no> <attribute>brake</attribute>(<no>M</no>): 
+ <attribute>Regenerative brake</attribute>, 
+ <attribute>Eddy current brake</attribute>, 
+ <attribute>Magnetic shoe brake</attribute>. 
+<no>4.8.10.2</no> <no>Information</no> <no>shall</no> <no>be</no> <no>shown</no> <no>on</no> <no>the</no> <no>DMI</no> (<no>M</no>). 
+<no>4.9</no> <no>Functions</no> <no>primarily</no> <no>related</no> <no>to</no> <class>RBC</class> 
+<no>4.9.1</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.9.2</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.9.3</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.9.4</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.9.5</no> <class>Train</class> <attribute>integrity</attribute> 
+<no>4.9.5.1</no> <no>The</no> <no>ETCS</no> <class>on-board</class> <no>shall</no> <no>be</no> <method>capable</method> <no>of</no> <association>sending</association> <no>to</no> <no>the</no> <class>trackside</class> <class>train</class> <attribute>integrity</attribute> <no>information</no> <no>detected</no> <no>by</no> <no>a</no> <no>system</no> <no>outside</no> <no>ETCS</no> . (<no>M</no>) 
+<no>4.9.5.2</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.9.5.3</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.9.5.4</no> <no>The</no> <class>driver</class> <no>shall</no> <no>be</no> <no>able</no> <no>to</no> <method>confirm</method> <no>the</no> <class>train</class> <attribute>integrity</attribute> <no>to</no> <no>the</no> <class>RBC</class> <no>manually</no>. <no>The</no> <method>confirmation</method> <no>requires</no> <no>the</no> <class>train</class> <no>to</no> <no>be</no> <no>stationary</no>. (<no>M</no>) 
+<no>4.9.5.5</no> <no>Intentionally</no> <no>deleted</no>  
+<no>4.9.5.6</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.9.6</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.9.7</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.9.8</no> <no>Intentionally</no> <no>deleted</no>. 
+<no>4.9.9</no>.<class>Train</class> <no>Data</no> <no>to</no> <no>be</no> <method>sent</method> <no>to</no> <class>trackside</class> 
+<no>4.9.9.1</no> <no>The</no> <class>on board</class> <no>shall</no> <no>be</no> <method>capable</method> <no>of</no> <method>sending</method> <class>train</class> <method>data</method> <no>to</no> <no>the</no> <class>trackside</class> <no>after</no> <no>confirmation</no> <no>by</no> <no>the</no> <class>driver</class>, <no>or</no> <no>when</no> <no>entering</no> <no>the</no> <class>RBC</class> <no>area</no> (<no>M</no>). 
+<no>4.9.9.2</no> <no>The</no> <no>following</no> <class>train</class> <method>data</method> <no>shall</no> <no>be</no> <method>sent</method> <no>from</no> <no>the</no> <class>on board</class> <no>to</no> <no>the</no> <class>trackside</class>: (<no>M</no>) 
+<class>Train</class> <attribute>running number</attribute> <no>STM</no> <no>ready</no> <no>for</no> <no>use</no> <class>train</class> <no>gauge</no>  <no>Max</no>. <no>axle</no> <no>load</no> <no>status</no> <no>of</no> <no>air</no> <no>tight</no> <no>system</no> <no>type</no> <no>of</no> <no>el</no>. <no>power</no> <no>accepted</no> <no>international</no> <class>train</class> <no>category</no> <no>max</no>. <class>train</class> <attribute>speed</attribute> <class>train</class> <attribute>length</attribute>. 
+<no>4.9.10</no> <method>Revocation</method> <no>of</no> <no>a</no> <class>Movement Authority</class>  
+<no>4.9.10.1</no> <no>It</no> <no>shall</no> <no>be</no> <method>possible</method> <no>to</no> <method>revoke</method> <no>a</no> <class>Movement Authority</class> <no>that</no> <no>has</no> <no>already</no> <no>been</no> <method>issued</method> <no>to</no> <no>a</no> <class>train</class> <no>in</no> <no>a</no> <method>co-operative way</method> <no>between</no> <class>RBC</class> <no>and</no> <class>train</class>. (<no>M</no>) 
+<no>4.9.10.2</no> <no>The</no> <method>co-operative revocation</method> <no>of</no> <no>the</no> <class>MA</class> <no>shall</no> <no>be</no> <method>possible</method> <no>to</no> <no>a</no> <method>new target location</method>, <no>proposed</no> <no>from</no> <class>RBC</class>. (<no>M</no>)  
+<no>4.9.10.3</no> <no>The</no> <method>new target location</method> <no>shall</no> <no>be</no> <method>checked</method> <no>for</no> <no>acceptance</no> <no>by</no> <no>the</no> <class>on board</class>. (<no>M</no>) 
+<no>4.9.10.4</no> <no>If</no> <no>a</no> <class>train</class> <no>cannot</no> <no>stop</no> <no>at</no> <no>the</no> <no>proposed</no> <no>new</no> <no>target</no> <no>location</no> <no>it</no> <no>shall</no> <method>reject</method> <no>the</no> <method>request</method> <no>and</no> <method>keep</method> <no>the</no> <method>old target location</method>. (<no>M</no>) 
+<no>4.9.11</no> <method>Reversing</method>  
+<no>4.9.11.1</no> <no>The</no> <method>Reversing</method> <no>function</no> <no>shall</no> <no>only</no> <no>be</no> <method>possible</method> <no>in</no> <no>one</no> <method>active cab</method> <no>which</no> <no>is</no> <no>not</no> <no>closed</no> <no>at</no> <no>any</no> <no>time</no> <no>during</no> <no>the</no> <no>procedure</no>. (<no>M</no>) 
+<no>4.9.11.2</no> <method>Reversing</method> <no>shall</no> <no>be</no> <method>possible</method> <no>as</no> <method>defined</method> <no>by</no> <no>a</no> <method>value</method> <no>given</no> <no>with</no> <no>the</no> <class>MA</class> (<no>M</no>) 
+<no>4.9.11.3</no> <no>Intentionally</no> <no>deleted</no>.  
+<no>4.9.11.4</no> <no>Intentionally</no> <no>deleted</no>.  
+<no>4.9.11.5</no> <no>The</no> <class>driver</class> <no>shall</no> <no>be</no> <no>able</no> <no>to</no> <no>use</no> <no>the</no> <method>Reversing</method> <no>function</no> <no>without</no> <no>needing</no> <no>to</no> <method>re-confirm</method> <no>the</no> <class>train</class> <no>data</no>. (<no>M</no>) 
+<no>4.9.11.6</no> <method>Reversing</method> <no>shall</no> <no>be</no> <method>supervised</method> <no>to</no> <no>a</no> <attribute>distance</attribute> <no>and</no> <attribute>speed</attribute> <no>set</no> <no>as</no> <no>National</no> <no>Values</no>(<no>M</no>) 
+<no>4.9.11.7</no> <no>The</no> <attribute>distance</attribute> <method>supervised</method> <no>can</no> <no>be</no> <method>extended</method> <no>from</no> <no>the</no> <class>trackside</class>. (<no>M</no>) 
+<no>4.9.11.8</no> <no>Once</no> <no>the</no> <class>train</class> <no>starts</no> <method>reversing</method> <no>the</no> <class>MA</class> <no>shall</no> <no>be</no> <method>cancelled</method>. (<no>M</no>)  
+<no>4.9.12</no> <no>Handover</no> <no>when</no> <no>passing</no> <no>from</no> <no>one</no> <class>RBC</class> <no>area</no> <no>to</no> <no>another</no>  
+<no>4.9.12.1</no> <no>The</no> <class>train</class> <no>shall</no> <no>be</no> <no>able</no> <no>to</no> <no>automatically</no> <association>pass</association> <no>from</no> <no>one</no> <class>RBC</class> <no>area</no> <no>to</no> <no>another</no> <no>without</no> <class>driver</class> <no>intervention</no>.(<no>M</no>) 
+<no>4.9.12.2</no> <no>If</no> <no>the</no> <class>train</class> <no>is</no> <method>equipped</method> <no>with</no> <no>two</no> <no>operational</no> <method>radios</method> <no>there</no> <no>shall</no> <no>be</no> <no>no</no> <no>performance</no> <no>penalty</no> <no>as</no> <no>a</no> <no>result</no> <no>of</no> <no>a</no> <no>transition</no> <no>from</no> <no>one</no> <class>RBC</class> <no>to</no> <no>another</no> (<class>train</class> <no>spacing</no> <no>and</no> <class>train</class> <no>speed</no>). (<no>M</no>)  
+<no>4.9.12.3</no> <no>If</no> <no>the</no> <class>train</class> <no>is</no> <method>equipped</method> <no>with</no> <no>only</no> <no>one</no> <no>operational</no> <method>radio</method>, <method>passing</method> <no>from</no> <no>one</no> <class>RBC</class> <no>to</no> <no>another</no> <no>shall</no> <no>still</no> <no>be</no> <method>possible</method> <no>but</no> <no>might</no> <no>result</no> <no>in</no> <no>a</no> <method>performance</method> <method>penalty</method>. (<no>M</no>) </document>
