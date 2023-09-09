@@ -1,6 +1,6 @@
 import re
 from typing import Dict, List
-import xmltodict as xtd, json, os
+import json, os
 
 # files = [
 #     "retailer system.xml"
@@ -19,6 +19,7 @@ labels = [
     "association",
     "generalization",
 ]
+count = 0
 
 
 def get_label(
@@ -29,9 +30,16 @@ def get_label(
     """function to get the label of a token"""
     if last_label != "O":
         last_label = last_label.split("-")[1]
+
     for i in labels:
         if len(tokens.get(i, [])) == 0:
+            # if i in tokens and all([len(tokens.get(k, [])) == 0 for k in labels]):
+            #     global count
+            #     print("empty", count)
+            #     count += 1
+
             continue
+
         if token == tokens[i][0]:
             tokens[i].pop(0)
             if last_label == i:
@@ -53,6 +61,7 @@ for file in files:
     with open(f".\\data\\{file}.xml", encoding="utf-8") as fp:
         for i in fp.readlines():
             i = i.strip()
+
             if i == "":
                 continue
 
