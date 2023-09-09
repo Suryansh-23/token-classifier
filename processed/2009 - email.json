@@ -1,0 +1,5487 @@
+[
+    {
+        "id": "1420",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "7.",
+            "Basic",
+            "Functional",
+            "Requirements",
+            "Req",
+            ".",
+            "#"
+        ]
+    },
+    {
+        "id": "1421",
+        "ner_tags": [
+            "I-no"
+        ],
+        "tokens": [
+            "Category"
+        ]
+    },
+    {
+        "id": "1422",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "List",
+            "the",
+            "basic",
+            "functional",
+            "requirements",
+            "\u2013",
+            "what",
+            "capabilities",
+            "should",
+            "the",
+            "service",
+            "provide",
+            "."
+        ]
+    },
+    {
+        "id": "1423",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "1.1",
+            "E-mail",
+            ",",
+            "Calendar",
+            ",",
+            "Contacts"
+        ]
+    },
+    {
+        "id": "1424",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "O",
+            "B-association",
+            "O",
+            "B-no",
+            "B-association",
+            "B-class",
+            "B-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "send",
+            ",",
+            "receive",
+            ",",
+            "and",
+            "delete",
+            "e-mail",
+            "and",
+            "attachments",
+            "."
+        ]
+    },
+    {
+        "id": "1425",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "1.2",
+            "E-mail",
+            ",",
+            "Calendar",
+            ",",
+            "Contacts"
+        ]
+    },
+    {
+        "id": "1426",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "reply",
+            "to",
+            "e-mail",
+            "and",
+            "attachments",
+            "."
+        ]
+    },
+    {
+        "id": "1427",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "1.3",
+            "E-mail",
+            ",",
+            "Calendar",
+            ",",
+            "Contacts"
+        ]
+    },
+    {
+        "id": "1428",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-class",
+            "B-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "forward",
+            "e-mail",
+            "and",
+            "attachments",
+            "."
+        ]
+    },
+    {
+        "id": "1429",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "1.4",
+            "E-mail",
+            ",",
+            "Calendar",
+            ",",
+            "Contacts"
+        ]
+    },
+    {
+        "id": "1430",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-class",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "print",
+            "e-mail",
+            "messages",
+            "."
+        ]
+    },
+    {
+        "id": "1431",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "1.5",
+            "E-mail",
+            ",",
+            "Calendar",
+            ",",
+            "Contacts"
+        ]
+    },
+    {
+        "id": "1432",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "customize",
+            "e-mail",
+            "messages",
+            "with",
+            "word",
+            "processor",
+            "like",
+            "features",
+            "for",
+            "formatting",
+            "of",
+            "e-mail",
+            "content",
+            "."
+        ]
+    },
+    {
+        "id": "1433",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "1.6",
+            "E-mail",
+            ",",
+            "Calendar",
+            ",",
+            "Contacts"
+        ]
+    },
+    {
+        "id": "1434",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-class",
+            "O",
+            "B-method",
+            "O",
+            "B-method",
+            "O",
+            "B-method",
+            "O",
+            "B-method",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "establish",
+            "rules",
+            "(",
+            "auto reply",
+            ",",
+            "out of office reply",
+            ",",
+            "temporary transfer to another party",
+            ",",
+            "move files to inbox folders",
+            ")."
+        ]
+    },
+    {
+        "id": "1435",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "1.7",
+            "E-mail",
+            ",",
+            "Calendar",
+            ",",
+            "Contacts"
+        ]
+    },
+    {
+        "id": "1436",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "spell check",
+            "."
+        ]
+    },
+    {
+        "id": "1437",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "1.8",
+            "E-mail",
+            ",",
+            "Calendar",
+            ",",
+            "Contacts"
+        ]
+    },
+    {
+        "id": "1438",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "I-method",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-method",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "organize",
+            "content",
+            "into",
+            "personal folders",
+            "or",
+            "similar",
+            "storage",
+            "mechanism",
+            "to",
+            "aid",
+            "with",
+            "e-mail",
+            "retrieval",
+            "."
+        ]
+    },
+    {
+        "id": "1439",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "1.9",
+            "E-mail",
+            ",",
+            "Calendar",
+            ",",
+            "Contacts"
+        ]
+    },
+    {
+        "id": "1440",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "migrate",
+            "existing",
+            "public folders",
+            "into",
+            "the",
+            "statewide",
+            "e-mail",
+            "system",
+            "."
+        ]
+    },
+    {
+        "id": "1441",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "1.10",
+            "E-mail",
+            ",",
+            "Calendar",
+            ",",
+            "Contacts"
+        ]
+    },
+    {
+        "id": "1442",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-no",
+            "B-association",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "create",
+            "and",
+            "manage",
+            "public folders",
+            "or",
+            "similar",
+            "storage",
+            "mechanism",
+            "to",
+            "aid",
+            "with",
+            "the",
+            "collection",
+            ",",
+            "organization",
+            ",",
+            "and",
+            "sharing",
+            "of",
+            "information",
+            "with",
+            "other",
+            "people",
+            "in",
+            "their",
+            "individual",
+            "agency",
+            "or",
+            "organization",
+            "."
+        ]
+    },
+    {
+        "id": "1443",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "1.11",
+            "E-mail",
+            ",",
+            "Calendar",
+            ",",
+            "Contacts"
+        ]
+    },
+    {
+        "id": "1444",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-class",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "create",
+            "contact",
+            "lists",
+            ",",
+            "including",
+            "those",
+            "imported",
+            "from",
+            "other",
+            "sources",
+            "."
+        ]
+    },
+    {
+        "id": "1445",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "1.12",
+            "E-mail",
+            ",",
+            "Calendar",
+            ",",
+            "Contacts"
+        ]
+    },
+    {
+        "id": "1446",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-class",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "export",
+            "contact",
+            "lists",
+            "."
+        ]
+    },
+    {
+        "id": "1447",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "1.13",
+            "E-mail",
+            ",",
+            "Calendar",
+            ",",
+            "Contacts"
+        ]
+    },
+    {
+        "id": "1448",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-class",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "share",
+            "contact",
+            "lists",
+            "/",
+            "address",
+            "book",
+            "."
+        ]
+    },
+    {
+        "id": "1449",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "1.14",
+            "E-mail",
+            ",",
+            "Calendar",
+            ",",
+            "Contacts"
+        ]
+    },
+    {
+        "id": "1450",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-no",
+            "B-association",
+            "B-class",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "create",
+            "and",
+            "share",
+            "distribution lists",
+            "(",
+            "including",
+            "the",
+            "ability",
+            "to",
+            "create",
+            "query",
+            "based",
+            "distribution",
+            "lists",
+            "from",
+            "LDAP-like",
+            "directory",
+            "services",
+            ")."
+        ]
+    },
+    {
+        "id": "1451",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "1.15",
+            "E-mail",
+            ",",
+            "Calendar",
+            ",",
+            "Contacts"
+        ]
+    },
+    {
+        "id": "1452",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-class",
+            "B-no",
+            "B-association",
+            "I-association",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "create",
+            "calendars",
+            "and",
+            "customize",
+            "calendar",
+            "views",
+            "."
+        ]
+    },
+    {
+        "id": "1453",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "1.16",
+            "E-mail",
+            ",",
+            "Calendar",
+            ",",
+            "Contacts"
+        ]
+    },
+    {
+        "id": "1454",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "I-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "schedule",
+            "resources",
+            "such",
+            "as",
+            "conference",
+            "rooms",
+            ",",
+            "teleconference",
+            "rooms",
+            ",",
+            "etc",
+            "."
+        ]
+    },
+    {
+        "id": "1455",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "1.17",
+            "E-mail",
+            ",",
+            "Calendar",
+            ",",
+            "Contacts"
+        ]
+    },
+    {
+        "id": "1456",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "I-method",
+            "B-no",
+            "B-method",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "create",
+            "reminders",
+            "and",
+            "tasks",
+            "."
+        ]
+    },
+    {
+        "id": "1457",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "1.18",
+            "E-mail",
+            ",",
+            "Calendar",
+            ",",
+            "Contacts"
+        ]
+    },
+    {
+        "id": "1458",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "I-method",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "accommodate",
+            "programmer testing",
+            "of",
+            "e-mail",
+            "functionality",
+            "embedded",
+            "in",
+            "software",
+            "applications",
+            "."
+        ]
+    },
+    {
+        "id": "1459",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "1.19",
+            "E-mail",
+            ",",
+            "Calendar",
+            ",",
+            "Contacts"
+        ]
+    },
+    {
+        "id": "1460",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "I-method",
+            "O",
+            "B-class",
+            "O",
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-class",
+            "O",
+            "B-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "share",
+            "inbox",
+            ",",
+            "calendar",
+            ",",
+            "and",
+            "files",
+            "with",
+            "users",
+            ",",
+            "given",
+            "permission",
+            "."
+        ]
+    },
+    {
+        "id": "1461",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "1.20",
+            "E-mail",
+            ",",
+            "Calendar",
+            ",",
+            "Contacts"
+        ]
+    },
+    {
+        "id": "1462",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "delegate",
+            "their",
+            "permissions",
+            "to",
+            "another",
+            "user",
+            "."
+        ]
+    },
+    {
+        "id": "1463",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "1.21",
+            "E-mail",
+            ",",
+            "Calendar",
+            ",",
+            "Contacts"
+        ]
+    },
+    {
+        "id": "1464",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "I-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "embed",
+            "links",
+            "to",
+            "files",
+            "and",
+            "websites",
+            "in",
+            "e-mails",
+            "."
+        ]
+    },
+    {
+        "id": "1465",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "1.22",
+            "E-mail",
+            ",",
+            "Calendar",
+            ",",
+            "Contacts"
+        ]
+    },
+    {
+        "id": "1466",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-class",
+            "I-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "provision",
+            "e-mail",
+            "accounts",
+            "for",
+            "their",
+            "individual",
+            "agency",
+            "or",
+            "organization",
+            "(",
+            "including",
+            "the",
+            "ability",
+            "to",
+            "integrate",
+            "e-mail",
+            "account",
+            "provisioning",
+            "with",
+            "LDAP-like",
+            "directory",
+            "services",
+            ")."
+        ]
+    },
+    {
+        "id": "1467",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "1.23",
+            "E-mail",
+            ",",
+            "Calendar",
+            ",",
+            "Contacts"
+        ]
+    },
+    {
+        "id": "1468",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "search",
+            "for",
+            "e-mails",
+            "based",
+            "on",
+            "age",
+            ",",
+            "size",
+            ",",
+            "sender",
+            ",",
+            "recipient",
+            ",",
+            "subject",
+            ",",
+            "key word",
+            ",",
+            "attachment content",
+            "."
+        ]
+    },
+    {
+        "id": "1469",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "1.24",
+            "E-mail",
+            ",",
+            "Calendar",
+            ",",
+            "Contacts"
+        ]
+    },
+    {
+        "id": "1470",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "I-method",
+            "B-no",
+            "B-association",
+            "B-class",
+            "B-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "auto-enforce",
+            "standard conventions",
+            "for",
+            "creating",
+            "accounts",
+            "and",
+            "distribution lists",
+            "."
+        ]
+    },
+    {
+        "id": "1471",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "1.25",
+            "E-mail",
+            ",",
+            "Calendar",
+            ",",
+            "Contacts"
+        ]
+    },
+    {
+        "id": "1472",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-class",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "data center admin",
+            "to",
+            "control",
+            "message",
+            "size limits",
+            "for",
+            "e-mail",
+            "(",
+            "inbound",
+            "and",
+            "outbound",
+            ")."
+        ]
+    },
+    {
+        "id": "1473",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "1.26",
+            "E-mail",
+            ",",
+            "Calendar",
+            ",",
+            "Contacts"
+        ]
+    },
+    {
+        "id": "1474",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-no",
+            "B-class",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "create",
+            "generic",
+            "email accounts",
+            "/",
+            "addresses",
+            "to",
+            "be",
+            "accessed",
+            "by",
+            "multiple",
+            "users",
+            "."
+        ]
+    },
+    {
+        "id": "1475",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "1.27",
+            "E-mail",
+            ",",
+            "Calendar",
+            ",",
+            "Contacts"
+        ]
+    },
+    {
+        "id": "1476",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "customize",
+            "their",
+            "view",
+            "in",
+            "the",
+            "client",
+            "application",
+            "(",
+            "such",
+            "as",
+            "adding",
+            "fields",
+            ",",
+            "arranging",
+            "fields",
+            ",",
+            "and",
+            "ordering",
+            "emails",
+            "by",
+            "fields",
+            ")."
+        ]
+    },
+    {
+        "id": "1477",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.28",
+            "Archiving",
+            ",",
+            "Retention",
+            ",",
+            "Discovery"
+        ]
+    },
+    {
+        "id": "1478",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "archive",
+            "at",
+            "the",
+            "desktop",
+            "."
+        ]
+    },
+    {
+        "id": "1479",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.29",
+            "Archiving",
+            ",",
+            "Retention",
+            ",",
+            "Discovery"
+        ]
+    },
+    {
+        "id": "1480",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "provide",
+            "a",
+            "server",
+            "based",
+            "archiving",
+            "solution",
+            "."
+        ]
+    },
+    {
+        "id": "1481",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.30",
+            "Archiving",
+            ",",
+            "Retention",
+            ",",
+            "Discovery"
+        ]
+    },
+    {
+        "id": "1482",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-method",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "archive",
+            "at",
+            "various",
+            "regularly",
+            "defined",
+            "intervals",
+            "."
+        ]
+    },
+    {
+        "id": "1483",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.31",
+            "Archiving",
+            ",",
+            "Retention",
+            ",",
+            "Discovery"
+        ]
+    },
+    {
+        "id": "1484",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-class",
+            "B-no",
+            "B-method",
+            "O",
+            "B-method",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "search",
+            "archive",
+            "and",
+            "forward",
+            ",",
+            "print",
+            "and",
+            "restore",
+            "in",
+            "bulk",
+            "items",
+            "from",
+            "archive",
+            "."
+        ]
+    },
+    {
+        "id": "1485",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.32",
+            "Archiving",
+            ",",
+            "Retention",
+            ",",
+            "Discovery"
+        ]
+    },
+    {
+        "id": "1486",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-class",
+            "B-no",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "O",
+            "B-class",
+            "O",
+            "B-attribute",
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "filter",
+            "archive",
+            "by",
+            "sender",
+            ",",
+            "recipient",
+            ",",
+            "date",
+            ",",
+            "subject",
+            ",",
+            "content",
+            ",",
+            "attachments",
+            ",",
+            "keyword",
+            ",",
+            "etc",
+            "."
+        ]
+    },
+    {
+        "id": "1487",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.33",
+            "Archiving",
+            ",",
+            "Retention",
+            ",",
+            "Discovery"
+        ]
+    },
+    {
+        "id": "1488",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-attribute",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "provide",
+            "long",
+            "term",
+            "retention",
+            "separate",
+            "from",
+            "active",
+            "e-mail",
+            "system",
+            "."
+        ]
+    },
+    {
+        "id": "1489",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.34",
+            "Archiving",
+            ",",
+            "Retention",
+            ",",
+            "Discovery"
+        ]
+    },
+    {
+        "id": "1490",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "provide",
+            "individual",
+            "users",
+            "the",
+            "ability",
+            "to",
+            "search",
+            "their",
+            "portion",
+            "of",
+            "the",
+            "archive",
+            "repository",
+            "."
+        ]
+    },
+    {
+        "id": "1491",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.35",
+            "Archiving",
+            ",",
+            "Retention",
+            ",",
+            "Discovery"
+        ]
+    },
+    {
+        "id": "1492",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-attribute",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "meet",
+            "Federal",
+            "regulations",
+            "for",
+            "retention",
+            "(",
+            "i.e",
+            ".",
+            "Sarbanes",
+            "Oxley",
+            ",",
+            "Gramm-Leach-Bliley",
+            "Act",
+            "(",
+            "GLB",
+            "),",
+            "HIPAA",
+            ",",
+            "etc",
+            ".)"
+        ]
+    },
+    {
+        "id": "1493",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.36",
+            "Archiving",
+            ",",
+            "Retention",
+            ",",
+            "Discovery"
+        ]
+    },
+    {
+        "id": "1494",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "I-method",
+            "I-method",
+            "B-no",
+            "B-class",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "I-method",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "satisfy",
+            "legal",
+            "requests",
+            "for",
+            "e-mail",
+            "discovery",
+            "and",
+            "provide",
+            "printed",
+            "or",
+            "digital",
+            "results",
+            "."
+        ]
+    },
+    {
+        "id": "1495",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.37",
+            "Archiving",
+            ",",
+            "Retention",
+            ",",
+            "Discovery"
+        ]
+    },
+    {
+        "id": "1496",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "capture",
+            "all",
+            "sent",
+            "and",
+            "received",
+            "e-mails",
+            "into",
+            "the",
+            "organization",
+            "."
+        ]
+    },
+    {
+        "id": "1497",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.38",
+            "Archiving",
+            ",",
+            "Retention",
+            ",",
+            "Discovery"
+        ]
+    },
+    {
+        "id": "1498",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-class",
+            "B-attribute",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "select",
+            "the",
+            "e-mail",
+            "retention",
+            "period",
+            "for",
+            "a",
+            "specific",
+            "e-mail",
+            "(",
+            "e.g",
+            ".",
+            "1",
+            "year",
+            ",",
+            "3",
+            "year",
+            ",",
+            "or",
+            "5",
+            "year",
+            ")",
+            "."
+        ]
+    },
+    {
+        "id": "1499",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.39",
+            "Archiving",
+            ",",
+            "Retention",
+            ",",
+            "Discovery"
+        ]
+    },
+    {
+        "id": "1500",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-class",
+            "O",
+            "B-no",
+            "I-no",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-no",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "search",
+            "the",
+            "e-mail",
+            "&quot;header&quot;",
+            "including",
+            "Date",
+            ":",
+            "From",
+            ",",
+            "Subject",
+            ",",
+            "To",
+            ",",
+            "and",
+            "CC",
+            "."
+        ]
+    },
+    {
+        "id": "1501",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.40",
+            "Archiving",
+            ",",
+            "Retention",
+            ",",
+            "Discovery"
+        ]
+    },
+    {
+        "id": "1502",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "O",
+            "O",
+            "O",
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "search",
+            "the",
+            "&quot;",
+            "body",
+            "&quot;",
+            "of",
+            "the",
+            "e-mail",
+            "including",
+            "the",
+            "header",
+            "and",
+            "all",
+            "text",
+            "contained",
+            "within",
+            "the",
+            "e-mail",
+            "itself",
+            "."
+        ]
+    },
+    {
+        "id": "1503",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.41",
+            "Archiving",
+            ",",
+            "Retention",
+            ",",
+            "Discovery"
+        ]
+    },
+    {
+        "id": "1504",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "perform",
+            "a",
+            "&quot;full text&quot; search",
+            "including",
+            "the",
+            "header",
+            ",",
+            "body",
+            "and",
+            "any",
+            "attachments",
+            "to",
+            "the",
+            "e-mail",
+            "."
+        ]
+    },
+    {
+        "id": "1505",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.42",
+            "Archiving",
+            ",",
+            "Retention",
+            ",",
+            "Discovery"
+        ]
+    },
+    {
+        "id": "1506",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "support",
+            "litigation requests",
+            "by",
+            "production",
+            "of",
+            "responsive",
+            "e-mail",
+            "in",
+            "to",
+            "a",
+            "specified",
+            "location",
+            ",",
+            "for",
+            "read",
+            "and",
+            "redaction",
+            "purposes",
+            "."
+        ]
+    },
+    {
+        "id": "1507",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.43",
+            "Archiving",
+            ",",
+            "Retention",
+            ",",
+            "Discovery"
+        ]
+    },
+    {
+        "id": "1508",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "B-no",
+            "O",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "move",
+            "older",
+            "data to tiered storage",
+            "(",
+            "lower",
+            "cost",
+            "storage",
+            ")",
+            "while",
+            "maintaining",
+            "accessibility",
+            "."
+        ]
+    },
+    {
+        "id": "1509",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.44",
+            "Archiving",
+            ",",
+            "Retention",
+            ",",
+            "Discovery"
+        ]
+    },
+    {
+        "id": "1510",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "import",
+            "data",
+            "from",
+            "other",
+            "sources",
+            "such",
+            "as",
+            "PST",
+            ",",
+            "NSF",
+            "files",
+            "into",
+            "archiving solution",
+            "."
+        ]
+    },
+    {
+        "id": "1511",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.45",
+            "Archiving",
+            ",",
+            "Retention",
+            ",",
+            "Discovery"
+        ]
+    },
+    {
+        "id": "1512",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "O",
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "put",
+            "discovery search results",
+            "on",
+            "legal",
+            "hold",
+            "to",
+            "suspend",
+            "deletion",
+            "."
+        ]
+    },
+    {
+        "id": "1513",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.46",
+            "Archiving",
+            ",",
+            "Retention",
+            ",",
+            "Discovery"
+        ]
+    },
+    {
+        "id": "1514",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "(",
+            "Legal",
+            ",",
+            "OIG",
+            ",",
+            "etc",
+            ".)",
+            "to",
+            "review",
+            "and",
+            "mark",
+            "discovery",
+            "search results",
+            "."
+        ]
+    },
+    {
+        "id": "1515",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.47",
+            "Archiving",
+            ",",
+            "Retention",
+            ",",
+            "Discovery"
+        ]
+    },
+    {
+        "id": "1516",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "B-no",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "search",
+            "using",
+            "Boolean fields",
+            "."
+        ]
+    },
+    {
+        "id": "1517",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.48",
+            "Archiving",
+            ",",
+            "Retention",
+            ",",
+            "Discovery"
+        ]
+    },
+    {
+        "id": "1518",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "O",
+            "O",
+            "B-no",
+            "O",
+            "B-class",
+            "B-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "archive",
+            "based",
+            "on",
+            "policy",
+            "(",
+            "i.e",
+            ".",
+            "e-mail",
+            "address",
+            ",",
+            "OU",
+            ",",
+            "group",
+            ",",
+            "organization",
+            ",",
+            "etc",
+            ".)"
+        ]
+    },
+    {
+        "id": "1519",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.49",
+            "Archiving",
+            ",",
+            "Retention",
+            ",",
+            "Discovery"
+        ]
+    },
+    {
+        "id": "1520",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "delete",
+            ",",
+            "or",
+            "flag",
+            "for",
+            "deletion",
+            "by",
+            "system administrators",
+            ",",
+            "e-mails",
+            "that",
+            "have",
+            "met",
+            "their",
+            "retention",
+            ",",
+            "in",
+            "accordance",
+            "with",
+            "s.119.021",
+            "(",
+            "2",
+            ")(",
+            "c",
+            ")",
+            "which",
+            "requires",
+            "agencies",
+            "to",
+            "\u201c",
+            "systematically",
+            "dispose of records",
+            "no",
+            "longer",
+            "needed",
+            ".\u201d (",
+            "Note",
+            ":",
+            "Deletion",
+            "means",
+            "complete",
+            "removal",
+            "/",
+            "elimination",
+            "of",
+            "all",
+            "copies",
+            "of",
+            "an",
+            "e-mail",
+            "from",
+            "all",
+            "portions",
+            "of",
+            "the",
+            "system",
+            ")\u201d"
+        ]
+    },
+    {
+        "id": "1521",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.50",
+            "Archiving",
+            ",",
+            "Retention",
+            ",",
+            "Discovery"
+        ]
+    },
+    {
+        "id": "1522",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "flag",
+            "individual",
+            "e-mails",
+            "to",
+            "not",
+            "be",
+            "archived",
+            "."
+        ]
+    },
+    {
+        "id": "1523",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "1.51",
+            "Backup",
+            ",",
+            "Restore",
+            "Ability",
+            "for",
+            "the",
+            "data center admin",
+            "to",
+            "recover",
+            "at",
+            "the",
+            "file level",
+            "."
+        ]
+    },
+    {
+        "id": "1524",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "B-no",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "1.52",
+            "Backup",
+            ",",
+            "Restore",
+            "Ability",
+            "for",
+            "the",
+            "data center admin",
+            "to",
+            "recover",
+            "all",
+            "messages",
+            "."
+        ]
+    },
+    {
+        "id": "1525",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "1.53",
+            "Backup",
+            ",",
+            "Restore",
+            "Ability",
+            "for",
+            "the",
+            "data center admin",
+            "to",
+            "recover",
+            "a",
+            "specific",
+            "e-mail",
+            "message",
+            "."
+        ]
+    },
+    {
+        "id": "1526",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "B-no",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "1.54",
+            "Backup",
+            ",",
+            "Restore",
+            "Ability",
+            "for",
+            "the",
+            "data center admin",
+            "to",
+            "recover",
+            "by",
+            "mailbox",
+            "."
+        ]
+    },
+    {
+        "id": "1527",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "B-no",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "1.55",
+            "Backup",
+            ",",
+            "Restore",
+            "Ability",
+            "for",
+            "the",
+            "data center admin",
+            "to",
+            "recover",
+            "by",
+            "time",
+            "."
+        ]
+    },
+    {
+        "id": "1528",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "O",
+            "B-no",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "1.56",
+            "Backup",
+            ",",
+            "Restore",
+            "Ability",
+            "for",
+            "the",
+            "data center admin",
+            "to",
+            "maintain",
+            "backup",
+            "and",
+            "restore",
+            "event logs",
+            "."
+        ]
+    },
+    {
+        "id": "1529",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "O",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "1.57",
+            "Backup",
+            ",",
+            "Restore",
+            "Ability",
+            "for",
+            "the",
+            "data center admin",
+            "to",
+            "restore",
+            "previous",
+            "backup",
+            "without",
+            "service",
+            "interruption",
+            "."
+        ]
+    },
+    {
+        "id": "1530",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.58",
+            "Security",
+            ",",
+            "Anti-Virus",
+            ",",
+            "Filtering"
+        ]
+    },
+    {
+        "id": "1531",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "O",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "data center admin",
+            "to",
+            "provide",
+            "pre-emptive",
+            "e-mail",
+            "virus protection",
+            "(",
+            "scanning",
+            "prior",
+            "to",
+            "delivery",
+            "at",
+            "the",
+            "mail",
+            "server",
+            ")."
+        ]
+    },
+    {
+        "id": "1532",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.59",
+            "Security",
+            ",",
+            "Anti-Virus",
+            ",",
+            "Filtering"
+        ]
+    },
+    {
+        "id": "1533",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "data center admin",
+            "to",
+            "provide",
+            "pre-emptive",
+            "e-mail",
+            "content filtering",
+            "."
+        ]
+    },
+    {
+        "id": "1534",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.60",
+            "Security",
+            ",",
+            "Anti-Virus",
+            ",",
+            "Filtering"
+        ]
+    },
+    {
+        "id": "1535",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "data center admin",
+            "to",
+            "whitelist",
+            "/",
+            "blacklist",
+            "senders",
+            "by",
+            "domain",
+            "or",
+            "IP",
+            "address",
+            "."
+        ]
+    },
+    {
+        "id": "1536",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.61",
+            "Security",
+            ",",
+            "Anti-Virus",
+            ",",
+            "Filtering"
+        ]
+    },
+    {
+        "id": "1537",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-no",
+            "B-association",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "data center admin",
+            "to",
+            "block",
+            "or",
+            "allow",
+            "e-mail",
+            "based",
+            "on",
+            "multiple",
+            "message",
+            "attributes",
+            "."
+        ]
+    },
+    {
+        "id": "1538",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.62",
+            "Security",
+            ",",
+            "Anti-Virus",
+            ",",
+            "Filtering"
+        ]
+    },
+    {
+        "id": "1539",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "O",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "data center admin",
+            "to",
+            "integrate",
+            "message hygiene",
+            "(",
+            "antispam",
+            "/",
+            "antivirus",
+            ")",
+            "with",
+            "LDAP",
+            "."
+        ]
+    },
+    {
+        "id": "1540",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.63",
+            "Security",
+            ",",
+            "Anti-Virus",
+            ",",
+            "Filtering"
+        ]
+    },
+    {
+        "id": "1541",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "O",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "data center admin",
+            "to",
+            "provide",
+            "message hygiene",
+            "(",
+            "antispam",
+            "/",
+            "antivirus",
+            ")",
+            "statistical",
+            "reports",
+            "."
+        ]
+    },
+    {
+        "id": "1542",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.64",
+            "Security",
+            ",",
+            "Anti-Virus",
+            ",",
+            "Filtering"
+        ]
+    },
+    {
+        "id": "1543",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "encrypt",
+            "outbound",
+            "e-mail",
+            "."
+        ]
+    },
+    {
+        "id": "1544",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.65",
+            "Security",
+            ",",
+            "Anti-Virus",
+            ",",
+            "Filtering"
+        ]
+    },
+    {
+        "id": "1545",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "establish",
+            "TLS encryption",
+            "with",
+            "other",
+            "businesses",
+            "or",
+            "customers",
+            "."
+        ]
+    },
+    {
+        "id": "1546",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.66",
+            "Security",
+            ",",
+            "Anti-Virus",
+            ",",
+            "Filtering"
+        ]
+    },
+    {
+        "id": "1547",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "data center admin",
+            "to",
+            "protect",
+            "the",
+            "reputation",
+            "of",
+            "outbound mail gateways",
+            "."
+        ]
+    },
+    {
+        "id": "1548",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "1.67",
+            "Security",
+            ",",
+            "Anti-Virus",
+            ",",
+            "Filtering"
+        ]
+    },
+    {
+        "id": "1549",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "I-class",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "data center admin",
+            "to",
+            "protect",
+            "internal",
+            "e-mail",
+            "customer",
+            "identity",
+            "."
+        ]
+    },
+    {
+        "id": "1550",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "1.68",
+            "Remote",
+            "Access",
+            ",",
+            "Mobile",
+            "Messaging"
+        ]
+    },
+    {
+        "id": "1551",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-no",
+            "I-no",
+            "O",
+            "B-association",
+            "O",
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "access",
+            "e-mail",
+            "by",
+            "secure web",
+            "or",
+            "client",
+            ". (",
+            "Calendar",
+            ",",
+            "Address",
+            "book",
+            ",",
+            "Ability",
+            "to",
+            "send",
+            "and",
+            "receive",
+            ")."
+        ]
+    },
+    {
+        "id": "1552",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "1.69",
+            "Remote",
+            "Access",
+            ",",
+            "Mobile",
+            "Messaging"
+        ]
+    },
+    {
+        "id": "1553",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "access",
+            "e-mail",
+            "with",
+            "Blackberry",
+            "services",
+            "using",
+            "BlackBerry",
+            "device",
+            "."
+        ]
+    },
+    {
+        "id": "1554",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "1.70",
+            "Remote",
+            "Access",
+            ",",
+            "Mobile",
+            "Messaging"
+        ]
+    },
+    {
+        "id": "1555",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "access",
+            "e-mail",
+            "with",
+            "non-Blackberry",
+            "mobile",
+            "data",
+            "devices",
+            "(",
+            "iPhones",
+            ",",
+            "Treos",
+            ",",
+            "Pres",
+            ".",
+            "Etc",
+            ".)."
+        ]
+    },
+    {
+        "id": "1556",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "1.71",
+            "Remote",
+            "Access",
+            ",",
+            "Mobile",
+            "Messaging"
+        ]
+    },
+    {
+        "id": "1557",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "support",
+            "other",
+            "mobile",
+            "device",
+            "protocols",
+            "(",
+            "ActiveSync",
+            ")."
+        ]
+    },
+    {
+        "id": "1558",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "1.72",
+            "Remote",
+            "Access",
+            ",",
+            "Mobile",
+            "Messaging"
+        ]
+    },
+    {
+        "id": "1559",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "O",
+            "O",
+            "B-no",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "Create",
+            ",",
+            "Update",
+            "and",
+            "Delete",
+            "Blackberry accounts",
+            "."
+        ]
+    },
+    {
+        "id": "1560",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "1.73",
+            "Remote",
+            "Access",
+            ",",
+            "Mobile",
+            "Messaging"
+        ]
+    },
+    {
+        "id": "1561",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "access",
+            "mailbox",
+            "and",
+            "components",
+            "via",
+            "a",
+            "web",
+            "browser",
+            "over",
+            "a",
+            "secure",
+            "(",
+            "encrypted",
+            ")",
+            "connection",
+            "."
+        ]
+    },
+    {
+        "id": "1562",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-no"
+        ],
+        "tokens": [
+            "1.74",
+            "Additional",
+            "E-mail",
+            "Services"
+        ]
+    },
+    {
+        "id": "1563",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "O",
+            "B-association",
+            "I-association",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "send",
+            "/",
+            "receive",
+            "e-mails",
+            "within",
+            "workflow",
+            "applications",
+            "."
+        ]
+    },
+    {
+        "id": "1564",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-no"
+        ],
+        "tokens": [
+            "1.75",
+            "Additional",
+            "E-mail",
+            "Services"
+        ]
+    },
+    {
+        "id": "1565",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-association",
+            "O",
+            "O",
+            "B-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "provide",
+            "resource",
+            "reservations",
+            "integrated",
+            "into",
+            "e-mail",
+            "."
+        ]
+    },
+    {
+        "id": "1566",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-no"
+        ],
+        "tokens": [
+            "1.76",
+            "Additional",
+            "E-mail",
+            "Services"
+        ]
+    },
+    {
+        "id": "1567",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "B-no",
+            "O",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "access",
+            "an",
+            "SMTP",
+            "bridgehead",
+            "for",
+            "agency",
+            "applications",
+            "."
+        ]
+    },
+    {
+        "id": "1568",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-no"
+        ],
+        "tokens": [
+            "1.77",
+            "Additional",
+            "E-mail",
+            "Services"
+        ]
+    },
+    {
+        "id": "1569",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "O",
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "integrate",
+            "agency applications",
+            "into",
+            "the",
+            "e-mail",
+            "and",
+            "mobile",
+            "messaging",
+            "environments",
+            "."
+        ]
+    },
+    {
+        "id": "1570",
+        "ner_tags": [
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "8",
+            ".",
+            "Extended",
+            "Functional",
+            "Requirements",
+            "Req",
+            ".",
+            "#"
+        ]
+    },
+    {
+        "id": "1571",
+        "ner_tags": [
+            "I-no"
+        ],
+        "tokens": [
+            "Category"
+        ]
+    },
+    {
+        "id": "1572",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "List",
+            "the",
+            "extended",
+            "functional",
+            "requirements",
+            "\u2013",
+            "what",
+            "additional",
+            "capabilities",
+            "could",
+            "the",
+            "service",
+            "provide",
+            "."
+        ]
+    },
+    {
+        "id": "1573",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "2.1",
+            "Archiving",
+            ",",
+            "Retention",
+            ",",
+            "Discovery"
+        ]
+    },
+    {
+        "id": "1574",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "manually",
+            "archive",
+            "to",
+            "server",
+            "from",
+            "their",
+            "client",
+            "."
+        ]
+    },
+    {
+        "id": "1575",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "2.2",
+            "Archiving",
+            ",",
+            "Retention",
+            ",",
+            "Discovery"
+        ]
+    },
+    {
+        "id": "1576",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "electronically",
+            "redact",
+            "information",
+            "from",
+            "archival",
+            "storage",
+            "."
+        ]
+    },
+    {
+        "id": "1577",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "2.3",
+            "Archiving",
+            ",",
+            "Retention",
+            ",",
+            "Discovery"
+        ]
+    },
+    {
+        "id": "1578",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "digitally",
+            "certify",
+            "search",
+            "results."
+        ]
+    },
+    {
+        "id": "1579",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "2.4",
+            "Archiving",
+            ",",
+            "Retention",
+            ",",
+            "Discovery"
+        ]
+    },
+    {
+        "id": "1580",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "O",
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "catalog",
+            "responsive",
+            "e-mail",
+            "(",
+            "by",
+            "case",
+            ")",
+            "so",
+            "that",
+            "e-mail",
+            "can",
+            "be",
+            "electronically",
+            "certified",
+            "as",
+            "complete",
+            "to",
+            "fulfill",
+            "the",
+            "production",
+            "."
+        ]
+    },
+    {
+        "id": "1581",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "2.5",
+            "Archiving",
+            ",",
+            "Retention",
+            ",",
+            "Discovery"
+        ]
+    },
+    {
+        "id": "1582",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "O",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "demonstrate",
+            "due",
+            "diligence",
+            "and",
+            "maintain",
+            "markings",
+            "for",
+            "privileged",
+            "and",
+            "non-responsive",
+            "search",
+            "results",
+            "."
+        ]
+    },
+    {
+        "id": "1583",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "2.6",
+            "Archiving",
+            ",",
+            "Retention",
+            ",",
+            "Discovery"
+        ]
+    },
+    {
+        "id": "1584",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "O",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "provide",
+            "a",
+            "full",
+            "audit",
+            "trail",
+            "of",
+            "discovery",
+            "and",
+            "review",
+            "."
+        ]
+    },
+    {
+        "id": "1585",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "2.7",
+            "Disaster",
+            "Recovery"
+        ]
+    },
+    {
+        "id": "1586",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "O",
+            "O",
+            "B-no",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "data center admin",
+            "to",
+            "do",
+            "real-time",
+            "replication",
+            "to",
+            "alternate site",
+            "."
+        ]
+    },
+    {
+        "id": "1587",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "2.8",
+            "Disaster",
+            "Recovery"
+        ]
+    },
+    {
+        "id": "1588",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "O",
+            "O",
+            "B-no",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "data center admin",
+            "to",
+            "do",
+            "near-time",
+            "replication",
+            "to",
+            "alternate site",
+            "."
+        ]
+    },
+    {
+        "id": "1589",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "2.9",
+            "Disaster",
+            "Recovery"
+        ]
+    },
+    {
+        "id": "1590",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "data center admin",
+            "to",
+            "fail-over",
+            "mail",
+            "system",
+            "and",
+            "clients",
+            "to",
+            "alternate",
+            "site",
+            "."
+        ]
+    },
+    {
+        "id": "1591",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "2.10",
+            "Security",
+            ",",
+            "Anti-Virus",
+            ",",
+            "Filtering"
+        ]
+    },
+    {
+        "id": "1592",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "data center admin",
+            "to",
+            "retrieve",
+            "quarantined",
+            "messages",
+            "."
+        ]
+    },
+    {
+        "id": "1593",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "2.11",
+            "Security",
+            ",",
+            "Anti-Virus",
+            ",",
+            "Filtering"
+        ]
+    },
+    {
+        "id": "1594",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "O",
+            "O",
+            "B-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "data center admin",
+            "to",
+            "add",
+            "digital",
+            "signatures",
+            "to",
+            "e-mail",
+            "."
+        ]
+    },
+    {
+        "id": "1595",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "2.12",
+            "Remote",
+            "Access",
+            ",",
+            "Mobile",
+            "Messaging"
+        ]
+    },
+    {
+        "id": "1596",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "B-class",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "access",
+            "e-mail",
+            "archive",
+            "."
+        ]
+    },
+    {
+        "id": "1597",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "2.13",
+            "Remote",
+            "Access",
+            ",",
+            "Mobile",
+            "Messaging"
+        ]
+    },
+    {
+        "id": "1598",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "O",
+            "O",
+            "B-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "use",
+            "wireless",
+            "service",
+            "with",
+            "GIS",
+            "."
+        ]
+    },
+    {
+        "id": "1599",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-no"
+        ],
+        "tokens": [
+            "2.14",
+            "Additional",
+            "E-mail",
+            "Services"
+        ]
+    },
+    {
+        "id": "1600",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "provide",
+            "fax",
+            "service",
+            "integrated",
+            "into",
+            "e-mail",
+            "."
+        ]
+    },
+    {
+        "id": "1601",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-no"
+        ],
+        "tokens": [
+            "2.15",
+            "Additional",
+            "E-mail",
+            "Services"
+        ]
+    },
+    {
+        "id": "1602",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "integrate",
+            "telephone",
+            "messaging",
+            "(",
+            "VOIP",
+            ")",
+            "into",
+            "e-mail",
+            "and",
+            "vice",
+            "/",
+            "versa",
+            "."
+        ]
+    },
+    {
+        "id": "1603",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-no"
+        ],
+        "tokens": [
+            "2.16",
+            "Additional",
+            "E-mail",
+            "Services"
+        ]
+    },
+    {
+        "id": "1604",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "B-no",
+            "O",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "user",
+            "to",
+            "provide",
+            "List",
+            "Server",
+            "option",
+            "for",
+            "internal",
+            "and",
+            "external",
+            "publishing",
+            "of",
+            "information",
+            "(",
+            "report",
+            "subscriptions",
+            ")."
+        ]
+    },
+    {
+        "id": "1605",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-no"
+        ],
+        "tokens": [
+            "2.17",
+            "Additional",
+            "E-mail",
+            "Services"
+        ]
+    },
+    {
+        "id": "1606",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "O",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "integrate",
+            "directory",
+            "services",
+            "with",
+            "other",
+            "complimentary",
+            "external",
+            "systems",
+            "for",
+            "a",
+            "unified",
+            "client",
+            "experience",
+            "."
+        ]
+    },
+    {
+        "id": "1607",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-no"
+        ],
+        "tokens": [
+            "2.18",
+            "Additional",
+            "E-mail",
+            "Services"
+        ]
+    },
+    {
+        "id": "1608",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "Ability",
+            "for",
+            "the",
+            "agency admin",
+            "to",
+            "provide",
+            "RSS",
+            "Feeds",
+            "."
+        ]
+    }
+]

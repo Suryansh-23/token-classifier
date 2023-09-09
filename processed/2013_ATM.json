@@ -1,0 +1,388 @@
+[
+    {
+        "id": "3621",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "The",
+            "system",
+            "must",
+            "support",
+            "a",
+            "computerized banking network",
+            "that",
+            "includes",
+            "both",
+            "human cashiers",
+            "and",
+            "ATMs",
+            "."
+        ]
+    },
+    {
+        "id": "3622",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-association",
+            "B-no",
+            "I-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "The",
+            "computerized banking network",
+            "will",
+            "be",
+            "shared",
+            "by",
+            "a",
+            "consortium of banks",
+            "."
+        ]
+    },
+    {
+        "id": "3623",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "B-association",
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-no",
+            "B-class",
+            "O",
+            "B-association",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Each",
+            "bank",
+            "provides",
+            "a",
+            "computer",
+            "that",
+            "maintains",
+            "the",
+            "bank",
+            "&apos;",
+            "s",
+            "accounts",
+            "and",
+            "processes",
+            "transactions",
+            "against",
+            "the",
+            "accounts",
+            "."
+        ]
+    },
+    {
+        "id": "3624",
+        "ner_tags": [
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Cashier stations",
+            "are",
+            "owned",
+            "by",
+            "individual banks",
+            "."
+        ]
+    },
+    {
+        "id": "3625",
+        "ner_tags": [
+            "B-class",
+            "B-association",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Cashier station",
+            "communicate",
+            "directly",
+            "with",
+            "the",
+            "bank",
+            "&apos;s",
+            "computers",
+            "."
+        ]
+    },
+    {
+        "id": "3626",
+        "ner_tags": [
+            "B-class",
+            "B-method",
+            "B-no",
+            "B-class",
+            "B-attribute",
+            "B-no",
+            "B-class",
+            "B-attribute",
+            "O"
+        ],
+        "tokens": [
+            "Human cashiers",
+            "enter",
+            "the",
+            "account",
+            "data",
+            "and",
+            "transaction",
+            "data",
+            "."
+        ]
+    },
+    {
+        "id": "3627",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "B-association",
+            "B-no",
+            "I-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "An",
+            "ATM",
+            "communicates",
+            "with",
+            "a",
+            "central computer",
+            "."
+        ]
+    },
+    {
+        "id": "3628",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "B-association",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "The",
+            "central computer",
+            "clears",
+            "transactions",
+            "with",
+            "the",
+            "banks",
+            "."
+        ]
+    },
+    {
+        "id": "3629",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "B-method",
+            "B-no",
+            "B-association",
+            "B-no",
+            "I-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "An",
+            "ATM",
+            "accepts a cash card",
+            "and",
+            "interacts",
+            "with",
+            "the",
+            "user",
+            "."
+        ]
+    },
+    {
+        "id": "3630",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "B-association",
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "An",
+            "ATM",
+            "communicates",
+            "with",
+            "the",
+            "central computer",
+            "to",
+            "carry",
+            "out",
+            "transactions",
+            "."
+        ]
+    },
+    {
+        "id": "3631",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "B-method",
+            "O",
+            "B-no",
+            "B-method",
+            "O"
+        ],
+        "tokens": [
+            "An",
+            "ATM",
+            "dispenses cash",
+            ",",
+            "and",
+            "prints receipts",
+            "."
+        ]
+    },
+    {
+        "id": "3632",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "The",
+            "system",
+            "requires",
+            "appropriate",
+            "record-keeping",
+            "and",
+            "security",
+            "provisions",
+            "."
+        ]
+    },
+    {
+        "id": "3633",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "The",
+            "system",
+            "must",
+            "handle",
+            "concurrent",
+            "access",
+            "to",
+            "the",
+            "same",
+            "account",
+            "correctly",
+            "."
+        ]
+    },
+    {
+        "id": "3634",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-no",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "The",
+            "banks",
+            "will",
+            "provide",
+            "the",
+            "bank",
+            "&apos;s",
+            "own",
+            "software",
+            "for",
+            "the",
+            "bank",
+            "&apos;s",
+            "own",
+            "computers",
+            "."
+        ]
+    }
+]

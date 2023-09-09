@@ -1,0 +1,7542 @@
+[
+    {
+        "id": "1146",
+        "ner_tags": [
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-method"
+        ],
+        "tokens": [
+            "3.2.1",
+            "Log in",
+            "to",
+            "the",
+            "system",
+            "from",
+            "the",
+            "internet"
+        ]
+    },
+    {
+        "id": "1147",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "accessing",
+            "the",
+            "system",
+            "from",
+            "outside",
+            "the",
+            "VUB-network"
+        ]
+    },
+    {
+        "id": "1148",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "everyone",
+            "who",
+            "wants",
+            "to",
+            "make",
+            "use",
+            "of",
+            "the",
+            "system"
+        ]
+    },
+    {
+        "id": "1149",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":",
+            "the",
+            "actor",
+            "needs",
+            "a",
+            "computer",
+            "with",
+            "internet",
+            "access"
+        ]
+    },
+    {
+        "id": "1150",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":",
+            "the",
+            "actor",
+            "gets",
+            "a",
+            "screen",
+            "where",
+            "he",
+            "/",
+            "she",
+            "will",
+            "be",
+            "able",
+            "to",
+            "login"
+        ]
+    },
+    {
+        "id": "1151",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-attribute",
+            "B-no",
+            "B-attribute"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "user",
+            "must",
+            "be",
+            "registered",
+            "and",
+            "have",
+            "a",
+            "username",
+            "and",
+            "password"
+        ]
+    },
+    {
+        "id": "1152",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-method"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ":",
+            "the",
+            "actor",
+            "can",
+            "login"
+        ]
+    },
+    {
+        "id": "1153",
+        "ner_tags": [
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-method"
+        ],
+        "tokens": [
+            "3.2.2",
+            "Log in",
+            "to",
+            "the",
+            "system",
+            "via",
+            "the",
+            "VUB-network"
+        ]
+    },
+    {
+        "id": "1154",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "accessing",
+            "the",
+            "system",
+            "whilst",
+            "using",
+            "the",
+            "VUB-Network",
+            "."
+        ]
+    },
+    {
+        "id": "1155",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "everyone",
+            "who",
+            "wants",
+            "to",
+            "make",
+            "use",
+            "of",
+            "the",
+            "system"
+        ]
+    },
+    {
+        "id": "1156",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":",
+            "be",
+            "on",
+            "a",
+            "computer",
+            "that",
+            "is",
+            "connected",
+            "to",
+            "the",
+            "VUB",
+            "network"
+        ]
+    },
+    {
+        "id": "1157",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-method",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":",
+            "the",
+            "actor",
+            "gets",
+            "a",
+            "screen",
+            "where",
+            "he",
+            "will",
+            "be",
+            "able",
+            "to",
+            "login",
+            "or",
+            "where",
+            "he",
+            "/",
+            "she",
+            "can",
+            "start",
+            "a",
+            "search",
+            "immediately"
+        ]
+    },
+    {
+        "id": "1158",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "none"
+        ]
+    },
+    {
+        "id": "1159",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-method"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ":",
+            "the",
+            "actor",
+            "can",
+            "login",
+            "or",
+            "can",
+            "perform",
+            "a",
+            "search"
+        ]
+    },
+    {
+        "id": "1160",
+        "ner_tags": [
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-class"
+        ],
+        "tokens": [
+            "3.2.3",
+            "Register",
+            "for",
+            "an",
+            "account"
+        ]
+    },
+    {
+        "id": "1161",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "requesting",
+            "access",
+            "to",
+            "the",
+            "system",
+            "(",
+            "become",
+            "a",
+            "Member",
+            ")"
+        ]
+    },
+    {
+        "id": "1162",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "everyone",
+            "who",
+            "wants",
+            "to",
+            "make",
+            "use",
+            "of",
+            "the",
+            "system"
+        ]
+    },
+    {
+        "id": "1163",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":",
+            "the",
+            "actor",
+            "needs",
+            "a",
+            "computer",
+            "with",
+            "internet",
+            "access",
+            "or",
+            "is",
+            "connected",
+            "to",
+            "the",
+            "VUB-network"
+        ]
+    },
+    {
+        "id": "1164",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":"
+        ]
+    },
+    {
+        "id": "1165",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-method",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2013",
+            "the",
+            "actor",
+            "selects",
+            "the",
+            "Register",
+            "function"
+        ]
+    },
+    {
+        "id": "1166",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "B-method",
+            "B-no",
+            "B-attribute",
+            "B-no",
+            "B-attribute",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "B-no",
+            "B-attribute"
+        ],
+        "tokens": [
+            "\u2013",
+            "the",
+            "actor",
+            "chooses",
+            "a",
+            "username",
+            "and",
+            "password",
+            "and",
+            "fills",
+            "in",
+            "personal",
+            "data",
+            ":",
+            "name",
+            ",",
+            "loginname",
+            ",",
+            "email address",
+            ",",
+            "university",
+            "and",
+            "department"
+        ]
+    },
+    {
+        "id": "1167",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-attribute",
+            "B-no",
+            "B-method"
+        ],
+        "tokens": [
+            "\u2013",
+            "the",
+            "system",
+            "checks",
+            "if",
+            "username",
+            "already",
+            "exists"
+        ]
+    },
+    {
+        "id": "1168",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "B-method"
+        ],
+        "tokens": [
+            "\u2013",
+            "the",
+            "actor",
+            "confirms"
+        ]
+    },
+    {
+        "id": "1169",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "none"
+        ]
+    },
+    {
+        "id": "1170",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ":",
+            "an",
+            "email",
+            "is",
+            "sent",
+            "to",
+            "the",
+            "Administrator"
+        ]
+    },
+    {
+        "id": "1171",
+        "ner_tags": [
+            "B-no",
+            "B-class"
+        ],
+        "tokens": [
+            "3.2.4",
+            "Log off"
+        ]
+    },
+    {
+        "id": "1172",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-method",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "Log off",
+            "the",
+            "system"
+        ]
+    },
+    {
+        "id": "1173",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "Members",
+            ",",
+            "Publishers",
+            ",",
+            "Moderators",
+            "and",
+            "Administrators"
+        ]
+    },
+    {
+        "id": "1174",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":",
+            "the",
+            "user",
+            "is",
+            "logged",
+            "in",
+            "to",
+            "the",
+            "system"
+        ]
+    },
+    {
+        "id": "1175",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-method",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":",
+            "the",
+            "actor",
+            "selects",
+            "the",
+            "Logout",
+            "function"
+        ]
+    },
+    {
+        "id": "1176",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "none"
+        ]
+    },
+    {
+        "id": "1177",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ":",
+            "the",
+            "actor",
+            "is",
+            "directed",
+            "to",
+            "the",
+            "system",
+            "start",
+            "page",
+            "where",
+            "he",
+            "/",
+            "she",
+            "can",
+            "log in",
+            "."
+        ]
+    },
+    {
+        "id": "1178",
+        "ner_tags": [
+            "B-no",
+            "B-method",
+            "B-attribute"
+        ],
+        "tokens": [
+            "3.2.5",
+            "Change",
+            "password"
+        ]
+    },
+    {
+        "id": "1179",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "A",
+            "user",
+            "who",
+            "has",
+            "forgotten",
+            "his",
+            "/",
+            "her",
+            "password",
+            ",",
+            "can",
+            "request",
+            "a",
+            "new one."
+        ]
+    },
+    {
+        "id": "1180",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "VUB-network users",
+            ",",
+            "Members",
+            ",",
+            "Publishers",
+            ",",
+            "Moderators",
+            "and",
+            "Administrators"
+        ]
+    },
+    {
+        "id": "1181",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":",
+            "the",
+            "user",
+            "must",
+            "have",
+            "registered",
+            "before",
+            ",",
+            "he",
+            "/",
+            "she",
+            "must",
+            "have",
+            "a",
+            "valid",
+            "username",
+            "on",
+            "the",
+            "system",
+            "."
+        ]
+    },
+    {
+        "id": "1182",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":"
+        ]
+    },
+    {
+        "id": "1183",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "B-method",
+            "B-no",
+            "B-method",
+            "B-attribute"
+        ],
+        "tokens": [
+            "\u2013",
+            "the",
+            "actor",
+            "chooses",
+            "to",
+            "change",
+            "password"
+        ]
+    },
+    {
+        "id": "1184",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-attribute",
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-attribute",
+            "I-attribute"
+        ],
+        "tokens": [
+            "\u2013",
+            "the",
+            "actor",
+            "fills",
+            "in",
+            "his",
+            "user name",
+            "and",
+            "enters",
+            "a",
+            "new",
+            "password"
+        ]
+    },
+    {
+        "id": "1185",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "B-method"
+        ],
+        "tokens": [
+            "\u2013",
+            "the",
+            "actor",
+            "confirms"
+        ]
+    },
+    {
+        "id": "1186",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "no",
+            "valid",
+            "username",
+            "on",
+            "the",
+            "system"
+        ]
+    },
+    {
+        "id": "1187",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ":",
+            "an",
+            "email",
+            "is",
+            "sent",
+            "to",
+            "the",
+            "Administrator"
+        ]
+    },
+    {
+        "id": "1188",
+        "ner_tags": [
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-class"
+        ],
+        "tokens": [
+            "3.2.6",
+            "Search",
+            "for",
+            "publications"
+        ]
+    },
+    {
+        "id": "1189",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "searching",
+            "for",
+            "publications",
+            "in",
+            "the",
+            "system"
+        ]
+    },
+    {
+        "id": "1190",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "VUB-network users",
+            "and",
+            "Members",
+            ",",
+            "Publishers",
+            ",",
+            "Moderators",
+            "and",
+            "Administrators"
+        ]
+    },
+    {
+        "id": "1191",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":",
+            "the",
+            "actor",
+            "needs",
+            "to",
+            "be",
+            "logged",
+            "in",
+            "to",
+            "the",
+            "system",
+            "or",
+            "is",
+            "connected",
+            "to",
+            "the",
+            "VUB-network"
+        ]
+    },
+    {
+        "id": "1192",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":"
+        ]
+    },
+    {
+        "id": "1193",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-association",
+            "B-class",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2013",
+            "The",
+            "actor",
+            "selects",
+            "the",
+            "Search",
+            "Pubication",
+            "function",
+            "."
+        ]
+    },
+    {
+        "id": "1194",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "B-method",
+            "B-no",
+            "B-method",
+            "O",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-attribute",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-attribute",
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2013",
+            "The",
+            "actor",
+            "fills in",
+            "the",
+            "search criteria",
+            ":",
+            "keyword",
+            ",",
+            "author",
+            ",",
+            "period of publication",
+            "and",
+            "/",
+            "or",
+            "more",
+            "advanced",
+            "search",
+            "criteria",
+            "such",
+            "as",
+            "keyword",
+            "(",
+            "s",
+            ")",
+            "and",
+            "/",
+            "or",
+            "reference",
+            ",",
+            "etc",
+            "."
+        ]
+    },
+    {
+        "id": "1195",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "none"
+        ]
+    },
+    {
+        "id": "1196",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ":",
+            "a",
+            "list",
+            "of",
+            "publications",
+            "fulfilling",
+            "the",
+            "search",
+            "criteria",
+            "."
+        ]
+    },
+    {
+        "id": "1197",
+        "ner_tags": [
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "3.2.7",
+            "View",
+            "the",
+            "results",
+            "of",
+            "a",
+            "Search"
+        ]
+    },
+    {
+        "id": "1198",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-method"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "view",
+            "of",
+            "the",
+            "results",
+            "of",
+            "a",
+            "publication",
+            "search"
+        ]
+    },
+    {
+        "id": "1199",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "VUB-network users",
+            "and",
+            "Members",
+            ",",
+            "Publishers",
+            ",",
+            "Moderators",
+            "and",
+            "Administrators"
+        ]
+    },
+    {
+        "id": "1200",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":",
+            "having",
+            "executed",
+            "a",
+            "Publication",
+            "Search"
+        ]
+    },
+    {
+        "id": "1201",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "B-attribute",
+            "B-no",
+            "I-no",
+            "B-attribute",
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":",
+            "The",
+            "actor",
+            "gets",
+            "one",
+            "or",
+            "more",
+            "screens",
+            "displaying",
+            "one",
+            "or",
+            "more",
+            "of",
+            "the",
+            "search",
+            "results",
+            ".",
+            "For",
+            "each",
+            "result",
+            ",",
+            "the",
+            "title",
+            "and",
+            "the",
+            "main author",
+            "of",
+            "the",
+            "publication",
+            "are",
+            "displayed",
+            ".",
+            "Navigation",
+            "through",
+            "different",
+            "screens",
+            "of",
+            "search",
+            "results",
+            "is",
+            "possible",
+            "with",
+            "the",
+            "next",
+            "or",
+            "previous",
+            "page",
+            "option",
+            "."
+        ]
+    },
+    {
+        "id": "1202",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "when",
+            "the",
+            "search",
+            "criteria",
+            "did",
+            "not",
+            "give",
+            "any",
+            "result"
+        ]
+    },
+    {
+        "id": "1203",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ":",
+            "the",
+            "actor",
+            "will",
+            "obtain",
+            "the",
+            "full",
+            "list",
+            "of",
+            "all",
+            "results",
+            "satisfying",
+            "his",
+            "search",
+            "criteria",
+            "."
+        ]
+    },
+    {
+        "id": "1204",
+        "ner_tags": [
+            "B-no",
+            "B-method",
+            "B-class",
+            "B-attribute"
+        ],
+        "tokens": [
+            "3.2.8",
+            "View",
+            "publication",
+            "details"
+        ]
+    },
+    {
+        "id": "1205",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "view",
+            "details",
+            "of",
+            "a",
+            "selected",
+            "publication"
+        ]
+    },
+    {
+        "id": "1206",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "VUB-network users",
+            "and",
+            "Members",
+            ",",
+            "Publishers",
+            ",",
+            "Moderators",
+            "and",
+            "Administrators"
+        ]
+    },
+    {
+        "id": "1207",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":",
+            "having",
+            "executed",
+            "a",
+            "Search",
+            "and",
+            "viewed",
+            "the",
+            "search",
+            "results",
+            "screen"
+        ]
+    },
+    {
+        "id": "1208",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-no",
+            "B-association",
+            "I-association",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":",
+            "the",
+            "actor",
+            "can",
+            "view",
+            "more",
+            "detailed",
+            "information",
+            "of",
+            "a",
+            "selected",
+            "publication",
+            "byclicking",
+            "the",
+            "title",
+            "of",
+            "the",
+            "publication",
+            "or",
+            "by",
+            "clicking",
+            "the",
+            "view",
+            "button",
+            "located",
+            "behind",
+            "the",
+            "title",
+            "."
+        ]
+    },
+    {
+        "id": "1209",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "none"
+        ]
+    },
+    {
+        "id": "1210",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-no",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ":",
+            "the",
+            "actor",
+            "will",
+            "obtain",
+            "the",
+            "title",
+            ",",
+            "authors",
+            ",",
+            "publication date",
+            ",",
+            "abstract",
+            ",",
+            "cited refer-ences",
+            ", ...",
+            "of",
+            "the",
+            "selected",
+            "publication",
+            "."
+        ]
+    },
+    {
+        "id": "1211",
+        "ner_tags": [
+            "B-no",
+            "B-method",
+            "I-method",
+            "I-method",
+            "B-no",
+            "B-method",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.2.9",
+            "View",
+            "detailed",
+            "information",
+            "for",
+            "multiple",
+            "publications",
+            "."
+        ]
+    },
+    {
+        "id": "1212",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "detailed",
+            "view",
+            "of",
+            "multiple",
+            "publications"
+        ]
+    },
+    {
+        "id": "1213",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "VUB-network users",
+            "and",
+            "Members",
+            ",",
+            "Publishers",
+            ",",
+            "Moderators",
+            "and",
+            "Administrators"
+        ]
+    },
+    {
+        "id": "1214",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":",
+            "having",
+            "executed",
+            "a",
+            "Search",
+            "and",
+            "viewed",
+            "the",
+            "search",
+            "results",
+            "screen"
+        ]
+    },
+    {
+        "id": "1215",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":"
+        ]
+    },
+    {
+        "id": "1216",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "B-association",
+            "I-association",
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2013",
+            "The",
+            "actor",
+            "selects",
+            "some",
+            "of",
+            "the",
+            "publications",
+            "by",
+            "ticking",
+            "the",
+            "box",
+            "in",
+            "front",
+            "of",
+            "the",
+            "titles",
+            "and",
+            "selects",
+            "the",
+            "View",
+            "function"
+        ]
+    },
+    {
+        "id": "1217",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-association",
+            "I-association",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2013",
+            "or",
+            ":",
+            "The",
+            "actor",
+            "selects",
+            "all",
+            "publications",
+            "by",
+            "clicking",
+            "the",
+            "\u2019",
+            "View",
+            "All",
+            "\u2019",
+            "button",
+            "at",
+            "the",
+            "bottom",
+            "of",
+            "the",
+            "screen",
+            "."
+        ]
+    },
+    {
+        "id": "1218",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "none"
+        ]
+    },
+    {
+        "id": "1219",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-method",
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "I-method",
+            "B-no",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "I-attribute",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ":",
+            "the",
+            "actor",
+            "obtains",
+            "a",
+            "set",
+            "of",
+            "screens",
+            "displaying",
+            "the",
+            "title",
+            ",",
+            "authors",
+            ",",
+            "publication date",
+            ",",
+            "abstract",
+            ",",
+            "cited",
+            "references",
+            ", ...",
+            "of",
+            "the",
+            "selected",
+            "publications",
+            "."
+        ]
+    },
+    {
+        "id": "1220",
+        "ner_tags": [
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-class"
+        ],
+        "tokens": [
+            "3.2.10",
+            "Download",
+            "a",
+            "single",
+            "publication"
+        ]
+    },
+    {
+        "id": "1221",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "downloading",
+            "the",
+            "full",
+            "text",
+            "of",
+            "a",
+            "publication"
+        ]
+    },
+    {
+        "id": "1222",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "VUB-network users",
+            "and",
+            "Members",
+            ",",
+            "Publishers",
+            ",",
+            "Moderators",
+            "and",
+            "Administrators"
+        ]
+    },
+    {
+        "id": "1223",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":"
+        ]
+    },
+    {
+        "id": "1224",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2013",
+            "having",
+            "executed",
+            "a",
+            "Search",
+            "and",
+            "viewed",
+            "the",
+            "search",
+            "results",
+            "screen"
+        ]
+    },
+    {
+        "id": "1225",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2013",
+            "having",
+            "entered",
+            "the",
+            "detailed",
+            "view",
+            "screen",
+            "of",
+            "a",
+            "publication"
+        ]
+    },
+    {
+        "id": "1226",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":"
+        ]
+    },
+    {
+        "id": "1227",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2013",
+            "in",
+            "the",
+            "results",
+            "screen",
+            ":",
+            "the",
+            "actor",
+            "can",
+            "download",
+            "a",
+            "selected",
+            "publication",
+            "by",
+            "clicking",
+            "on",
+            "the",
+            "Download",
+            "button",
+            "for",
+            "the",
+            "selected",
+            "publication"
+        ]
+    },
+    {
+        "id": "1228",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2013",
+            "in",
+            "the",
+            "detailed",
+            "view",
+            "screen",
+            "of",
+            "a",
+            "publication",
+            ":",
+            "the",
+            "actor",
+            "can",
+            "download",
+            "the",
+            "publication",
+            "by",
+            "clicking",
+            "the",
+            "Download",
+            "button",
+            "just",
+            "beneath",
+            "the",
+            "abstract",
+            "."
+        ]
+    },
+    {
+        "id": "1229",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "none"
+        ]
+    },
+    {
+        "id": "1230",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ":",
+            "the",
+            "actor",
+            "will",
+            "obtain",
+            "an",
+            "electronic",
+            "copy",
+            "of",
+            "the",
+            "publication",
+            "."
+        ]
+    },
+    {
+        "id": "1231",
+        "ner_tags": [
+            "B-no",
+            "B-method",
+            "I-method",
+            "B-class"
+        ],
+        "tokens": [
+            "3.2.11",
+            "Download",
+            "multiple",
+            "publications"
+        ]
+    },
+    {
+        "id": "1232",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "downloading",
+            "the",
+            "full",
+            "text",
+            "of",
+            "multiple",
+            "publications"
+        ]
+    },
+    {
+        "id": "1233",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "VUB-network users",
+            "and",
+            "Members",
+            ",",
+            "Publishers",
+            ",",
+            "Moderators",
+            "and",
+            "Administrators"
+        ]
+    },
+    {
+        "id": "1234",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":",
+            "having",
+            "executed",
+            "a",
+            "Search",
+            "and",
+            "viewed",
+            "the",
+            "search",
+            "results",
+            "screen"
+        ]
+    },
+    {
+        "id": "1235",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "I-association",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":",
+            "the",
+            "actor",
+            "can",
+            "download",
+            "all",
+            "the",
+            "publications",
+            "in",
+            "a",
+            "search",
+            "result",
+            "by",
+            "clicking",
+            "on",
+            "the",
+            "Download",
+            "button",
+            "next",
+            "to",
+            "\u201d",
+            "All",
+            "\u201d",
+            "at",
+            "the",
+            "bottom",
+            "of",
+            "the",
+            "screen",
+            "."
+        ]
+    },
+    {
+        "id": "1236",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "none"
+        ]
+    },
+    {
+        "id": "1237",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "I-method",
+            "B-no",
+            "I-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ":",
+            "the",
+            "actor",
+            "will",
+            "obtain",
+            "an",
+            "electronic",
+            "copy",
+            "of",
+            "the",
+            "publications",
+            "."
+        ]
+    },
+    {
+        "id": "1238",
+        "ner_tags": [
+            "B-no",
+            "B-method",
+            "B-class",
+            "B-attribute"
+        ],
+        "tokens": [
+            "3.2.12",
+            "Consult",
+            "publication",
+            "references"
+        ]
+    },
+    {
+        "id": "1239",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "consult",
+            "the",
+            "references",
+            "cited",
+            "in",
+            "a",
+            "publication",
+            "resulting",
+            "from",
+            "a",
+            "search",
+            "done",
+            "on",
+            "the",
+            "system"
+        ]
+    },
+    {
+        "id": "1240",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "VUB-network users",
+            "and",
+            "Members",
+            ",",
+            "Publishers",
+            ",",
+            "Moderators",
+            "and",
+            "Administrators"
+        ]
+    },
+    {
+        "id": "1241",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":"
+        ]
+    },
+    {
+        "id": "1242",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2013",
+            "having",
+            "executed",
+            "a",
+            "Search",
+            "and",
+            "viewed",
+            "the",
+            "search",
+            "results",
+            "screen"
+        ]
+    },
+    {
+        "id": "1243",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2013",
+            "having",
+            "entered",
+            "the",
+            "detailed",
+            "view",
+            "screen",
+            "of",
+            "a",
+            "publication"
+        ]
+    },
+    {
+        "id": "1244",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":"
+        ]
+    },
+    {
+        "id": "1245",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2013",
+            "in",
+            "the",
+            "results",
+            "screen",
+            ":",
+            "the",
+            "actor",
+            "clicks",
+            "on",
+            "the",
+            "reference button",
+            "located",
+            "behind",
+            "the",
+            "publication",
+            "title"
+        ]
+    },
+    {
+        "id": "1246",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2013",
+            "in",
+            "the",
+            "detailed",
+            "view",
+            "screen",
+            "of",
+            "a",
+            "publication",
+            ":",
+            "the",
+            "actor",
+            "clicks",
+            "on",
+            "the",
+            "reference button",
+            "just",
+            "under",
+            "the",
+            "abstract",
+            "."
+        ]
+    },
+    {
+        "id": "1247",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "none"
+        ]
+    },
+    {
+        "id": "1248",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "B-no",
+            "B-attribute",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ":",
+            "the",
+            "actor",
+            "will",
+            "obtain",
+            "a",
+            "screen",
+            "displaying",
+            "the",
+            "title",
+            ",",
+            "authors",
+            ",",
+            "publication date",
+            ",",
+            "abstract",
+            "and",
+            "cited references",
+            "of",
+            "the",
+            "selected",
+            "reference",
+            "."
+        ]
+    },
+    {
+        "id": "1249",
+        "ner_tags": [
+            "B-no",
+            "B-method",
+            "I-method",
+            "B-no",
+            "B-method",
+            "B-class"
+        ],
+        "tokens": [
+            "3.2.13",
+            "Consult",
+            "references",
+            "for",
+            "multiple",
+            "publications"
+        ]
+    },
+    {
+        "id": "1250",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "consult",
+            "the",
+            "references",
+            "cited",
+            "in",
+            "all",
+            "the",
+            "publications",
+            "resulting",
+            "from",
+            "a",
+            "search",
+            "done",
+            "on",
+            "the",
+            "system"
+        ]
+    },
+    {
+        "id": "1251",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "VUB-network users",
+            "and",
+            "Members",
+            ",",
+            "Publishers",
+            ",",
+            "Moderators",
+            "and",
+            "Administrators"
+        ]
+    },
+    {
+        "id": "1252",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":",
+            "having",
+            "executed",
+            "a",
+            "Search",
+            "and",
+            "viewed",
+            "the",
+            "search",
+            "results",
+            "screen"
+        ]
+    },
+    {
+        "id": "1253",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "I-method",
+            "B-no",
+            "B-attribute",
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":",
+            "the",
+            "actor",
+            "can",
+            "see",
+            "all",
+            "the",
+            "references cited",
+            "in",
+            "the",
+            "publications",
+            "by",
+            "clicking",
+            "on",
+            "the",
+            "references",
+            "button",
+            "next",
+            "to",
+            "\u201d",
+            "All",
+            "\u201d",
+            "at",
+            "the",
+            "bottom",
+            "of",
+            "the",
+            "screen",
+            "."
+        ]
+    },
+    {
+        "id": "1254",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "none"
+        ]
+    },
+    {
+        "id": "1255",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "O",
+            "B-no",
+            "B-attribute",
+            "B-no",
+            "I-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ":",
+            "the",
+            "actor",
+            "will",
+            "obtain",
+            "a",
+            "list",
+            "of",
+            "references cited",
+            "in",
+            "the",
+            "publications",
+            "."
+        ]
+    },
+    {
+        "id": "1256",
+        "ner_tags": [
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-class"
+        ],
+        "tokens": [
+            "3.2.14",
+            "Display",
+            "the",
+            "full",
+            "text",
+            "of",
+            "a",
+            "publication"
+        ]
+    },
+    {
+        "id": "1257",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "obtain",
+            "a",
+            "copy",
+            "of",
+            "the",
+            "full",
+            "text",
+            "of",
+            "a",
+            "publication",
+            "resulting",
+            "from",
+            "a",
+            "search",
+            "done",
+            "on",
+            "the",
+            "system"
+        ]
+    },
+    {
+        "id": "1258",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "VUB-network users",
+            "and",
+            "Members",
+            ",",
+            "Publishers",
+            ",",
+            "Moderators",
+            "and",
+            "Administrators"
+        ]
+    },
+    {
+        "id": "1259",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":",
+            "having",
+            "entered",
+            "the",
+            "detailed",
+            "view",
+            "screen",
+            "of",
+            "a",
+            "publication"
+        ]
+    },
+    {
+        "id": "1260",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-method",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":",
+            "in",
+            "the",
+            "detailed",
+            "view",
+            "screen",
+            "of",
+            "a",
+            "publication",
+            ":",
+            "the",
+            "actor",
+            "displays",
+            "the",
+            "fulltext",
+            "of",
+            "the",
+            "publication",
+            "by",
+            "clicking",
+            "the",
+            "full",
+            "text",
+            "button",
+            "just",
+            "under",
+            "the",
+            "abstract",
+            "."
+        ]
+    },
+    {
+        "id": "1261",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "full",
+            "text",
+            "must",
+            "be",
+            "available",
+            "in",
+            "the",
+            "system"
+        ]
+    },
+    {
+        "id": "1262",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ":",
+            "the",
+            "actor",
+            "will",
+            "see",
+            "the",
+            "full text",
+            "of",
+            "the",
+            "publication",
+            "."
+        ]
+    },
+    {
+        "id": "1263",
+        "ner_tags": [
+            "B-no",
+            "B-method",
+            "I-method",
+            "B-no",
+            "I-no",
+            "B-attribute"
+        ],
+        "tokens": [
+            "3.2.15",
+            "View",
+            "details",
+            "of",
+            "a",
+            "reference"
+        ]
+    },
+    {
+        "id": "1264",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "view",
+            "details",
+            "of",
+            "a",
+            "selected",
+            "reference",
+            "cited",
+            "in",
+            "a",
+            "publication",
+            "resulting",
+            "from",
+            "a",
+            "search",
+            "done",
+            "on",
+            "the",
+            "system"
+        ]
+    },
+    {
+        "id": "1265",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "VUB-network users",
+            "and",
+            "Members",
+            ",",
+            "Publishers",
+            ",",
+            "Moderators",
+            "and",
+            "Administrators"
+        ]
+    },
+    {
+        "id": "1266",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":",
+            "having",
+            "entered",
+            "the",
+            "detailed",
+            "view",
+            "screen",
+            "of",
+            "a",
+            "publication"
+        ]
+    },
+    {
+        "id": "1267",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":",
+            "in",
+            "the",
+            "detailed",
+            "view",
+            "screen",
+            "of",
+            "a",
+            "publication",
+            ",",
+            "the",
+            "actor",
+            "can",
+            "access",
+            "directly",
+            "to",
+            "the",
+            "detailed view screen",
+            "of",
+            "a",
+            "cited reference",
+            "by",
+            "clicking",
+            "on",
+            "the",
+            "reference"
+        ]
+    },
+    {
+        "id": "1268",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "only",
+            "when",
+            "the",
+            "reference",
+            "is",
+            "present",
+            "in",
+            "the",
+            "system"
+        ]
+    },
+    {
+        "id": "1269",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "O",
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ":",
+            "the",
+            "actor",
+            "will",
+            "access",
+            "the",
+            "view screen",
+            "(",
+            "containing",
+            "title",
+            ",",
+            "authors",
+            ",",
+            "data",
+            "of",
+            "publication",
+            ",",
+            "abstract",
+            "and",
+            "cited",
+            "reference",
+            ")",
+            "of",
+            "the",
+            "selected",
+            "reference",
+            "."
+        ]
+    },
+    {
+        "id": "1270",
+        "ner_tags": [
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-attribute",
+            "B-no",
+            "I-no",
+            "B-class",
+            "O",
+            "B-method",
+            "O"
+        ],
+        "tokens": [
+            "3.2.16",
+            "Export",
+            "the",
+            "references cited",
+            "in",
+            "a",
+            "publication",
+            "(",
+            "BIB format",
+            ")"
+        ]
+    },
+    {
+        "id": "1271",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-class",
+            "B-no",
+            "B-attribute",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "download",
+            "the",
+            "references cited",
+            "in",
+            "a",
+            "publication",
+            "in",
+            "bib",
+            "format"
+        ]
+    },
+    {
+        "id": "1272",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "VUB-network users",
+            "and",
+            "Members",
+            ",",
+            "Publishers",
+            ",",
+            "Moderators",
+            "and",
+            "Administrators"
+        ]
+    },
+    {
+        "id": "1273",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":",
+            "having",
+            "entered",
+            "the",
+            "detailed",
+            "view",
+            "screen",
+            "of",
+            "a",
+            "publication"
+        ]
+    },
+    {
+        "id": "1274",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-method",
+            "B-no",
+            "B-method",
+            "O",
+            "B-method",
+            "O",
+            "B-no",
+            "I-no",
+            "B-method",
+            "B-attribute",
+            "B-no",
+            "B-method",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":",
+            "in",
+            "the",
+            "detailed",
+            "view",
+            "screen",
+            "of",
+            "a",
+            "publication",
+            ":",
+            "the",
+            "actor",
+            "selects",
+            "the",
+            "format",
+            "(",
+            "bib",
+            ")",
+            "for",
+            "the",
+            "exported",
+            "references",
+            "and",
+            "confirms",
+            "."
+        ]
+    },
+    {
+        "id": "1275",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "none"
+        ]
+    },
+    {
+        "id": "1276",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ": File",
+            "with",
+            "the",
+            "references",
+            "of",
+            "a",
+            "publication",
+            "in",
+            "bib",
+            "format"
+        ]
+    },
+    {
+        "id": "1277",
+        "ner_tags": [
+            "I-no",
+            "B-method",
+            "B-no",
+            "B-attribute",
+            "B-no",
+            "I-no",
+            "B-class",
+            "O",
+            "B-method",
+            "O"
+        ],
+        "tokens": [
+            "3.2.17",
+            "Export",
+            "the",
+            "references cited",
+            "in",
+            "a",
+            "publication",
+            "(",
+            "RIS format",
+            ")"
+        ]
+    },
+    {
+        "id": "1278",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "download",
+            "the",
+            "references",
+            "cited",
+            "in",
+            "a",
+            "publication",
+            "in",
+            "RIS",
+            "format"
+        ]
+    },
+    {
+        "id": "1279",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "VUB-network users",
+            "and",
+            "Members",
+            ",",
+            "Publishers",
+            ",",
+            "Moderators",
+            "and",
+            "Administrators"
+        ]
+    },
+    {
+        "id": "1280",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":",
+            "having",
+            "entered",
+            "the",
+            "detailed",
+            "view",
+            "screen",
+            "of",
+            "a",
+            "publication"
+        ]
+    },
+    {
+        "id": "1281",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "O",
+            "B-no",
+            "B-class",
+            "B-method",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-method",
+            "B-attribute",
+            "B-no",
+            "B-method",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":",
+            "in",
+            "the",
+            "detailed",
+            "view",
+            "screen",
+            "of",
+            "a",
+            "publication",
+            ":",
+            "the",
+            "actor",
+            "selects",
+            "the",
+            "format(RIS)",
+            "for",
+            "the",
+            "exported",
+            "references",
+            "and",
+            "confirms",
+            "."
+        ]
+    },
+    {
+        "id": "1282",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "none"
+        ]
+    },
+    {
+        "id": "1283",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ":",
+            "file",
+            "with",
+            "the",
+            "references",
+            "of",
+            "a",
+            "publication",
+            "in",
+            "RIS",
+            "format"
+        ]
+    },
+    {
+        "id": "1284",
+        "ner_tags": [
+            "I-no",
+            "B-method",
+            "B-attribute"
+        ],
+        "tokens": [
+            "3.2.18",
+            "View",
+            "authors"
+        ]
+    },
+    {
+        "id": "1285",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "view",
+            "information",
+            "about",
+            "an",
+            "author",
+            "of",
+            "a",
+            "publication",
+            "in",
+            "the",
+            "system"
+        ]
+    },
+    {
+        "id": "1286",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "VUB-network users",
+            "and",
+            "Members",
+            ",",
+            "Publishers",
+            ",",
+            "Moderators",
+            "and",
+            "Administrators"
+        ]
+    },
+    {
+        "id": "1287",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":",
+            "having",
+            "executed",
+            "a",
+            "publication",
+            "search",
+            "and",
+            "viewed",
+            "the",
+            "search",
+            "results",
+            "screen"
+        ]
+    },
+    {
+        "id": "1288",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-method",
+            "I-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":",
+            "in",
+            "the",
+            "results",
+            "screen",
+            ":",
+            "the",
+            "actor",
+            "clicks",
+            "on",
+            "the",
+            "author",
+            "name",
+            "of",
+            "one",
+            "of",
+            "the",
+            "publications"
+        ]
+    },
+    {
+        "id": "1289",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "none"
+        ]
+    },
+    {
+        "id": "1290",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ":",
+            "the",
+            "system",
+            "shows",
+            "the",
+            "author",
+            "details"
+        ]
+    },
+    {
+        "id": "1291",
+        "ner_tags": [
+            "I-no",
+            "B-method",
+            "I-method"
+        ],
+        "tokens": [
+            "3.2.19",
+            "Editing",
+            "personal data"
+        ]
+    },
+    {
+        "id": "1292",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "editing",
+            "personal",
+            "data"
+        ]
+    },
+    {
+        "id": "1293",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "Members",
+            ",",
+            "Publishers",
+            ",",
+            "Moderators",
+            "and",
+            "Administrators"
+        ]
+    },
+    {
+        "id": "1294",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":",
+            "the",
+            "actor",
+            "needs",
+            "to",
+            "be",
+            "logged",
+            "in",
+            "to",
+            "the",
+            "system"
+        ]
+    },
+    {
+        "id": "1295",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":"
+        ]
+    },
+    {
+        "id": "1296",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "B-method",
+            "B-no",
+            "B-method",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2013",
+            "the",
+            "actor",
+            "selects",
+            "the",
+            "Edit Settings",
+            "function"
+        ]
+    },
+    {
+        "id": "1297",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "B-method",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "O",
+            "B-attribute"
+        ],
+        "tokens": [
+            "\u2013",
+            "the",
+            "actor",
+            "changes",
+            "his",
+            "personal data",
+            "such",
+            "as",
+            "password",
+            ",",
+            "university",
+            ",",
+            "department"
+        ]
+    },
+    {
+        "id": "1298",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "B-method"
+        ],
+        "tokens": [
+            "\u2013",
+            "the",
+            "actor",
+            "confirms"
+        ]
+    },
+    {
+        "id": "1299",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "none"
+        ]
+    },
+    {
+        "id": "1300",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ":",
+            "the",
+            "personal",
+            "data",
+            "of",
+            "the",
+            "user",
+            "will",
+            "be",
+            "changed"
+        ]
+    },
+    {
+        "id": "1301",
+        "ner_tags": [
+            "I-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-method",
+            "B-class"
+        ],
+        "tokens": [
+            "3.2.20",
+            "Access",
+            "to",
+            "your",
+            "own",
+            "publications"
+        ]
+    },
+    {
+        "id": "1302",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "access",
+            "directly",
+            "to",
+            "your",
+            "own",
+            "publications"
+        ]
+    },
+    {
+        "id": "1303",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "Publishers",
+            ",",
+            "Moderators",
+            "and",
+            "Administrators"
+        ]
+    },
+    {
+        "id": "1304",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":",
+            "none"
+        ]
+    },
+    {
+        "id": "1305",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-method",
+            "B-no",
+            "B-method",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":",
+            "the",
+            "Publisher",
+            "selects",
+            "the",
+            "\u201dMy Publications",
+            "\u201d",
+            "box"
+        ]
+    },
+    {
+        "id": "1306",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "none"
+        ]
+    },
+    {
+        "id": "1307",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-method",
+            "B-no",
+            "B-method",
+            "I-method",
+            "B-no",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "B-no",
+            "B-attribute",
+            "I-attribute",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ":",
+            "the",
+            "user",
+            "obtains",
+            "a",
+            "set of screens",
+            "displaying",
+            "the",
+            "title",
+            ",",
+            "authors",
+            ",",
+            "publication date",
+            ",",
+            "abstract",
+            "and",
+            "cited",
+            "references",
+            "of",
+            "the",
+            "all",
+            "the",
+            "publications",
+            "that",
+            "he",
+            "/",
+            "she",
+            "has",
+            "previously",
+            "uploaded",
+            "in",
+            "the",
+            "system"
+        ]
+    },
+    {
+        "id": "1308",
+        "ner_tags": [
+            "I-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "B-class"
+        ],
+        "tokens": [
+            "3.2.21",
+            "Edit",
+            "your",
+            "own",
+            "publications"
+        ]
+    },
+    {
+        "id": "1309",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "possibility",
+            "to",
+            "modify",
+            "information",
+            "of",
+            "your",
+            "own",
+            "publications",
+            "by",
+            "a",
+            "Publisher"
+        ]
+    },
+    {
+        "id": "1310",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "Publishers",
+            ",",
+            "Moderators",
+            "and",
+            "Administrators"
+        ]
+    },
+    {
+        "id": "1311",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":",
+            "the",
+            "actor",
+            "needs",
+            "to",
+            "be",
+            "logged",
+            "in",
+            "to",
+            "the",
+            "system",
+            "and",
+            "has",
+            "done",
+            "a",
+            "\u201d",
+            "MyPublications",
+            "\u201d",
+            "search"
+        ]
+    },
+    {
+        "id": "1312",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":"
+        ]
+    },
+    {
+        "id": "1313",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-association",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-association",
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "O"
+        ],
+        "tokens": [
+            "\u2013",
+            "in",
+            "the",
+            "results",
+            "screen",
+            ":",
+            "the",
+            "actor",
+            "chooses",
+            "a",
+            "publication",
+            "from",
+            "the",
+            "list",
+            ",",
+            "edits",
+            "the",
+            "publication",
+            "and",
+            "confirms",
+            "his",
+            "changes",
+            "."
+        ]
+    },
+    {
+        "id": "1314",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2013",
+            "via",
+            "the",
+            "My",
+            "Publications",
+            "search",
+            ":",
+            "the",
+            "list",
+            "of",
+            "Publisher",
+            "publications",
+            "will",
+            "be",
+            "displayed",
+            "and",
+            "editing",
+            "is",
+            "possible",
+            "by",
+            "ticking",
+            "the",
+            "\u201d",
+            "edit",
+            "\u201d",
+            "box"
+        ]
+    },
+    {
+        "id": "1315",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "only",
+            "for",
+            "publications",
+            "owned",
+            "by",
+            "the",
+            "actor"
+        ]
+    },
+    {
+        "id": "1316",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ":",
+            "changes",
+            "are",
+            "applied",
+            "to",
+            "the",
+            "publication",
+            "in",
+            "the",
+            "system",
+            "."
+        ]
+    },
+    {
+        "id": "1317",
+        "ner_tags": [
+            "B-no",
+            "B-method",
+            "B-class"
+        ],
+        "tokens": [
+            "3.2.22",
+            "Upload",
+            "publications"
+        ]
+    },
+    {
+        "id": "1318",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "add",
+            "a",
+            "publication",
+            "to",
+            "the",
+            "system"
+        ]
+    },
+    {
+        "id": "1319",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "Publishers",
+            ",",
+            "Moderators",
+            "and",
+            "Administrators"
+        ]
+    },
+    {
+        "id": "1320",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":",
+            "The",
+            "actor",
+            "has",
+            "a",
+            "document",
+            "in",
+            "one",
+            "of",
+            "the",
+            "supported",
+            "formats",
+            ":",
+            "pdf",
+            ",",
+            "ps",
+            ",",
+            "odt"
+        ]
+    },
+    {
+        "id": "1321",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":"
+        ]
+    },
+    {
+        "id": "1322",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "B-method",
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-method",
+            "O"
+        ],
+        "tokens": [
+            "\u2013",
+            "The",
+            "actor",
+            "selects",
+            "the",
+            "document",
+            "to",
+            "add",
+            "to",
+            "the",
+            "system",
+            "and",
+            "confirms",
+            "."
+        ]
+    },
+    {
+        "id": "1323",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-class",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-method",
+            "O"
+        ],
+        "tokens": [
+            "\u2013",
+            "The",
+            "system",
+            "tries",
+            "to",
+            "retrieve",
+            "the",
+            "publication",
+            "details",
+            "from",
+            "the",
+            "document",
+            "."
+        ]
+    },
+    {
+        "id": "1324",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-method",
+            "I-method",
+            "O"
+        ],
+        "tokens": [
+            "\u2013",
+            "The",
+            "system",
+            "shows",
+            "the",
+            "new",
+            "publication",
+            "with",
+            "the",
+            "retrieved",
+            "information",
+            "."
+        ]
+    },
+    {
+        "id": "1325",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "O",
+            "B-no",
+            "O",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "O"
+        ],
+        "tokens": [
+            "\u2013",
+            "The",
+            "actor",
+            "ei",
+            "the",
+            "r",
+            "accepts",
+            "or",
+            "makes",
+            "some",
+            "changes",
+            "to",
+            "the",
+            "publication",
+            "and",
+            "confirms",
+            "the",
+            "changes",
+            "."
+        ]
+    },
+    {
+        "id": "1326",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "none"
+        ]
+    },
+    {
+        "id": "1327",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ":",
+            "the",
+            "system",
+            "contains",
+            "a",
+            "new",
+            "publication"
+        ]
+    },
+    {
+        "id": "1328",
+        "ner_tags": [
+            "I-no",
+            "B-class",
+            "B-no"
+        ],
+        "tokens": [
+            "3.2.23",
+            "Search",
+            "users"
+        ]
+    },
+    {
+        "id": "1329",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "searching",
+            "users",
+            "in",
+            "the",
+            "system"
+        ]
+    },
+    {
+        "id": "1330",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "Moderators",
+            "and",
+            "Administrators"
+        ]
+    },
+    {
+        "id": "1331",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":",
+            "the",
+            "actor",
+            "needs",
+            "to",
+            "be",
+            "logged",
+            "into",
+            "the",
+            "system"
+        ]
+    },
+    {
+        "id": "1332",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":"
+        ]
+    },
+    {
+        "id": "1333",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-association",
+            "B-class",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2013",
+            "the",
+            "actor",
+            "selects",
+            "the",
+            "Search",
+            "Users",
+            "function",
+            "."
+        ]
+    },
+    {
+        "id": "1334",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-method",
+            "O"
+        ],
+        "tokens": [
+            "\u2013",
+            "the",
+            "actor",
+            "fills",
+            "in",
+            "some",
+            "search criteria",
+            "."
+        ]
+    },
+    {
+        "id": "1335",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "O"
+        ],
+        "tokens": [
+            "\u2013",
+            "the",
+            "system",
+            "shows",
+            "the",
+            "results",
+            "."
+        ]
+    },
+    {
+        "id": "1336",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "non",
+            "e"
+        ]
+    },
+    {
+        "id": "1337",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ":",
+            "list",
+            "of",
+            "users",
+            "meeting",
+            "the",
+            "search",
+            "criteria"
+        ]
+    },
+    {
+        "id": "1338",
+        "ner_tags": [
+            "I-no",
+            "B-method",
+            "B-class",
+            "B-method"
+        ],
+        "tokens": [
+            "3.2.24",
+            "Edit",
+            "user",
+            "settings"
+        ]
+    },
+    {
+        "id": "1339",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "Select",
+            "a",
+            "system",
+            "user",
+            "(",
+            "Members",
+            ",",
+            "Publishers",
+            ",",
+            "Moderators",
+            ")",
+            "and",
+            "change",
+            "his",
+            "settings"
+        ]
+    },
+    {
+        "id": "1340",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "Moderators",
+            "and",
+            "Administrators"
+        ]
+    },
+    {
+        "id": "1341",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":",
+            "a",
+            "list",
+            "of",
+            "users",
+            "as",
+            "resulting",
+            "from",
+            "the",
+            "user",
+            "search",
+            "function",
+            "."
+        ]
+    },
+    {
+        "id": "1342",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":"
+        ]
+    },
+    {
+        "id": "1343",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "B-association",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2013",
+            "The",
+            "actor",
+            "selects",
+            "a",
+            "user",
+            "from",
+            "a",
+            "list",
+            "of",
+            "users",
+            "resulting",
+            "from",
+            "a",
+            "search",
+            "query",
+            "."
+        ]
+    },
+    {
+        "id": "1344",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "B-association",
+            "B-no",
+            "B-class",
+            "B-association",
+            "O"
+        ],
+        "tokens": [
+            "\u2013",
+            "The",
+            "actor",
+            "changes",
+            "the",
+            "user",
+            "settings",
+            "."
+        ]
+    },
+    {
+        "id": "1345",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "B-method",
+            "B-no",
+            "B-method",
+            "O"
+        ],
+        "tokens": [
+            "\u2013",
+            "The",
+            "actor",
+            "confirms",
+            "the",
+            "changes",
+            "."
+        ]
+    },
+    {
+        "id": "1346",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "none"
+        ]
+    },
+    {
+        "id": "1347",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ":",
+            "the",
+            "user",
+            "settings",
+            "are",
+            "changed"
+        ]
+    },
+    {
+        "id": "1348",
+        "ner_tags": [
+            "I-no",
+            "B-method",
+            "B-class"
+        ],
+        "tokens": [
+            "3.2.25",
+            "Create",
+            "User"
+        ]
+    },
+    {
+        "id": "1349",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "create",
+            "a",
+            "new",
+            "user"
+        ]
+    },
+    {
+        "id": "1350",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "Administrator"
+        ]
+    },
+    {
+        "id": "1351",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":",
+            "none"
+        ]
+    },
+    {
+        "id": "1352",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":"
+        ]
+    },
+    {
+        "id": "1353",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-association",
+            "B-class",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2013",
+            "Administrator",
+            "selects",
+            "the",
+            "Create",
+            "User",
+            "function"
+        ]
+    },
+    {
+        "id": "1354",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-association",
+            "B-no",
+            "B-class",
+            "B-no",
+            "O",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "O",
+            "B-attribute"
+        ],
+        "tokens": [
+            "\u2013",
+            "Administrator",
+            "fills",
+            "in",
+            "user",
+            "details",
+            ":",
+            "username",
+            ",",
+            "password",
+            ",",
+            "email",
+            ",",
+            "group"
+        ]
+    },
+    {
+        "id": "1355",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-method"
+        ],
+        "tokens": [
+            "\u2013",
+            "Administrator",
+            "confirms"
+        ]
+    },
+    {
+        "id": "1356",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "the",
+            "username",
+            "already",
+            "exists",
+            "in",
+            "the",
+            "system"
+        ]
+    },
+    {
+        "id": "1357",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ":",
+            "the",
+            "system",
+            "contains",
+            "a",
+            "new",
+            "user"
+        ]
+    },
+    {
+        "id": "1358",
+        "ner_tags": [
+            "B-no",
+            "B-method",
+            "B-class"
+        ],
+        "tokens": [
+            "3.2.26",
+            "Delete",
+            "User"
+        ]
+    },
+    {
+        "id": "1359",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "delete",
+            "an",
+            "existing",
+            "user"
+        ]
+    },
+    {
+        "id": "1360",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "Administrator"
+        ]
+    },
+    {
+        "id": "1361",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":",
+            "none"
+        ]
+    },
+    {
+        "id": "1362",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":"
+        ]
+    },
+    {
+        "id": "1363",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-association",
+            "B-class",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2013",
+            "Administrator",
+            "selects",
+            "the",
+            "Delete",
+            "User",
+            "function"
+        ]
+    },
+    {
+        "id": "1364",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-method",
+            "B-no",
+            "B-attribute"
+        ],
+        "tokens": [
+            "\u2013",
+            "Administrator",
+            "fills",
+            "in",
+            "username"
+        ]
+    },
+    {
+        "id": "1365",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-method",
+            "B-class",
+            "B-method"
+        ],
+        "tokens": [
+            "\u2013",
+            "System",
+            "shows",
+            "user",
+            "details"
+        ]
+    },
+    {
+        "id": "1366",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-method"
+        ],
+        "tokens": [
+            "\u2013",
+            "Administrator",
+            "confirms"
+        ]
+    },
+    {
+        "id": "1367",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "the",
+            "username",
+            "does",
+            "not",
+            "exist",
+            "in",
+            "the",
+            "system"
+        ]
+    },
+    {
+        "id": "1368",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ":",
+            "the",
+            "user",
+            "is",
+            "deleted",
+            "in",
+            "the",
+            "system"
+        ]
+    },
+    {
+        "id": "1369",
+        "ner_tags": [
+            "I-no",
+            "B-method",
+            "B-class"
+        ],
+        "tokens": [
+            "3.2.27",
+            "Create",
+            "Group"
+        ]
+    },
+    {
+        "id": "1370",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "create",
+            "a",
+            "new",
+            "group"
+        ]
+    },
+    {
+        "id": "1371",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "Administrator"
+        ]
+    },
+    {
+        "id": "1372",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":",
+            "none"
+        ]
+    },
+    {
+        "id": "1373",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":"
+        ]
+    },
+    {
+        "id": "1374",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-association",
+            "B-class",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2013",
+            "Administrator",
+            "selects",
+            "the",
+            "Create",
+            "Group",
+            "function"
+        ]
+    },
+    {
+        "id": "1375",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-method",
+            "B-no",
+            "B-class",
+            "B-no",
+            "O",
+            "B-attribute",
+            "O",
+            "B-attribute"
+        ],
+        "tokens": [
+            "\u2013",
+            "Administrator",
+            "fills",
+            "in",
+            "group",
+            "details",
+            ":",
+            "groupname",
+            ",",
+            "users"
+        ]
+    },
+    {
+        "id": "1376",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-method"
+        ],
+        "tokens": [
+            "\u2013",
+            "Administrator",
+            "confirms"
+        ]
+    },
+    {
+        "id": "1377",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "the",
+            "groupname",
+            "already",
+            "exists",
+            "in",
+            "the",
+            "system"
+        ]
+    },
+    {
+        "id": "1378",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ":",
+            "the",
+            "system",
+            "contains",
+            "a",
+            "new",
+            "group"
+        ]
+    },
+    {
+        "id": "1379",
+        "ner_tags": [
+            "I-no",
+            "B-method",
+            "B-class"
+        ],
+        "tokens": [
+            "3.2.28",
+            "Search",
+            "Group"
+        ]
+    },
+    {
+        "id": "1380",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "select",
+            "a",
+            "group",
+            "from",
+            "a",
+            "list",
+            "in",
+            "order",
+            "to",
+            "view",
+            "the",
+            "group",
+            "details"
+        ]
+    },
+    {
+        "id": "1381",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "Administrator"
+        ]
+    },
+    {
+        "id": "1382",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":",
+            "none"
+        ]
+    },
+    {
+        "id": "1383",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":"
+        ]
+    },
+    {
+        "id": "1384",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-method",
+            "B-class",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2013",
+            "Administrator",
+            "selects",
+            "the",
+            "Search",
+            "Group",
+            "function"
+        ]
+    },
+    {
+        "id": "1385",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-method",
+            "B-class",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2013",
+            "Administrator",
+            "fills in",
+            "group",
+            "details"
+        ]
+    },
+    {
+        "id": "1386",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-method",
+            "I-method",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2013",
+            "System",
+            "shows",
+            "search",
+            "results"
+        ]
+    },
+    {
+        "id": "1387",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "none"
+        ]
+    },
+    {
+        "id": "1388",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ":",
+            "a",
+            "list",
+            "of",
+            "groups",
+            "fulfilling",
+            "the",
+            "search",
+            "criteria"
+        ]
+    },
+    {
+        "id": "1389",
+        "ner_tags": [
+            "I-no",
+            "B-method",
+            "B-class"
+        ],
+        "tokens": [
+            "3.2.29",
+            "Delete",
+            "Group"
+        ]
+    },
+    {
+        "id": "1390",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "delete",
+            "an",
+            "existing",
+            "group",
+            "in",
+            "the",
+            "system"
+        ]
+    },
+    {
+        "id": "1391",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "Administrator"
+        ]
+    },
+    {
+        "id": "1392",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":",
+            "the",
+            "group",
+            "must",
+            "be",
+            "empty",
+            "(",
+            "no",
+            "users",
+            ")"
+        ]
+    },
+    {
+        "id": "1393",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":"
+        ]
+    },
+    {
+        "id": "1394",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-association",
+            "B-class",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2013",
+            "Administrator",
+            "selects",
+            "the",
+            "Delete",
+            "Group",
+            "functio",
+            "n"
+        ]
+    },
+    {
+        "id": "1395",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-method",
+            "B-no",
+            "B-method"
+        ],
+        "tokens": [
+            "\u2013",
+            "Administrator",
+            "fills",
+            "in",
+            "groupname"
+        ]
+    },
+    {
+        "id": "1396",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-method",
+            "B-class",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2013",
+            "System",
+            "shows",
+            "group",
+            "details"
+        ]
+    },
+    {
+        "id": "1397",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2013",
+            "Administrator",
+            "confirms"
+        ]
+    },
+    {
+        "id": "1398",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-attribute",
+            "B-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "the",
+            "groupname",
+            "does",
+            "not",
+            "exist",
+            "in",
+            "the",
+            "system",
+            "or",
+            "the",
+            "group",
+            "is",
+            "not",
+            "empy"
+        ]
+    },
+    {
+        "id": "1399",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ":",
+            "the",
+            "group",
+            "is",
+            "deleted",
+            "in",
+            "the",
+            "system"
+        ]
+    },
+    {
+        "id": "1400",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "3.2.30",
+            "Edit",
+            "group",
+            "settings"
+        ]
+    },
+    {
+        "id": "1401",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "Select",
+            "a",
+            "system",
+            "group",
+            "and",
+            "change",
+            "its",
+            "settings"
+        ]
+    },
+    {
+        "id": "1402",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "Administrators"
+        ]
+    },
+    {
+        "id": "1403",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":",
+            "a",
+            "list",
+            "of",
+            "groups",
+            "as",
+            "resulting",
+            "from",
+            "the",
+            "group",
+            "search",
+            "function",
+            "."
+        ]
+    },
+    {
+        "id": "1404",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":"
+        ]
+    },
+    {
+        "id": "1405",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "B-association",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2013",
+            "The",
+            "actor",
+            "selects",
+            "a",
+            "group",
+            "from",
+            "a",
+            "list",
+            "of",
+            "groups",
+            "resulting",
+            "from",
+            "a",
+            "search",
+            "query."
+        ]
+    },
+    {
+        "id": "1406",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "B-association",
+            "B-no",
+            "B-class",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2013",
+            "The",
+            "actor",
+            "changes",
+            "the",
+            "group",
+            "settings",
+            "."
+        ]
+    },
+    {
+        "id": "1407",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "B-method",
+            "B-no",
+            "B-method",
+            "O"
+        ],
+        "tokens": [
+            "\u2013",
+            "The",
+            "actor",
+            "confirms",
+            "the",
+            "changes",
+            "."
+        ]
+    },
+    {
+        "id": "1408",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "none"
+        ]
+    },
+    {
+        "id": "1409",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ":",
+            "the",
+            "group",
+            "settings",
+            "are",
+            "changed"
+        ]
+    },
+    {
+        "id": "1410",
+        "ner_tags": [
+            "I-no",
+            "B-method",
+            "B-no",
+            "B-class",
+            "B-no"
+        ],
+        "tokens": [
+            "3.2.31",
+            "Edit",
+            "system",
+            "configuration",
+            "settings"
+        ]
+    },
+    {
+        "id": "1411",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Summary",
+            ":",
+            "access",
+            "the",
+            "configuration",
+            "panel",
+            "in",
+            "order",
+            "to",
+            "change",
+            "the",
+            "system",
+            "configuration",
+            "settings",
+            "."
+        ]
+    },
+    {
+        "id": "1412",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "\u2022",
+            "Actors",
+            ":",
+            "Administrators"
+        ]
+    },
+    {
+        "id": "1413",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Preconditions",
+            ":",
+            "none"
+        ]
+    },
+    {
+        "id": "1414",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "\u2022",
+            "Description",
+            ":"
+        ]
+    },
+    {
+        "id": "1415",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-association",
+            "B-no",
+            "B-class",
+            "B-association",
+            "O"
+        ],
+        "tokens": [
+            "\u2013",
+            "Administrator",
+            "accesses",
+            "the",
+            "configuration",
+            "panel",
+            "."
+        ]
+    },
+    {
+        "id": "1416",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-association",
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-association"
+        ],
+        "tokens": [
+            "\u2013",
+            "Administrator",
+            "changes",
+            "the",
+            "system",
+            "configuration",
+            "settings"
+        ]
+    },
+    {
+        "id": "1417",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-method",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2013",
+            "Administrator",
+            "confirms",
+            "the",
+            "changes"
+        ]
+    },
+    {
+        "id": "1418",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Exceptions",
+            ":",
+            "none"
+        ]
+    },
+    {
+        "id": "1419",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "\u2022",
+            "Result",
+            ":",
+            "configuration",
+            "changes",
+            "are",
+            "applied",
+            "to",
+            "the",
+            "system"
+        ]
+    }
+]

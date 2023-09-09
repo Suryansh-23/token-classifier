@@ -1,0 +1,17 @@
+[
+    {
+        "id": "3975",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "CASE STUDY",
+            "Hospital",
+            "Management",
+            "System"
+        ]
+    }
+]

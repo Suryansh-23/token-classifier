@@ -1,0 +1,1565 @@
+[
+    {
+        "id": "3472",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "3.2",
+            "Functional",
+            "Requirements"
+        ]
+    },
+    {
+        "id": "3473",
+        "ner_tags": [
+            "I-no",
+            "B-class",
+            "I-class"
+        ],
+        "tokens": [
+            "3.2.1",
+            "User",
+            "Accounts"
+        ]
+    },
+    {
+        "id": "3474",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "I-class",
+            "O",
+            "B-no",
+            "B-attribute",
+            "B-no",
+            "I-no",
+            "O",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-attribute",
+            "O",
+            "B-no",
+            "I-no",
+            "B-class",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "I-class",
+            "I-class",
+            "O"
+        ],
+        "tokens": [
+            "0140",
+            "User",
+            "Account",
+            "Types",
+            "and",
+            "Permissions",
+            "The",
+            "system",
+            "categorizes",
+            "users",
+            "on",
+            "the",
+            "basis",
+            "of",
+            "roles",
+            "and",
+            "privileges",
+            ".",
+            "Within",
+            "these",
+            "roles",
+            ",",
+            "the",
+            "system",
+            "also",
+            "categorizes",
+            "users",
+            "based",
+            "on",
+            "the",
+            "roles",
+            "that",
+            "they",
+            "have",
+            "within",
+            "individual",
+            "products",
+            ".",
+            "These",
+            "are",
+            "referred",
+            "to",
+            "as",
+            "user",
+            "account",
+            "roles",
+            "."
+        ]
+    },
+    {
+        "id": "3475",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "I-class",
+            "O"
+        ],
+        "tokens": [
+            "Mashbot",
+            "Campaigns",
+            "supports",
+            "the",
+            "following",
+            "account",
+            "roles",
+            ":"
+        ]
+    },
+    {
+        "id": "3476",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0150",
+            "Contributor",
+            "Priority",
+            "3"
+        ]
+    },
+    {
+        "id": "3477",
+        "ner_tags": [
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0160",
+            "Approver",
+            "Priority",
+            "3"
+        ]
+    },
+    {
+        "id": "3478",
+        "ner_tags": [
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0170",
+            "Publisher",
+            "Priority",
+            "3"
+        ]
+    },
+    {
+        "id": "3479",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "O",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0180",
+            "A",
+            "user",
+            "may",
+            "possess",
+            "more",
+            "than",
+            "one",
+            "role",
+            ".",
+            "Priority",
+            "3"
+        ]
+    },
+    {
+        "id": "3480",
+        "ner_tags": [
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-association",
+            "B-no",
+            "I-no",
+            "B-class",
+            "O",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0190",
+            "Roles",
+            "reflect",
+            "actions",
+            "that",
+            "can",
+            "be",
+            "performed",
+            "by",
+            "a",
+            "user",
+            ".",
+            "Priority",
+            "3"
+        ]
+    },
+    {
+        "id": "3481",
+        "ner_tags": [
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-association",
+            "B-no",
+            "I-no",
+            "B-class",
+            "I-class",
+            "B-no",
+            "I-no",
+            "B-class",
+            "O",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0200",
+            "Roles",
+            "can",
+            "be",
+            "assigned",
+            "to",
+            "a",
+            "user",
+            "account",
+            "for",
+            "individual",
+            "products",
+            ".",
+            "Priority",
+            "3"
+        ]
+    },
+    {
+        "id": "3482",
+        "ner_tags": [
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "O",
+            "B-method",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-method",
+            "I-method",
+            "O",
+            "B-no",
+            "B-method",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "O",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0210",
+            "Contributors",
+            "may",
+            "create",
+            "new",
+            "content",
+            ",",
+            "import",
+            "existing",
+            "content",
+            "into",
+            "the",
+            "system",
+            ",",
+            "edit",
+            "content",
+            ",",
+            "and",
+            "delete",
+            "it",
+            ".",
+            "They",
+            "may",
+            "also",
+            "submit",
+            "these",
+            "actions",
+            "for",
+            "approval",
+            ".",
+            "Priority",
+            "3"
+        ]
+    },
+    {
+        "id": "3483",
+        "ner_tags": [
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "I-method",
+            "B-association",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0220",
+            "Approvers",
+            "can",
+            "approve",
+            "actions",
+            "performed",
+            "by",
+            "contributors",
+            "Priority",
+            "3"
+        ]
+    },
+    {
+        "id": "3484",
+        "ner_tags": [
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "B-class",
+            "O",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "0230",
+            "Publishers",
+            "may",
+            "schedule",
+            "or",
+            "immediately",
+            "initiate actions",
+            "put",
+            "forth",
+            "by",
+            "contributors",
+            "and",
+            "those",
+            "approved",
+            "by",
+            "approvers",
+            ".",
+            "Priority",
+            "4"
+        ]
+    },
+    {
+        "id": "3485",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "I-class",
+            "B-method",
+            "O",
+            "B-no",
+            "B-class",
+            "I-class",
+            "B-no",
+            "I-no",
+            "B-method",
+            "O",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0240",
+            "User",
+            "Account",
+            "Creation",
+            "-",
+            "New",
+            "user",
+            "accounts",
+            "can",
+            "be",
+            "created",
+            ".",
+            "Priority",
+            "1"
+        ]
+    },
+    {
+        "id": "3486",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "I-class",
+            "O",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0250",
+            "The",
+            "system",
+            "may",
+            "contain",
+            "any",
+            "number",
+            "of",
+            "user",
+            "accounts",
+            ".",
+            "Priority",
+            "1"
+        ]
+    },
+    {
+        "id": "3487",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "O",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0260",
+            "Certain",
+            "pieces",
+            "of",
+            "information",
+            "are",
+            "required",
+            "to",
+            "create",
+            "new",
+            "accounts",
+            ".",
+            "Priority",
+            "1"
+        ]
+    },
+    {
+        "id": "3488",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "I-class",
+            "O"
+        ],
+        "tokens": [
+            "The",
+            "following",
+            "information",
+            "is",
+            "required",
+            "for",
+            "any",
+            "new",
+            "user",
+            "account",
+            ":"
+        ]
+    },
+    {
+        "id": "3489",
+        "ner_tags": [
+            "B-no",
+            "B-attribute",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0270",
+            "Username",
+            "Priority",
+            "1"
+        ]
+    },
+    {
+        "id": "3490",
+        "ner_tags": [
+            "I-no",
+            "B-attribute",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0280",
+            "Password",
+            "Priority",
+            "1"
+        ]
+    },
+    {
+        "id": "3491",
+        "ner_tags": [
+            "I-no",
+            "B-attribute",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0290",
+            "Name",
+            "Priority",
+            "1"
+        ]
+    },
+    {
+        "id": "3492",
+        "ner_tags": [
+            "I-no",
+            "B-attribute",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0300",
+            "Email Address",
+            "Priority",
+            "1"
+        ]
+    },
+    {
+        "id": "3493",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "B-attribute",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0310",
+            "Group",
+            "Membership",
+            "Priority",
+            "1"
+        ]
+    },
+    {
+        "id": "3494",
+        "ner_tags": [
+            "I-no",
+            "B-class",
+            "I-class",
+            "O",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0320",
+            "User",
+            "Account",
+            "Type",
+            "Priority",
+            "1"
+        ]
+    },
+    {
+        "id": "3495",
+        "ner_tags": [
+            "I-no",
+            "B-class",
+            "I-class",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0330",
+            "User",
+            "Account",
+            "Modification",
+            "The",
+            "system",
+            "allows",
+            "users",
+            "SYST",
+            "to",
+            "modify",
+            "their",
+            "accounts",
+            "once",
+            "created",
+            ".",
+            "Priority",
+            "1"
+        ]
+    },
+    {
+        "id": "3496",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0340",
+            "The",
+            "system",
+            "requires",
+            "that",
+            "a",
+            "user",
+            "have",
+            "logged",
+            "in",
+            "before",
+            "modifications",
+            "can",
+            "be",
+            "made",
+            ".",
+            "Priority",
+            "1"
+        ]
+    },
+    {
+        "id": "3497",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "The",
+            "following",
+            "user",
+            "account",
+            "information",
+            "is",
+            "modifiable",
+            "by",
+            "all",
+            "user",
+            "types:"
+        ]
+    },
+    {
+        "id": "3498",
+        "ner_tags": [
+            "B-no",
+            "B-attribute",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0350",
+            "Password",
+            "Priority",
+            "1"
+        ]
+    },
+    {
+        "id": "3499",
+        "ner_tags": [
+            "I-no",
+            "B-attribute",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0360",
+            "Email Address",
+            "Priority",
+            "1"
+        ]
+    },
+    {
+        "id": "3500",
+        "ner_tags": [
+            "I-no",
+            "B-attribute",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0370",
+            "Name",
+            "Priority",
+            "1"
+        ]
+    },
+    {
+        "id": "3501",
+        "ner_tags": [
+            "I-no",
+            "B-class",
+            "I-class",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "I-class",
+            "B-no",
+            "I-no",
+            "B-method",
+            "O",
+            "B-no"
+        ],
+        "tokens": [
+            "0380",
+            "User",
+            "Account",
+            "Deactivation",
+            "The",
+            "system",
+            "allows",
+            "user",
+            "accounts",
+            "to",
+            "be",
+            "deactivated",
+            ".",
+            "Priority"
+        ]
+    },
+    {
+        "id": "3502",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0390",
+            "The",
+            "system",
+            "denies",
+            "user",
+            "who",
+            "have",
+            "been",
+            "deactivated",
+            "from",
+            "accessing",
+            "the",
+            "system",
+            ".",
+            "Priority",
+            "3"
+        ]
+    },
+    {
+        "id": "3503",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-attribute",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "O",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0400",
+            "If",
+            "an",
+            "account",
+            "has",
+            "any",
+            "history",
+            "associated",
+            "with",
+            "it",
+            ",",
+            "it",
+            "can",
+            "only",
+            "be",
+            "deactivated",
+            "and",
+            "not deleted",
+            ".",
+            "Priority",
+            "3"
+        ]
+    },
+    {
+        "id": "3504",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-attribute",
+            "I-attribute",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0410",
+            "If",
+            "an",
+            "account",
+            "has",
+            "no",
+            "history",
+            "associated",
+            "with",
+            "it",
+            ",",
+            "it",
+            "can",
+            "be",
+            "deleted",
+            "from",
+            "the",
+            "system",
+            ".",
+            "Priority",
+            "3"
+        ]
+    },
+    {
+        "id": "3505",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "B-attribute",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0420",
+            "A",
+            "disable",
+            "account",
+            "can",
+            "be",
+            "undisabled",
+            "Priority",
+            "3"
+        ]
+    },
+    {
+        "id": "3506",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "O",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0430",
+            "It",
+            "is",
+            "possible",
+            "to",
+            "disable",
+            "all",
+            "accounts",
+            "except",
+            "for",
+            "the",
+            "System",
+            "Administrator account",
+            ".",
+            "Priority",
+            "4"
+        ]
+    },
+    {
+        "id": "3507",
+        "ner_tags": [
+            "I-no",
+            "B-attribute",
+            "B-no",
+            "B-attribute"
+        ],
+        "tokens": [
+            "0440",
+            "Username",
+            "and",
+            "Passwords"
+        ]
+    },
+    {
+        "id": "3508",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "B-attribute",
+            "O",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0450",
+            "The",
+            "system",
+            "gives",
+            "users",
+            "the",
+            "ability",
+            "to",
+            "reset",
+            "their",
+            "password",
+            ".",
+            "Priority",
+            "2"
+        ]
+    },
+    {
+        "id": "3509",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "B-attribute",
+            "B-no",
+            "I-no",
+            "B-method",
+            "O",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0460",
+            "Individual",
+            "passwords",
+            "can",
+            "be",
+            "reset",
+            ".",
+            "Priority",
+            "2"
+        ]
+    },
+    {
+        "id": "3510",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-attribute",
+            "O",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0470",
+            "The",
+            "system",
+            "only",
+            "allows",
+            "users",
+            "to",
+            "change",
+            "their",
+            "own",
+            "passwords",
+            ".",
+            "Priority",
+            "2"
+        ]
+    },
+    {
+        "id": "3511",
+        "ner_tags": [
+            "I-no",
+            "B-class",
+            "B-no"
+        ],
+        "tokens": [
+            "3.2.2",
+            "Marketing",
+            "Campaigns"
+        ]
+    },
+    {
+        "id": "3512",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "0480",
+            "A",
+            "campaign",
+            "has",
+            "the",
+            "following",
+            "components",
+            ":"
+        ]
+    },
+    {
+        "id": "3513",
+        "ner_tags": [
+            "B-no",
+            "B-attribute",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0490",
+            "Name",
+            "Priority",
+            "1"
+        ]
+    },
+    {
+        "id": "3514",
+        "ner_tags": [
+            "I-no",
+            "B-attribute",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0500",
+            "Pieces of content",
+            "Priority",
+            "1"
+        ]
+    },
+    {
+        "id": "3515",
+        "ner_tags": [
+            "I-no",
+            "B-attribute",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0510",
+            "Schedule",
+            "Priority",
+            "1"
+        ]
+    },
+    {
+        "id": "3516",
+        "ner_tags": [
+            "I-no",
+            "B-class",
+            "O",
+            "B-no",
+            "B-attribute",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0520",
+            "User",
+            "/",
+            "Group",
+            "Permissions",
+            "Priority",
+            "2"
+        ]
+    },
+    {
+        "id": "3517",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "B-attribute",
+            "B-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "I-method",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "O",
+            "B-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-attribute",
+            "O",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0530",
+            "A",
+            "schedule",
+            "is",
+            "a",
+            "mapping",
+            "of",
+            "times",
+            "to",
+            "publishing",
+            "actions",
+            ".",
+            "It",
+            "may",
+            "contain",
+            "any",
+            "actions",
+            "a",
+            "publisher",
+            "can",
+            "perform",
+            ",",
+            "and",
+            "these",
+            "actions",
+            "are",
+            "performed",
+            "at",
+            "the",
+            "associated",
+            "time",
+            ".",
+            "Priority",
+            "1"
+        ]
+    },
+    {
+        "id": "3518",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "B-attribute",
+            "I-attribute",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "0540",
+            "A",
+            "piece of",
+            "content",
+            "may",
+            "take",
+            "the",
+            "following",
+            "forms",
+            ":"
+        ]
+    },
+    {
+        "id": "3519",
+        "ner_tags": [
+            "B-no",
+            "B-attribute",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0550",
+            "Text",
+            "Priority",
+            "1"
+        ]
+    },
+    {
+        "id": "3520",
+        "ner_tags": [
+            "I-no",
+            "B-attribute",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0560",
+            "Image",
+            "Priority",
+            "1"
+        ]
+    },
+    {
+        "id": "3521",
+        "ner_tags": [
+            "I-no",
+            "B-attribute",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0570",
+            "Audio",
+            "Priority",
+            "3"
+        ]
+    },
+    {
+        "id": "3522",
+        "ner_tags": [
+            "I-no",
+            "B-attribute",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0580",
+            "Video",
+            "Priority",
+            "3"
+        ]
+    },
+    {
+        "id": "3523",
+        "ner_tags": [
+            "I-no",
+            "B-class",
+            "I-class"
+        ],
+        "tokens": [
+            "3.2.3",
+            "External Service",
+            "Accounts"
+        ]
+    },
+    {
+        "id": "3524",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-class",
+            "I-class",
+            "I-class",
+            "O"
+        ],
+        "tokens": [
+            "0590",
+            "Mashbot",
+            "will",
+            "allow",
+            "for",
+            "the",
+            "association",
+            "of",
+            "Mashbot",
+            "accounts",
+            "with",
+            "external",
+            "service",
+            "accounts",
+            "."
+        ]
+    },
+    {
+        "id": "3525",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "B-class",
+            "I-class",
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0600",
+            "Mashbot",
+            "will",
+            "provide",
+            "an",
+            "interface",
+            "for",
+            "authenticating",
+            "a",
+            "user",
+            "account",
+            "to",
+            "an",
+            "external service account",
+            "Priority",
+            "1"
+        ]
+    },
+    {
+        "id": "3526",
+        "ner_tags": [
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "B-class",
+            "I-class",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "0610",
+            "Mashbot",
+            "will",
+            "provide",
+            "a",
+            "standardized",
+            "method",
+            "of",
+            "interacting",
+            "with",
+            "external service",
+            "accounts",
+            "Priority",
+            "1"
+        ]
+    }
+]

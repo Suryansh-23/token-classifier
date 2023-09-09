@@ -1,0 +1,232 @@
+[
+    {
+        "id": "4012",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "The",
+            "library",
+            "System",
+            "is",
+            "used",
+            "by",
+            "the",
+            "Informatics",
+            "students",
+            "and",
+            "Faculty",
+            "."
+        ]
+    },
+    {
+        "id": "4013",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "B-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "The",
+            "Library",
+            "contains",
+            "Books",
+            "and",
+            "Journals",
+            "."
+        ]
+    },
+    {
+        "id": "4014",
+        "ner_tags": [
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-association",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Books",
+            "can",
+            "be",
+            "issued",
+            "to",
+            "both",
+            "the",
+            "Students",
+            "and",
+            "Faculty",
+            "."
+        ]
+    },
+    {
+        "id": "4015",
+        "ner_tags": [
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-association",
+            "B-no",
+            "I-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Journals",
+            "can",
+            "only",
+            "be",
+            "issued",
+            "to",
+            "the",
+            "Faculty",
+            "."
+        ]
+    },
+    {
+        "id": "4016",
+        "ner_tags": [
+            "B-class",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-association",
+            "B-no",
+            "I-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Books",
+            "and",
+            "Journals",
+            "can",
+            "only",
+            "be",
+            "issued",
+            "by",
+            "the",
+            "Librarian",
+            "."
+        ]
+    },
+    {
+        "id": "4017",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-attribute",
+            "B-class",
+            "B-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "The",
+            "deputyLibrarian",
+            "is",
+            "incharge",
+            "of",
+            "receiving",
+            "the",
+            "Returned",
+            "Books",
+            "and",
+            "Journals",
+            "."
+        ]
+    },
+    {
+        "id": "4018",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-association",
+            "B-no",
+            "B-attribute",
+            "B-no",
+            "B-attribute",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "The",
+            "Accountant",
+            "is",
+            "responsible",
+            "for",
+            "receiving",
+            "the",
+            "fine",
+            "for",
+            "overdue",
+            "books",
+            "."
+        ]
+    },
+    {
+        "id": "4019",
+        "ner_tags": [
+            "B-attribute",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-class",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Fine",
+            "is",
+            "charged",
+            "only",
+            "to",
+            "students",
+            ",",
+            "and",
+            "not",
+            "to",
+            "the",
+            "Faculty",
+            "."
+        ]
+    }
+]

@@ -1,0 +1,8917 @@
+[
+    {
+        "id": "3650",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-association",
+            "B-no",
+            "I-no",
+            "B-class",
+            "I-class",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "3.1.1",
+            "Objective",
+            "\u2013",
+            "The",
+            "purpose",
+            "of",
+            "the",
+            "U1",
+            "use case",
+            "is",
+            "to",
+            "use",
+            "the",
+            "device",
+            "\u2019s",
+            "optical",
+            "hardware",
+            "to",
+            "produce",
+            "the",
+            "image",
+            "detected",
+            "by",
+            "the",
+            "optical",
+            "hardware",
+            ".",
+            "This",
+            "image",
+            "is",
+            "displayed",
+            "on",
+            "the",
+            "device",
+            "\u2019s",
+            "screen",
+            "."
+        ]
+    },
+    {
+        "id": "3651",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "3.1.2",
+            "Priority",
+            "-",
+            "This",
+            "requirement",
+            "is",
+            "medium",
+            "priority",
+            "."
+        ]
+    },
+    {
+        "id": "3652",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.1.3",
+            "Source",
+            "\u2013",
+            "The",
+            "source",
+            "of",
+            "this",
+            "use",
+            "case",
+            "is",
+            "the",
+            "customer",
+            "."
+        ]
+    },
+    {
+        "id": "3653",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.1.4",
+            "Actors",
+            "\u2013",
+            "An",
+            "end",
+            "user",
+            "of",
+            "the",
+            "device",
+            "(",
+            "a",
+            "customer",
+            ")",
+            "would",
+            "be",
+            "the",
+            "relevant",
+            "actor",
+            "for",
+            "this",
+            "use case",
+            "."
+        ]
+    },
+    {
+        "id": "3654",
+        "ner_tags": [
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.1.5",
+            "Flow of events-"
+        ]
+    },
+    {
+        "id": "3655",
+        "ner_tags": [
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.1.5.1",
+            "Basic Flow-"
+        ]
+    },
+    {
+        "id": "3656",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-method",
+            "I-method",
+            "O"
+        ],
+        "tokens": [
+            "3.1.5.1.2",
+            "User",
+            "enters",
+            "picture-taking mode",
+            "."
+        ]
+    },
+    {
+        "id": "3657",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-method",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.1.5.1.3",
+            "Device",
+            "displays",
+            "what",
+            "it",
+            "is",
+            "\u201c",
+            "looking",
+            "at\u201d",
+            "on",
+            "screen",
+            "."
+        ]
+    },
+    {
+        "id": "3658",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-method",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.1.5.1.4",
+            "User",
+            "presses button",
+            "for",
+            "taking",
+            "picture",
+            "."
+        ]
+    },
+    {
+        "id": "3659",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "O",
+            "B-method",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-method",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.1.5.1.5",
+            "Picture",
+            "is",
+            "stored",
+            "in",
+            "temporary",
+            "memory",
+            "and",
+            "displayed",
+            "on",
+            "screen",
+            "."
+        ]
+    },
+    {
+        "id": "3660",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.1.5.2",
+            "Alternative",
+            "Flow",
+            "-",
+            "At",
+            "step",
+            "3.1.5.1.4",
+            ",",
+            "the",
+            "user",
+            "decides",
+            "not",
+            "to",
+            "take",
+            "a",
+            "picture",
+            "."
+        ]
+    },
+    {
+        "id": "3661",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-method",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.1.5.2.1",
+            "User",
+            "presses cancel",
+            "button",
+            "."
+        ]
+    },
+    {
+        "id": "3662",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-method",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.1.5.2.2",
+            "Device",
+            "exits",
+            "picture-taking",
+            "mode",
+            "."
+        ]
+    },
+    {
+        "id": "3663",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "B-method",
+            "O",
+            "B-method",
+            "O"
+        ],
+        "tokens": [
+            "3.1.5.3",
+            "Exception",
+            "Flow",
+            "\u2013",
+            "At",
+            "step",
+            "3.1.5.1.4",
+            ",",
+            "the",
+            "device",
+            "encounters",
+            "a",
+            "problem",
+            "."
+        ]
+    },
+    {
+        "id": "3664",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-method",
+            "I-method",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.1.5.3.1",
+            "Device",
+            "provides",
+            "error message",
+            "indicating",
+            "need",
+            "for",
+            "repair",
+            "."
+        ]
+    },
+    {
+        "id": "3665",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-method",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.1.5.3.2",
+            "Device",
+            "exits",
+            "picture-taking",
+            "mode",
+            "."
+        ]
+    },
+    {
+        "id": "3666",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.1.6",
+            "Includes",
+            "\u2013",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3667",
+        "ner_tags": [
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.1.7",
+            "Requirements",
+            "-"
+        ]
+    },
+    {
+        "id": "3668",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.1.7.1",
+            "The",
+            "system",
+            "shall",
+            "provide",
+            "the",
+            "option",
+            "to",
+            "take",
+            "a picture."
+        ]
+    },
+    {
+        "id": "3669",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.1.7.2",
+            "The",
+            "system",
+            "shall",
+            "display",
+            "the",
+            "currently",
+            "viewed",
+            "image",
+            "."
+        ]
+    },
+    {
+        "id": "3670",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.1.7.3",
+            "The",
+            "system",
+            "shall",
+            "store",
+            "the",
+            "image",
+            "in",
+            "temporary",
+            "memory."
+        ]
+    },
+    {
+        "id": "3671",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.1.7.4",
+            "The",
+            "system",
+            "shall",
+            "indicate",
+            "a",
+            "need",
+            "for",
+            "repair",
+            "if",
+            "broken",
+            "."
+        ]
+    },
+    {
+        "id": "3672",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "B-method",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.1.8",
+            "Preconditions",
+            "\u2013",
+            "User",
+            "is",
+            "logged in",
+            ",",
+            "optical",
+            "hardware",
+            "is",
+            "operational",
+            "."
+        ]
+    },
+    {
+        "id": "3673",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.1.9",
+            "Post",
+            "conditions",
+            "\u2013",
+            "An",
+            "image",
+            "is",
+            "shown",
+            "on",
+            "the",
+            "device",
+            "\u2019s",
+            "screen",
+            ",",
+            "available",
+            "for"
+        ]
+    },
+    {
+        "id": "3674",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "permanent",
+            "saving",
+            "or",
+            "deletion",
+            "."
+        ]
+    },
+    {
+        "id": "3675",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.1.10",
+            "Nonfunctional",
+            "requirements",
+            "\u2013"
+        ]
+    },
+    {
+        "id": "3676",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.1.10.1",
+            "Performance",
+            "Requirements",
+            "-"
+        ]
+    },
+    {
+        "id": "3677",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.1.10.1.1",
+            "Maximum",
+            "allowed",
+            "execution",
+            "time",
+            "for",
+            "U1",
+            "use case",
+            "is",
+            "3",
+            "seconds",
+            ","
+        ]
+    },
+    {
+        "id": "3678",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "starting",
+            "at",
+            "the",
+            "time",
+            "when",
+            "the",
+            "user",
+            "presses",
+            "the",
+            "take",
+            "picture",
+            "button",
+            "and"
+        ]
+    },
+    {
+        "id": "3679",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "ending",
+            "when",
+            "the",
+            "image",
+            "has",
+            "been",
+            "saved",
+            "and",
+            "displayed",
+            "."
+        ]
+    },
+    {
+        "id": "3680",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.1.10.2",
+            "Safety",
+            "Requirements",
+            "-",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3681",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.1.10.3",
+            "Security",
+            "Requirements",
+            "-",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3682",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.1.10.4",
+            "Software",
+            "Quality",
+            "Requirements",
+            "-",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3683",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.1.11",
+            "Notes",
+            "/",
+            "Issues",
+            "\u2013",
+            "U1",
+            "is",
+            "often",
+            "followed",
+            "by",
+            "the",
+            "U2",
+            "use case",
+            "."
+        ]
+    },
+    {
+        "id": "3684",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.1.12",
+            "Special requirements \u2013",
+            "Always",
+            "keep",
+            "enough",
+            "memory",
+            "available",
+            "so",
+            "that",
+            "the"
+        ]
+    },
+    {
+        "id": "3685",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-method",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-method",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "current",
+            "picture",
+            "can",
+            "be",
+            "temporarily saved",
+            ",",
+            "in",
+            "case",
+            "the",
+            "user",
+            "decides",
+            "to",
+            "permanently save",
+            "it",
+            "."
+        ]
+    },
+    {
+        "id": "3686",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-method",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.2",
+            "Use case",
+            "name",
+            "and",
+            "identifier",
+            "\u2013",
+            "Save",
+            "a",
+            "picture",
+            "(",
+            "U2",
+            ")"
+        ]
+    },
+    {
+        "id": "3687",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "B-method",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.2.1",
+            "Objective",
+            "\u2013",
+            "The",
+            "purpose",
+            "of",
+            "the",
+            "U2",
+            "use case",
+            "is",
+            "to",
+            "enable",
+            "the",
+            "user",
+            "to",
+            "permanently store",
+            "images",
+            "captured",
+            "during",
+            "the",
+            "U1",
+            "use case",
+            "on",
+            "the",
+            "device",
+            "\u2019s",
+            "internal",
+            "memory",
+            "."
+        ]
+    },
+    {
+        "id": "3688",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.2.2",
+            "Priority",
+            "\u2013",
+            "This",
+            "requirement",
+            "is",
+            "low",
+            "priority",
+            "."
+        ]
+    },
+    {
+        "id": "3689",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.2.3",
+            "Source",
+            "\u2013",
+            "The",
+            "source",
+            "of",
+            "this",
+            "use case",
+            "is",
+            "the",
+            "customer",
+            "."
+        ]
+    },
+    {
+        "id": "3690",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.2.4",
+            "Actors",
+            "\u2013",
+            "An",
+            "end",
+            "user",
+            "of",
+            "the",
+            "device",
+            "(",
+            "a",
+            "customer",
+            ")",
+            "would",
+            "be",
+            "the",
+            "relevant",
+            "actor",
+            "for",
+            "this",
+            "use case",
+            "."
+        ]
+    },
+    {
+        "id": "3691",
+        "ner_tags": [
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.2.5",
+            "Flow of events-"
+        ]
+    },
+    {
+        "id": "3692",
+        "ner_tags": [
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.2.5.1",
+            "Basic flow-"
+        ]
+    },
+    {
+        "id": "3693",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "O",
+            "B-association",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-association",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.2.5.1.1",
+            "User",
+            "is",
+            "queried",
+            "as",
+            "to",
+            "whether",
+            "to",
+            "save",
+            "current",
+            "picture",
+            "."
+        ]
+    },
+    {
+        "id": "3694",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-method",
+            "I-method",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.2.5.1.2",
+            "User",
+            "presses",
+            "\u201csave\u201d button",
+            "to",
+            "indicate",
+            "desire",
+            "to",
+            "save",
+            "picture",
+            "."
+        ]
+    },
+    {
+        "id": "3695",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "O",
+            "B-method",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.2.5.1.3",
+            "Picture",
+            "is",
+            "saved",
+            "to",
+            "device",
+            "\u2019s",
+            "internal",
+            "memory",
+            "."
+        ]
+    },
+    {
+        "id": "3696",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.2.5.2",
+            "Alternative",
+            "flow",
+            "-",
+            "At",
+            "step",
+            "3.2.5.1.2",
+            ",",
+            "the",
+            "user",
+            "decides",
+            "not",
+            "to",
+            "save",
+            "the"
+        ]
+    },
+    {
+        "id": "3697",
+        "ner_tags": [
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "picture",
+            "."
+        ]
+    },
+    {
+        "id": "3698",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-method",
+            "O",
+            "B-method",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.2.5.2.1",
+            "User",
+            "presses",
+            "the",
+            "\u201ccancel\u201d button",
+            "to",
+            "indicate",
+            "desire",
+            "to",
+            "not",
+            "save"
+        ]
+    },
+    {
+        "id": "3699",
+        "ner_tags": [
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "picture",
+            "."
+        ]
+    },
+    {
+        "id": "3700",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "B-method",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.2.5.2.2",
+            "The",
+            "current",
+            "picture",
+            "is",
+            "not saved",
+            "to",
+            "the",
+            "device",
+            "\u2019s",
+            "internal",
+            "memory",
+            "."
+        ]
+    },
+    {
+        "id": "3701",
+        "ner_tags": [
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-method",
+            "O"
+        ],
+        "tokens": [
+            "3.2.5.2.3",
+            "The",
+            "device",
+            "goes",
+            "back",
+            "to",
+            "picture taking mode",
+            "."
+        ]
+    },
+    {
+        "id": "3702",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "B-method",
+            "O"
+        ],
+        "tokens": [
+            "3.2.5.3",
+            "Exception",
+            "flow",
+            "-",
+            "At",
+            "step",
+            "3.2.5.1.2",
+            ",",
+            "the",
+            "device",
+            "encounters problem",
+            "due"
+        ]
+    },
+    {
+        "id": "3703",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "to",
+            "insufficient",
+            "memory",
+            "."
+        ]
+    },
+    {
+        "id": "3704",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-method",
+            "I-method",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.2.5.3.1",
+            "Device",
+            "provides",
+            "error message",
+            "indicating",
+            "insufficient",
+            "memory"
+        ]
+    },
+    {
+        "id": "3705",
+        "ner_tags": [
+            "O"
+        ],
+        "tokens": [
+            "remaining"
+        ]
+    },
+    {
+        "id": "3706",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-association",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-association",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.2.5.3.2",
+            "Device",
+            "prompts",
+            "user",
+            "to",
+            "go",
+            "to",
+            "file management mode",
+            "to",
+            "make"
+        ]
+    },
+    {
+        "id": "3707",
+        "ner_tags": [
+            "O"
+        ],
+        "tokens": [
+            "memory available."
+        ]
+    },
+    {
+        "id": "3708",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.2.6",
+            "Includes",
+            "\u2013",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3709",
+        "ner_tags": [
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.2.7",
+            "Requirements",
+            "\u2013"
+        ]
+    },
+    {
+        "id": "3710",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.2.7.1",
+            "The",
+            "system",
+            "shall",
+            "ask",
+            "the",
+            "user",
+            "whether",
+            "to",
+            "save",
+            "a",
+            "picture",
+            "."
+        ]
+    },
+    {
+        "id": "3711",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-method",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.2.7.2",
+            "The",
+            "system",
+            "shall",
+            "store",
+            "the",
+            "picture",
+            "in",
+            "internal",
+            "memory",
+            "."
+        ]
+    },
+    {
+        "id": "3712",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-method",
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "3.2.7.3",
+            "The",
+            "system",
+            "shall",
+            "notify",
+            "the",
+            "user",
+            "if",
+            "insufficient",
+            "memory",
+            "to",
+            "store",
+            "the",
+            "picture"
+        ]
+    },
+    {
+        "id": "3713",
+        "ner_tags": [
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "remains",
+            "."
+        ]
+    },
+    {
+        "id": "3714",
+        "ner_tags": [
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-method",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.2.8",
+            "Preconditions \u2013",
+            "User",
+            "has",
+            "taken",
+            "a",
+            "picture",
+            "(",
+            "in",
+            "U1",
+            "use case",
+            "),",
+            "sufficient",
+            "memory",
+            "is",
+            "available",
+            "to",
+            "store",
+            "a",
+            "picture",
+            "."
+        ]
+    },
+    {
+        "id": "3715",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "B-method",
+            "O",
+            "B-class",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.2.9",
+            "Post",
+            "conditions",
+            "\u2013",
+            "Picture",
+            "is",
+            "saved",
+            "to",
+            "device",
+            "\u2019s",
+            "internal memory."
+        ]
+    },
+    {
+        "id": "3716",
+        "ner_tags": [
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.2.10",
+            "Nonfunctional Requirements",
+            "\u2013"
+        ]
+    },
+    {
+        "id": "3717",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.2.10.1",
+            "Performance",
+            "Requirements",
+            "-"
+        ]
+    },
+    {
+        "id": "3718",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-method",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-method",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.2.10.1.1",
+            "Maximum",
+            "allowed",
+            "execution",
+            "time",
+            "for",
+            "U2",
+            "use case",
+            "is",
+            "3",
+            "seconds",
+            ",",
+            "starting",
+            "when",
+            "user",
+            "presses",
+            "the",
+            "save",
+            "button",
+            "and",
+            "ending",
+            "when",
+            "the",
+            "picture",
+            "has",
+            "been",
+            "saved",
+            "in",
+            "memory",
+            "and",
+            "the",
+            "user",
+            "has",
+            "been",
+            "notified",
+            "of",
+            "this",
+            "event",
+            "."
+        ]
+    },
+    {
+        "id": "3719",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.2.10.2",
+            "Safety",
+            "Requirements-None",
+            "."
+        ]
+    },
+    {
+        "id": "3720",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.2.10.3",
+            "Security",
+            "Requirements-None",
+            "."
+        ]
+    },
+    {
+        "id": "3721",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.2.10.4",
+            "Software",
+            "Quality",
+            "Requirements",
+            "-",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3722",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.2.11",
+            "Notes",
+            "/",
+            "Issues",
+            "\u2013",
+            "Check",
+            "on",
+            "use case",
+            "identifier",
+            "for",
+            "removing",
+            "pictures",
+            "from",
+            "memory",
+            "."
+        ]
+    },
+    {
+        "id": "3723",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-method",
+            "O"
+        ],
+        "tokens": [
+            "3.2.12",
+            "Special Requirements \u2013",
+            "Memory",
+            "must",
+            "be",
+            "available",
+            "for",
+            "picture",
+            "to",
+            "be",
+            "saved",
+            "."
+        ]
+    },
+    {
+        "id": "3724",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-method",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.3",
+            "Use case",
+            "name",
+            "and",
+            "identifier",
+            "-",
+            "Translate",
+            "written",
+            "text",
+            "(",
+            "U3",
+            ")"
+        ]
+    },
+    {
+        "id": "3725",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-method",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-attribute",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.3.1",
+            "Objective",
+            "-",
+            "The",
+            "object",
+            "of",
+            "the",
+            "U3",
+            "use case",
+            "is",
+            "to",
+            "translate",
+            "any",
+            "chosen",
+            "text",
+            ",",
+            "in",
+            "the",
+            "device",
+            ",",
+            "to",
+            "any",
+            "desired",
+            "language",
+            ".",
+            "It",
+            "would",
+            "help",
+            "anyone",
+            "understand",
+            "the",
+            "foreign",
+            "text",
+            "in",
+            "his",
+            "or",
+            "her",
+            "device",
+            ".",
+            "The",
+            "foreign",
+            "text",
+            "would",
+            "be",
+            "typed",
+            "into",
+            "the",
+            "device",
+            "."
+        ]
+    },
+    {
+        "id": "3726",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.3.2",
+            "Priority",
+            "\u2013",
+            "This",
+            "requirement",
+            "is",
+            "high",
+            "priority",
+            "."
+        ]
+    },
+    {
+        "id": "3727",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.3.3",
+            "Source",
+            "\u2013",
+            "The",
+            "source",
+            "of",
+            "this",
+            "use case",
+            "is",
+            "the",
+            "customer",
+            "."
+        ]
+    },
+    {
+        "id": "3728",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.3.4",
+            "Actors",
+            "-",
+            "The",
+            "only",
+            "actor",
+            "in",
+            "this",
+            "part",
+            "is",
+            "the",
+            "customer",
+            "."
+        ]
+    },
+    {
+        "id": "3729",
+        "ner_tags": [
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.3.5",
+            "Flow of Events-"
+        ]
+    },
+    {
+        "id": "3730",
+        "ner_tags": [
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.3.5.1",
+            "Basic Flow-"
+        ]
+    },
+    {
+        "id": "3731",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.3.5.1.2",
+            "The",
+            "chosen",
+            "text",
+            "is",
+            "read",
+            "."
+        ]
+    },
+    {
+        "id": "3732",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-method",
+            "O"
+        ],
+        "tokens": [
+            "3.3.5.1.3",
+            "The",
+            "language",
+            "is",
+            "identified",
+            "."
+        ]
+    },
+    {
+        "id": "3733",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-method",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.3.5.1.4",
+            "Then",
+            ",",
+            "it",
+            "is",
+            "compared",
+            "to",
+            "the",
+            "downloaded",
+            "database",
+            "in",
+            "our",
+            "device",
+            "."
+        ]
+    },
+    {
+        "id": "3734",
+        "ner_tags": [
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-method",
+            "O",
+            "O",
+            "B-attribute",
+            "O"
+        ],
+        "tokens": [
+            "3.3.5.1.5",
+            "The",
+            "text",
+            "is",
+            "then",
+            "translated",
+            "into",
+            "the",
+            "desired language",
+            "."
+        ]
+    },
+    {
+        "id": "3735",
+        "ner_tags": [
+            "O",
+            "O",
+            "B-method",
+            "O",
+            "O",
+            "O",
+            "B-method",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.3.5.1.6",
+            "Final",
+            "result",
+            "will",
+            "be",
+            "either",
+            "displayed",
+            "on",
+            "the",
+            "screen",
+            "or",
+            "will",
+            "be",
+            "output",
+            "through",
+            "the",
+            "speaker",
+            ",",
+            "depending",
+            "on",
+            "the",
+            "user",
+            "&apos;s",
+            "choice",
+            "of",
+            "output",
+            "."
+        ]
+    },
+    {
+        "id": "3736",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.3.5.2",
+            "Alternative",
+            "flow",
+            "-",
+            "At",
+            "step",
+            "3.3.5.1.2",
+            ",",
+            "the",
+            "device",
+            "does",
+            "not recognize",
+            "the"
+        ]
+    },
+    {
+        "id": "3737",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "language",
+            "due",
+            "to",
+            "incorrect",
+            "input",
+            "."
+        ]
+    },
+    {
+        "id": "3738",
+        "ner_tags": [
+            "O",
+            "O",
+            "B-class",
+            "B-method",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.3.5.2.1",
+            "The",
+            "device",
+            "beeps",
+            "and",
+            "the",
+            "message",
+            "&quot;INVALID INPUT&quot;",
+            "is"
+        ]
+    },
+    {
+        "id": "3739",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "displayed",
+            "on",
+            "the",
+            "screen",
+            "."
+        ]
+    },
+    {
+        "id": "3740",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.3.5.3",
+            "Exception",
+            "Flow",
+            "-",
+            "At step 3.3.5.1.4",
+            ",",
+            "the",
+            "device",
+            "cannot find translations"
+        ]
+    },
+    {
+        "id": "3741",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "in",
+            "the",
+            "database",
+            "."
+        ]
+    },
+    {
+        "id": "3742",
+        "ner_tags": [
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.3.5.3.1",
+            "The",
+            "device",
+            "beeps",
+            "and",
+            "the",
+            "message",
+            ",",
+            "&quot;NOT TRANSLATED&quot;",
+            "is"
+        ]
+    },
+    {
+        "id": "3743",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "displayed",
+            "on",
+            "the",
+            "screen",
+            "."
+        ]
+    },
+    {
+        "id": "3744",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-attribute",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.3.6",
+            "Includes",
+            "\u2013",
+            "Typing",
+            "in",
+            "the",
+            "text",
+            ",",
+            "comparing",
+            "to",
+            "database",
+            ",",
+            "displaying",
+            "translated",
+            "text",
+            "."
+        ]
+    },
+    {
+        "id": "3745",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.3.7",
+            "Requirements",
+            "-"
+        ]
+    },
+    {
+        "id": "3746",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.3.7.1",
+            "The",
+            "system",
+            "shall",
+            "receive",
+            "text",
+            "input",
+            "from",
+            "the",
+            "user",
+            "."
+        ]
+    },
+    {
+        "id": "3747",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-attribute",
+            "O",
+            "O",
+            "B-class",
+            "B-attribute",
+            "O"
+        ],
+        "tokens": [
+            "3.3.7.2",
+            "The",
+            "system",
+            "shall",
+            "identify",
+            "the",
+            "language",
+            "of",
+            "the",
+            "text",
+            "entered",
+            "."
+        ]
+    },
+    {
+        "id": "3748",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.3.7.3",
+            "The",
+            "system",
+            "shall",
+            "compare",
+            "the",
+            "input",
+            "to",
+            "the",
+            "database",
+            "."
+        ]
+    },
+    {
+        "id": "3749",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-attribute",
+            "I-attribute",
+            "O"
+        ],
+        "tokens": [
+            "3.3.7.4",
+            "The",
+            "system",
+            "shall",
+            "translate",
+            "the",
+            "text",
+            "into",
+            "the",
+            "desired",
+            "language",
+            "."
+        ]
+    },
+    {
+        "id": "3750",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-attribute",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.3.7.5",
+            "The",
+            "system",
+            "shall",
+            "output",
+            "the",
+            "translated",
+            "text",
+            "."
+        ]
+    },
+    {
+        "id": "3751",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.3.7.6",
+            "The",
+            "system",
+            "shall",
+            "indicate",
+            "when",
+            "a",
+            "translation",
+            "cannot",
+            "be",
+            "found",
+            "."
+        ]
+    },
+    {
+        "id": "3752",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "B-attribute",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.3.7.7",
+            "The",
+            "system",
+            "shall",
+            "indicate",
+            "when",
+            "the",
+            "text",
+            "\u2019s",
+            "language",
+            "cannot",
+            "be",
+            "identified",
+            "."
+        ]
+    },
+    {
+        "id": "3753",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.3.8",
+            "Preconditions-",
+            "The",
+            "user",
+            "has",
+            "already",
+            "typed",
+            "in",
+            "the",
+            "text",
+            "."
+        ]
+    },
+    {
+        "id": "3754",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-attribute",
+            "O",
+            "O",
+            "B-attribute",
+            "I-attribute",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.3.9",
+            "Post",
+            "conditions",
+            "-",
+            "The",
+            "text",
+            "has",
+            "been",
+            "translated",
+            "into",
+            "the",
+            "desired",
+            "language",
+            "and",
+            "the"
+        ]
+    },
+    {
+        "id": "3755",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "final",
+            "output",
+            "has",
+            "reached",
+            "the",
+            "user",
+            "in",
+            "the",
+            "desired",
+            "form",
+            ".",
+            "The",
+            "user",
+            "understands",
+            "the",
+            "foreign"
+        ]
+    },
+    {
+        "id": "3756",
+        "ner_tags": [
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "text",
+            "."
+        ]
+    },
+    {
+        "id": "3757",
+        "ner_tags": [
+            "O"
+        ],
+        "tokens": [
+            "3.3.10 Nonfunctional requirements \u2013"
+        ]
+    },
+    {
+        "id": "3758",
+        "ner_tags": [
+            "O"
+        ],
+        "tokens": [
+            "3.3.10.1 Performance Requirements-"
+        ]
+    },
+    {
+        "id": "3759",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.3.10.1.1",
+            "Maximum",
+            "allowed",
+            "execution",
+            "time",
+            "for",
+            "U3",
+            "use case",
+            "is",
+            "5",
+            "seconds",
+            "for",
+            "every",
+            "30",
+            "words",
+            "being",
+            "processed",
+            "."
+        ]
+    },
+    {
+        "id": "3760",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.3.10.2",
+            "Safety",
+            "Requirements",
+            "-",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3761",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.3.10.3",
+            "Security",
+            "Requirements",
+            "-",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3762",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.3.10.4",
+            "Software",
+            "Quality",
+            "Requirements",
+            "-",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3763",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.3.11",
+            "Notes",
+            "/",
+            "Issues",
+            "\u2013",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3764",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-association",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.3.12",
+            "Special Requirements -",
+            "The",
+            "database",
+            "needs",
+            "to",
+            "be",
+            "updated",
+            "frequently",
+            "by",
+            "the",
+            "user",
+            "by",
+            "connecting",
+            "the",
+            "device",
+            "to",
+            "any",
+            "computer",
+            "and",
+            "looking",
+            "for",
+            "updates",
+            ".",
+            "There",
+            "should",
+            "be",
+            "fast",
+            "processing",
+            "also",
+            "."
+        ]
+    },
+    {
+        "id": "3765",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-attribute",
+            "I-attribute",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.4",
+            "Use case",
+            "name",
+            "and",
+            "identifier",
+            "-",
+            "Translate",
+            "spoken",
+            "language",
+            "(",
+            "U4",
+            ")"
+        ]
+    },
+    {
+        "id": "3766",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-attribute",
+            "I-attribute",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-association",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.4.1",
+            "Objective",
+            "-",
+            "The",
+            "object",
+            "of",
+            "the",
+            "U4",
+            "use case",
+            "is",
+            "to",
+            "translate",
+            "any",
+            "chosen",
+            "speech",
+            ",",
+            "in",
+            "the",
+            "device",
+            ",",
+            "to",
+            "any",
+            "desired",
+            "language",
+            ".",
+            "It",
+            "would",
+            "help",
+            "anyone",
+            "understand",
+            "the",
+            "foreign",
+            "speech",
+            "in",
+            "his",
+            "or",
+            "her",
+            "device",
+            ".",
+            "The",
+            "foreign",
+            "speech",
+            "would",
+            "be",
+            "recorded",
+            "into",
+            "the",
+            "device",
+            "by",
+            "the",
+            "in",
+            "-built",
+            "microphone",
+            "."
+        ]
+    },
+    {
+        "id": "3767",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.4.2",
+            "Priority",
+            "\u2013",
+            "This",
+            "requirement",
+            "is",
+            "high",
+            "priority",
+            "."
+        ]
+    },
+    {
+        "id": "3768",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.4.3",
+            "Source",
+            "\u2013",
+            "The",
+            "source",
+            "of",
+            "this",
+            "use case",
+            "is",
+            "the",
+            "customer",
+            "."
+        ]
+    },
+    {
+        "id": "3769",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.4.4",
+            "Actors",
+            "-",
+            "The",
+            "only",
+            "actor",
+            "in",
+            "this",
+            "part",
+            "is",
+            "the",
+            "customer",
+            "."
+        ]
+    },
+    {
+        "id": "3770",
+        "ner_tags": [
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.4.5",
+            "Flow of Events-"
+        ]
+    },
+    {
+        "id": "3771",
+        "ner_tags": [
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.4.5.1",
+            "Basic Flow-"
+        ]
+    },
+    {
+        "id": "3772",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.4.5.1.1",
+            "Speech",
+            "is",
+            "recorded",
+            "by",
+            "microphone",
+            "."
+        ]
+    },
+    {
+        "id": "3773",
+        "ner_tags": [
+            "O",
+            "B-attribute",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.4.5.1.2",
+            "Language",
+            "being",
+            "used",
+            "is",
+            "identified",
+            "."
+        ]
+    },
+    {
+        "id": "3774",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.4.5.1.3",
+            "Speech",
+            "is",
+            "compared",
+            "to",
+            "database",
+            "."
+        ]
+    },
+    {
+        "id": "3775",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.4.5.1.4",
+            "Speech",
+            "is",
+            "translated",
+            "to",
+            "the",
+            "desired language",
+            "."
+        ]
+    },
+    {
+        "id": "3776",
+        "ner_tags": [
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.4.5.1.5",
+            "Final",
+            "result",
+            "will",
+            "either",
+            "be",
+            "displayed",
+            "on",
+            "the",
+            "screen",
+            "or",
+            "will",
+            "be",
+            "output",
+            "through",
+            "the",
+            "speaker",
+            ",",
+            "depending",
+            "on",
+            "the",
+            "user",
+            "\u2019s",
+            "choice",
+            "of",
+            "output",
+            "."
+        ]
+    },
+    {
+        "id": "3777",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.4.5.2",
+            "Alternative",
+            "flow",
+            "-",
+            "At",
+            "step",
+            "3.4.5.1.2",
+            ",",
+            "the",
+            "device",
+            "does",
+            "not recognize",
+            "the"
+        ]
+    },
+    {
+        "id": "3778",
+        "ner_tags": [
+            "B-attribute",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "language",
+            "due",
+            "to",
+            "incorrect",
+            "input",
+            "."
+        ]
+    },
+    {
+        "id": "3779",
+        "ner_tags": [
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.4.5.2.1",
+            "The",
+            "device",
+            "beeps",
+            "and",
+            "the",
+            "message",
+            "&quot;INVALID INPUT&quot;",
+            "is",
+            "displayed",
+            "on",
+            "the",
+            "screen",
+            "."
+        ]
+    },
+    {
+        "id": "3780",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.4.5.3",
+            "Exception",
+            "Flow",
+            "-",
+            "At",
+            "step",
+            "3.4.5.1.4",
+            ",",
+            "the",
+            "device",
+            "cannot find",
+            "translations"
+        ]
+    },
+    {
+        "id": "3781",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "in",
+            "the",
+            "database",
+            "."
+        ]
+    },
+    {
+        "id": "3782",
+        "ner_tags": [
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.4.5.3.1",
+            "The",
+            "device",
+            "beeps",
+            "and",
+            "the",
+            "message",
+            ",",
+            "&quot;NOT TRANSLATED&quot;",
+            "is"
+        ]
+    },
+    {
+        "id": "3783",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "displayed",
+            "on",
+            "the",
+            "screen",
+            "."
+        ]
+    },
+    {
+        "id": "3784",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-attribute",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.4.6",
+            "Includes",
+            "-",
+            "Recording",
+            "speech",
+            ",",
+            "comparing",
+            "to",
+            "database",
+            ",",
+            "displaying",
+            "translated",
+            "speech",
+            "."
+        ]
+    },
+    {
+        "id": "3785",
+        "ner_tags": [
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.4.7",
+            "Requirements",
+            "-"
+        ]
+    },
+    {
+        "id": "3786",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.4.7.1",
+            "The",
+            "system",
+            "shall",
+            "record",
+            "speech",
+            "using",
+            "the",
+            "microphone",
+            "."
+        ]
+    },
+    {
+        "id": "3787",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-attribute",
+            "O",
+            "O",
+            "B-attribute",
+            "I-attribute",
+            "O"
+        ],
+        "tokens": [
+            "3.4.7.2",
+            "The",
+            "system",
+            "shall",
+            "identify",
+            "the",
+            "language",
+            "of",
+            "the",
+            "spoken",
+            "words",
+            "."
+        ]
+    },
+    {
+        "id": "3788",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.4.7.3",
+            "The",
+            "system",
+            "shall",
+            "compare",
+            "the",
+            "input",
+            "to",
+            "the",
+            "database",
+            "."
+        ]
+    },
+    {
+        "id": "3789",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-attribute",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.3.7.3",
+            "The",
+            "system",
+            "shall",
+            "query",
+            "the",
+            "user",
+            "as",
+            "to",
+            "the",
+            "format",
+            "of",
+            "output",
+            "to",
+            "use",
+            "(",
+            "text",
+            "or"
+        ]
+    },
+    {
+        "id": "3790",
+        "ner_tags": [
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "speech",
+            ")."
+        ]
+    },
+    {
+        "id": "3791",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-attribute",
+            "I-attribute",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.4.7.4",
+            "The",
+            "system",
+            "shall",
+            "output",
+            "the",
+            "spoken",
+            "language",
+            "as",
+            "text",
+            "."
+        ]
+    },
+    {
+        "id": "3792",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-attribute",
+            "I-attribute",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.4.7.5",
+            "The",
+            "system",
+            "shall",
+            "output",
+            "the",
+            "spoken",
+            "language",
+            "as",
+            "speech",
+            "."
+        ]
+    },
+    {
+        "id": "3793",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.3.7.6",
+            "The",
+            "system",
+            "shall",
+            "indicate",
+            "when",
+            "a",
+            "translation",
+            "cannot",
+            "be",
+            "found",
+            "."
+        ]
+    },
+    {
+        "id": "3794",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "B-attribute",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.4.7.6",
+            "The",
+            "system",
+            "shall",
+            "indicate",
+            "when",
+            "the",
+            "speech",
+            "\u2019s",
+            "language",
+            "cannot",
+            "be"
+        ]
+    },
+    {
+        "id": "3795",
+        "ner_tags": [
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "identified",
+            "."
+        ]
+    },
+    {
+        "id": "3796",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.4.8",
+            "Preconditions -",
+            "The",
+            "user",
+            "has",
+            "recorded",
+            "the",
+            "speech",
+            "into",
+            "the",
+            "device",
+            "."
+        ]
+    },
+    {
+        "id": "3797",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-attribute",
+            "I-attribute",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.4.9",
+            "Post",
+            "conditions",
+            "-",
+            "The",
+            "speech",
+            "has",
+            "been",
+            "translated",
+            "into",
+            "the",
+            "desired",
+            "language",
+            "and",
+            "final",
+            "output",
+            "has",
+            "reached",
+            "the",
+            "user",
+            "in",
+            "his",
+            "/",
+            "her",
+            "desired",
+            "form",
+            ".",
+            "The",
+            "user",
+            "understands",
+            "the",
+            "foreign",
+            "speech",
+            "."
+        ]
+    },
+    {
+        "id": "3798",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.4.10",
+            "Nonfunctional",
+            "requirements",
+            "-"
+        ]
+    },
+    {
+        "id": "3799",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.4.10.1",
+            "Performance",
+            "Requirements",
+            "-"
+        ]
+    },
+    {
+        "id": "3800",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.4.10.1.1",
+            "Maximum",
+            "allowed",
+            "execution",
+            "time",
+            "for",
+            "U4",
+            "use case",
+            "is",
+            "5"
+        ]
+    },
+    {
+        "id": "3801",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "seconds",
+            "for",
+            "every",
+            "30",
+            "words",
+            "being",
+            "processed",
+            "."
+        ]
+    },
+    {
+        "id": "3802",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.4.10.2",
+            "Safety",
+            "Requirements",
+            "-",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3803",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.4.10.3",
+            "Security",
+            "Requirements",
+            "-",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3804",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.4.10.4",
+            "Software",
+            "Quality",
+            "Requirements",
+            "-",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3805",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.2.11",
+            "Notes",
+            "/",
+            "Issues",
+            "\u2013",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3806",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-association",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.4.12",
+            "Special",
+            "Requirements",
+            "-",
+            "The",
+            "database",
+            "needs",
+            "to",
+            "be",
+            "updated",
+            "frequently",
+            "by",
+            "the",
+            "user",
+            "by",
+            "connecting",
+            "the",
+            "device",
+            "to",
+            "any",
+            "computer",
+            "and",
+            "looking for updates",
+            ".",
+            "Fast",
+            "processing",
+            "is",
+            "an",
+            "additional",
+            "special requirement."
+        ]
+    },
+    {
+        "id": "3807",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.5",
+            "Use case",
+            "name",
+            "and",
+            "Identifier",
+            "-",
+            "Translate",
+            "signs",
+            "(",
+            "U5",
+            ")"
+        ]
+    },
+    {
+        "id": "3808",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.5.1",
+            "Objective",
+            "-",
+            "The",
+            "object",
+            "of",
+            "the",
+            "U5",
+            "use case",
+            "is",
+            "to",
+            "interpret",
+            "any",
+            "chosen",
+            "sign",
+            ",",
+            "with",
+            "or",
+            "without",
+            "text",
+            ",",
+            "in",
+            "the",
+            "device",
+            ".",
+            "It",
+            "would",
+            "help",
+            "anyone",
+            "understand",
+            "the",
+            "foreign",
+            "sign",
+            "in",
+            "his",
+            "or",
+            "her",
+            "device",
+            ".",
+            "The",
+            "camera",
+            "in",
+            "the",
+            "nTravel",
+            "will",
+            "take",
+            "a",
+            "picture",
+            "of",
+            "the",
+            "foreign",
+            "sign",
+            "and",
+            "returns",
+            "an",
+            "explanation",
+            "of",
+            "the",
+            "sign",
+            "."
+        ]
+    },
+    {
+        "id": "3809",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.5.2",
+            "Priority",
+            "\u2013",
+            "This",
+            "requirement",
+            "is",
+            "medium",
+            "priority",
+            "."
+        ]
+    },
+    {
+        "id": "3810",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.5.3",
+            "Source",
+            "\u2013",
+            "The",
+            "source",
+            "of",
+            "this",
+            "use case",
+            "is",
+            "the",
+            "customer",
+            "."
+        ]
+    },
+    {
+        "id": "3811",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.5.4",
+            "Actors",
+            "-",
+            "The",
+            "only",
+            "actor",
+            "in",
+            "this",
+            "part",
+            "is",
+            "the",
+            "customer",
+            "."
+        ]
+    },
+    {
+        "id": "3812",
+        "ner_tags": [
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.5.5",
+            "Flow of Events-"
+        ]
+    },
+    {
+        "id": "3813",
+        "ner_tags": [
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.5.5.1",
+            "Basic Flow-"
+        ]
+    },
+    {
+        "id": "3814",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.5.5.1.2",
+            "The",
+            "chosen",
+            "sign",
+            "is",
+            "selected",
+            "from",
+            "a",
+            "permanently",
+            "saved",
+            "or",
+            "temporarily",
+            "saved",
+            "picture",
+            "."
+        ]
+    },
+    {
+        "id": "3815",
+        "ner_tags": [
+            "O",
+            "O",
+            "B-attribute",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.5.5.1.3",
+            "The",
+            "language",
+            "and",
+            "symbol",
+            "is",
+            "identified",
+            "."
+        ]
+    },
+    {
+        "id": "3816",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-attribute",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.5.5.1.4",
+            "Then",
+            ",",
+            "it",
+            "is",
+            "compared",
+            "to",
+            "the",
+            "downloaded",
+            "database",
+            "in",
+            "our",
+            "device",
+            "."
+        ]
+    },
+    {
+        "id": "3817",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-attribute",
+            "O"
+        ],
+        "tokens": [
+            "3.5.5.1.5",
+            "It",
+            "is",
+            "then",
+            "interpreted",
+            "in",
+            "the",
+            "desired",
+            "language",
+            "."
+        ]
+    },
+    {
+        "id": "3818",
+        "ner_tags": [
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.5.5.1.6",
+            "Final",
+            "result",
+            "will",
+            "either",
+            "be",
+            "displayed",
+            "on",
+            "the",
+            "screen",
+            "or",
+            "will",
+            "be"
+        ]
+    },
+    {
+        "id": "3819",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "B-attribute",
+            "O"
+        ],
+        "tokens": [
+            "output",
+            "through",
+            "the",
+            "speaker",
+            ",",
+            "depending",
+            "on",
+            "the",
+            "user",
+            "&apos;s",
+            "choice of output",
+            "."
+        ]
+    },
+    {
+        "id": "3820",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.5.5.2",
+            "Alternative",
+            "flow",
+            "-",
+            "At",
+            "step",
+            "3.5.5.1.2",
+            ",",
+            "the",
+            "device",
+            "does",
+            "not recognize",
+            "the"
+        ]
+    },
+    {
+        "id": "3821",
+        "ner_tags": [
+            "B-attribute",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "language",
+            "due",
+            "to",
+            "incorrect",
+            "input",
+            "."
+        ]
+    },
+    {
+        "id": "3822",
+        "ner_tags": [
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.5.5.2.1",
+            "The",
+            "device",
+            "beeps",
+            "and",
+            "the",
+            "message",
+            "&quot;",
+            "INVALID INPUT",
+            "&quot;",
+            "is"
+        ]
+    },
+    {
+        "id": "3823",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "displayed",
+            "on",
+            "the",
+            "screen",
+            "."
+        ]
+    },
+    {
+        "id": "3824",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.5.5.3",
+            "Exception",
+            "Flow",
+            "-",
+            "At",
+            "step",
+            "3.5.5.1.4",
+            ",",
+            "the",
+            "device",
+            "can",
+            "not find a translation"
+        ]
+    },
+    {
+        "id": "3825",
+        "ner_tags": [
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "in",
+            "the",
+            "database",
+            "."
+        ]
+    },
+    {
+        "id": "3826",
+        "ner_tags": [
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.5.5.3.1",
+            "The",
+            "device",
+            "beeps",
+            "and",
+            "the",
+            "message",
+            ",",
+            "&quot;NOT TRANSLATED",
+            "&quot;",
+            "is"
+        ]
+    },
+    {
+        "id": "3827",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "displayed",
+            "on",
+            "the",
+            "screen",
+            "."
+        ]
+    },
+    {
+        "id": "3828",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.5.6",
+            "Includes",
+            "\u2013",
+            "Taking",
+            "a",
+            "picture",
+            "of",
+            "the",
+            "sign",
+            ",",
+            "comparing",
+            "to",
+            "database",
+            ",",
+            "displaying"
+        ]
+    },
+    {
+        "id": "3829",
+        "ner_tags": [
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "interpretation",
+            "."
+        ]
+    },
+    {
+        "id": "3830",
+        "ner_tags": [
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.5.7",
+            "Requirements",
+            "-"
+        ]
+    },
+    {
+        "id": "3831",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.5.7.1",
+            "The",
+            "system",
+            "shall",
+            "identify",
+            "a",
+            "sign",
+            "in",
+            "an",
+            "existing",
+            "picture",
+            "."
+        ]
+    },
+    {
+        "id": "3832",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.5.7.2",
+            "The",
+            "system",
+            "shall",
+            "identify",
+            "the",
+            "language",
+            "in",
+            "a",
+            "sign",
+            "."
+        ]
+    },
+    {
+        "id": "3833",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.5.7.3",
+            "The",
+            "system",
+            "shall",
+            "compare",
+            "the",
+            "sign",
+            "to",
+            "signs",
+            "that",
+            "exist",
+            "in",
+            "the",
+            "database",
+            "."
+        ]
+    },
+    {
+        "id": "3834",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.5.7.4",
+            "The",
+            "system",
+            "shall",
+            "translate",
+            "any",
+            "text",
+            "on",
+            "the",
+            "sign",
+            "."
+        ]
+    },
+    {
+        "id": "3835",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-attribute",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.3.7.3",
+            "The",
+            "system",
+            "shall",
+            "query",
+            "the",
+            "user",
+            "as",
+            "to",
+            "the",
+            "format",
+            "of",
+            "output",
+            "to",
+            "use",
+            "(",
+            "text",
+            "or"
+        ]
+    },
+    {
+        "id": "3836",
+        "ner_tags": [
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "speech",
+            ")."
+        ]
+    },
+    {
+        "id": "3837",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.5.7.5",
+            "The",
+            "system",
+            "shall",
+            "output",
+            "the",
+            "sign",
+            "information",
+            "as",
+            "text",
+            "."
+        ]
+    },
+    {
+        "id": "3838",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.5.7.6",
+            "The",
+            "system",
+            "shall",
+            "output",
+            "the",
+            "sign",
+            "information",
+            "as",
+            "speech",
+            "."
+        ]
+    },
+    {
+        "id": "3839",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.3.7.6",
+            "The",
+            "system",
+            "shall",
+            "indicate",
+            "when",
+            "a",
+            "translation",
+            "of",
+            "the",
+            "sign",
+            "cannot",
+            "be",
+            "found",
+            "."
+        ]
+    },
+    {
+        "id": "3840",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "B-attribute",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.5.7.7",
+            "The",
+            "system",
+            "shall",
+            "indicate",
+            "when",
+            "the",
+            "sign",
+            "\u2019s",
+            "language",
+            "cannot",
+            "be",
+            "recognized",
+            "."
+        ]
+    },
+    {
+        "id": "3841",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.5.8",
+            "Preconditions \u2013",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3842",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-attribute",
+            "I-attribute",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-attribute",
+            "I-attribute",
+            "O"
+        ],
+        "tokens": [
+            "3.5.9",
+            "Post",
+            "conditions",
+            "-",
+            "The",
+            "sign",
+            "has",
+            "been",
+            "interpreted",
+            "into",
+            "the",
+            "desired",
+            "language",
+            "and",
+            "final",
+            "output",
+            "has",
+            "reached",
+            "the",
+            "user",
+            "in",
+            "his",
+            "desired",
+            "language",
+            "."
+        ]
+    },
+    {
+        "id": "3843",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.5.10",
+            "Nonfunctional",
+            "requirements",
+            "\u2013"
+        ]
+    },
+    {
+        "id": "3844",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.5.10.1",
+            "Performance",
+            "Requirements",
+            "-"
+        ]
+    },
+    {
+        "id": "3845",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.5.10.1.1",
+            "Maximum",
+            "allowed",
+            "execution",
+            "time",
+            "for",
+            "U5",
+            "use case",
+            "is",
+            "5",
+            "seconds",
+            ",",
+            "starting",
+            "when",
+            "the",
+            "user",
+            "requests",
+            "a",
+            "sign",
+            "translation",
+            "and",
+            "ending",
+            "when",
+            "the",
+            "audio",
+            "/",
+            "visual",
+            "output",
+            "has",
+            "been",
+            "transmitted",
+            "."
+        ]
+    },
+    {
+        "id": "3846",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.5.10.2",
+            "Safety",
+            "Requirements",
+            "-",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3847",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.5.10.3",
+            "Security",
+            "Requirements",
+            "-",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3848",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.5.10.4",
+            "Software",
+            "Quality",
+            "Requirements",
+            "-",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3849",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.5.11",
+            "Notes",
+            "/",
+            "Issues",
+            "\u2013",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3850",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-association",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.5.12",
+            "Special Requirements -",
+            "The",
+            "database",
+            "needs",
+            "to",
+            "be",
+            "updated",
+            "frequently",
+            "by",
+            "the",
+            "user",
+            "by",
+            "connecting",
+            "the",
+            "device",
+            "to",
+            "any",
+            "computer",
+            "and",
+            "looking for updates",
+            "."
+        ]
+    },
+    {
+        "id": "3851",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.6",
+            "Use case",
+            "name",
+            "and",
+            "identifier",
+            "-",
+            "Update",
+            "device software",
+            "(",
+            "U6",
+            ")"
+        ]
+    },
+    {
+        "id": "3852",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.6.1",
+            "Objective",
+            "-",
+            "Update",
+            "is",
+            "used",
+            "to",
+            "update",
+            "products",
+            "software",
+            "applications",
+            "and",
+            "database",
+            "."
+        ]
+    },
+    {
+        "id": "3853",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.6.2",
+            "Priority",
+            "\u2013",
+            "This",
+            "requirement",
+            "is",
+            "low",
+            "priority",
+            "."
+        ]
+    },
+    {
+        "id": "3854",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.6.3",
+            "Source",
+            "\u2013",
+            "The",
+            "source",
+            "of",
+            "this",
+            "requirement",
+            "is",
+            "the",
+            "developers",
+            "."
+        ]
+    },
+    {
+        "id": "3855",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.6.4",
+            "Actors",
+            "\u2013",
+            "Customer",
+            ",",
+            "Customer",
+            "\u2019s",
+            "Computer",
+            ",",
+            "Master",
+            "Database",
+            "."
+        ]
+    },
+    {
+        "id": "3856",
+        "ner_tags": [
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.6.5",
+            "Flow of events-"
+        ]
+    },
+    {
+        "id": "3857",
+        "ner_tags": [
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.6.5.1",
+            "Basic Flow-"
+        ]
+    },
+    {
+        "id": "3858",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.6.5.1.1",
+            "User",
+            "connects",
+            "the",
+            "device",
+            "to",
+            "the",
+            "computer",
+            "using",
+            "a",
+            "USB",
+            "2.0",
+            "cable",
+            "."
+        ]
+    },
+    {
+        "id": "3859",
+        "ner_tags": [
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.6.5.1.2",
+            "The",
+            "computer",
+            "identifies",
+            "the",
+            "nTravel",
+            "as",
+            "being",
+            "connected",
+            "."
+        ]
+    },
+    {
+        "id": "3860",
+        "ner_tags": [
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-association",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-attribute",
+            "O"
+        ],
+        "tokens": [
+            "3.6.5.1.3",
+            "The",
+            "software",
+            "on",
+            "the",
+            "computer",
+            "asks",
+            "the",
+            "user",
+            "if",
+            "it",
+            "can",
+            "search",
+            "online",
+            "for",
+            "updates",
+            "."
+        ]
+    },
+    {
+        "id": "3861",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.6.5.1.4",
+            "User",
+            "says \u201cyes\u201d",
+            "."
+        ]
+    },
+    {
+        "id": "3862",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.6.5.1.5",
+            "Software",
+            "looks",
+            "for",
+            "update",
+            "."
+        ]
+    },
+    {
+        "id": "3863",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.6.5.1.6",
+            "If",
+            "updates",
+            "are",
+            "found",
+            ",",
+            "they",
+            "are",
+            "downloaded",
+            "to",
+            "the",
+            "device",
+            "&amp;"
+        ]
+    },
+    {
+        "id": "3864",
+        "ner_tags": [
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "installed",
+            "."
+        ]
+    },
+    {
+        "id": "3865",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-association",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.6.5.1.7",
+            "User",
+            "disconnects",
+            "the",
+            "device",
+            "from",
+            "the",
+            "computer",
+            "."
+        ]
+    },
+    {
+        "id": "3866",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.6.5.2",
+            "Alternative",
+            "Flow",
+            "\u2013",
+            "At",
+            "step",
+            "3.6.5.1.3",
+            ",",
+            "the",
+            "user",
+            "says \u201cno\u201d",
+            "."
+        ]
+    },
+    {
+        "id": "3867",
+        "ner_tags": [
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.6.5.2.1",
+            "The",
+            "software",
+            "exits",
+            "without",
+            "updating",
+            "."
+        ]
+    },
+    {
+        "id": "3868",
+        "ner_tags": [
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-association",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.6.5.2.2",
+            "The",
+            "user",
+            "can",
+            "now",
+            "remove",
+            "the",
+            "device",
+            "from",
+            "the",
+            "computer",
+            "."
+        ]
+    },
+    {
+        "id": "3869",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.6.5.3",
+            "Exception",
+            "Flow",
+            "\u2013",
+            "At",
+            "step",
+            "3.6.5.1.1",
+            ",",
+            "the",
+            "computer",
+            "does",
+            "not detect",
+            "the"
+        ]
+    },
+    {
+        "id": "3870",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "nTravel",
+            "device",
+            "."
+        ]
+    },
+    {
+        "id": "3871",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.6.5.3.1",
+            "Error",
+            "message",
+            ", \u201c",
+            "UNKNOWN DEVICE\u201d",
+            "is",
+            "displayed",
+            "suggesting"
+        ]
+    },
+    {
+        "id": "3872",
+        "ner_tags": [
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "that",
+            "the",
+            "user",
+            "check",
+            "nTravel",
+            "software",
+            "installation",
+            "on",
+            "computer",
+            "."
+        ]
+    },
+    {
+        "id": "3873",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.6.6",
+            "Includes",
+            "\u2013",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3874",
+        "ner_tags": [
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.6.7",
+            "Requirements",
+            "-"
+        ]
+    },
+    {
+        "id": "3875",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.6.7.1",
+            "The",
+            "system",
+            "shall",
+            "communicate",
+            "via",
+            "USB",
+            "2.0",
+            "using",
+            "the",
+            "drivers",
+            "installed",
+            "on"
+        ]
+    },
+    {
+        "id": "3876",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "the",
+            "user",
+            "\u2019s",
+            "computer",
+            "."
+        ]
+    },
+    {
+        "id": "3877",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "B-attribute"
+        ],
+        "tokens": [
+            "3.6.7.2",
+            "The",
+            "system",
+            "shall",
+            "relay",
+            "information",
+            "regarding",
+            "current",
+            "software",
+            "version"
+        ]
+    },
+    {
+        "id": "3878",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "information",
+            "such",
+            "that",
+            "it",
+            "can",
+            "be",
+            "determined",
+            "whether",
+            "a",
+            "software",
+            "update",
+            "is",
+            "required",
+            "."
+        ]
+    },
+    {
+        "id": "3879",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.6.7.3",
+            "The",
+            "system",
+            "shall",
+            "allow",
+            "software",
+            "updates",
+            "to",
+            "be",
+            "transferred",
+            "to",
+            "it",
+            "via",
+            "USB",
+            "2.0"
+        ]
+    },
+    {
+        "id": "3880",
+        "ner_tags": [
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "from",
+            "the",
+            "user",
+            "\u2019s",
+            "computer",
+            "."
+        ]
+    },
+    {
+        "id": "3881",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.6.7.4",
+            "The",
+            "system",
+            "shall",
+            "indicate",
+            "when",
+            "no",
+            "software",
+            "updates",
+            "are",
+            "available",
+            "."
+        ]
+    },
+    {
+        "id": "3882",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.6.7.5",
+            "The",
+            "system",
+            "shall",
+            "indicate",
+            "when",
+            "the",
+            "nTravel",
+            "device",
+            "is",
+            "unrecognizable",
+            "by"
+        ]
+    },
+    {
+        "id": "3883",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "the",
+            "user",
+            "\u2019s",
+            "computer",
+            "."
+        ]
+    },
+    {
+        "id": "3884",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.6.8",
+            "Preconditions -",
+            "Update",
+            "software",
+            "given",
+            "with",
+            "the",
+            "device",
+            "should",
+            "be",
+            "installed",
+            "on",
+            "the"
+        ]
+    },
+    {
+        "id": "3885",
+        "ner_tags": [
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "computer",
+            "."
+        ]
+    },
+    {
+        "id": "3886",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.6.9",
+            "Post",
+            "conditions",
+            "-",
+            "Updates",
+            "are",
+            "installed",
+            "on",
+            "the",
+            "device",
+            "."
+        ]
+    },
+    {
+        "id": "3887",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.6.10",
+            "Nonfunctional",
+            "requirements",
+            "\u2013"
+        ]
+    },
+    {
+        "id": "3888",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.6.10.1",
+            "Performance",
+            "Requirements",
+            "-"
+        ]
+    },
+    {
+        "id": "3889",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.6.10.1.1",
+            "Maximum",
+            "time",
+            "to",
+            "perform",
+            "data",
+            "synchronization",
+            "is",
+            "10",
+            "minutes",
+            "."
+        ]
+    },
+    {
+        "id": "3890",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.6.10.2",
+            "Safety",
+            "Requirements",
+            "-",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3891",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.6.10.3",
+            "Security",
+            "Requirements",
+            "-",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3892",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.6.10.3.1",
+            "Security",
+            "protocols",
+            "must",
+            "be",
+            "implemented",
+            "to",
+            "ensure",
+            "that"
+        ]
+    },
+    {
+        "id": "3893",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "malicious",
+            "programming",
+            "cannot",
+            "pass",
+            "from",
+            "the",
+            "computer",
+            "to",
+            "the",
+            "device",
+            "."
+        ]
+    },
+    {
+        "id": "3894",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.6.10.4",
+            "Software",
+            "Quality",
+            "Requirements",
+            "-",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3895",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.6.11",
+            "Notes",
+            "/",
+            "Issues",
+            "\u2013",
+            "For",
+            "optimal",
+            "performance",
+            ",",
+            "device",
+            "\u2019s",
+            "database",
+            "should",
+            "be",
+            "updated",
+            "at"
+        ]
+    },
+    {
+        "id": "3896",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "least",
+            "once",
+            "per",
+            "month",
+            ".3.6.12",
+            "Special Requirements -",
+            "The",
+            "computer",
+            "should",
+            "have",
+            "an",
+            "Internet",
+            "facility",
+            "available",
+            "to",
+            "install",
+            "updates",
+            "."
+        ]
+    },
+    {
+        "id": "3897",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-attribute",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.7",
+            "Use case",
+            "name",
+            "and",
+            "identifier",
+            "-",
+            "Set",
+            "Language",
+            "(",
+            "U7",
+            ")"
+        ]
+    },
+    {
+        "id": "3898",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.7.1",
+            "Objective",
+            "\u2013",
+            "The",
+            "customer",
+            "can",
+            "set",
+            "the",
+            "text",
+            "/",
+            "audio",
+            "input",
+            "language",
+            "and",
+            "language",
+            "to",
+            "which",
+            "the",
+            "text",
+            "/",
+            "audio",
+            "input",
+            "is",
+            "to",
+            "be",
+            "converted",
+            "."
+        ]
+    },
+    {
+        "id": "3899",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.7.2",
+            "Priority",
+            "\u2013",
+            "This",
+            "requirement",
+            "is",
+            "high",
+            "priority",
+            "."
+        ]
+    },
+    {
+        "id": "3900",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.7.3",
+            "Source",
+            "\u2013",
+            "The",
+            "source",
+            "of",
+            "this",
+            "requirement",
+            "is",
+            "the",
+            "customer",
+            "."
+        ]
+    },
+    {
+        "id": "3901",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.7.4",
+            "Actors",
+            "\u2013",
+            "An",
+            "end",
+            "user",
+            "of",
+            "the",
+            "device",
+            "(",
+            "a",
+            "customer",
+            ")",
+            "would",
+            "be",
+            "the",
+            "relevant",
+            "actor",
+            "for",
+            "this",
+            "use case",
+            "."
+        ]
+    },
+    {
+        "id": "3902",
+        "ner_tags": [
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.7.5",
+            "Flow of Events-"
+        ]
+    },
+    {
+        "id": "3903",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.7.5.1",
+            "Basic",
+            "Flow",
+            "\u2013"
+        ]
+    },
+    {
+        "id": "3904",
+        "ner_tags": [
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-attribute",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.7.5.1.1",
+            "The",
+            "user",
+            "sets",
+            "the",
+            "input",
+            "language",
+            "and",
+            "the",
+            "system",
+            "gets",
+            "ready",
+            "to"
+        ]
+    },
+    {
+        "id": "3905",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "store",
+            "the",
+            "input",
+            "."
+        ]
+    },
+    {
+        "id": "3906",
+        "ner_tags": [
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-attribute",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.7.5.1.2",
+            "The",
+            "user",
+            "sets",
+            "the",
+            "language",
+            "in",
+            "which",
+            "the",
+            "translation",
+            "is",
+            "needed",
+            "and"
+        ]
+    },
+    {
+        "id": "3907",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "the",
+            "system",
+            "retrieves",
+            "the",
+            "corresponding",
+            "database",
+            "."
+        ]
+    },
+    {
+        "id": "3908",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.7.5.2",
+            "Alternative",
+            "Flow",
+            "\u2013",
+            "At",
+            "step",
+            "3.7.5.1.1",
+            ",",
+            "the",
+            "user",
+            "does",
+            "not find",
+            "the"
+        ]
+    },
+    {
+        "id": "3909",
+        "ner_tags": [
+            "O",
+            "B-attribute",
+            "O"
+        ],
+        "tokens": [
+            "required",
+            "language",
+            "."
+        ]
+    },
+    {
+        "id": "3910",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "O",
+            "B-attribute",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.7.5.2.1",
+            "Device",
+            "\u2019s",
+            "language",
+            "settings",
+            "remain",
+            "in",
+            "current",
+            "state",
+            "."
+        ]
+    },
+    {
+        "id": "3911",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-attribute",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.7.5.3",
+            "Exception",
+            "Flow",
+            "\u2013",
+            "At",
+            "step",
+            "3.7.5.1.1",
+            ",",
+            "the",
+            "language",
+            "database",
+            "information"
+        ]
+    },
+    {
+        "id": "3912",
+        "ner_tags": [
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "B-attribute",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "on",
+            "nTravel",
+            "device",
+            "is",
+            "corrupted",
+            "and",
+            "cannot",
+            "be",
+            "read",
+            "."
+        ]
+    },
+    {
+        "id": "3913",
+        "ner_tags": [
+            "B-attribute",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-attribute",
+            "B-class"
+        ],
+        "tokens": [
+            "3.7.5.3.1",
+            "Device",
+            "displays",
+            "a",
+            "message",
+            "indicating",
+            "error",
+            "in",
+            "language",
+            "database"
+        ]
+    },
+    {
+        "id": "3914",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-association",
+            "O",
+            "B-attribute",
+            "B-class",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "and",
+            "a",
+            "suggestion",
+            "to",
+            "download",
+            "the",
+            "language",
+            "database",
+            "again",
+            "."
+        ]
+    },
+    {
+        "id": "3915",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "I-class",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.7.6",
+            "Includes",
+            "\u2013",
+            "Update",
+            "device",
+            "software",
+            "(U6)",
+            "."
+        ]
+    },
+    {
+        "id": "3916",
+        "ner_tags": [
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.7.7",
+            "Requirements",
+            "-"
+        ]
+    },
+    {
+        "id": "3917",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-attribute",
+            "O"
+        ],
+        "tokens": [
+            "3.7.7.1",
+            "The",
+            "system",
+            "shall",
+            "allow",
+            "the",
+            "user",
+            "to",
+            "select",
+            "input",
+            "language",
+            "."
+        ]
+    },
+    {
+        "id": "3918",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-attribute",
+            "O"
+        ],
+        "tokens": [
+            "3.7.7.2",
+            "The",
+            "system",
+            "shall",
+            "allow",
+            "the",
+            "user",
+            "to",
+            "select",
+            "output",
+            "language",
+            "."
+        ]
+    },
+    {
+        "id": "3919",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-attribute",
+            "O"
+        ],
+        "tokens": [
+            "3.7.7.3",
+            "The",
+            "system",
+            "shall",
+            "check",
+            "the",
+            "updated",
+            "database",
+            "to",
+            "find",
+            "required",
+            "language",
+            "."
+        ]
+    },
+    {
+        "id": "3920",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.7.7.4",
+            "The",
+            "system",
+            "shall",
+            "get",
+            "ready",
+            "to",
+            "translate",
+            "via",
+            "chosen",
+            "output",
+            "."
+        ]
+    },
+    {
+        "id": "3921",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.7.7.5",
+            "The",
+            "system",
+            "shall",
+            "indicate",
+            "when",
+            "a",
+            "database",
+            "file",
+            "is",
+            "corrupt",
+            "and",
+            "cannot",
+            "be",
+            "read",
+            "."
+        ]
+    },
+    {
+        "id": "3922",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-attribute",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.7.8",
+            "Preconditions",
+            "\u2013",
+            "User",
+            "must",
+            "download",
+            "the",
+            "language",
+            "database",
+            "to",
+            "the",
+            "device",
+            "before",
+            "selection",
+            "."
+        ]
+    },
+    {
+        "id": "3923",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-attribute",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.7.9",
+            "Post",
+            "conditions",
+            "\u2013",
+            "The",
+            "device",
+            "will",
+            "be",
+            "ready",
+            "to",
+            "translate",
+            "after",
+            "the",
+            "input",
+            "and",
+            "output",
+            "languages",
+            "are",
+            "selected",
+            "."
+        ]
+    },
+    {
+        "id": "3924",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.7.10",
+            "Nonfunctional",
+            "requirements",
+            "\u2013"
+        ]
+    },
+    {
+        "id": "3925",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.7.10.1",
+            "Performance",
+            "Requirements",
+            "-"
+        ]
+    },
+    {
+        "id": "3926",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-attribute",
+            "B-class"
+        ],
+        "tokens": [
+            "3.7.10.1.1",
+            "Maximum",
+            "allowed",
+            "execution",
+            "time",
+            "for",
+            "a",
+            "language",
+            "database"
+        ]
+    },
+    {
+        "id": "3927",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "change",
+            "is",
+            "20",
+            "seconds",
+            "."
+        ]
+    },
+    {
+        "id": "3928",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.7.10.2",
+            "Safety",
+            "Requirements",
+            "-",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3929",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.7.10.3",
+            "Security",
+            "Requirements",
+            "-",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3930",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.7.10.4",
+            "Software",
+            "Quality",
+            "Requirements",
+            "-",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3931",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.7.11",
+            "Notes",
+            "/",
+            "Issues",
+            "\u2013",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3932",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.7.12",
+            "Special Requirements \u2013",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3933",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.8",
+            "Use case",
+            "name",
+            "and",
+            "identifier",
+            "-",
+            "Synchronize",
+            "Files",
+            "(",
+            "U8",
+            ")"
+        ]
+    },
+    {
+        "id": "3934",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "B-association",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.8.1",
+            "Objective",
+            "\u2013",
+            "The",
+            "customer",
+            "can",
+            "connect",
+            "the",
+            "nTravel",
+            "device",
+            "to",
+            "a",
+            "personal",
+            "computer",
+            "to",
+            "transfer",
+            "saved",
+            "pictures",
+            "and",
+            "notes",
+            "."
+        ]
+    },
+    {
+        "id": "3935",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.8.2",
+            "Priority",
+            "\u2013",
+            "This",
+            "requirement",
+            "is",
+            "low",
+            "priority",
+            "."
+        ]
+    },
+    {
+        "id": "3936",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.8.3",
+            "Source",
+            "\u2013",
+            "The",
+            "source",
+            "of",
+            "this",
+            "requirement",
+            "is",
+            "the",
+            "customer",
+            "."
+        ]
+    },
+    {
+        "id": "3937",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.8.4",
+            "Actors",
+            "\u2013",
+            "Customer",
+            ",",
+            "Customer",
+            "\u2019s",
+            "Computer",
+            "."
+        ]
+    },
+    {
+        "id": "3938",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.8.5",
+            "Flow",
+            "of",
+            "Events",
+            "-"
+        ]
+    },
+    {
+        "id": "3939",
+        "ner_tags": [
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.8.5.1",
+            "Basic Flow",
+            "\u2013"
+        ]
+    },
+    {
+        "id": "3940",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.8.5.1.1",
+            "User",
+            "connects",
+            "the",
+            "device",
+            "to",
+            "the",
+            "computer",
+            "using",
+            "a",
+            "USB",
+            "cable",
+            "."
+        ]
+    },
+    {
+        "id": "3941",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.8.5.1.2",
+            "User",
+            "\u2019s",
+            "computer",
+            "identifies",
+            "the",
+            "nTravel",
+            "as",
+            "being",
+            "connected",
+            "."
+        ]
+    },
+    {
+        "id": "3942",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.8.5.1.3",
+            "nTravel",
+            "software",
+            "on",
+            "user",
+            "\u2019s",
+            "computer",
+            "queries",
+            "the",
+            "user",
+            "for",
+            "desire"
+        ]
+    },
+    {
+        "id": "3943",
+        "ner_tags": [
+            "O",
+            "B-association",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "to",
+            "synchronize",
+            "nTravel",
+            "-",
+            "related",
+            "files",
+            "(",
+            "pictures",
+            "and",
+            "notes",
+            ")."
+        ]
+    },
+    {
+        "id": "3944",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-association",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-association",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.8.5.1.4",
+            "User",
+            "indicates",
+            "desire",
+            "to",
+            "synchronize",
+            "nTravel",
+            "-",
+            "related",
+            "files",
+            "such",
+            "that",
+            "the",
+            "files",
+            "on",
+            "the",
+            "computer",
+            "will",
+            "be",
+            "updated",
+            "with",
+            "the",
+            "files",
+            "currently",
+            "on",
+            "the",
+            "nTravel",
+            "."
+        ]
+    },
+    {
+        "id": "3945",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.8.5.1.5",
+            "Files",
+            "on",
+            "nTravel",
+            "are",
+            "copied",
+            "to",
+            "directory",
+            "specified",
+            "by",
+            "user",
+            "."
+        ]
+    },
+    {
+        "id": "3946",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-association",
+            "B-class",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.8.5.1.6",
+            "User",
+            "disconnects",
+            "device",
+            "from",
+            "computer",
+            "."
+        ]
+    },
+    {
+        "id": "3947",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.8.5.2",
+            "Alternative",
+            "Flow",
+            "\u2013",
+            "At",
+            "step",
+            "3.8.5.1.3",
+            ",",
+            "the",
+            "user",
+            "indicates lack",
+            "of",
+            "desire",
+            "to"
+        ]
+    },
+    {
+        "id": "3948",
+        "ner_tags": [
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "synchronize",
+            "nTravel-related",
+            "files",
+            "."
+        ]
+    },
+    {
+        "id": "3949",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-association",
+            "B-class",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.8.5.2.1",
+            "User",
+            "disconnects",
+            "device",
+            "from",
+            "computer",
+            "."
+        ]
+    },
+    {
+        "id": "3950",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.8.5.3",
+            "Exception",
+            "Flow",
+            "\u2013",
+            "At",
+            "step",
+            "3.8.5.1.1",
+            ",",
+            "user",
+            "\u2019s",
+            "computer",
+            "is",
+            "unable",
+            "to",
+            "identify"
+        ]
+    },
+    {
+        "id": "3951",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "the",
+            "nTravel",
+            "as",
+            "being",
+            "connected",
+            "."
+        ]
+    },
+    {
+        "id": "3952",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.8.5.3.1",
+            "Error",
+            "message",
+            ",",
+            "\u201cUNKNOWN DEVICE\u201d",
+            "is",
+            "displayed",
+            "suggesting"
+        ]
+    },
+    {
+        "id": "3953",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-association",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "that",
+            "user",
+            "check",
+            "nTravel",
+            "software",
+            "installation",
+            "on",
+            "computer",
+            "."
+        ]
+    },
+    {
+        "id": "3954",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.8.5.6",
+            "Includes",
+            "\u2013",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3955",
+        "ner_tags": [
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.8.7",
+            "Requirements",
+            "-"
+        ]
+    },
+    {
+        "id": "3956",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.6.7.1",
+            "The",
+            "system",
+            "shall",
+            "communicate",
+            "via",
+            "USB",
+            "2.0",
+            "using",
+            "the",
+            "drivers",
+            "installed",
+            "on"
+        ]
+    },
+    {
+        "id": "3957",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "the",
+            "user",
+            "\u2019s",
+            "computer",
+            "."
+        ]
+    },
+    {
+        "id": "3958",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.6.7.5",
+            "The",
+            "system",
+            "shall",
+            "indicate",
+            "when",
+            "the",
+            "nTravel",
+            "device",
+            "is",
+            "unrecognizable",
+            "by"
+        ]
+    },
+    {
+        "id": "3959",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "the",
+            "user",
+            "\u2019s",
+            "computer",
+            "."
+        ]
+    },
+    {
+        "id": "3960",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.8.7.1",
+            "The",
+            "system",
+            "shall",
+            "query",
+            "the",
+            "user",
+            "regarding",
+            "desire",
+            "to",
+            "synchronize",
+            "image",
+            "and"
+        ]
+    },
+    {
+        "id": "3961",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "note",
+            "files",
+            "."
+        ]
+    },
+    {
+        "id": "3962",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.8.7.2",
+            "The",
+            "system",
+            "shall",
+            "transfer",
+            "image",
+            "and",
+            "note",
+            "files",
+            "from",
+            "the",
+            "nTravel",
+            "to",
+            "the"
+        ]
+    },
+    {
+        "id": "3963",
+        "ner_tags": [
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "user",
+            "\u2019s",
+            "computer",
+            "using",
+            "USB",
+            "2.0",
+            "."
+        ]
+    },
+    {
+        "id": "3964",
+        "ner_tags": [
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "3.8.8",
+            "Preconditions \u2013",
+            "User",
+            "has",
+            "installed",
+            "nTravel",
+            "software",
+            "on",
+            "user",
+            "\u2019s",
+            "computer",
+            "."
+        ]
+    },
+    {
+        "id": "3965",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "B-class",
+            "O",
+            "B-association",
+            "B-class",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.8.9",
+            "Post",
+            "conditions",
+            "\u2013",
+            "User",
+            "\u2019s",
+            "computer",
+            "has",
+            "updated",
+            "files",
+            "stored",
+            "."
+        ]
+    },
+    {
+        "id": "3966",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.8.10",
+            "Nonfunctional",
+            "requirements",
+            "\u2013"
+        ]
+    },
+    {
+        "id": "3967",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.8.10.1",
+            "Performance",
+            "Requirements",
+            "-"
+        ]
+    },
+    {
+        "id": "3968",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.8.10.1.1",
+            "Maximum",
+            "allowed",
+            "execution",
+            "time",
+            "for",
+            "file",
+            "synchronization",
+            "is",
+            "1"
+        ]
+    },
+    {
+        "id": "3969",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "second",
+            "per",
+            "20",
+            "MB",
+            "of",
+            "files",
+            "being",
+            "transferred",
+            "."
+        ]
+    },
+    {
+        "id": "3970",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.8.10.2",
+            "Safety",
+            "Requirements",
+            "-",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3971",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.8.10.3",
+            "Security",
+            "Requirements",
+            "-",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3972",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.8.10.4",
+            "Software",
+            "Quality",
+            "Requirements",
+            "-",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3973",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.8.11",
+            "Notes",
+            "/",
+            "Issues",
+            "\u2013",
+            "None",
+            "."
+        ]
+    },
+    {
+        "id": "3974",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "3.8.12",
+            "Special Requirements \u2013",
+            "None",
+            "."
+        ]
+    }
+]

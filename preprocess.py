@@ -64,12 +64,17 @@ def handle_data(data, k):
 
 
 for file in json_files:
+    if file == "main.json":
+        continue
     with open(f"./json/{file}", encoding="utf-8") as jp:
         obj = json.load(jp)
 
-    for k, v in obj.items():
-        for i in v:
-            handle_data(i, k)
+    try:
+        for k, v in obj.items():
+            for i in v:
+                handle_data(i, k)
+    except:
+        print(obj)
 
 with open(f"./json/main.json", "w", encoding="utf-8") as jp:
     json.dump(

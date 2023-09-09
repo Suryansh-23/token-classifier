@@ -1,0 +1,508 @@
+[
+    {
+        "id": "4031",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-attribute",
+            "B-no",
+            "I-no",
+            "B-association",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Each",
+            "customer",
+            "has",
+            "unique",
+            "id",
+            "and",
+            "is",
+            "linked",
+            "to",
+            "exactly",
+            "one",
+            "account",
+            "."
+        ]
+    },
+    {
+        "id": "4032",
+        "ner_tags": [
+            "B-class",
+            "B-association",
+            "B-class",
+            "B-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Account",
+            "owns",
+            "shopping cart",
+            "and",
+            "orders",
+            "."
+        ]
+    },
+    {
+        "id": "4033",
+        "ner_tags": [
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Customer",
+            "may",
+            "be",
+            "a",
+            "web user",
+            "."
+        ]
+    },
+    {
+        "id": "4034",
+        "ner_tags": [
+            "B-class",
+            "I-class",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-association",
+            "B-class",
+            "B-no",
+            "O"
+        ],
+        "tokens": [
+            "Customer",
+            "could",
+            "register",
+            "as",
+            "a",
+            "web user",
+            "to",
+            "be",
+            "able",
+            "to",
+            "buy",
+            "items",
+            "online",
+            "."
+        ]
+    },
+    {
+        "id": "4035",
+        "ner_tags": [
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Customer",
+            "is",
+            "not",
+            "required",
+            "to",
+            "be",
+            "a",
+            "web user",
+            "because",
+            "purchases",
+            "could",
+            "also",
+            "be",
+            "made",
+            "by",
+            "phone",
+            "or",
+            "by",
+            "ordering",
+            "from",
+            "catalogues",
+            "."
+        ]
+    },
+    {
+        "id": "4036",
+        "ner_tags": [
+            "B-class",
+            "B-no",
+            "B-attribute",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-attribute",
+            "O"
+        ],
+        "tokens": [
+            "Web user",
+            "has",
+            "login name",
+            "which",
+            "also",
+            "serves",
+            "as",
+            "unique",
+            "id",
+            "."
+        ]
+    },
+    {
+        "id": "4037",
+        "ner_tags": [
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-attribute",
+            "O",
+            "B-no",
+            "I-no",
+            "O",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Web user",
+            "could",
+            "be",
+            "in",
+            "several",
+            "states",
+            "-",
+            "new,",
+            "active",
+            ",",
+            "temporary blocked",
+            ",",
+            "or",
+            "account banned",
+            "."
+        ]
+    },
+    {
+        "id": "4038",
+        "ner_tags": [
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-association",
+            "B-no",
+            "I-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Web user",
+            "can",
+            "be",
+            "linked",
+            "to",
+            "a",
+            "shopping cart",
+            "."
+        ]
+    },
+    {
+        "id": "4039",
+        "ner_tags": [
+            "B-class",
+            "O",
+            "B-association",
+            "B-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Shopping car",
+            "t",
+            "belongs",
+            "to",
+            "account",
+            "."
+        ]
+    },
+    {
+        "id": "4040",
+        "ner_tags": [
+            "B-class",
+            "B-association",
+            "B-class",
+            "I-class",
+            "O"
+        ],
+        "tokens": [
+            "Account",
+            "owns",
+            "customer",
+            "orders",
+            "."
+        ]
+    },
+    {
+        "id": "4041",
+        "ner_tags": [
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Customer",
+            "may",
+            "have",
+            "no",
+            "cutomer orders",
+            "."
+        ]
+    },
+    {
+        "id": "4042",
+        "ner_tags": [
+            "B-class",
+            "I-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Customer",
+            "orders",
+            "are",
+            "sorted",
+            "and",
+            "unique",
+            "."
+        ]
+    },
+    {
+        "id": "4043",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "I-class",
+            "B-no",
+            "B-association",
+            "B-no",
+            "I-no",
+            "B-class",
+            "O",
+            "B-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Each",
+            "customer",
+            "order",
+            "could",
+            "refer",
+            "to",
+            "several",
+            "payments",
+            ",",
+            "possibly",
+            "none",
+            "."
+        ]
+    },
+    {
+        "id": "4044",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-attribute",
+            "B-no",
+            "I-no",
+            "B-association",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Every",
+            "payment",
+            "has",
+            "unique",
+            "id",
+            "and",
+            "is",
+            "related",
+            "to",
+            "exactly",
+            "one",
+            "account",
+            "."
+        ]
+    },
+    {
+        "id": "4045",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "I-class",
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-attribute",
+            "O"
+        ],
+        "tokens": [
+            "Each",
+            "customer",
+            "order",
+            "has",
+            "current",
+            "order",
+            "status",
+            "."
+        ]
+    },
+    {
+        "id": "4046",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-class",
+            "B-association",
+            "B-no",
+            "B-class",
+            "B-association",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Both",
+            "order",
+            "and",
+            "shopping cart",
+            "have",
+            "line",
+            "items",
+            "linked",
+            "to",
+            "a",
+            "specific",
+            "product",
+            "."
+        ]
+    },
+    {
+        "id": "4047",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Each",
+            "line",
+            "item",
+            "is",
+            "related",
+            "to",
+            "exactly",
+            "one",
+            "product",
+            "."
+        ]
+    },
+    {
+        "id": "4048",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-association",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "A",
+            "product",
+            "could",
+            "be",
+            "associated",
+            "to",
+            "many",
+            "line",
+            "items",
+            "or",
+            "no",
+            "line",
+            "item",
+            "at",
+            "all",
+            "."
+        ]
+    }
+]

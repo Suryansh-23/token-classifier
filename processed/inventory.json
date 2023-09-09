@@ -1,0 +1,1022 @@
+[
+    {
+        "id": "3976",
+        "ner_tags": [
+            "O",
+            "B-method",
+            "B-class"
+        ],
+        "tokens": [
+            "5.1.",
+            "transferring",
+            "Assets"
+        ]
+    },
+    {
+        "id": "3977",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class"
+        ],
+        "tokens": [
+            "5.1.1.",
+            "Within",
+            "the",
+            "same",
+            "department",
+            ":",
+            "data base",
+            "can",
+            "be",
+            "updated",
+            "directly",
+            "without",
+            "any",
+            "request"
+        ]
+    },
+    {
+        "id": "3978",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no"
+        ],
+        "tokens": [
+            "5.1.2.",
+            "inter",
+            "departments",
+            ":",
+            "request",
+            "must",
+            "be",
+            "approved",
+            "by",
+            "a",
+            "DAgroup",
+            "member",
+            "and",
+            "faculty",
+            "group",
+            "member",
+            "unless",
+            "it",
+            "came",
+            "from",
+            "a",
+            "higher level",
+            "group"
+        ]
+    },
+    {
+        "id": "3979",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-class"
+        ],
+        "tokens": [
+            "5.1.3.",
+            "inter",
+            "faculties transfer",
+            ":",
+            "request",
+            "can",
+            "be",
+            "made",
+            "by",
+            "any",
+            "authorised user",
+            "and",
+            "approved",
+            "by",
+            "faculty",
+            "group",
+            "or",
+            "higher level"
+        ]
+    },
+    {
+        "id": "3980",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "5.1.4.",
+            "transfer",
+            "outside",
+            "university",
+            "should",
+            "be",
+            "approved",
+            "by",
+            "the",
+            "university group"
+        ]
+    },
+    {
+        "id": "3981",
+        "ner_tags": [
+            "O",
+            "B-method",
+            "B-class"
+        ],
+        "tokens": [
+            "5.2.",
+            "editing",
+            "Assets"
+        ]
+    },
+    {
+        "id": "3982",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "I-class",
+            "B-no",
+            "B-class",
+            "I-class",
+            "B-no",
+            "B-association",
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-no",
+            "I-no",
+            "B-class",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "I-class",
+            "O",
+            "B-no",
+            "I-no",
+            "B-class",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-attribute",
+            "B-no",
+            "I-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "5.2.1.",
+            "Any",
+            "administrative level",
+            "user",
+            "or",
+            "inventory",
+            "user",
+            "can",
+            "edit",
+            "an",
+            "asset",
+            "that",
+            "belongs",
+            "to",
+            "its",
+            "department",
+            ";",
+            "same",
+            "thing",
+            "for",
+            "faculty",
+            "user",
+            ",",
+            "or",
+            "university",
+            "user",
+            ";",
+            "in",
+            "order",
+            "to",
+            "make",
+            "modification",
+            "if",
+            "he",
+            "is",
+            "authorised",
+            "to",
+            "do",
+            "it",
+            "."
+        ]
+    },
+    {
+        "id": "3983",
+        "ner_tags": [
+            "O",
+            "B-method",
+            "B-class"
+        ],
+        "tokens": [
+            "5.3.",
+            "modifying",
+            "assets"
+        ]
+    },
+    {
+        "id": "3984",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-attribute",
+            "B-no",
+            "I-no",
+            "B-attribute",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "5.3.1.",
+            "all",
+            "fields",
+            "of",
+            "an",
+            "edited",
+            "asset",
+            "can",
+            "be",
+            "modified",
+            "except",
+            "Ids"
+        ]
+    },
+    {
+        "id": "3985",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "5.3.2.",
+            "a",
+            "bulk",
+            "entry",
+            "file",
+            "can",
+            "be",
+            "used"
+        ]
+    },
+    {
+        "id": "3986",
+        "ner_tags": [
+            "O",
+            "B-method",
+            "B-class",
+            "I-class"
+        ],
+        "tokens": [
+            "5.4.",
+            "adding",
+            "inventory",
+            "assets"
+        ]
+    },
+    {
+        "id": "3987",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-attribute",
+            "B-class",
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-no",
+            "I-no",
+            "B-class"
+        ],
+        "tokens": [
+            "5.4.1.",
+            "Any",
+            "DAgroup",
+            "member",
+            "or",
+            "authorised",
+            "inventorygroup",
+            "member",
+            "asset",
+            "is",
+            "owned",
+            "by",
+            "the",
+            "department"
+        ]
+    },
+    {
+        "id": "3988",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "B-method",
+            "I-method",
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-association",
+            "B-class",
+            "I-class"
+        ],
+        "tokens": [
+            "5.4.2.",
+            "Any",
+            "faculty",
+            "group",
+            "member",
+            "can",
+            "add",
+            "all",
+            "related",
+            "departments",
+            "inventory"
+        ]
+    },
+    {
+        "id": "3989",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-class"
+        ],
+        "tokens": [
+            "5.4.3.",
+            "Any",
+            "university",
+            "group",
+            "member",
+            "can",
+            "add",
+            "all",
+            "assets",
+            "in",
+            "the",
+            "inventory"
+        ]
+    },
+    {
+        "id": "3990",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "B-class"
+        ],
+        "tokens": [
+            "5.4.4.",
+            "A",
+            "bulk",
+            "entry",
+            "can",
+            "be",
+            "used",
+            "to",
+            "add",
+            "many",
+            "assets"
+        ]
+    },
+    {
+        "id": "3991",
+        "ner_tags": [
+            "O",
+            "B-method",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "B-attribute"
+        ],
+        "tokens": [
+            "5.5.",
+            "creating",
+            "request",
+            "to",
+            "borrow",
+            "an",
+            "asset",
+            "or",
+            "a",
+            "reserve",
+            "a",
+            "location"
+        ]
+    },
+    {
+        "id": "3992",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-association",
+            "B-no",
+            "I-no",
+            "B-attribute",
+            "B-class"
+        ],
+        "tokens": [
+            "5.5.1.",
+            "request",
+            "can",
+            "be",
+            "made",
+            "by",
+            "any",
+            "authorised",
+            "user"
+        ]
+    },
+    {
+        "id": "3993",
+        "ner_tags": [
+            "O",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "B-attribute",
+            "I-attribute",
+            "B-no",
+            "I-no",
+            "B-association",
+            "B-no",
+            "I-no",
+            "B-class",
+            "I-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "5.5.2.",
+            "After",
+            "creation",
+            "a",
+            "request",
+            "still",
+            "pending",
+            "waiting",
+            "to",
+            "be",
+            "approved",
+            "by",
+            "an",
+            "administrative level",
+            "user",
+            "according",
+            "to",
+            "that",
+            "have",
+            "this",
+            "authority"
+        ]
+    },
+    {
+        "id": "3994",
+        "ner_tags": [
+            "O",
+            "B-method",
+            "B-class"
+        ],
+        "tokens": [
+            "5.6.",
+            "returning",
+            "assets"
+        ]
+    },
+    {
+        "id": "3995",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "I-class",
+            "B-no",
+            "B-association",
+            "I-association",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-class"
+        ],
+        "tokens": [
+            "5.6.1.",
+            "An",
+            "inventory",
+            "user",
+            "should",
+            "check",
+            "returned",
+            "asset",
+            "and",
+            "update",
+            "inventory"
+        ]
+    },
+    {
+        "id": "3996",
+        "ner_tags": [
+            "O",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-method"
+        ],
+        "tokens": [
+            "5.7.",
+            "creating",
+            "a",
+            "new",
+            "location"
+        ]
+    },
+    {
+        "id": "3997",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "I-method",
+            "B-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "B-method",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-class"
+        ],
+        "tokens": [
+            "5.7.1.",
+            "ITgroup",
+            "members",
+            "can",
+            "create",
+            "a",
+            "new space",
+            "and",
+            "modify",
+            "floor structure",
+            "when",
+            "they",
+            "receive",
+            "an",
+            "exception",
+            "request",
+            "from",
+            "any",
+            "administrative level"
+        ]
+    },
+    {
+        "id": "3998",
+        "ner_tags": [
+            "O",
+            "B-method",
+            "B-class"
+        ],
+        "tokens": [
+            "5.8.",
+            "approving",
+            "requests"
+        ]
+    },
+    {
+        "id": "3999",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "I-class",
+            "B-no",
+            "B-class",
+            "I-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "O",
+            "B-attribute",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "5.8.1.",
+            "Any",
+            "administration",
+            "level",
+            "or",
+            "authorised",
+            "inventory",
+            "group",
+            "member",
+            "can",
+            "display",
+            "al",
+            "l",
+            "pending",
+            "requests",
+            "waiting",
+            "for",
+            "approval",
+            "from",
+            "this",
+            "level",
+            "and",
+            "approve",
+            "those",
+            "requests"
+        ]
+    },
+    {
+        "id": "4000",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "5.8.2.",
+            "When",
+            "request",
+            "is",
+            "treated",
+            "user",
+            "is",
+            "notified",
+            "by",
+            "email"
+        ]
+    },
+    {
+        "id": "4001",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "B-method",
+            "B-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "5.8.3.",
+            "Request",
+            "is",
+            "added",
+            "to",
+            "the",
+            "waiting",
+            "for",
+            "execution",
+            "list"
+        ]
+    },
+    {
+        "id": "4002",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-no",
+            "B-method",
+            "B-no",
+            "B-class",
+            "B-association",
+            "B-attribute",
+            "B-class"
+        ],
+        "tokens": [
+            "5.8.4.",
+            "Inventory",
+            "is",
+            "updated",
+            "when",
+            "user",
+            "receive",
+            "requested",
+            "asset"
+        ]
+    },
+    {
+        "id": "4003",
+        "ner_tags": [
+            "O",
+            "B-class"
+        ],
+        "tokens": [
+            "5.9.",
+            "authentication"
+        ]
+    },
+    {
+        "id": "4004",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-attribute",
+            "B-no",
+            "I-no",
+            "B-attribute",
+            "B-no",
+            "I-no",
+            "B-class"
+        ],
+        "tokens": [
+            "5.9.1.",
+            "Authentication",
+            "is",
+            "made",
+            "by",
+            "user name",
+            "and",
+            "a",
+            "password",
+            "for",
+            "all",
+            "users"
+        ]
+    },
+    {
+        "id": "4005",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "5.9.2.",
+            "administrative level",
+            "working",
+            "on",
+            "administration",
+            "computer"
+        ]
+    },
+    {
+        "id": "4006",
+        "ner_tags": [
+            "O",
+            "B-method"
+        ],
+        "tokens": [
+            "5.10.",
+            "changing permission"
+        ]
+    },
+    {
+        "id": "4007",
+        "ner_tags": [
+            "O",
+            "B-no",
+            "B-class",
+            "I-class",
+            "B-no",
+            "B-association",
+            "B-no",
+            "B-class",
+            "B-no",
+            "B-association",
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-attribute",
+            "I-attribute",
+            "B-no",
+            "I-no",
+            "B-class",
+            "B-method",
+            "B-no",
+            "B-attribute",
+            "B-no",
+            "I-no",
+            "I-no"
+        ],
+        "tokens": [
+            "5.10.1.",
+            "Any",
+            "administrative level",
+            "user",
+            "can",
+            "delegate",
+            "another",
+            "user",
+            "to",
+            "execute",
+            "some",
+            "or",
+            "all",
+            "his",
+            "authorized",
+            "actions",
+            "and",
+            "this",
+            "user",
+            "acquires",
+            "the",
+            "role",
+            "of",
+            "inventory",
+            "administrator"
+        ]
+    },
+    {
+        "id": "4008",
+        "ner_tags": [
+            "O",
+            "B-method"
+        ],
+        "tokens": [
+            "5.11.",
+            "output reports"
+        ]
+    },
+    {
+        "id": "4009",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-method",
+            "B-no",
+            "B-attribute"
+        ],
+        "tokens": [
+            "5.11.1.",
+            "Asset",
+            "report",
+            "by",
+            "location"
+        ]
+    },
+    {
+        "id": "4010",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-no"
+        ],
+        "tokens": [
+            "5.11.2.",
+            "Request",
+            "report"
+        ]
+    },
+    {
+        "id": "4011",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "B-no",
+            "I-no"
+        ],
+        "tokens": [
+            "5.11.3.",
+            "User",
+            "permission",
+            "user"
+        ]
+    }
+]

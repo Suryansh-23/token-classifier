@@ -1,0 +1,257 @@
+[
+    {
+        "id": "3635",
+        "ner_tags": [
+            "B-class",
+            "B-association",
+            "B-no",
+            "B-association",
+            "B-no",
+            "B-class",
+            "O",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Flights",
+            "land",
+            "and",
+            "depart",
+            "from",
+            "city",
+            "&apos;s",
+            "airport",
+            "."
+        ]
+    },
+    {
+        "id": "3636",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Some",
+            "of",
+            "the",
+            "big",
+            "cities",
+            "may",
+            "have",
+            "more",
+            "than",
+            "one",
+            "airports",
+            "."
+        ]
+    },
+    {
+        "id": "3637",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "O",
+            "B-no",
+            "I-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "Every",
+            "flight",
+            "belongs",
+            "to",
+            "specific",
+            "airline",
+            "."
+        ]
+    },
+    {
+        "id": "3638",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "O",
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "The",
+            "planes",
+            "have",
+            "many",
+            "flights",
+            "to",
+            "different",
+            "airports",
+            "."
+        ]
+    },
+    {
+        "id": "3639",
+        "ner_tags": [
+            "B-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-attribute",
+            "B-no",
+            "B-attribute",
+            "O",
+            "B-no",
+            "I-no",
+            "O"
+        ],
+        "tokens": [
+            "Each",
+            "plane",
+            "is",
+            "identified",
+            "with",
+            "serial number",
+            "and",
+            "model",
+            ".",
+            "e.g.",
+            "hyperseonic",
+            "."
+        ]
+    },
+    {
+        "id": "3640",
+        "ner_tags": [
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "B-no",
+            "I-no",
+            "B-class",
+            "O"
+        ],
+        "tokens": [
+            "There",
+            "are",
+            "specific",
+            "pilots",
+            "for",
+            "each",
+            "airline",
+            "."
+        ]
+    },
+    {
+        "id": "3641",
+        "ner_tags": [
+            "B-class",
+            "O",
+            "B-no",
+            "B-class",
+            "O",
+            "B-no",
+            "B-class",
+            "O",
+            "B-no",
+            "I-no",
+            "I-no",
+            "B-class",
+            "O",
+            "B-attribute",
+            "O",
+            "B-attribute",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "B-attribute",
+            "O"
+        ],
+        "tokens": [
+            "Pilots",
+            "fly",
+            "many",
+            "flights",
+            ".",
+            "Each",
+            "fligh",
+            "t",
+            "is",
+            "identified",
+            "by",
+            "flight",
+            "&apos;s",
+            "number",
+            "and",
+            "date",
+            "on",
+            "which",
+            "flight",
+            "is",
+            "scheduled",
+            "."
+        ]
+    },
+    {
+        "id": "3642",
+        "ner_tags": [
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "B-class",
+            "O",
+            "O",
+            "O",
+            "O"
+        ],
+        "tokens": [
+            "The",
+            "passenger",
+            "reserves",
+            "a",
+            "seat",
+            "for",
+            "a",
+            "flight",
+            "."
+        ]
+    },
+    {
+        "id": "3643",
+        "ner_tags": [
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "O",
+            "B-attribute",
+            "O"
+        ],
+        "tokens": [
+            "The",
+            "seat",
+            "is",
+            "identified",
+            "by",
+            "a",
+            "location",
+            "."
+        ]
+    }
+]
