@@ -15,7 +15,7 @@
     {
         "id": "3196",
         "ner_tags": [
-            "I-no",
+            "B-no",
             "I-no"
         ],
         "tokens": [
@@ -26,7 +26,7 @@
     {
         "id": "3197",
         "ner_tags": [
-            "I-no",
+            "B-no",
             "I-no",
             "O",
             "B-class"
@@ -72,7 +72,7 @@
     {
         "id": "3199",
         "ner_tags": [
-            "I-no",
+            "B-no",
             "I-no",
             "I-no",
             "B-method",
@@ -267,7 +267,7 @@
     {
         "id": "3204",
         "ner_tags": [
-            "I-no",
+            "B-no",
             "I-no",
             "O",
             "B-method",
@@ -578,7 +578,7 @@
     {
         "id": "3211",
         "ner_tags": [
-            "I-no",
+            "B-no",
             "I-no",
             "B-class",
             "B-no",

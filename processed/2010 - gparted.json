@@ -15,7 +15,7 @@
     {
         "id": "3294",
         "ner_tags": [
-            "I-no",
+            "B-no",
             "I-no",
             "I-no",
             "I-no",

@@ -21,7 +21,7 @@
     {
         "id": "3528",
         "ner_tags": [
-            "I-method",
+            "B-method",
             "B-no",
             "B-class",
             "B-no",

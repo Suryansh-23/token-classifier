@@ -52,7 +52,6 @@ def get_label(
 
 for file in files:
     file = os.path.splitext(file)[0]
-    last_label = "O"  # default/last label
     per_file_main = []
 
     with open(f".\\json\\{file}.json", encoding="utf-8") as jp:
@@ -60,6 +59,7 @@ for file in files:
 
     with open(f".\\data\\{file}.xml", encoding="utf-8") as fp:
         for i in fp.readlines():
+            last_label = "O"  # default/previous label
             i = i.strip()
 
             if i == "":

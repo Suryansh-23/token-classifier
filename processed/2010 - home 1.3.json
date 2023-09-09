@@ -15,7 +15,7 @@
     {
         "id": "3423",
         "ner_tags": [
-            "I-no",
+            "B-no",
             "I-no",
             "I-no",
             "I-no",
@@ -111,7 +111,7 @@
     {
         "id": "3425",
         "ner_tags": [
-            "I-no",
+            "B-no",
             "I-no",
             "B-class",
             "B-no",

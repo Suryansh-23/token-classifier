@@ -21,7 +21,7 @@
     {
         "id": "2468",
         "ner_tags": [
-            "I-no",
+            "B-no",
             "I-no",
             "O",
             "B-no",
@@ -46,7 +46,7 @@
     {
         "id": "2469",
         "ner_tags": [
-            "I-no",
+            "B-no",
             "O",
             "B-no",
             "B-class",
@@ -212,7 +212,7 @@
     {
         "id": "2473",
         "ner_tags": [
-            "I-no",
+            "B-no",
             "O",
             "B-class",
             "B-attribute"

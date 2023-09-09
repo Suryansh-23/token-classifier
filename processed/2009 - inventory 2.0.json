@@ -136,7 +136,7 @@
     {
         "id": "1613",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Director"
@@ -145,7 +145,7 @@
     {
         "id": "1614",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Manager"
@@ -154,7 +154,7 @@
     {
         "id": "1615",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Customer Service Representative"
@@ -163,7 +163,7 @@
     {
         "id": "1616",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Receiving Associate"
@@ -172,7 +172,7 @@
     {
         "id": "1617",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Pick Up Associate"
@@ -181,7 +181,7 @@
     {
         "id": "1618",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Decon Associate"
@@ -10857,7 +10857,7 @@
     {
         "id": "2022",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Director"
@@ -10866,7 +10866,7 @@
     {
         "id": "2023",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Manager"
@@ -10875,7 +10875,7 @@
     {
         "id": "2024",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Receiving Associate"
@@ -10884,7 +10884,7 @@
     {
         "id": "2025",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Pickup Associate"
@@ -10893,7 +10893,7 @@
     {
         "id": "2026",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Decon Associate"
@@ -10902,7 +10902,7 @@
     {
         "id": "2027",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Customer Service Representative"
@@ -13405,7 +13405,7 @@
     {
         "id": "2110",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Director"
@@ -13414,7 +13414,7 @@
     {
         "id": "2111",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Manager"
@@ -17179,7 +17179,7 @@
     {
         "id": "2232",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Director"
@@ -17188,7 +17188,7 @@
     {
         "id": "2233",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Manager"
@@ -17197,7 +17197,7 @@
     {
         "id": "2234",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Customer Service Representative"
@@ -17206,7 +17206,7 @@
     {
         "id": "2235",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Receiving Associate"
@@ -17215,7 +17215,7 @@
     {
         "id": "2236",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Pickup Associate"
@@ -17224,7 +17224,7 @@
     {
         "id": "2237",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Decon Associate"
@@ -18596,7 +18596,7 @@
     {
         "id": "2287",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Director"
@@ -18605,7 +18605,7 @@
     {
         "id": "2288",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Manager"
@@ -18614,7 +18614,7 @@
     {
         "id": "2289",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Customer Service Representative"
@@ -18623,7 +18623,7 @@
     {
         "id": "2290",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Receiving Associate"
@@ -18632,7 +18632,7 @@
     {
         "id": "2291",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Pick Up Associate"
@@ -18641,7 +18641,7 @@
     {
         "id": "2292",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Decon Associate"
@@ -20395,7 +20395,7 @@
     {
         "id": "2350",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Director"
@@ -20404,7 +20404,7 @@
     {
         "id": "2351",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Manager"
@@ -20413,7 +20413,7 @@
     {
         "id": "2352",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Customer Service Representative"
@@ -20422,7 +20422,7 @@
     {
         "id": "2353",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Receiving Associate"
@@ -20431,7 +20431,7 @@
     {
         "id": "2354",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Pick Up Associate"
@@ -20440,7 +20440,7 @@
     {
         "id": "2355",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Decon Associate"
@@ -22441,7 +22441,7 @@
     {
         "id": "2424",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Sales Associate"
@@ -22450,7 +22450,7 @@
     {
         "id": "2425",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Customer Service Representative"
@@ -23217,7 +23217,7 @@
     {
         "id": "2452",
         "ner_tags": [
-            "I-class",
+            "B-class",
             "I-class"
         ],
         "tokens": [
@@ -23228,7 +23228,7 @@
     {
         "id": "2453",
         "ner_tags": [
-            "I-class",
+            "B-class",
             "I-class"
         ],
         "tokens": [
@@ -23239,7 +23239,7 @@
     {
         "id": "2454",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Acquisitions Donors"
@@ -23537,7 +23537,7 @@
     {
         "id": "2462",
         "ner_tags": [
-            "I-class"
+            "B-class"
         ],
         "tokens": [
             "Acquisitions"
