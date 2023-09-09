@@ -5,5 +5,5 @@
 <no>Each</no> <class>plane</class> <no>is</no> <no>identified</no> <no>with</no> <attribute>serial number</attribute> <no>and</no> <attribute>model</attribute>.<no>e.g.</no> <no>hyperseonic</no>.
 <no>There</no> <no>are</no> <no>specific</no> <class>pilots</class> <no>for</no> <no>each</no> <class>airline</class>.
 <class>Pilots</class> <association>fly</association> <no>many</no> <class>flights</class>. <no>Each</no> <class>fligh</class>t <no>is</no> <no>identified</no> <no>by</no> <class>flight</class><no>&apos;s</no> <attribute>number</attribute> <no>and</no> <attribute>date</attribute> <no>on</no> <no>which</no> <class>flight</class> <no>is</no> <attribute>scheduled</attribute>.
-<no>The</no> <class>passenger</class> <method>reserves</method> <no>a</no> <class>seat</class> <no>for</no> <no>a</no> <class>fligh</class>t.
+<no>The</no> <class>passenger</class> <method>reserves</method> <no>a</no> <class>seat</class> <no>for</no> <no>a</no> <class>flight</class>.
 <no>The</no> <class>seat</class> <no>is</no> <no>identified</no> <no>by</no> <no>a</no> <attribute>location</attribute>.</document>
