@@ -28,27 +28,22 @@ for file in files:
 
     main = merge_dicts(main, obj)  # merge the dictionaries
 
-# # final file with all the data
-# with open(f"./json/main.json", "w", encoding="utf-8") as jp:
-#     json.dump(
-#         main,
-#         jp,
-#         indent=4,
-#     )
 
 json_files = os.listdir("./json")  # list of all the files in the json folder
-main = []
+main = []  # list to store all the data
 
 
 def handle_data(data, k):
-    if data == None:
+    """function to handle the data"""
+    if data == None:  # if the data is None,
         return
-    if type(data) == str:
+    if type(data) == str:  # if the data is a string,
         main.append((data, k))
-    elif type(data) == dict:
+    elif type(data) == dict:  # if the data is a dictionary,
         if "#text" in data.keys():
             main.append((data["#text"], k))
     elif type(data) == list:
+        # if the data is a list, (recursion case), didn't use recursion because depth=1
         for j in data:
             if type(j) == str:
                 main.append((j, k))
@@ -58,12 +53,14 @@ def handle_data(data, k):
             else:
                 print("inlist", data, k)
                 print("err")
-    else:
+    else:  # if the data is not of any of the above types, (error/edge case), didn't occur on the dataset
         print("nontype", data, k)
         exit()
 
 
 for file in json_files:
+    # loop across all the files and handle the data
+
     if file == "main.json":
         continue
     with open(f"./json/{file}", encoding="utf-8") as jp:
@@ -76,6 +73,7 @@ for file in json_files:
     except:
         print(obj)
 
+# write the data to the main.json file
 with open(f"./json/main.json", "w", encoding="utf-8") as jp:
     json.dump(
         main,

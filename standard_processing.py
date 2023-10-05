@@ -1,17 +1,17 @@
-import json
-import os
-import re
-from typing import Dict, List
+import json  # to load the json files
+import os  # to get the list of files in a folder
+import re  # to remove the tags from the xml files
+from typing import Dict, List  # for type hinting
 
 # files = [
 #     "retailer system.xml"
 #     # "2008 - keepass.xml"
-# ]
-# list of all the files in the data folder
-files = os.listdir("./data")
+# ] # Test files
+
+files = os.listdir("./data")  # list of all the files in the data folder
 main = []  # dictionary to store all the data
 regex = r"</?[^>]+>"  # regex to remove the tags
-sub = "|#|"  # separator
+sub = "|#|"  # separator to be substituted in the regex
 labels = [
     "no",
     "class",
@@ -19,8 +19,9 @@ labels = [
     "attribute",
     "association",
     "generalization",
-]
-count = 0
+]  # labels to be used
+
+# short list of stop words to be removed
 stop_words = [
     "i",
     "is",
@@ -51,27 +52,22 @@ def get_label(
     tokens: Dict[str, List[str]],
 ) -> str:
     """function to get the label of a token"""
-    if is_stop_word(token):
+    if is_stop_word(token):  # if the token is a stop word, return "O"
         return "O"
-    if last_label != "O":
+    if last_label != "O":  # if the last label is not "O", return the raw last label
         last_label = last_label.split("-")[1]
 
     for i in labels:
-        if len(tokens.get(i, [])) == 0:
-            # if i in tokens and all([len(tokens.get(k, [])) == 0 for k in labels]):
-            #     global count
-            #     print("empty", count)
-            #     count += 1
-
+        if len(tokens.get(i, [])) == 0:  # if there are no tokens for the label,
             continue
 
-        if token == tokens[i][0]:
+        if token == tokens[i][0]:  # if the token is the first token for the label,
             tokens[i].pop(0)
-            if last_label == i:
+            if last_label == i:  # if the last label is the same as the current label,
                 return "I-" + i
             else:
                 return "B-" + i
-    else:
+    else:  # if the token is not the first token for any label,
         return "O"
 
 
@@ -90,10 +86,17 @@ for file in files:
             if i == "":
                 continue
 
-            sentence = {"id": str(len(per_file_main)), "ner_tags": [], "tokens": []}
-            subbed = re.sub(regex, sub, i, 0, re.MULTILINE)
-            words = [i.strip() for i in subbed.split(sub) if i.strip() != ""]
+            sentence = {
+                "id": str(len(per_file_main)),
+                "ner_tags": [],
+                "tokens": [],
+            }  # sentence dictionary
+            subbed = re.sub(regex, sub, i, 0, re.MULTILINE)  # removing the tags
+            words = [
+                i.strip() for i in subbed.split(sub) if i.strip() != ""
+            ]  # getting the words
 
+            # getting the label for each word
             for word in words:
                 label = get_label(last_label, word, tokens)
                 last_label = label
@@ -101,6 +104,7 @@ for file in files:
                 sentence["tokens"].append(word)
                 sentence["ner_tags"].append(label)
 
+            # if there are no words in the sentence, skip it
             if len(sentence["tokens"]) == 0:
                 continue
 
@@ -109,6 +113,7 @@ for file in files:
             sentence["id"] = str(len(main))
             main.append(sentence)
 
+    # writing to the corresponding file with the data for each file
     with open(f".\\processed\\{file}.json", "w", encoding="utf-8") as jp:
         json.dump(
             per_file_main,
@@ -116,6 +121,7 @@ for file in files:
             indent=4,
         )
 
+# writing to the final file with all the data
 with open(f".\\processed\\main.json", "w", encoding="utf-8") as jp:
     json.dump(
         main,
